@@ -1,0 +1,1270 @@
+phoenix-srun: job 587236 queued and waiting for resources
+phoenix-srun: job 587239 queued and waiting for resources
+phoenix-srun: Job has been cancelled
+phoenix-srun: Force Terminated job 587239
+phoenix-srun: error: Unable to allocate resources: Job/step already completing or completed
+phoenix-srun: job 587236 has been allocated resources
+phoenix-srun: Job 587236 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is P0
+
+phoenix-srun: Force Terminated job 587236
+phoenix-srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+phoenix-srun: Easily find out why your job was killed by following the link below:
+	https://docs.phoenix.sensetime.com/FAQ/SlurmFAQ/Find-out-why-my-job-was-killed/
+slurmstepd: error: *** STEP 587236.0 ON BJ-IDC1-10-10-16-65 CANCELLED AT 2022-09-14T21:54:06 ***
+phoenix-srun: error: BJ-IDC1-10-10-16-75: tasks 8-15: Terminated
+phoenix-srun: launch/slurm: _step_signal: Terminating StepId=587236.0
+phoenix-srun: error: BJ-IDC1-10-10-16-65: tasks 0-7: Terminated
+phoenix-srun: job 590249 queued and waiting for resources
+phoenix-srun: Force Terminated job 590249
+phoenix-srun: Job has been cancelled
+phoenix-srun: error: Unable to allocate resources: Job/step already completing or completed
+phoenix-srun: job 590250 queued and waiting for resources
+phoenix-srun: job 590250 has been allocated resources
+phoenix-srun: Job 590250 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is P0
+
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+usage: main_swav.py [-h] [--use_cifar] [--alpha ALPHA]
+                    [--temperature TEMPERATURE] [--epsilon EPSILON]
+                    [--sinkhorn_iterations SINKHORN_ITERATIONS]
+                    [--feat_dim FEAT_DIM] [--K K] [--simloss]
+                    [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                    [--base_lr BASE_LR] [--final_lr FINAL_LR] [--wd WD]
+                    [--warmup_epochs WARMUP_EPOCHS]
+                    [--start_warmup START_WARMUP] [--port PORT]
+                    [--hidden_mlp HIDDEN_MLP] [--workers WORKERS]
+                    [--checkpoint_freq CHECKPOINT_FREQ]
+                    [--syncbn_process_group_size SYNCBN_PROCESS_GROUP_SIZE]
+                    [--dump_path DUMP_PATH] [--seed SEED] [--ckpt CKPT] [--e]
+main_swav.py: error: unrecognized arguments: --queue_length 3840 --epoch_queue_starts 15 --freeze_prototypes_niters 1251 --use_swav
+phoenix-srun: error: BJ-IDC1-10-10-16-50: tasks 0-7: Exited with exit code 2
+phoenix-srun: launch/slurm: _step_signal: Terminating StepId=590250.0
+phoenix-srun: job 594626 queued and waiting for resources
+phoenix-srun: job 594627 queued and waiting for resources
+phoenix-srun: Job has been cancelled
+phoenix-srun: error: Unable to allocate resources: Job/step already completing or completed
+phoenix-srun: job 594626 has been allocated resources
+phoenix-srun: Job 594626 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is P0
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 5
+                                     port: 23685
+                                     rank: 5
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 6
+                                     port: 23685
+                                     rank: 6
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 1
+                                     port: 23685
+                                     rank: 1
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 4
+                                     port: 23685
+                                     rank: 4
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 3
+                                     port: 23685
+                                     rank: 3
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 2
+                                     port: 23685
+                                     rank: 2
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 7
+                                     port: 23685
+                                     rank: 7
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:10 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/19/22 00:18:10 - 0:00:00 - K: 5000
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 64
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_sub_2/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_sub_2/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_sub_2/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 256
+                                     final_lr: 0
+                                     hidden_mlp: 4096
+                                     local_rank: 0
+                                     port: 23685
+                                     rank: 0
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: False
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 8
+INFO - 09/19/22 00:18:10 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_sub_2/
+                                     
+
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:12 - 0:00:01 - Building data done with 1281167 images loaded.
+INFO - 09/19/22 00:18:36 - 0:00:25 - Building model done.
+INFO - 09/19/22 00:18:36 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:36 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:36 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:36 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:36 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:36 - 0:00:26 - Phead_with_pseudo(
+                                       (net): ResNet(
+                                         (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+                                         (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+                                         (relu): ReLU(inplace=True)
+                                         (layer1): Sequential(
+                                           (0): BottleNeck(
+                                             (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                               (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BottleNeck(
+                                             (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (2): BottleNeck(
+                                             (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer2): Sequential(
+                                           (0): BottleNeck(
+                                             (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BottleNeck(
+                                             (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (2): BottleNeck(
+                                             (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (3): BottleNeck(
+                                             (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer3): Sequential(
+                                           (0): BottleNeck(
+                                             (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BottleNeck(
+                                             (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (2): BottleNeck(
+                                             (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (3): BottleNeck(
+                                             (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (4): BottleNeck(
+                                             (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (5): BottleNeck(
+                                             (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer4): Sequential(
+                                           (0): BottleNeck(
+                                             (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BottleNeck(
+                                             (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (2): BottleNeck(
+                                             (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+                                             (bn3): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+                                       )
+                                       (projection_head): Sequential(
+                                         (0): Linear(in_features=2048, out_features=4096, bias=False)
+                                         (1): SyncBatchNorm(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=4096, out_features=4096, bias=False)
+                                         (4): SyncBatchNorm(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (5): ReLU(inplace=True)
+                                         (6): Linear(in_features=4096, out_features=5000, bias=False)
+                                         (7): SyncBatchNorm(5000, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+                                       )
+                                       (pfc): Sequential(
+                                         (0): Linear(in_features=5000, out_features=256, bias=False)
+                                         (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=256, out_features=5000, bias=True)
+                                       )
+                                     )
+INFO - 09/19/22 00:18:36 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:37 - 0:00:26 - Building model done.
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:38 - 0:00:27 - ============ Starting epoch 0 ... ============
+INFO - 09/19/22 00:18:49 - 0:00:38 - Epoch: [0][0]	Time 11.278 (11.278)	Data 5.528 (5.528)	Loss 8.6321 (8.6321)	Lr: 0.0000
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:18:49 - 0:00:39 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/19/22 00:19:24 - 0:01:13 - Epoch: [0][50]	Time 0.696 (0.899)	Data 0.001 (0.109)	Loss 8.5797 (8.5901)	Lr: 0.0004
+INFO - 09/19/22 00:19:58 - 0:01:47 - Epoch: [0][100]	Time 0.695 (0.794)	Data 0.001 (0.055)	Loss 8.5582 (8.5767)	Lr: 0.0008
+INFO - 09/19/22 00:20:32 - 0:02:22 - Epoch: [0][150]	Time 0.650 (0.757)	Data 0.001 (0.037)	Loss 8.5466 (8.5668)	Lr: 0.0012
+INFO - 09/19/22 00:21:05 - 0:02:55 - Epoch: [0][200]	Time 0.615 (0.735)	Data 0.000 (0.028)	Loss 8.5509 (8.5589)	Lr: 0.0016
+INFO - 09/19/22 00:21:39 - 0:03:29 - Epoch: [0][250]	Time 0.700 (0.722)	Data 0.000 (0.023)	Loss 8.5383 (8.5529)	Lr: 0.0020
+INFO - 09/19/22 00:22:13 - 0:04:02 - Epoch: [0][300]	Time 0.700 (0.714)	Data 0.001 (0.019)	Loss 8.5355 (8.5486)	Lr: 0.0024
+INFO - 09/19/22 00:22:46 - 0:04:35 - Epoch: [0][350]	Time 0.670 (0.707)	Data 0.001 (0.016)	Loss 8.5337 (8.5450)	Lr: 0.0028
+INFO - 09/19/22 00:23:19 - 0:05:09 - Epoch: [0][400]	Time 0.675 (0.702)	Data 0.000 (0.014)	Loss 8.5184 (8.5423)	Lr: 0.0032
+INFO - 09/19/22 00:23:53 - 0:05:42 - Epoch: [0][450]	Time 0.659 (0.699)	Data 0.000 (0.013)	Loss 8.5263 (8.5402)	Lr: 0.0036
+INFO - 09/19/22 00:24:26 - 0:06:16 - Epoch: [0][500]	Time 0.673 (0.696)	Data 0.000 (0.012)	Loss 8.5399 (8.5386)	Lr: 0.0040
+INFO - 09/19/22 00:25:00 - 0:06:49 - Epoch: [0][550]	Time 0.668 (0.693)	Data 0.000 (0.011)	Loss 8.5060 (8.5367)	Lr: 0.0044
+INFO - 09/19/22 00:25:33 - 0:07:23 - Epoch: [0][600]	Time 0.662 (0.691)	Data 0.000 (0.010)	Loss 8.5277 (8.5352)	Lr: 0.0048
+INFO - 09/19/22 00:26:07 - 0:07:56 - Epoch: [0][650]	Time 0.683 (0.689)	Data 0.000 (0.009)	Loss 8.5219 (8.5337)	Lr: 0.0052
+INFO - 09/19/22 00:26:40 - 0:08:29 - Epoch: [0][700]	Time 0.686 (0.688)	Data 0.001 (0.008)	Loss 8.5167 (8.5325)	Lr: 0.0056
+INFO - 09/19/22 00:27:13 - 0:09:03 - Epoch: [0][750]	Time 0.667 (0.686)	Data 0.000 (0.008)	Loss 8.5140 (8.5315)	Lr: 0.0060
+INFO - 09/19/22 00:27:46 - 0:09:36 - Epoch: [0][800]	Time 0.682 (0.685)	Data 0.000 (0.007)	Loss 8.5191 (8.5305)	Lr: 0.0064
+INFO - 09/19/22 00:28:20 - 0:10:09 - Epoch: [0][850]	Time 0.661 (0.684)	Data 0.000 (0.007)	Loss 8.5111 (8.5294)	Lr: 0.0068
+INFO - 09/19/22 00:28:53 - 0:10:43 - Epoch: [0][900]	Time 0.668 (0.683)	Data 0.000 (0.007)	Loss 8.5143 (8.5285)	Lr: 0.0072
+INFO - 09/19/22 00:29:27 - 0:11:16 - Epoch: [0][950]	Time 0.649 (0.683)	Data 0.000 (0.006)	Loss 8.5158 (8.5276)	Lr: 0.0076
+INFO - 09/19/22 00:30:00 - 0:11:50 - Epoch: [0][1000]	Time 0.620 (0.682)	Data 0.000 (0.006)	Loss 8.5122 (8.5267)	Lr: 0.0080
+INFO - 09/19/22 00:30:34 - 0:12:24 - Epoch: [0][1050]	Time 0.723 (0.682)	Data 0.000 (0.006)	Loss 8.5286 (8.5258)	Lr: 0.0084
+INFO - 09/19/22 00:31:07 - 0:12:57 - Epoch: [0][1100]	Time 0.647 (0.681)	Data 0.000 (0.006)	Loss 8.4964 (8.5250)	Lr: 0.0088
+INFO - 09/19/22 00:31:41 - 0:13:30 - Epoch: [0][1150]	Time 0.631 (0.680)	Data 0.000 (0.005)	Loss 8.5024 (8.5240)	Lr: 0.0092
+INFO - 09/19/22 00:32:15 - 0:14:04 - Epoch: [0][1200]	Time 0.673 (0.680)	Data 0.000 (0.005)	Loss 8.4929 (8.5228)	Lr: 0.0096
+INFO - 09/19/22 00:32:48 - 0:14:38 - Epoch: [0][1250]	Time 0.699 (0.680)	Data 0.001 (0.005)	Loss 8.4961 (8.5221)	Lr: 0.0100
+INFO - 09/19/22 00:33:22 - 0:15:11 - Epoch: [0][1300]	Time 0.634 (0.679)	Data 0.000 (0.005)	Loss 8.4784 (8.5210)	Lr: 0.0104
+INFO - 09/19/22 00:33:55 - 0:15:44 - Epoch: [0][1350]	Time 0.684 (0.679)	Data 0.000 (0.005)	Loss 8.4856 (8.5197)	Lr: 0.0108
+INFO - 09/19/22 00:34:29 - 0:16:18 - Epoch: [0][1400]	Time 0.665 (0.679)	Data 0.001 (0.004)	Loss 8.5289 (8.5185)	Lr: 0.0112
+INFO - 09/19/22 00:35:02 - 0:16:52 - Epoch: [0][1450]	Time 0.738 (0.679)	Data 0.000 (0.004)	Loss 8.4673 (8.5170)	Lr: 0.0116
+INFO - 09/19/22 00:35:36 - 0:17:25 - Epoch: [0][1500]	Time 0.672 (0.678)	Data 0.001 (0.004)	Loss 8.4990 (8.5152)	Lr: 0.0120
+INFO - 09/19/22 00:36:10 - 0:17:59 - Epoch: [0][1550]	Time 0.721 (0.678)	Data 0.000 (0.004)	Loss 8.3553 (8.5131)	Lr: 0.0124
+INFO - 09/19/22 00:36:44 - 0:18:33 - Epoch: [0][1600]	Time 0.689 (0.678)	Data 0.000 (0.004)	Loss 8.4225 (8.5114)	Lr: 0.0128
+INFO - 09/19/22 00:37:17 - 0:19:07 - Epoch: [0][1650]	Time 0.697 (0.678)	Data 0.000 (0.004)	Loss 8.4043 (8.5096)	Lr: 0.0132
+INFO - 09/19/22 00:37:51 - 0:19:41 - Epoch: [0][1700]	Time 0.690 (0.678)	Data 0.000 (0.004)	Loss 8.3571 (8.5076)	Lr: 0.0136
+INFO - 09/19/22 00:38:24 - 0:20:14 - Epoch: [0][1750]	Time 0.642 (0.678)	Data 0.000 (0.004)	Loss 8.3244 (8.5047)	Lr: 0.0140
+INFO - 09/19/22 00:38:58 - 0:20:47 - Epoch: [0][1800]	Time 0.668 (0.678)	Data 0.000 (0.004)	Loss 8.3743 (8.5019)	Lr: 0.0144
+INFO - 09/19/22 00:39:32 - 0:21:21 - Epoch: [0][1850]	Time 0.649 (0.677)	Data 0.000 (0.003)	Loss 8.3355 (8.4990)	Lr: 0.0148
+INFO - 09/19/22 00:40:06 - 0:21:55 - Epoch: [0][1900]	Time 0.651 (0.677)	Data 0.000 (0.003)	Loss 8.3796 (8.4956)	Lr: 0.0152
+INFO - 09/19/22 00:40:39 - 0:22:29 - Epoch: [0][1950]	Time 0.703 (0.677)	Data 0.000 (0.003)	Loss 8.3962 (8.4918)	Lr: 0.0156
+INFO - 09/19/22 00:41:12 - 0:23:02 - Epoch: [0][2000]	Time 0.608 (0.677)	Data 0.001 (0.003)	Loss 8.3972 (8.4880)	Lr: 0.0160
+INFO - 09/19/22 00:41:46 - 0:23:35 - Epoch: [0][2050]	Time 0.719 (0.677)	Data 0.001 (0.003)	Loss 8.2351 (8.4836)	Lr: 0.0164
+INFO - 09/19/22 00:42:19 - 0:24:09 - Epoch: [0][2100]	Time 0.691 (0.677)	Data 0.001 (0.003)	Loss 8.2846 (8.4789)	Lr: 0.0168
+INFO - 09/19/22 00:42:53 - 0:24:42 - Epoch: [0][2150]	Time 0.702 (0.676)	Data 0.001 (0.003)	Loss 8.2439 (8.4735)	Lr: 0.0172
+INFO - 09/19/22 00:43:26 - 0:25:16 - Epoch: [0][2200]	Time 0.699 (0.676)	Data 0.001 (0.003)	Loss 8.3051 (8.4678)	Lr: 0.0176
+INFO - 09/19/22 00:44:00 - 0:25:49 - Epoch: [0][2250]	Time 0.639 (0.676)	Data 0.000 (0.003)	Loss 8.1402 (8.4616)	Lr: 0.0180
+INFO - 09/19/22 00:44:33 - 0:26:23 - Epoch: [0][2300]	Time 0.676 (0.676)	Data 0.000 (0.003)	Loss 8.2401 (8.4555)	Lr: 0.0184
+INFO - 09/19/22 00:45:07 - 0:26:56 - Epoch: [0][2350]	Time 0.638 (0.676)	Data 0.001 (0.003)	Loss 8.2290 (8.4487)	Lr: 0.0188
+INFO - 09/19/22 00:45:40 - 0:27:30 - Epoch: [0][2400]	Time 0.684 (0.676)	Data 0.000 (0.003)	Loss 8.0339 (8.4416)	Lr: 0.0192
+INFO - 09/19/22 00:46:14 - 0:28:03 - Epoch: [0][2450]	Time 0.732 (0.676)	Data 0.001 (0.003)	Loss 8.1678 (8.4346)	Lr: 0.0196
+INFO - 09/19/22 00:46:46 - 0:28:36 - Epoch: [0][2500]	Time 0.545 (0.675)	Data 0.000 (0.003)	Loss 7.9718 (8.4271)	Lr: 0.0200
+/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/PIL/TiffImagePlugin.py:785: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+INFO - 09/19/22 00:46:52 - 0:28:41 - Epoch: [0][0]	Time 3.924 (3.924)	Data 2.342 (2.342)	Acc@1 1.562(1.562)	Acc@5 7.812(7.812)
+INFO - 09/19/22 00:46:58 - 0:28:48 - Epoch: [0][50]	Time 0.388 (0.200)	Data 0.361 (0.119)	Acc@1 3.125(1.164)	Acc@5 7.812(3.922)
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:06 - 0:28:55 - Epoch: [0]	Acc@1 0.7893041372299194, Acc@5 3.4149484634399414	Best Acc@1 0.7893041372299194, Best Acc@5 3.4149484634399414
+INFO - 09/19/22 00:47:11 - 0:29:01 - ============ Starting epoch 1 ... ============
+INFO - 09/19/22 00:47:14 - 0:29:04 - Epoch: [1][0]	Time 3.308 (3.308)	Data 2.645 (2.645)	Loss 8.0267 (8.0267)	Lr: 0.0200
+INFO - 09/19/22 00:47:49 - 0:29:38 - Epoch: [1][50]	Time 0.689 (0.738)	Data 0.000 (0.052)	Loss 8.0986 (8.0208)	Lr: 0.0204
+INFO - 09/19/22 00:48:22 - 0:30:12 - Epoch: [1][100]	Time 0.672 (0.703)	Data 0.000 (0.027)	Loss 7.8398 (8.0014)	Lr: 0.0208
+INFO - 09/19/22 00:48:56 - 0:30:46 - Epoch: [1][150]	Time 0.658 (0.694)	Data 0.000 (0.018)	Loss 7.9099 (7.9898)	Lr: 0.0212
+INFO - 09/19/22 00:49:30 - 0:31:19 - Epoch: [1][200]	Time 0.645 (0.689)	Data 0.000 (0.014)	Loss 7.8759 (7.9794)	Lr: 0.0216
+INFO - 09/19/22 00:50:03 - 0:31:53 - Epoch: [1][250]	Time 0.647 (0.685)	Data 0.000 (0.011)	Loss 7.8771 (7.9623)	Lr: 0.0220
+INFO - 09/19/22 00:50:36 - 0:32:26 - Epoch: [1][300]	Time 0.663 (0.682)	Data 0.000 (0.009)	Loss 7.8877 (7.9491)	Lr: 0.0224
+INFO - 09/19/22 00:51:11 - 0:33:00 - Epoch: [1][350]	Time 0.607 (0.682)	Data 0.001 (0.008)	Loss 7.8305 (7.9372)	Lr: 0.0228
+INFO - 09/19/22 00:51:44 - 0:33:34 - Epoch: [1][400]	Time 0.683 (0.681)	Data 0.000 (0.007)	Loss 7.8511 (7.9238)	Lr: 0.0232
+INFO - 09/19/22 00:52:18 - 0:34:08 - Epoch: [1][450]	Time 0.692 (0.681)	Data 0.000 (0.006)	Loss 7.8262 (7.9131)	Lr: 0.0236
+INFO - 09/19/22 00:52:52 - 0:34:41 - Epoch: [1][500]	Time 0.715 (0.680)	Data 0.000 (0.006)	Loss 7.7801 (7.9023)	Lr: 0.0240
+INFO - 09/19/22 00:53:25 - 0:35:15 - Epoch: [1][550]	Time 0.684 (0.679)	Data 0.000 (0.005)	Loss 7.7821 (7.8906)	Lr: 0.0244
+INFO - 09/19/22 00:53:59 - 0:35:48 - Epoch: [1][600]	Time 0.662 (0.678)	Data 0.000 (0.005)	Loss 7.9174 (7.8780)	Lr: 0.0248
+INFO - 09/19/22 00:54:32 - 0:36:22 - Epoch: [1][650]	Time 0.610 (0.678)	Data 0.000 (0.005)	Loss 7.8564 (7.8640)	Lr: 0.0252
+INFO - 09/19/22 00:55:06 - 0:36:56 - Epoch: [1][700]	Time 0.659 (0.677)	Data 0.001 (0.004)	Loss 7.8223 (7.8506)	Lr: 0.0256
+INFO - 09/19/22 00:55:40 - 0:37:29 - Epoch: [1][750]	Time 0.715 (0.677)	Data 0.001 (0.004)	Loss 7.4886 (7.8371)	Lr: 0.0260
+INFO - 09/19/22 00:56:13 - 0:38:03 - Epoch: [1][800]	Time 0.643 (0.676)	Data 0.000 (0.004)	Loss 7.5439 (7.8229)	Lr: 0.0264
+INFO - 09/19/22 00:56:46 - 0:38:36 - Epoch: [1][850]	Time 0.629 (0.676)	Data 0.000 (0.004)	Loss 7.6128 (7.8088)	Lr: 0.0268
+INFO - 09/19/22 00:57:20 - 0:39:09 - Epoch: [1][900]	Time 0.628 (0.675)	Data 0.000 (0.003)	Loss 7.6190 (7.7948)	Lr: 0.0272
+INFO - 09/19/22 00:57:53 - 0:39:43 - Epoch: [1][950]	Time 0.647 (0.675)	Data 0.000 (0.003)	Loss 7.5941 (7.7806)	Lr: 0.0276
+INFO - 09/19/22 00:58:27 - 0:40:16 - Epoch: [1][1000]	Time 0.683 (0.675)	Data 0.000 (0.003)	Loss 7.6429 (7.7670)	Lr: 0.0280
+INFO - 09/19/22 00:59:01 - 0:40:50 - Epoch: [1][1050]	Time 0.642 (0.675)	Data 0.000 (0.003)	Loss 7.3411 (7.7525)	Lr: 0.0284
+INFO - 09/19/22 00:59:34 - 0:41:24 - Epoch: [1][1100]	Time 0.644 (0.675)	Data 0.000 (0.003)	Loss 7.3472 (7.7386)	Lr: 0.0288
+INFO - 09/19/22 01:00:08 - 0:41:57 - Epoch: [1][1150]	Time 0.666 (0.675)	Data 0.000 (0.003)	Loss 7.4924 (7.7234)	Lr: 0.0292
+INFO - 09/19/22 01:00:41 - 0:42:31 - Epoch: [1][1200]	Time 0.683 (0.675)	Data 0.001 (0.003)	Loss 7.2969 (7.7075)	Lr: 0.0296
+INFO - 09/19/22 01:01:15 - 0:43:05 - Epoch: [1][1250]	Time 0.659 (0.675)	Data 0.000 (0.003)	Loss 7.5060 (7.6940)	Lr: 0.0300
+INFO - 09/19/22 01:01:49 - 0:43:39 - Epoch: [1][1300]	Time 0.643 (0.675)	Data 0.000 (0.002)	Loss 7.2840 (7.6784)	Lr: 0.0304
+INFO - 09/19/22 01:02:23 - 0:44:12 - Epoch: [1][1350]	Time 0.647 (0.675)	Data 0.000 (0.002)	Loss 7.5138 (7.6634)	Lr: 0.0308
+INFO - 09/19/22 01:02:56 - 0:44:46 - Epoch: [1][1400]	Time 0.661 (0.675)	Data 0.000 (0.002)	Loss 7.2521 (7.6475)	Lr: 0.0312
+INFO - 09/19/22 01:03:30 - 0:45:19 - Epoch: [1][1450]	Time 0.667 (0.674)	Data 0.000 (0.002)	Loss 7.0613 (7.6323)	Lr: 0.0316
+INFO - 09/19/22 01:04:03 - 0:45:53 - Epoch: [1][1500]	Time 0.684 (0.674)	Data 0.000 (0.002)	Loss 7.0368 (7.6156)	Lr: 0.0320
+INFO - 09/19/22 01:04:37 - 0:46:26 - Epoch: [1][1550]	Time 0.758 (0.674)	Data 0.000 (0.002)	Loss 7.2080 (7.5999)	Lr: 0.0324
+INFO - 09/19/22 01:05:10 - 0:47:00 - Epoch: [1][1600]	Time 0.657 (0.674)	Data 0.000 (0.002)	Loss 6.9040 (7.5837)	Lr: 0.0328
+INFO - 09/19/22 01:05:44 - 0:47:33 - Epoch: [1][1650]	Time 0.726 (0.674)	Data 0.000 (0.002)	Loss 6.9332 (7.5677)	Lr: 0.0332
+INFO - 09/19/22 01:06:17 - 0:48:07 - Epoch: [1][1700]	Time 0.677 (0.674)	Data 0.000 (0.002)	Loss 6.9492 (7.5501)	Lr: 0.0336
+INFO - 09/19/22 01:06:51 - 0:48:41 - Epoch: [1][1750]	Time 0.652 (0.674)	Data 0.000 (0.002)	Loss 6.6663 (7.5338)	Lr: 0.0340
+INFO - 09/19/22 01:07:24 - 0:49:14 - Epoch: [1][1800]	Time 0.621 (0.674)	Data 0.000 (0.002)	Loss 7.0622 (7.5171)	Lr: 0.0344
+INFO - 09/19/22 01:07:59 - 0:49:48 - Epoch: [1][1850]	Time 0.710 (0.674)	Data 0.000 (0.002)	Loss 7.0333 (7.4997)	Lr: 0.0348
+INFO - 09/19/22 01:08:32 - 0:50:22 - Epoch: [1][1900]	Time 0.658 (0.674)	Data 0.000 (0.002)	Loss 7.0503 (7.4827)	Lr: 0.0352
+INFO - 09/19/22 01:09:06 - 0:50:56 - Epoch: [1][1950]	Time 0.659 (0.674)	Data 0.000 (0.002)	Loss 6.3962 (7.4642)	Lr: 0.0356
+INFO - 09/19/22 01:09:40 - 0:51:30 - Epoch: [1][2000]	Time 0.689 (0.674)	Data 0.001 (0.002)	Loss 6.9432 (7.4471)	Lr: 0.0360
+INFO - 09/19/22 01:10:14 - 0:52:03 - Epoch: [1][2050]	Time 0.695 (0.674)	Data 0.000 (0.002)	Loss 6.3115 (7.4302)	Lr: 0.0364
+INFO - 09/19/22 01:10:48 - 0:52:37 - Epoch: [1][2100]	Time 0.700 (0.674)	Data 0.000 (0.002)	Loss 6.6688 (7.4128)	Lr: 0.0368
+INFO - 09/19/22 01:11:21 - 0:53:11 - Epoch: [1][2150]	Time 0.656 (0.674)	Data 0.000 (0.002)	Loss 6.5024 (7.3956)	Lr: 0.0372
+INFO - 09/19/22 01:11:55 - 0:53:45 - Epoch: [1][2200]	Time 0.716 (0.674)	Data 0.000 (0.002)	Loss 6.5208 (7.3794)	Lr: 0.0376
+INFO - 09/19/22 01:12:29 - 0:54:19 - Epoch: [1][2250]	Time 0.689 (0.674)	Data 0.000 (0.002)	Loss 6.6367 (7.3631)	Lr: 0.0380
+INFO - 09/19/22 01:13:03 - 0:54:52 - Epoch: [1][2300]	Time 0.703 (0.674)	Data 0.000 (0.002)	Loss 6.7063 (7.3458)	Lr: 0.0384
+INFO - 09/19/22 01:13:36 - 0:55:26 - Epoch: [1][2350]	Time 0.733 (0.674)	Data 0.000 (0.002)	Loss 6.5197 (7.3283)	Lr: 0.0388
+INFO - 09/19/22 01:14:10 - 0:56:00 - Epoch: [1][2400]	Time 0.657 (0.674)	Data 0.000 (0.002)	Loss 6.6590 (7.3119)	Lr: 0.0392
+INFO - 09/19/22 01:14:44 - 0:56:34 - Epoch: [1][2450]	Time 0.626 (0.674)	Data 0.000 (0.002)	Loss 6.7738 (7.2953)	Lr: 0.0396
+INFO - 09/19/22 01:15:16 - 0:57:06 - Epoch: [1][2500]	Time 0.552 (0.674)	Data 0.000 (0.001)	Loss 6.5404 (7.2786)	Lr: 0.0400
+/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/PIL/TiffImagePlugin.py:785: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+INFO - 09/19/22 01:15:21 - 0:57:11 - Epoch: [1][0]	Time 3.036 (3.036)	Data 2.913 (2.913)	Acc@1 4.688(4.688)	Acc@5 15.625(15.625)
+INFO - 09/19/22 01:15:28 - 0:57:18 - Epoch: [1][50]	Time 0.031 (0.191)	Data 0.000 (0.157)	Acc@1 4.688(5.576)	Acc@5 12.500(14.982)
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:36 - 0:57:26 - Epoch: [1]	Acc@1 5.682184219360352, Acc@5 15.0491304397583	Best Acc@1 5.682184219360352, Best Acc@5 15.0491304397583
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:36 - 0:57:26 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:39 - 0:57:29 - ============ Starting epoch 2 ... ============
+INFO - 09/19/22 01:15:43 - 0:57:32 - Epoch: [2][0]	Time 3.737 (3.737)	Data 3.037 (3.037)	Loss 6.1478 (6.1478)	Lr: 0.0400
+INFO - 09/19/22 01:16:17 - 0:58:07 - Epoch: [2][50]	Time 0.704 (0.744)	Data 0.000 (0.060)	Loss 6.4092 (6.3941)	Lr: 0.0404
+INFO - 09/19/22 01:16:51 - 0:58:41 - Epoch: [2][100]	Time 0.696 (0.712)	Data 0.001 (0.031)	Loss 6.3497 (6.3753)	Lr: 0.0408
+INFO - 09/19/22 01:17:25 - 0:59:14 - Epoch: [2][150]	Time 0.658 (0.700)	Data 0.000 (0.021)	Loss 6.1900 (6.3809)	Lr: 0.0412
+INFO - 09/19/22 01:17:59 - 0:59:48 - Epoch: [2][200]	Time 0.653 (0.694)	Data 0.000 (0.016)	Loss 6.0992 (6.3707)	Lr: 0.0416
+INFO - 09/19/22 01:18:32 - 1:00:22 - Epoch: [2][250]	Time 0.621 (0.690)	Data 0.000 (0.013)	Loss 5.9461 (6.3463)	Lr: 0.0420
+INFO - 09/19/22 01:19:06 - 1:00:55 - Epoch: [2][300]	Time 0.619 (0.687)	Data 0.000 (0.011)	Loss 6.3186 (6.3341)	Lr: 0.0424
+INFO - 09/19/22 01:19:39 - 1:01:29 - Epoch: [2][350]	Time 0.712 (0.684)	Data 0.000 (0.009)	Loss 6.2604 (6.3189)	Lr: 0.0428
+INFO - 09/19/22 01:20:13 - 1:02:02 - Epoch: [2][400]	Time 0.689 (0.682)	Data 0.000 (0.008)	Loss 6.5432 (6.3092)	Lr: 0.0432
+INFO - 09/19/22 01:20:46 - 1:02:36 - Epoch: [2][450]	Time 0.696 (0.681)	Data 0.000 (0.007)	Loss 5.7163 (6.2915)	Lr: 0.0436
+INFO - 09/19/22 01:21:21 - 1:03:10 - Epoch: [2][500]	Time 0.673 (0.682)	Data 0.000 (0.006)	Loss 6.1297 (6.2689)	Lr: 0.0440
+INFO - 09/19/22 01:21:54 - 1:03:43 - Epoch: [2][550]	Time 0.644 (0.680)	Data 0.000 (0.006)	Loss 6.2571 (6.2529)	Lr: 0.0444
+INFO - 09/19/22 01:22:27 - 1:04:17 - Epoch: [2][600]	Time 0.658 (0.679)	Data 0.000 (0.005)	Loss 6.1785 (6.2359)	Lr: 0.0448
+INFO - 09/19/22 01:23:01 - 1:04:50 - Epoch: [2][650]	Time 0.660 (0.678)	Data 0.000 (0.005)	Loss 5.7106 (6.2168)	Lr: 0.0452
+INFO - 09/19/22 01:23:34 - 1:05:24 - Epoch: [2][700]	Time 0.681 (0.677)	Data 0.000 (0.005)	Loss 5.9461 (6.2054)	Lr: 0.0456
+INFO - 09/19/22 01:24:08 - 1:05:57 - Epoch: [2][750]	Time 0.684 (0.677)	Data 0.000 (0.004)	Loss 5.9267 (6.1903)	Lr: 0.0460
+INFO - 09/19/22 01:24:41 - 1:06:31 - Epoch: [2][800]	Time 0.698 (0.677)	Data 0.000 (0.004)	Loss 6.0583 (6.1769)	Lr: 0.0464
+INFO - 09/19/22 01:25:14 - 1:07:04 - Epoch: [2][850]	Time 0.671 (0.676)	Data 0.000 (0.004)	Loss 5.7718 (6.1596)	Lr: 0.0468
+INFO - 09/19/22 01:25:48 - 1:07:37 - Epoch: [2][900]	Time 0.678 (0.675)	Data 0.000 (0.004)	Loss 5.9029 (6.1459)	Lr: 0.0472
+INFO - 09/19/22 01:26:21 - 1:08:11 - Epoch: [2][950]	Time 0.635 (0.675)	Data 0.000 (0.004)	Loss 5.6804 (6.1300)	Lr: 0.0476
+INFO - 09/19/22 01:26:54 - 1:08:44 - Epoch: [2][1000]	Time 0.639 (0.674)	Data 0.000 (0.003)	Loss 5.8380 (6.1159)	Lr: 0.0480
+INFO - 09/19/22 01:27:28 - 1:09:17 - Epoch: [2][1050]	Time 0.691 (0.674)	Data 0.000 (0.003)	Loss 6.1313 (6.1034)	Lr: 0.0484
+INFO - 09/19/22 01:28:01 - 1:09:51 - Epoch: [2][1100]	Time 0.677 (0.674)	Data 0.000 (0.003)	Loss 6.0981 (6.0889)	Lr: 0.0488
+INFO - 09/19/22 01:28:35 - 1:10:24 - Epoch: [2][1150]	Time 0.649 (0.674)	Data 0.000 (0.003)	Loss 5.5338 (6.0743)	Lr: 0.0492
+INFO - 09/19/22 01:29:08 - 1:10:58 - Epoch: [2][1200]	Time 0.647 (0.674)	Data 0.001 (0.003)	Loss 6.1375 (6.0630)	Lr: 0.0496
+INFO - 09/19/22 01:29:41 - 1:11:31 - Epoch: [2][1250]	Time 0.678 (0.673)	Data 0.000 (0.003)	Loss 5.5771 (6.0512)	Lr: 0.0500
+INFO - 09/19/22 01:30:15 - 1:12:04 - Epoch: [2][1300]	Time 0.679 (0.673)	Data 0.000 (0.003)	Loss 5.8243 (6.0408)	Lr: 0.0504
+INFO - 09/19/22 01:30:48 - 1:12:38 - Epoch: [2][1350]	Time 0.645 (0.673)	Data 0.000 (0.003)	Loss 5.7284 (6.0277)	Lr: 0.0508
+INFO - 09/19/22 01:31:22 - 1:13:12 - Epoch: [2][1400]	Time 0.663 (0.673)	Data 0.001 (0.003)	Loss 5.5269 (6.0165)	Lr: 0.0512
+INFO - 09/19/22 01:31:56 - 1:13:45 - Epoch: [2][1450]	Time 0.653 (0.673)	Data 0.000 (0.003)	Loss 5.7572 (6.0049)	Lr: 0.0516
+INFO - 09/19/22 01:32:29 - 1:14:19 - Epoch: [2][1500]	Time 0.652 (0.673)	Data 0.000 (0.002)	Loss 5.8767 (5.9911)	Lr: 0.0520
+INFO - 09/19/22 01:33:03 - 1:14:52 - Epoch: [2][1550]	Time 0.657 (0.673)	Data 0.000 (0.002)	Loss 5.6224 (5.9783)	Lr: 0.0524
+INFO - 09/19/22 01:33:36 - 1:15:26 - Epoch: [2][1600]	Time 0.643 (0.673)	Data 0.000 (0.002)	Loss 5.9854 (5.9678)	Lr: 0.0528
+INFO - 09/19/22 01:34:10 - 1:15:59 - Epoch: [2][1650]	Time 0.666 (0.673)	Data 0.000 (0.002)	Loss 5.0800 (5.9557)	Lr: 0.0532
+INFO - 09/19/22 01:34:44 - 1:16:33 - Epoch: [2][1700]	Time 0.693 (0.673)	Data 0.000 (0.002)	Loss 5.4111 (5.9426)	Lr: 0.0536
+INFO - 09/19/22 01:35:17 - 1:17:07 - Epoch: [2][1750]	Time 0.689 (0.673)	Data 0.000 (0.002)	Loss 5.7518 (5.9291)	Lr: 0.0540
+INFO - 09/19/22 01:35:51 - 1:17:40 - Epoch: [2][1800]	Time 0.650 (0.673)	Data 0.000 (0.002)	Loss 5.1009 (5.9178)	Lr: 0.0544
+INFO - 09/19/22 01:36:24 - 1:18:14 - Epoch: [2][1850]	Time 0.668 (0.673)	Data 0.000 (0.002)	Loss 5.0529 (5.9073)	Lr: 0.0548
+INFO - 09/19/22 01:36:58 - 1:18:47 - Epoch: [2][1900]	Time 0.724 (0.673)	Data 0.000 (0.002)	Loss 5.5374 (5.8954)	Lr: 0.0552
+INFO - 09/19/22 01:37:31 - 1:19:21 - Epoch: [2][1950]	Time 0.672 (0.672)	Data 0.000 (0.002)	Loss 5.4195 (5.8832)	Lr: 0.0556
+INFO - 09/19/22 01:38:04 - 1:19:54 - Epoch: [2][2000]	Time 0.666 (0.672)	Data 0.000 (0.002)	Loss 5.7130 (5.8720)	Lr: 0.0560
+INFO - 09/19/22 01:38:38 - 1:20:27 - Epoch: [2][2050]	Time 0.650 (0.672)	Data 0.000 (0.002)	Loss 5.0151 (5.8606)	Lr: 0.0564
+INFO - 09/19/22 01:39:12 - 1:21:01 - Epoch: [2][2100]	Time 0.697 (0.672)	Data 0.001 (0.002)	Loss 5.4729 (5.8505)	Lr: 0.0568
+INFO - 09/19/22 01:39:45 - 1:21:35 - Epoch: [2][2150]	Time 0.649 (0.672)	Data 0.000 (0.002)	Loss 5.1940 (5.8388)	Lr: 0.0572
+INFO - 09/19/22 01:40:19 - 1:22:08 - Epoch: [2][2200]	Time 0.657 (0.672)	Data 0.000 (0.002)	Loss 5.4348 (5.8275)	Lr: 0.0576
+INFO - 09/19/22 01:40:52 - 1:22:41 - Epoch: [2][2250]	Time 0.621 (0.672)	Data 0.000 (0.002)	Loss 5.4081 (5.8160)	Lr: 0.0580
+INFO - 09/19/22 01:41:25 - 1:23:15 - Epoch: [2][2300]	Time 0.628 (0.672)	Data 0.000 (0.002)	Loss 5.2060 (5.8071)	Lr: 0.0584
+INFO - 09/19/22 01:41:59 - 1:23:49 - Epoch: [2][2350]	Time 0.684 (0.672)	Data 0.000 (0.002)	Loss 5.4429 (5.7962)	Lr: 0.0588
+INFO - 09/19/22 01:42:35 - 1:24:24 - Epoch: [2][2400]	Time 0.696 (0.673)	Data 0.000 (0.002)	Loss 5.1906 (5.7859)	Lr: 0.0592
+INFO - 09/19/22 01:43:08 - 1:24:58 - Epoch: [2][2450]	Time 0.650 (0.673)	Data 0.000 (0.002)	Loss 5.5433 (5.7760)	Lr: 0.0596
+INFO - 09/19/22 01:43:41 - 1:25:30 - Epoch: [2][2500]	Time 0.524 (0.672)	Data 0.000 (0.002)	Loss 5.4020 (5.7639)	Lr: 0.0600
+/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/PIL/TiffImagePlugin.py:785: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+INFO - 09/19/22 01:43:45 - 1:25:35 - Epoch: [2][0]	Time 2.645 (2.645)	Data 2.564 (2.564)	Acc@1 15.625(15.625)	Acc@5 37.500(37.500)
+INFO - 09/19/22 01:43:52 - 1:25:41 - Epoch: [2][50]	Time 0.077 (0.182)	Data 0.001 (0.151)	Acc@1 26.562(19.332)	Acc@5 46.875(35.815)
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:00 - 1:25:50 - Epoch: [2]	Acc@1 18.1439266204834, Acc@5 36.404640197753906	Best Acc@1 18.1439266204834, Best Acc@5 36.404640197753906
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:00 - 1:25:50 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:03 - 1:25:53 - ============ Starting epoch 3 ... ============
+INFO - 09/19/22 01:44:07 - 1:25:56 - Epoch: [3][0]	Time 3.759 (3.759)	Data 3.178 (3.178)	Loss 5.1400 (5.1400)	Lr: 0.0600
+INFO - 09/19/22 01:44:41 - 1:26:30 - Epoch: [3][50]	Time 0.749 (0.743)	Data 0.000 (0.063)	Loss 5.4299 (5.2181)	Lr: 0.0604
+INFO - 09/19/22 01:45:15 - 1:27:05 - Epoch: [3][100]	Time 0.557 (0.714)	Data 0.000 (0.032)	Loss 5.2940 (5.2234)	Lr: 0.0608
+INFO - 09/19/22 01:45:49 - 1:27:38 - Epoch: [3][150]	Time 0.730 (0.702)	Data 0.000 (0.021)	Loss 5.5834 (5.2394)	Lr: 0.0612
+INFO - 09/19/22 01:46:23 - 1:28:13 - Epoch: [3][200]	Time 0.660 (0.697)	Data 0.001 (0.016)	Loss 5.4072 (5.2189)	Lr: 0.0616
+INFO - 09/19/22 01:46:57 - 1:28:46 - Epoch: [3][250]	Time 0.694 (0.693)	Data 0.000 (0.013)	Loss 5.0641 (5.1955)	Lr: 0.0620
+INFO - 09/19/22 01:47:31 - 1:29:20 - Epoch: [3][300]	Time 0.716 (0.690)	Data 0.000 (0.011)	Loss 5.3010 (5.1841)	Lr: 0.0624
+INFO - 09/19/22 01:48:04 - 1:29:53 - Epoch: [3][350]	Time 0.695 (0.686)	Data 0.001 (0.009)	Loss 5.1760 (5.1840)	Lr: 0.0628
+INFO - 09/19/22 01:48:37 - 1:30:27 - Epoch: [3][400]	Time 0.668 (0.684)	Data 0.000 (0.008)	Loss 5.3636 (5.1690)	Lr: 0.0632
+INFO - 09/19/22 01:49:10 - 1:31:00 - Epoch: [3][450]	Time 0.658 (0.682)	Data 0.000 (0.007)	Loss 5.3746 (5.1678)	Lr: 0.0636
+INFO - 09/19/22 01:49:43 - 1:31:33 - Epoch: [3][500]	Time 0.688 (0.680)	Data 0.000 (0.007)	Loss 5.1338 (5.1555)	Lr: 0.0640
+INFO - 09/19/22 01:50:17 - 1:32:06 - Epoch: [3][550]	Time 0.666 (0.678)	Data 0.000 (0.006)	Loss 5.3900 (5.1481)	Lr: 0.0644
+INFO - 09/19/22 01:50:50 - 1:32:39 - Epoch: [3][600]	Time 0.620 (0.677)	Data 0.000 (0.006)	Loss 4.8854 (5.1492)	Lr: 0.0648
+INFO - 09/19/22 01:51:24 - 1:33:13 - Epoch: [3][650]	Time 0.694 (0.677)	Data 0.000 (0.005)	Loss 5.0903 (5.1412)	Lr: 0.0652
+INFO - 09/19/22 01:51:57 - 1:33:46 - Epoch: [3][700]	Time 0.652 (0.676)	Data 0.000 (0.005)	Loss 5.4166 (5.1355)	Lr: 0.0656
+INFO - 09/19/22 01:52:30 - 1:34:20 - Epoch: [3][750]	Time 0.660 (0.675)	Data 0.000 (0.005)	Loss 5.1087 (5.1318)	Lr: 0.0660
+INFO - 09/19/22 01:53:04 - 1:34:53 - Epoch: [3][800]	Time 0.651 (0.675)	Data 0.001 (0.004)	Loss 4.8397 (5.1245)	Lr: 0.0664
+INFO - 09/19/22 01:53:37 - 1:35:27 - Epoch: [3][850]	Time 0.676 (0.675)	Data 0.000 (0.004)	Loss 4.7204 (5.1213)	Lr: 0.0668
+INFO - 09/19/22 01:54:11 - 1:36:00 - Epoch: [3][900]	Time 0.667 (0.675)	Data 0.000 (0.004)	Loss 5.4360 (5.1128)	Lr: 0.0672
+INFO - 09/19/22 01:54:44 - 1:36:33 - Epoch: [3][950]	Time 0.644 (0.674)	Data 0.000 (0.004)	Loss 4.8189 (5.1069)	Lr: 0.0676
+INFO - 09/19/22 01:55:17 - 1:37:07 - Epoch: [3][1000]	Time 0.696 (0.674)	Data 0.000 (0.004)	Loss 4.2598 (5.0994)	Lr: 0.0680
+INFO - 09/19/22 01:55:51 - 1:37:41 - Epoch: [3][1050]	Time 0.650 (0.674)	Data 0.000 (0.003)	Loss 5.0076 (5.0957)	Lr: 0.0684
+INFO - 09/19/22 01:56:24 - 1:38:14 - Epoch: [3][1100]	Time 0.667 (0.674)	Data 0.000 (0.003)	Loss 5.2094 (5.0871)	Lr: 0.0688
+INFO - 09/19/22 01:56:58 - 1:38:48 - Epoch: [3][1150]	Time 0.670 (0.673)	Data 0.000 (0.003)	Loss 4.9905 (5.0821)	Lr: 0.0692
+INFO - 09/19/22 01:57:32 - 1:39:21 - Epoch: [3][1200]	Time 0.670 (0.673)	Data 0.000 (0.003)	Loss 4.6575 (5.0769)	Lr: 0.0696
+INFO - 09/19/22 01:58:05 - 1:39:55 - Epoch: [3][1250]	Time 0.620 (0.673)	Data 0.000 (0.003)	Loss 4.8214 (5.0726)	Lr: 0.0700
+INFO - 09/19/22 01:58:38 - 1:40:28 - Epoch: [3][1300]	Time 0.658 (0.673)	Data 0.000 (0.003)	Loss 4.8904 (5.0682)	Lr: 0.0704
+INFO - 09/19/22 01:59:11 - 1:41:01 - Epoch: [3][1350]	Time 0.661 (0.672)	Data 0.000 (0.003)	Loss 4.8687 (5.0639)	Lr: 0.0708
+INFO - 09/19/22 01:59:45 - 1:41:34 - Epoch: [3][1400]	Time 0.615 (0.672)	Data 0.000 (0.003)	Loss 4.7674 (5.0601)	Lr: 0.0712
+INFO - 09/19/22 02:00:27 - 1:42:16 - Epoch: [3][1450]	Time 0.626 (0.678)	Data 0.000 (0.003)	Loss 4.9390 (5.0538)	Lr: 0.0716
+INFO - 09/19/22 02:01:01 - 1:42:50 - Epoch: [3][1500]	Time 0.701 (0.678)	Data 0.000 (0.003)	Loss 4.8068 (5.0498)	Lr: 0.0720
+INFO - 09/19/22 02:01:35 - 1:43:25 - Epoch: [3][1550]	Time 0.668 (0.678)	Data 0.001 (0.002)	Loss 4.8097 (5.0445)	Lr: 0.0724
+INFO - 09/19/22 02:02:09 - 1:43:58 - Epoch: [3][1600]	Time 0.787 (0.678)	Data 0.000 (0.002)	Loss 4.8984 (5.0374)	Lr: 0.0728
+INFO - 09/19/22 02:02:43 - 1:44:32 - Epoch: [3][1650]	Time 0.678 (0.678)	Data 0.000 (0.002)	Loss 4.6381 (5.0328)	Lr: 0.0732
+INFO - 09/19/22 02:03:16 - 1:45:06 - Epoch: [3][1700]	Time 0.661 (0.678)	Data 0.000 (0.002)	Loss 4.7800 (5.0289)	Lr: 0.0736
+INFO - 09/19/22 02:03:50 - 1:45:40 - Epoch: [3][1750]	Time 0.651 (0.678)	Data 0.000 (0.002)	Loss 4.4987 (5.0240)	Lr: 0.0740
+INFO - 09/19/22 02:04:24 - 1:46:13 - Epoch: [3][1800]	Time 0.623 (0.678)	Data 0.000 (0.002)	Loss 4.8974 (5.0194)	Lr: 0.0744
+INFO - 09/19/22 02:04:57 - 1:46:47 - Epoch: [3][1850]	Time 0.676 (0.678)	Data 0.000 (0.002)	Loss 4.8441 (5.0137)	Lr: 0.0748
+INFO - 09/19/22 02:05:31 - 1:47:21 - Epoch: [3][1900]	Time 0.697 (0.678)	Data 0.000 (0.002)	Loss 4.9987 (5.0074)	Lr: 0.0752
+INFO - 09/19/22 02:06:05 - 1:47:54 - Epoch: [3][1950]	Time 0.625 (0.677)	Data 0.000 (0.002)	Loss 4.7333 (5.0019)	Lr: 0.0756
+INFO - 09/19/22 02:06:38 - 1:48:27 - Epoch: [3][2000]	Time 0.651 (0.677)	Data 0.000 (0.002)	Loss 5.0336 (4.9981)	Lr: 0.0760
+INFO - 09/19/22 02:07:12 - 1:49:01 - Epoch: [3][2050]	Time 0.670 (0.677)	Data 0.000 (0.002)	Loss 4.7379 (4.9923)	Lr: 0.0764
+INFO - 09/19/22 02:07:45 - 1:49:35 - Epoch: [3][2100]	Time 0.647 (0.677)	Data 0.000 (0.002)	Loss 4.6853 (4.9862)	Lr: 0.0768
+INFO - 09/19/22 02:08:19 - 1:50:08 - Epoch: [3][2150]	Time 0.677 (0.677)	Data 0.000 (0.002)	Loss 4.3471 (4.9805)	Lr: 0.0772
+INFO - 09/19/22 02:08:52 - 1:50:41 - Epoch: [3][2200]	Time 0.634 (0.676)	Data 0.000 (0.002)	Loss 5.0592 (4.9758)	Lr: 0.0776
+INFO - 09/19/22 02:09:26 - 1:51:15 - Epoch: [3][2250]	Time 0.659 (0.676)	Data 0.000 (0.002)	Loss 4.6267 (4.9711)	Lr: 0.0780
+INFO - 09/19/22 02:10:00 - 1:51:49 - Epoch: [3][2300]	Time 0.647 (0.677)	Data 0.000 (0.002)	Loss 4.6459 (4.9656)	Lr: 0.0784
+INFO - 09/19/22 02:10:34 - 1:52:23 - Epoch: [3][2350]	Time 0.673 (0.677)	Data 0.000 (0.002)	Loss 5.0668 (4.9606)	Lr: 0.0788
+INFO - 09/19/22 02:11:07 - 1:52:57 - Epoch: [3][2400]	Time 0.699 (0.677)	Data 0.001 (0.002)	Loss 5.5765 (4.9571)	Lr: 0.0792
+INFO - 09/19/22 02:11:41 - 1:53:31 - Epoch: [3][2450]	Time 0.696 (0.677)	Data 0.000 (0.002)	Loss 4.5950 (4.9529)	Lr: 0.0796
+INFO - 09/19/22 02:12:14 - 1:54:04 - Epoch: [3][2500]	Time 0.549 (0.676)	Data 0.000 (0.002)	Loss 4.5496 (4.9483)	Lr: 0.0800
+/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/PIL/TiffImagePlugin.py:785: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+INFO - 09/19/22 02:12:19 - 1:54:09 - Epoch: [3][0]	Time 3.535 (3.535)	Data 2.607 (2.607)	Acc@1 25.000(25.000)	Acc@5 50.000(50.000)
+INFO - 09/19/22 02:12:25 - 1:54:15 - Epoch: [3][50]	Time 0.215 (0.188)	Data 0.186 (0.126)	Acc@1 28.125(24.847)	Acc@5 45.312(45.098)
+INFO - 09/19/22 02:12:33 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:33 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:34 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:34 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:34 - 1:54:23 - Epoch: [3]	Acc@1 25.60808563232422, Acc@5 45.94072341918945	Best Acc@1 25.60808563232422, Best Acc@5 45.94072341918945
+INFO - 09/19/22 02:12:34 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:34 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:34 - 1:54:23 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:37 - 1:54:26 - ============ Starting epoch 4 ... ============
+INFO - 09/19/22 02:12:41 - 1:54:30 - Epoch: [4][0]	Time 4.006 (4.006)	Data 3.189 (3.189)	Loss 4.8865 (4.8865)	Lr: 0.0800
+INFO - 09/19/22 02:13:14 - 1:55:04 - Epoch: [4][50]	Time 0.690 (0.735)	Data 0.000 (0.063)	Loss 4.9134 (4.6535)	Lr: 0.0804
+INFO - 09/19/22 02:13:47 - 1:55:37 - Epoch: [4][100]	Time 0.648 (0.701)	Data 0.001 (0.032)	Loss 4.2165 (4.6513)	Lr: 0.0808
+INFO - 09/19/22 02:14:21 - 1:56:10 - Epoch: [4][150]	Time 0.680 (0.691)	Data 0.000 (0.022)	Loss 4.6061 (4.6284)	Lr: 0.0812
+INFO - 09/19/22 02:14:55 - 1:56:44 - Epoch: [4][200]	Time 0.622 (0.687)	Data 0.001 (0.016)	Loss 4.8690 (4.6478)	Lr: 0.0816
+INFO - 09/19/22 02:15:29 - 1:57:19 - Epoch: [4][250]	Time 0.670 (0.687)	Data 0.000 (0.013)	Loss 4.3722 (4.6412)	Lr: 0.0820
+INFO - 09/19/22 02:16:03 - 1:57:52 - Epoch: [4][300]	Time 0.686 (0.685)	Data 0.000 (0.011)	Loss 4.4141 (4.6389)	Lr: 0.0824
+INFO - 09/19/22 02:16:36 - 1:58:26 - Epoch: [4][350]	Time 0.606 (0.683)	Data 0.000 (0.010)	Loss 4.5260 (4.6334)	Lr: 0.0828
+INFO - 09/19/22 02:17:10 - 1:58:59 - Epoch: [4][400]	Time 0.664 (0.681)	Data 0.000 (0.008)	Loss 4.2739 (4.6287)	Lr: 0.0832
+INFO - 09/19/22 02:17:43 - 1:59:32 - Epoch: [4][450]	Time 0.653 (0.679)	Data 0.001 (0.008)	Loss 4.4397 (4.6249)	Lr: 0.0836
+INFO - 09/19/22 02:18:16 - 2:00:05 - Epoch: [4][500]	Time 0.658 (0.677)	Data 0.000 (0.007)	Loss 4.7760 (4.6227)	Lr: 0.0840
+INFO - 09/19/22 02:18:49 - 2:00:39 - Epoch: [4][550]	Time 0.645 (0.676)	Data 0.000 (0.006)	Loss 4.8844 (4.6218)	Lr: 0.0844
+INFO - 09/19/22 02:19:22 - 2:01:12 - Epoch: [4][600]	Time 0.695 (0.675)	Data 0.000 (0.006)	Loss 4.6406 (4.6157)	Lr: 0.0848
+INFO - 09/19/22 02:19:55 - 2:01:45 - Epoch: [4][650]	Time 0.680 (0.674)	Data 0.001 (0.005)	Loss 4.2921 (4.6128)	Lr: 0.0852
+INFO - 09/19/22 02:20:28 - 2:02:18 - Epoch: [4][700]	Time 0.643 (0.673)	Data 0.000 (0.005)	Loss 4.9899 (4.6100)	Lr: 0.0856
+INFO - 09/19/22 02:21:01 - 2:02:51 - Epoch: [4][750]	Time 0.672 (0.672)	Data 0.000 (0.005)	Loss 4.6021 (4.6131)	Lr: 0.0860
+INFO - 09/19/22 02:21:36 - 2:03:25 - Epoch: [4][800]	Time 0.639 (0.673)	Data 0.000 (0.004)	Loss 4.4711 (4.6141)	Lr: 0.0864
+INFO - 09/19/22 02:22:09 - 2:03:58 - Epoch: [4][850]	Time 0.768 (0.672)	Data 0.000 (0.004)	Loss 4.7961 (4.6155)	Lr: 0.0868
+INFO - 09/19/22 02:22:42 - 2:04:31 - Epoch: [4][900]	Time 0.660 (0.672)	Data 0.000 (0.004)	Loss 4.9587 (4.6129)	Lr: 0.0872
+INFO - 09/19/22 02:23:15 - 2:05:05 - Epoch: [4][950]	Time 0.671 (0.672)	Data 0.000 (0.004)	Loss 4.8815 (4.6102)	Lr: 0.0876
+INFO - 09/19/22 02:23:48 - 2:05:38 - Epoch: [4][1000]	Time 0.653 (0.671)	Data 0.000 (0.004)	Loss 4.0696 (4.6079)	Lr: 0.0880
+INFO - 09/19/22 02:24:22 - 2:06:11 - Epoch: [4][1050]	Time 0.696 (0.671)	Data 0.000 (0.003)	Loss 4.5365 (4.6034)	Lr: 0.0884
+INFO - 09/19/22 02:24:55 - 2:06:44 - Epoch: [4][1100]	Time 0.677 (0.670)	Data 0.000 (0.003)	Loss 4.5144 (4.6009)	Lr: 0.0888
+INFO - 09/19/22 02:25:28 - 2:07:18 - Epoch: [4][1150]	Time 0.685 (0.670)	Data 0.000 (0.003)	Loss 4.4616 (4.5979)	Lr: 0.0892
+INFO - 09/19/22 02:26:01 - 2:07:51 - Epoch: [4][1200]	Time 0.612 (0.670)	Data 0.000 (0.003)	Loss 4.2760 (4.5983)	Lr: 0.0896
+INFO - 09/19/22 02:26:35 - 2:08:24 - Epoch: [4][1250]	Time 0.709 (0.670)	Data 0.000 (0.003)	Loss 5.0820 (4.5956)	Lr: 0.0900
+INFO - 09/19/22 02:27:08 - 2:08:58 - Epoch: [4][1300]	Time 0.632 (0.670)	Data 0.000 (0.003)	Loss 4.3276 (4.5923)	Lr: 0.0904
+INFO - 09/19/22 02:27:42 - 2:09:31 - Epoch: [4][1350]	Time 0.669 (0.670)	Data 0.001 (0.003)	Loss 4.8490 (4.5890)	Lr: 0.0908
+INFO - 09/19/22 02:28:15 - 2:10:05 - Epoch: [4][1400]	Time 0.725 (0.670)	Data 0.000 (0.003)	Loss 4.5394 (4.5850)	Lr: 0.0912
+INFO - 09/19/22 02:28:49 - 2:10:38 - Epoch: [4][1450]	Time 0.644 (0.670)	Data 0.000 (0.003)	Loss 4.3563 (4.5804)	Lr: 0.0916
+INFO - 09/19/22 02:29:22 - 2:11:12 - Epoch: [4][1500]	Time 0.697 (0.670)	Data 0.001 (0.003)	Loss 4.4978 (4.5780)	Lr: 0.0920
+INFO - 09/19/22 02:29:56 - 2:11:45 - Epoch: [4][1550]	Time 0.693 (0.670)	Data 0.000 (0.002)	Loss 4.9650 (4.5750)	Lr: 0.0924
+INFO - 09/19/22 02:30:29 - 2:12:19 - Epoch: [4][1600]	Time 0.664 (0.670)	Data 0.000 (0.002)	Loss 4.4581 (4.5712)	Lr: 0.0928
+INFO - 09/19/22 02:31:03 - 2:12:52 - Epoch: [4][1650]	Time 0.595 (0.670)	Data 0.000 (0.002)	Loss 4.3477 (4.5690)	Lr: 0.0932
+INFO - 09/19/22 02:31:36 - 2:13:26 - Epoch: [4][1700]	Time 0.658 (0.670)	Data 0.000 (0.002)	Loss 4.7004 (4.5666)	Lr: 0.0936
+INFO - 09/19/22 02:32:10 - 2:14:00 - Epoch: [4][1750]	Time 0.659 (0.670)	Data 0.000 (0.002)	Loss 4.7351 (4.5657)	Lr: 0.0940
+INFO - 09/19/22 02:32:44 - 2:14:33 - Epoch: [4][1800]	Time 0.711 (0.670)	Data 0.000 (0.002)	Loss 4.6528 (4.5641)	Lr: 0.0944
+INFO - 09/19/22 02:33:17 - 2:15:07 - Epoch: [4][1850]	Time 0.650 (0.670)	Data 0.000 (0.002)	Loss 4.5047 (4.5619)	Lr: 0.0948
+INFO - 09/19/22 02:33:51 - 2:15:40 - Epoch: [4][1900]	Time 0.656 (0.670)	Data 0.000 (0.002)	Loss 4.8810 (4.5579)	Lr: 0.0952
+INFO - 09/19/22 02:34:25 - 2:16:14 - Epoch: [4][1950]	Time 0.677 (0.670)	Data 0.000 (0.002)	Loss 4.2812 (4.5544)	Lr: 0.0956
+INFO - 09/19/22 02:34:58 - 2:16:48 - Epoch: [4][2000]	Time 0.678 (0.670)	Data 0.000 (0.002)	Loss 4.2439 (4.5509)	Lr: 0.0960
+INFO - 09/19/22 02:35:32 - 2:17:21 - Epoch: [4][2050]	Time 0.589 (0.670)	Data 0.000 (0.002)	Loss 4.5980 (4.5478)	Lr: 0.0964
+INFO - 09/19/22 02:36:05 - 2:17:55 - Epoch: [4][2100]	Time 0.633 (0.670)	Data 0.000 (0.002)	Loss 4.2973 (4.5444)	Lr: 0.0968
+INFO - 09/19/22 02:36:38 - 2:18:28 - Epoch: [4][2150]	Time 0.630 (0.670)	Data 0.000 (0.002)	Loss 4.6258 (4.5402)	Lr: 0.0972
+INFO - 09/19/22 02:37:12 - 2:19:01 - Epoch: [4][2200]	Time 0.641 (0.670)	Data 0.000 (0.002)	Loss 3.9718 (4.5373)	Lr: 0.0976
+INFO - 09/19/22 02:37:45 - 2:19:35 - Epoch: [4][2250]	Time 0.636 (0.670)	Data 0.000 (0.002)	Loss 4.8571 (4.5329)	Lr: 0.0980
+INFO - 09/19/22 02:38:18 - 2:20:08 - Epoch: [4][2300]	Time 0.658 (0.670)	Data 0.000 (0.002)	Loss 4.3078 (4.5305)	Lr: 0.0984
+INFO - 09/19/22 02:38:52 - 2:20:41 - Epoch: [4][2350]	Time 0.622 (0.670)	Data 0.000 (0.002)	Loss 4.1839 (4.5288)	Lr: 0.0988
+INFO - 09/19/22 02:39:25 - 2:21:15 - Epoch: [4][2400]	Time 0.661 (0.670)	Data 0.000 (0.002)	Loss 4.4110 (4.5269)	Lr: 0.0992
+INFO - 09/19/22 02:39:59 - 2:21:48 - Epoch: [4][2450]	Time 0.655 (0.670)	Data 0.000 (0.002)	Loss 4.5042 (4.5237)	Lr: 0.0996
+INFO - 09/19/22 02:40:31 - 2:22:21 - Epoch: [4][2500]	Time 0.541 (0.670)	Data 0.000 (0.002)	Loss 4.1404 (4.5208)	Lr: 0.1000
+/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/PIL/TiffImagePlugin.py:785: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+INFO - 09/19/22 02:40:36 - 2:22:25 - Epoch: [4][0]	Time 2.474 (2.474)	Data 2.404 (2.404)	Acc@1 34.375(34.375)	Acc@5 62.500(62.500)
+INFO - 09/19/22 02:40:43 - 2:22:32 - Epoch: [4][50]	Time 0.402 (0.187)	Data 0.385 (0.158)	Acc@1 28.125(30.699)	Acc@5 53.125(51.716)
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:51 - 2:22:40 - Epoch: [4]	Acc@1 30.74661636352539, Acc@5 52.220924377441406	Best Acc@1 30.74661636352539, Best Acc@5 52.220924377441406
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:51 - 2:22:40 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:53 - 2:22:43 - ============ Starting epoch 5 ... ============
+INFO - 09/19/22 02:40:57 - 2:22:46 - Epoch: [5][0]	Time 3.641 (3.641)	Data 2.914 (2.914)	Loss 4.9896 (4.9896)	Lr: 0.1000
+INFO - 09/19/22 02:41:31 - 2:23:20 - Epoch: [5][50]	Time 0.747 (0.736)	Data 0.000 (0.058)	Loss 4.4387 (4.3294)	Lr: 0.1004
+INFO - 09/19/22 02:42:04 - 2:23:54 - Epoch: [5][100]	Time 0.668 (0.705)	Data 0.000 (0.029)	Loss 4.1145 (4.3477)	Lr: 0.1008
+INFO - 09/19/22 02:42:38 - 2:24:27 - Epoch: [5][150]	Time 0.627 (0.694)	Data 0.000 (0.020)	Loss 4.4090 (4.3202)	Lr: 0.1012
+INFO - 09/19/22 02:43:11 - 2:25:01 - Epoch: [5][200]	Time 0.631 (0.688)	Data 0.000 (0.015)	Loss 3.7978 (4.3156)	Lr: 0.1016
+INFO - 09/19/22 02:43:46 - 2:25:35 - Epoch: [5][250]	Time 0.670 (0.687)	Data 0.000 (0.012)	Loss 4.1073 (4.3191)	Lr: 0.1020
+INFO - 09/19/22 02:44:19 - 2:26:09 - Epoch: [5][300]	Time 0.667 (0.685)	Data 0.000 (0.010)	Loss 4.2642 (4.3131)	Lr: 0.1024
+INFO - 09/19/22 02:44:53 - 2:26:42 - Epoch: [5][350]	Time 0.650 (0.683)	Data 0.001 (0.009)	Loss 3.9769 (4.3134)	Lr: 0.1028
+INFO - 09/19/22 02:45:26 - 2:27:16 - Epoch: [5][400]	Time 0.649 (0.680)	Data 0.000 (0.008)	Loss 4.0044 (4.3094)	Lr: 0.1032
+INFO - 09/19/22 02:46:00 - 2:27:49 - Epoch: [5][450]	Time 0.623 (0.680)	Data 0.000 (0.007)	Loss 4.3723 (4.3120)	Lr: 0.1036
+INFO - 09/19/22 02:46:33 - 2:28:22 - Epoch: [5][500]	Time 0.684 (0.678)	Data 0.000 (0.006)	Loss 4.7104 (4.3104)	Lr: 0.1040
+INFO - 09/19/22 02:47:06 - 2:28:55 - Epoch: [5][550]	Time 0.646 (0.676)	Data 0.000 (0.006)	Loss 4.3952 (4.3113)	Lr: 0.1044
+INFO - 09/19/22 02:47:40 - 2:29:29 - Epoch: [5][600]	Time 0.706 (0.676)	Data 0.000 (0.005)	Loss 4.5272 (4.3075)	Lr: 0.1048
+INFO - 09/19/22 02:48:13 - 2:30:03 - Epoch: [5][650]	Time 0.669 (0.676)	Data 0.000 (0.005)	Loss 4.1738 (4.3083)	Lr: 0.1052
+INFO - 09/19/22 02:48:47 - 2:30:36 - Epoch: [5][700]	Time 0.718 (0.675)	Data 0.000 (0.005)	Loss 4.5739 (4.3136)	Lr: 0.1056
+INFO - 09/19/22 02:49:20 - 2:31:10 - Epoch: [5][750]	Time 0.650 (0.675)	Data 0.001 (0.004)	Loss 3.6079 (4.3079)	Lr: 0.1060
+INFO - 09/19/22 02:49:53 - 2:31:43 - Epoch: [5][800]	Time 0.703 (0.674)	Data 0.000 (0.004)	Loss 4.2130 (4.3098)	Lr: 0.1064
+INFO - 09/19/22 02:50:27 - 2:32:16 - Epoch: [5][850]	Time 0.709 (0.674)	Data 0.000 (0.004)	Loss 4.1317 (4.3141)	Lr: 0.1068
+INFO - 09/19/22 02:51:00 - 2:32:49 - Epoch: [5][900]	Time 0.684 (0.673)	Data 0.000 (0.004)	Loss 4.7261 (4.3125)	Lr: 0.1072
+INFO - 09/19/22 02:51:33 - 2:33:23 - Epoch: [5][950]	Time 0.695 (0.673)	Data 0.000 (0.004)	Loss 4.2419 (4.3140)	Lr: 0.1076
+INFO - 09/19/22 02:52:07 - 2:33:56 - Epoch: [5][1000]	Time 0.611 (0.673)	Data 0.000 (0.003)	Loss 4.1243 (4.3146)	Lr: 0.1080
+INFO - 09/19/22 02:52:40 - 2:34:30 - Epoch: [5][1050]	Time 0.681 (0.673)	Data 0.000 (0.003)	Loss 4.6595 (4.3151)	Lr: 0.1084
+INFO - 09/19/22 02:53:13 - 2:35:03 - Epoch: [5][1100]	Time 0.707 (0.672)	Data 0.001 (0.003)	Loss 4.4635 (4.3121)	Lr: 0.1088
+INFO - 09/19/22 02:53:47 - 2:35:37 - Epoch: [5][1150]	Time 0.653 (0.672)	Data 0.001 (0.003)	Loss 4.2909 (4.3119)	Lr: 0.1092
+INFO - 09/19/22 02:54:20 - 2:36:10 - Epoch: [5][1200]	Time 0.618 (0.672)	Data 0.000 (0.003)	Loss 4.7571 (4.3117)	Lr: 0.1096
+INFO - 09/19/22 02:54:54 - 2:36:43 - Epoch: [5][1250]	Time 0.645 (0.672)	Data 0.000 (0.003)	Loss 4.9498 (4.3081)	Lr: 0.1100
+INFO - 09/19/22 02:55:27 - 2:37:17 - Epoch: [5][1300]	Time 0.679 (0.672)	Data 0.000 (0.003)	Loss 4.2988 (4.3070)	Lr: 0.1104
+INFO - 09/19/22 02:56:01 - 2:37:51 - Epoch: [5][1350]	Time 0.702 (0.672)	Data 0.000 (0.003)	Loss 3.6793 (4.3048)	Lr: 0.1108
+INFO - 09/19/22 02:56:35 - 2:38:24 - Epoch: [5][1400]	Time 0.668 (0.672)	Data 0.000 (0.003)	Loss 4.2855 (4.3046)	Lr: 0.1112
+INFO - 09/19/22 02:57:08 - 2:38:58 - Epoch: [5][1450]	Time 0.668 (0.672)	Data 0.000 (0.002)	Loss 4.5312 (4.3034)	Lr: 0.1116
+INFO - 09/19/22 02:57:41 - 2:39:31 - Epoch: [5][1500]	Time 0.656 (0.672)	Data 0.000 (0.002)	Loss 4.0261 (4.3018)	Lr: 0.1120
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+[W python_anomaly_mode.cpp:104] Warning: Error detected in MmBackward. Traceback of forward call that caused the error:
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 388, in train
+    model.module.momentum_update_key_encoder(m)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/swav-main/src/Phead.py", line 34, in forward
+    py1 = self.pfc(emb1)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+ (function _print_stack)
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 466, in <module>
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 249, in main
+    
+  File "/mnt/lustre/suxiu/wzy/swav-main/main_swav.py", line 416, in train
+    # loss = -((py1*emb2).sum(dim=1).mean()+(py2*emb1).sum(dim=1).mean())/2 
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: Function 'MmBackward' returned nan values in its 1th output.
+phoenix-srun: error: BJ-IDC1-10-10-16-55: task 5: Exited with exit code 1
+phoenix-srun: launch/slurm: _step_signal: Terminating StepId=594626.0
+slurmstepd: error: *** STEP 594626.0 ON BJ-IDC1-10-10-16-55 CANCELLED AT 2022-09-19T02:58:21 ***
+phoenix-srun: error: BJ-IDC1-10-10-16-55: task 3: Exited with exit code 1
+phoenix-srun: error: BJ-IDC1-10-10-16-55: task 0: Exited with exit code 1
+phoenix-srun: error: BJ-IDC1-10-10-16-55: tasks 1-2,6-7: Exited with exit code 1
+phoenix-srun: error: BJ-IDC1-10-10-16-55: task 4: Exited with exit code 1

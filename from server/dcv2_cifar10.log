@@ -1,0 +1,2106 @@
+
+phoenix-srun: job 520026 queued and waiting for resources
+phoenix-srun: job 520026 has been allocated resources
+phoenix-srun: Job 520026 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is P0
+
+INFO - 07/28/22 16:21:12 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:21:12 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 0
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23556
+                                     rank: 0
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:21:12 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:21:12 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:21:12 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 3
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23556
+                                     rank: 3
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:21:12 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:21:12 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:21:12 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 1
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23556
+                                     rank: 1
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:21:12 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:21:13 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:21:13 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 2
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23556
+                                     rank: 2
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:21:13 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:21:15 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:21:15 - 0:00:03 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:21:15 - 0:00:03 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:21:15 - 0:00:03 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:21:20 - 0:00:07 - LinearHead_p(
+                                       (net): ResNet_CIFAR(
+                                         (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                         (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+                                         (relu): ReLU(inplace=True)
+                                         (layer1): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer2): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer3): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer4): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                       )
+                                       (projection_head): Sequential(
+                                         (0): Linear(in_features=512, out_features=1024, bias=True)
+                                         (1): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=1024, out_features=64, bias=True)
+                                       )
+                                       (fc): Linear(in_features=64, out_features=10, bias=True)
+                                       (pfc): Linear(in_features=64, out_features=100, bias=True)
+                                     )
+INFO - 07/28/22 16:21:20 - 0:00:07 - Building model done.
+INFO - 07/28/22 16:21:20 - 0:00:07 - Building optimizer done.
+INFO - 07/28/22 16:21:20 - 0:00:07 - Building model done.
+INFO - 07/28/22 16:21:20 - 0:00:07 - Building optimizer done.
+INFO - 07/28/22 16:21:20 - 0:00:08 - Building model done.
+INFO - 07/28/22 16:21:20 - 0:00:08 - Building optimizer done.
+INFO - 07/28/22 16:21:20 - 0:00:08 - Building model done.
+INFO - 07/28/22 16:21:20 - 0:00:08 - Building optimizer done.
+INFO - 07/28/22 16:21:20 - 0:00:08 - Start initializing the memory banks
+INFO - 07/28/22 16:21:20 - 0:00:08 - Start initializing the memory banks
+INFO - 07/28/22 16:21:20 - 0:00:08 - Start initializing the memory banks
+INFO - 07/28/22 16:21:20 - 0:00:08 - Start initializing the memory banks
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 589, in <module>
+    main()
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 246, in main
+    local_memory_index, local_memory_embeddings = init_memory(train_loader, model)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 495, in init_memory
+    outputs.append(model(inp)[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/network/head_p.py", line 32, in forward
+    emb = self.projection_head(feat)   
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 589, in <module>
+    main()
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 246, in main
+    local_memory_index, local_memory_embeddings = init_memory(train_loader, model)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 495, in init_memory
+    outputs.append(model(inp)[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/network/head_p.py", line 32, in forward
+    emb = self.projection_head(feat)   
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 589, in <module>
+    main()
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 246, in main
+    local_memory_index, local_memory_embeddings = init_memory(train_loader, model)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 495, in init_memory
+    outputs.append(model(inp)[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/network/head_p.py", line 32, in forward
+    emb = self.projection_head(feat)   
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 589, in <module>
+    main()
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 246, in main
+    local_memory_index, local_memory_embeddings = init_memory(train_loader, model)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/dcv2.py", line 495, in init_memory
+    outputs.append(model(inp)[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/parallel/distributed.py", line 705, in forward
+    output = self.module(*inputs[0], **kwargs[0])
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/wzy/self-cifar/network/head_p.py", line 32, in forward
+    emb = self.projection_head(feat)   
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/lustre/suxiu/.conda/envs/mms0.3.4/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+phoenix-srun: error: BJ-IDC1-10-10-16-124: task 3: Exited with exit code 1
+phoenix-srun: launch/slurm: _step_signal: Terminating StepId=520026.0
+slurmstepd: error: *** STEP 520026.0 ON BJ-IDC1-10-10-16-124 CANCELLED AT 2022-07-28T16:21:22 ***
+phoenix-srun: error: BJ-IDC1-10-10-16-124: task 1: Exited with exit code 1
+phoenix-srun: error: BJ-IDC1-10-10-16-124: task 0: Exited with exit code 1
+phoenix-srun: error: BJ-IDC1-10-10-16-124: task 2: Exited with exit code 1
+phoenix-srun: job 520063 queued and waiting for resources
+phoenix-srun: job 520063 has been allocated resources
+phoenix-srun: Job 520063 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is P0
+
+INFO - 07/28/22 16:52:00 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:52:00 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:52:00 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 2
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23659
+                                     rank: 2
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:52:00 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:52:00 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 1
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23659
+                                     rank: 1
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:52:00 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:52:00 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:52:00 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 3
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23659
+                                     rank: 3
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:52:00 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:52:01 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/28/22 16:52:01 - 0:00:00 - alpha: 1
+                                     arch: resnet18_cifar
+                                     base_lr: 0.1
+                                     batch_size: 128
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_dcv2_cifar10/checkpoint.pth.tar
+                                     crops_for_assign: [0]
+                                     dataset: cifar10
+                                     dump_checkpoints: checkpoints/exp_dcv2_cifar10/checkpoints
+                                     dump_path: checkpoints/exp_dcv2_cifar10/
+                                     epochs: 120
+                                     evaluate: False
+                                     feat_dim: 64
+                                     final_lr: 0
+                                     freeze_prototypes_niters: 10000000000.0
+                                     hidden_mlp: 1024
+                                     local_rank: 0
+                                     nmb_prototypes: [100]
+                                     no_scaler: True
+                                     num_classes: 10
+                                     port: 23659
+                                     rank: 0
+                                     scheduler: step
+                                     seed: 31
+                                     start_warmup: 0
+                                     sync_bn: pytorch
+                                     syncbn_process_group_size: 8
+                                     temperature: 0.07
+                                     use_LARS: False
+                                     warmup: 10
+                                     warmup_epochs: 10
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 4
+INFO - 07/28/22 16:52:01 - 0:00:00 - The experiment will be stored in checkpoints/exp_dcv2_cifar10/
+                                     
+
+INFO - 07/28/22 16:52:02 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:52:02 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:52:02 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:52:03 - 0:00:03 - Building data done with 50000 images loaded.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building model done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building optimizer done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - LinearHead_p(
+                                       (net): ResNet_CIFAR(
+                                         (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                         (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (relu): ReLU(inplace=True)
+                                         (layer1): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer2): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer3): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer4): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                       )
+                                       (projection_head): Sequential(
+                                         (0): Linear(in_features=512, out_features=1024, bias=True)
+                                         (1): SyncBatchNorm(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=1024, out_features=64, bias=True)
+                                       )
+                                       (fc): Linear(in_features=64, out_features=10, bias=True)
+                                       (pfc): Linear(in_features=64, out_features=100, bias=True)
+                                     )
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building model done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building optimizer done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building model done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building optimizer done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building model done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Building optimizer done.
+INFO - 07/28/22 16:52:08 - 0:00:08 - Start initializing the memory banks
+Files already downloaded and verified
+Files already downloaded and verified
+INFO - 07/28/22 16:52:08 - 0:00:08 - Start initializing the memory banks
+INFO - 07/28/22 16:52:08 - 0:00:08 - Start initializing the memory banks
+INFO - 07/28/22 16:52:08 - 0:00:08 - Start initializing the memory banks
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+INFO - 07/28/22 16:52:12 - 0:00:12 - Initializion of the memory banks done.
+INFO - 07/28/22 16:52:12 - 0:00:12 - ============ Starting epoch 0 ... ============
+INFO - 07/28/22 16:52:12 - 0:00:12 - Initializion of the memory banks done.
+INFO - 07/28/22 16:52:12 - 0:00:12 - ============ Starting epoch 0 ... ============
+INFO - 07/28/22 16:52:12 - 0:00:12 - Initializion of the memory banks done.
+INFO - 07/28/22 16:52:12 - 0:00:12 - ============ Starting epoch 0 ... ============
+INFO - 07/28/22 16:52:12 - 0:00:12 - Initializion of the memory banks done.
+INFO - 07/28/22 16:52:12 - 0:00:12 - ============ Starting epoch 0 ... ============
+INFO - 07/28/22 16:52:13 - 0:00:12 - Clustering for epoch 0 done.
+INFO - 07/28/22 16:52:13 - 0:00:12 - Clustering for epoch 0 done.
+INFO - 07/28/22 16:52:13 - 0:00:13 - Clustering for epoch 0 done.
+INFO - 07/28/22 16:52:13 - 0:00:13 - Clustering for epoch 0 done.
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+[W reducer.cpp:1050] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters. This flag results in an extra traversal of the autograd graph every iteration, which can adversely affect performance. If your model indeed never has any unused parameters, consider turning this flag off. Note that this warning may be a false positive your model has flow control causing later iterations to have unused parameters. (function operator())
+INFO - 07/28/22 16:52:14 - 0:00:14 - Epoch: [0][0]	Time 1.199 (1.199)	Data 0.402 (0.402)	Loss 3.4644 (3.4644)	Loss1 2.3004 (2.3004)	Loss2 4.6284 (4.6284)	Lr: 0.0000
+INFO - 07/28/22 16:52:19 - 0:00:19 - Epoch: [0][50]	Time 0.104 (0.126)	Data 0.000 (0.008)	Loss 2.9641 (3.1282)	Loss1 2.2863 (2.2990)	Loss2 3.6419 (3.9574)	Lr: 0.0052
+INFO - 07/28/22 16:52:24 - 0:00:24 - Epoch: [0][0]	Time 0.509 (0.509)	Data 0.404 (0.404)	Acc@1 17.188(17.188)	Acc@5 65.625(65.625)
+INFO - 07/28/22 16:52:25 - 0:00:25 - Epoch: [0]	Acc@1 18.523849487304688, Acc@5 64.96710205078125	Best Acc@1 18.523849487304688, Best Acc@5 64.96710205078125
+INFO - 07/28/22 16:52:25 - 0:00:25 - ============ Starting epoch 1 ... ============
+INFO - 07/28/22 16:52:25 - 0:00:25 - ============ Starting epoch 1 ... ============
+INFO - 07/28/22 16:52:25 - 0:00:25 - ============ Starting epoch 1 ... ============
+INFO - 07/28/22 16:52:26 - 0:00:26 - ============ Starting epoch 1 ... ============
+INFO - 07/28/22 16:52:26 - 0:00:26 - Clustering for epoch 1 done.
+INFO - 07/28/22 16:52:26 - 0:00:26 - Clustering for epoch 1 done.
+INFO - 07/28/22 16:52:26 - 0:00:26 - Clustering for epoch 1 done.
+INFO - 07/28/22 16:52:26 - 0:00:26 - Clustering for epoch 1 done.
+INFO - 07/28/22 16:52:27 - 0:00:27 - Epoch: [1][0]	Time 0.649 (0.649)	Data 0.372 (0.372)	Loss 3.4910 (3.4910)	Loss1 2.2743 (2.2743)	Loss2 4.7078 (4.7078)	Lr: 0.0100
+INFO - 07/28/22 16:52:32 - 0:00:32 - Epoch: [1][50]	Time 0.110 (0.115)	Data 0.000 (0.008)	Loss 2.8415 (2.9625)	Loss1 2.2483 (2.2574)	Loss2 3.4346 (3.6676)	Lr: 0.0152
+INFO - 07/28/22 16:52:38 - 0:00:37 - Epoch: [1][0]	Time 0.493 (0.493)	Data 0.478 (0.478)	Acc@1 28.906(28.906)	Acc@5 78.125(78.125)
+INFO - 07/28/22 16:52:38 - 0:00:38 - Epoch: [1]	Acc@1 26.9017276763916, Acc@5 77.98108673095703	Best Acc@1 26.9017276763916, Best Acc@5 77.98108673095703
+INFO - 07/28/22 16:52:38 - 0:00:38 - ============ Starting epoch 2 ... ============
+INFO - 07/28/22 16:52:38 - 0:00:38 - ============ Starting epoch 2 ... ============
+INFO - 07/28/22 16:52:38 - 0:00:38 - ============ Starting epoch 2 ... ============
+INFO - 07/28/22 16:52:38 - 0:00:38 - ============ Starting epoch 2 ... ============
+INFO - 07/28/22 16:52:39 - 0:00:38 - Clustering for epoch 2 done.
+INFO - 07/28/22 16:52:39 - 0:00:38 - Clustering for epoch 2 done.
+INFO - 07/28/22 16:52:39 - 0:00:38 - Clustering for epoch 2 done.
+INFO - 07/28/22 16:52:39 - 0:00:38 - Clustering for epoch 2 done.
+INFO - 07/28/22 16:52:39 - 0:00:39 - Epoch: [2][0]	Time 0.607 (0.607)	Data 0.399 (0.399)	Loss 2.6659 (2.6659)	Loss1 2.2060 (2.2060)	Loss2 3.1258 (3.1258)	Lr: 0.0200
+INFO - 07/28/22 16:52:44 - 0:00:44 - Epoch: [2][50]	Time 0.104 (0.114)	Data 0.000 (0.008)	Loss 2.6105 (2.6539)	Loss1 2.1827 (2.1939)	Loss2 3.0384 (3.1139)	Lr: 0.0252
+INFO - 07/28/22 16:52:50 - 0:00:49 - Epoch: [2][0]	Time 0.363 (0.363)	Data 0.347 (0.347)	Acc@1 27.344(27.344)	Acc@5 75.000(75.000)
+INFO - 07/28/22 16:52:50 - 0:00:50 - Epoch: [2]	Acc@1 28.834293365478516, Acc@5 80.09868621826172	Best Acc@1 28.834293365478516, Best Acc@5 80.09868621826172
+INFO - 07/28/22 16:52:50 - 0:00:50 - ============ Starting epoch 3 ... ============
+INFO - 07/28/22 16:52:50 - 0:00:50 - ============ Starting epoch 3 ... ============
+INFO - 07/28/22 16:52:50 - 0:00:50 - ============ Starting epoch 3 ... ============
+INFO - 07/28/22 16:52:50 - 0:00:50 - ============ Starting epoch 3 ... ============
+INFO - 07/28/22 16:52:51 - 0:00:50 - Clustering for epoch 3 done.
+INFO - 07/28/22 16:52:51 - 0:00:50 - Clustering for epoch 3 done.
+INFO - 07/28/22 16:52:51 - 0:00:50 - Clustering for epoch 3 done.
+INFO - 07/28/22 16:52:51 - 0:00:50 - Clustering for epoch 3 done.
+INFO - 07/28/22 16:52:51 - 0:00:51 - Epoch: [3][0]	Time 0.650 (0.650)	Data 0.405 (0.405)	Loss 2.4444 (2.4444)	Loss1 2.1352 (2.1352)	Loss2 2.7536 (2.7536)	Lr: 0.0300
+INFO - 07/28/22 16:52:56 - 0:00:56 - Epoch: [3][50]	Time 0.103 (0.116)	Data 0.000 (0.008)	Loss 2.5130 (2.4850)	Loss1 2.1284 (2.1186)	Loss2 2.8976 (2.8515)	Lr: 0.0352
+INFO - 07/28/22 16:53:02 - 0:01:01 - Epoch: [3][0]	Time 0.371 (0.371)	Data 0.354 (0.354)	Acc@1 32.031(32.031)	Acc@5 79.688(79.688)
+INFO - 07/28/22 16:53:02 - 0:01:02 - Epoch: [3]	Acc@1 31.8359375, Acc@5 83.52178955078125	Best Acc@1 31.8359375, Best Acc@5 83.52178955078125
+INFO - 07/28/22 16:53:02 - 0:01:02 - ============ Starting epoch 4 ... ============
+INFO - 07/28/22 16:53:02 - 0:01:02 - ============ Starting epoch 4 ... ============
+INFO - 07/28/22 16:53:02 - 0:01:02 - ============ Starting epoch 4 ... ============
+INFO - 07/28/22 16:53:02 - 0:01:02 - ============ Starting epoch 4 ... ============
+INFO - 07/28/22 16:53:03 - 0:01:03 - Clustering for epoch 4 done.
+INFO - 07/28/22 16:53:03 - 0:01:03 - Clustering for epoch 4 done.
+INFO - 07/28/22 16:53:03 - 0:01:03 - Clustering for epoch 4 done.
+INFO - 07/28/22 16:53:03 - 0:01:03 - Clustering for epoch 4 done.
+INFO - 07/28/22 16:53:03 - 0:01:03 - Epoch: [4][0]	Time 0.625 (0.625)	Data 0.407 (0.407)	Loss 2.6370 (2.6370)	Loss1 2.0630 (2.0630)	Loss2 3.2111 (3.2111)	Lr: 0.0400
+INFO - 07/28/22 16:53:09 - 0:01:08 - Epoch: [4][50]	Time 0.105 (0.114)	Data 0.000 (0.008)	Loss 2.2754 (2.3775)	Loss1 2.0418 (2.0176)	Loss2 2.5090 (2.7374)	Lr: 0.0452
+INFO - 07/28/22 16:53:14 - 0:01:14 - Epoch: [4][0]	Time 0.389 (0.389)	Data 0.375 (0.375)	Acc@1 33.594(33.594)	Acc@5 81.250(81.250)
+INFO - 07/28/22 16:53:14 - 0:01:14 - Epoch: [4]	Acc@1 32.27796173095703, Acc@5 84.82730102539062	Best Acc@1 32.27796173095703, Best Acc@5 84.82730102539062
+INFO - 07/28/22 16:53:14 - 0:01:14 - ============ Starting epoch 5 ... ============
+INFO - 07/28/22 16:53:14 - 0:01:14 - ============ Starting epoch 5 ... ============
+INFO - 07/28/22 16:53:14 - 0:01:14 - ============ Starting epoch 5 ... ============
+INFO - 07/28/22 16:53:15 - 0:01:14 - ============ Starting epoch 5 ... ============
+INFO - 07/28/22 16:53:15 - 0:01:15 - Clustering for epoch 5 done.
+INFO - 07/28/22 16:53:15 - 0:01:15 - Clustering for epoch 5 done.
+INFO - 07/28/22 16:53:15 - 0:01:15 - Clustering for epoch 5 done.
+INFO - 07/28/22 16:53:15 - 0:01:15 - Clustering for epoch 5 done.
+INFO - 07/28/22 16:53:16 - 0:01:15 - Epoch: [5][0]	Time 0.639 (0.639)	Data 0.395 (0.395)	Loss 2.4208 (2.4208)	Loss1 1.9682 (1.9682)	Loss2 2.8734 (2.8734)	Lr: 0.0500
+INFO - 07/28/22 16:53:21 - 0:01:21 - Epoch: [5][50]	Time 0.112 (0.115)	Data 0.000 (0.008)	Loss 2.1084 (2.2638)	Loss1 1.9738 (1.9403)	Loss2 2.2430 (2.5873)	Lr: 0.0552
+INFO - 07/28/22 16:53:26 - 0:01:26 - Epoch: [5][0]	Time 0.385 (0.385)	Data 0.366 (0.366)	Acc@1 39.844(39.844)	Acc@5 83.594(83.594)
+INFO - 07/28/22 16:53:27 - 0:01:26 - Epoch: [5]	Acc@1 35.30016326904297, Acc@5 85.87582397460938	Best Acc@1 35.30016326904297, Best Acc@5 85.87582397460938
+INFO - 07/28/22 16:53:27 - 0:01:26 - ============ Starting epoch 6 ... ============
+INFO - 07/28/22 16:53:27 - 0:01:26 - ============ Starting epoch 6 ... ============
+INFO - 07/28/22 16:53:27 - 0:01:26 - ============ Starting epoch 6 ... ============
+INFO - 07/28/22 16:53:27 - 0:01:27 - ============ Starting epoch 6 ... ============
+INFO - 07/28/22 16:53:27 - 0:01:27 - Clustering for epoch 6 done.
+INFO - 07/28/22 16:53:27 - 0:01:27 - Clustering for epoch 6 done.
+INFO - 07/28/22 16:53:27 - 0:01:27 - Clustering for epoch 6 done.
+INFO - 07/28/22 16:53:27 - 0:01:27 - Clustering for epoch 6 done.
+INFO - 07/28/22 16:53:28 - 0:01:28 - Epoch: [6][0]	Time 0.631 (0.631)	Data 0.520 (0.520)	Loss 2.3681 (2.3681)	Loss1 1.8411 (1.8411)	Loss2 2.8951 (2.8951)	Lr: 0.0600
+INFO - 07/28/22 16:53:33 - 0:01:33 - Epoch: [6][50]	Time 0.105 (0.116)	Data 0.000 (0.010)	Loss 2.2482 (2.2384)	Loss1 1.9396 (1.8870)	Loss2 2.5567 (2.5898)	Lr: 0.0652
+INFO - 07/28/22 16:53:38 - 0:01:38 - Epoch: [6][0]	Time 0.370 (0.370)	Data 0.355 (0.355)	Acc@1 33.594(33.594)	Acc@5 85.938(85.938)
+INFO - 07/28/22 16:53:39 - 0:01:39 - Epoch: [6]	Acc@1 37.07853698730469, Acc@5 87.3149642944336	Best Acc@1 37.07853698730469, Best Acc@5 87.3149642944336
+INFO - 07/28/22 16:53:39 - 0:01:39 - ============ Starting epoch 7 ... ============
+INFO - 07/28/22 16:53:39 - 0:01:39 - ============ Starting epoch 7 ... ============
+INFO - 07/28/22 16:53:39 - 0:01:39 - ============ Starting epoch 7 ... ============
+INFO - 07/28/22 16:53:39 - 0:01:39 - ============ Starting epoch 7 ... ============
+INFO - 07/28/22 16:53:39 - 0:01:39 - Clustering for epoch 7 done.
+INFO - 07/28/22 16:53:39 - 0:01:39 - Clustering for epoch 7 done.
+INFO - 07/28/22 16:53:39 - 0:01:39 - Clustering for epoch 7 done.
+INFO - 07/28/22 16:53:39 - 0:01:39 - Clustering for epoch 7 done.
+INFO - 07/28/22 16:53:40 - 0:01:40 - Epoch: [7][0]	Time 0.633 (0.633)	Data 0.381 (0.381)	Loss 2.2191 (2.2191)	Loss1 1.7959 (1.7959)	Loss2 2.6422 (2.6422)	Lr: 0.0700
+INFO - 07/28/22 16:53:45 - 0:01:45 - Epoch: [7][50]	Time 0.103 (0.115)	Data 0.000 (0.008)	Loss 2.0310 (2.1742)	Loss1 1.7708 (1.8173)	Loss2 2.2913 (2.5311)	Lr: 0.0752
+INFO - 07/28/22 16:53:50 - 0:01:50 - Epoch: [7][0]	Time 0.369 (0.369)	Data 0.348 (0.348)	Acc@1 38.281(38.281)	Acc@5 87.500(87.500)
+INFO - 07/28/22 16:53:51 - 0:01:51 - Epoch: [7]	Acc@1 38.7746696472168, Acc@5 88.22985076904297	Best Acc@1 38.7746696472168, Best Acc@5 88.22985076904297
+INFO - 07/28/22 16:53:51 - 0:01:51 - ============ Starting epoch 8 ... ============
+INFO - 07/28/22 16:53:51 - 0:01:51 - ============ Starting epoch 8 ... ============
+INFO - 07/28/22 16:53:51 - 0:01:51 - ============ Starting epoch 8 ... ============
+INFO - 07/28/22 16:53:51 - 0:01:51 - ============ Starting epoch 8 ... ============
+INFO - 07/28/22 16:53:51 - 0:01:51 - Clustering for epoch 8 done.
+INFO - 07/28/22 16:53:51 - 0:01:51 - Clustering for epoch 8 done.
+INFO - 07/28/22 16:53:51 - 0:01:51 - Clustering for epoch 8 done.
+INFO - 07/28/22 16:53:51 - 0:01:51 - Clustering for epoch 8 done.
+INFO - 07/28/22 16:53:52 - 0:01:52 - Epoch: [8][0]	Time 0.632 (0.632)	Data 0.439 (0.439)	Loss 2.1261 (2.1261)	Loss1 1.7301 (1.7301)	Loss2 2.5221 (2.5221)	Lr: 0.0800
+INFO - 07/28/22 16:53:57 - 0:01:57 - Epoch: [8][50]	Time 0.103 (0.116)	Data 0.000 (0.009)	Loss 2.1004 (2.1012)	Loss1 1.7325 (1.7671)	Loss2 2.4682 (2.4353)	Lr: 0.0852
+INFO - 07/28/22 16:54:03 - 0:02:02 - Epoch: [8][0]	Time 0.356 (0.356)	Data 0.344 (0.344)	Acc@1 34.375(34.375)	Acc@5 84.375(84.375)
+INFO - 07/28/22 16:54:03 - 0:02:03 - Epoch: [8]	Acc@1 39.67927551269531, Acc@5 89.0213851928711	Best Acc@1 39.67927551269531, Best Acc@5 89.0213851928711
+INFO - 07/28/22 16:54:03 - 0:02:03 - ============ Starting epoch 9 ... ============
+INFO - 07/28/22 16:54:03 - 0:02:03 - ============ Starting epoch 9 ... ============
+INFO - 07/28/22 16:54:03 - 0:02:03 - ============ Starting epoch 9 ... ============
+INFO - 07/28/22 16:54:03 - 0:02:03 - ============ Starting epoch 9 ... ============
+INFO - 07/28/22 16:54:04 - 0:02:03 - Clustering for epoch 9 done.
+INFO - 07/28/22 16:54:04 - 0:02:03 - Clustering for epoch 9 done.
+INFO - 07/28/22 16:54:04 - 0:02:03 - Clustering for epoch 9 done.
+INFO - 07/28/22 16:54:04 - 0:02:03 - Clustering for epoch 9 done.
+INFO - 07/28/22 16:54:04 - 0:02:04 - Epoch: [9][0]	Time 0.584 (0.584)	Data 0.417 (0.417)	Loss 2.1655 (2.1655)	Loss1 1.7076 (1.7076)	Loss2 2.6234 (2.6234)	Lr: 0.0900
+INFO - 07/28/22 16:54:09 - 0:02:09 - Epoch: [9][50]	Time 0.105 (0.114)	Data 0.000 (0.008)	Loss 2.1114 (2.1200)	Loss1 1.7282 (1.7122)	Loss2 2.4946 (2.5277)	Lr: 0.0952
+INFO - 07/28/22 16:54:15 - 0:02:15 - Epoch: [9][0]	Time 0.393 (0.393)	Data 0.377 (0.377)	Acc@1 42.188(42.188)	Acc@5 89.062(89.062)
+INFO - 07/28/22 16:54:15 - 0:02:15 - Epoch: [9]	Acc@1 39.40172576904297, Acc@5 88.2709732055664	Best Acc@1 39.67927551269531, Best Acc@5 89.0213851928711
+INFO - 07/28/22 16:54:15 - 0:02:15 - ============ Starting epoch 10 ... ============
+INFO - 07/28/22 16:54:15 - 0:02:15 - ============ Starting epoch 10 ... ============
+INFO - 07/28/22 16:54:15 - 0:02:15 - ============ Starting epoch 10 ... ============
+INFO - 07/28/22 16:54:16 - 0:02:15 - ============ Starting epoch 10 ... ============
+INFO - 07/28/22 16:54:16 - 0:02:16 - Clustering for epoch 10 done.
+INFO - 07/28/22 16:54:16 - 0:02:16 - Clustering for epoch 10 done.
+INFO - 07/28/22 16:54:16 - 0:02:16 - Clustering for epoch 10 done.
+INFO - 07/28/22 16:54:16 - 0:02:16 - Clustering for epoch 10 done.
+INFO - 07/28/22 16:54:16 - 0:02:16 - Epoch: [10][0]	Time 0.657 (0.657)	Data 0.441 (0.441)	Loss 2.1100 (2.1100)	Loss1 1.6520 (1.6520)	Loss2 2.5681 (2.5681)	Lr: 0.0999
+INFO - 07/28/22 16:54:22 - 0:02:21 - Epoch: [10][50]	Time 0.102 (0.115)	Data 0.000 (0.009)	Loss 2.0436 (2.0257)	Loss1 1.6566 (1.6544)	Loss2 2.4306 (2.3969)	Lr: 0.0999
+INFO - 07/28/22 16:54:27 - 0:02:27 - Epoch: [10][0]	Time 0.495 (0.495)	Data 0.470 (0.470)	Acc@1 40.625(40.625)	Acc@5 89.844(89.844)
+INFO - 07/28/22 16:54:28 - 0:02:27 - Epoch: [10]	Acc@1 43.5546875, Acc@5 91.30345153808594	Best Acc@1 43.5546875, Best Acc@5 91.30345153808594
+INFO - 07/28/22 16:54:28 - 0:02:27 - ============ Starting epoch 11 ... ============
+INFO - 07/28/22 16:54:28 - 0:02:27 - ============ Starting epoch 11 ... ============
+INFO - 07/28/22 16:54:28 - 0:02:27 - ============ Starting epoch 11 ... ============
+INFO - 07/28/22 16:54:28 - 0:02:28 - ============ Starting epoch 11 ... ============
+INFO - 07/28/22 16:54:28 - 0:02:28 - Clustering for epoch 11 done.
+INFO - 07/28/22 16:54:28 - 0:02:28 - Clustering for epoch 11 done.
+INFO - 07/28/22 16:54:28 - 0:02:28 - Clustering for epoch 11 done.
+INFO - 07/28/22 16:54:28 - 0:02:28 - Clustering for epoch 11 done.
+INFO - 07/28/22 16:54:29 - 0:02:28 - Epoch: [11][0]	Time 0.635 (0.635)	Data 0.432 (0.432)	Loss 1.8177 (1.8177)	Loss1 1.4783 (1.4783)	Loss2 2.1570 (2.1570)	Lr: 0.0999
+INFO - 07/28/22 16:54:34 - 0:02:34 - Epoch: [11][50]	Time 0.104 (0.116)	Data 0.000 (0.009)	Loss 1.9845 (2.0166)	Loss1 1.5866 (1.5972)	Loss2 2.3824 (2.4359)	Lr: 0.0999
+INFO - 07/28/22 16:54:39 - 0:02:39 - Epoch: [11][0]	Time 0.357 (0.357)	Data 0.347 (0.347)	Acc@1 45.312(45.312)	Acc@5 89.844(89.844)
+INFO - 07/28/22 16:54:40 - 0:02:39 - Epoch: [11]	Acc@1 46.0012321472168, Acc@5 91.9921875	Best Acc@1 46.0012321472168, Best Acc@5 91.9921875
+INFO - 07/28/22 16:54:40 - 0:02:40 - ============ Starting epoch 12 ... ============
+INFO - 07/28/22 16:54:40 - 0:02:40 - ============ Starting epoch 12 ... ============
+INFO - 07/28/22 16:54:40 - 0:02:40 - ============ Starting epoch 12 ... ============
+INFO - 07/28/22 16:54:40 - 0:02:40 - ============ Starting epoch 12 ... ============
+INFO - 07/28/22 16:54:40 - 0:02:40 - Clustering for epoch 12 done.
+INFO - 07/28/22 16:54:40 - 0:02:40 - Clustering for epoch 12 done.
+INFO - 07/28/22 16:54:40 - 0:02:40 - Clustering for epoch 12 done.
+INFO - 07/28/22 16:54:40 - 0:02:40 - Clustering for epoch 12 done.
+INFO - 07/28/22 16:54:41 - 0:02:41 - Epoch: [12][0]	Time 0.639 (0.639)	Data 0.422 (0.422)	Loss 2.1340 (2.1340)	Loss1 1.5094 (1.5094)	Loss2 2.7585 (2.7585)	Lr: 0.0999
+INFO - 07/28/22 16:54:46 - 0:02:46 - Epoch: [12][50]	Time 0.109 (0.117)	Data 0.000 (0.009)	Loss 1.8626 (1.9292)	Loss1 1.4777 (1.5474)	Loss2 2.2474 (2.3111)	Lr: 0.0999
+INFO - 07/28/22 16:54:51 - 0:02:51 - Epoch: [12][0]	Time 0.405 (0.405)	Data 0.386 (0.386)	Acc@1 48.438(48.438)	Acc@5 91.406(91.406)
+INFO - 07/28/22 16:54:52 - 0:02:52 - Epoch: [12]	Acc@1 46.875, Acc@5 91.73519897460938	Best Acc@1 46.875, Best Acc@5 91.9921875
+INFO - 07/28/22 16:54:52 - 0:02:52 - ============ Starting epoch 13 ... ============
+INFO - 07/28/22 16:54:52 - 0:02:52 - ============ Starting epoch 13 ... ============
+INFO - 07/28/22 16:54:52 - 0:02:52 - ============ Starting epoch 13 ... ============
+INFO - 07/28/22 16:54:52 - 0:02:52 - ============ Starting epoch 13 ... ============
+INFO - 07/28/22 16:54:52 - 0:02:52 - Clustering for epoch 13 done.
+INFO - 07/28/22 16:54:52 - 0:02:52 - Clustering for epoch 13 done.
+INFO - 07/28/22 16:54:52 - 0:02:52 - Clustering for epoch 13 done.
+INFO - 07/28/22 16:54:52 - 0:02:52 - Clustering for epoch 13 done.
+INFO - 07/28/22 16:54:53 - 0:02:53 - Epoch: [13][0]	Time 0.688 (0.688)	Data 0.411 (0.411)	Loss 1.9543 (1.9543)	Loss1 1.5446 (1.5446)	Loss2 2.3641 (2.3641)	Lr: 0.0999
+INFO - 07/28/22 16:54:58 - 0:02:58 - Epoch: [13][50]	Time 0.106 (0.118)	Data 0.000 (0.008)	Loss 1.8531 (1.8769)	Loss1 1.5859 (1.4858)	Loss2 2.1202 (2.2680)	Lr: 0.0999
+INFO - 07/28/22 16:55:04 - 0:03:04 - Epoch: [13][0]	Time 0.408 (0.408)	Data 0.397 (0.397)	Acc@1 47.656(47.656)	Acc@5 93.750(93.750)
+INFO - 07/28/22 16:55:04 - 0:03:04 - Epoch: [13]	Acc@1 51.93256759643555, Acc@5 93.5649642944336	Best Acc@1 51.93256759643555, Best Acc@5 93.5649642944336
+INFO - 07/28/22 16:55:04 - 0:03:04 - ============ Starting epoch 14 ... ============
+INFO - 07/28/22 16:55:04 - 0:03:04 - ============ Starting epoch 14 ... ============
+INFO - 07/28/22 16:55:04 - 0:03:04 - ============ Starting epoch 14 ... ============
+INFO - 07/28/22 16:55:05 - 0:03:04 - ============ Starting epoch 14 ... ============
+INFO - 07/28/22 16:55:05 - 0:03:05 - Clustering for epoch 14 done.
+INFO - 07/28/22 16:55:05 - 0:03:05 - Clustering for epoch 14 done.
+INFO - 07/28/22 16:55:05 - 0:03:05 - Clustering for epoch 14 done.
+INFO - 07/28/22 16:55:05 - 0:03:05 - Clustering for epoch 14 done.
+INFO - 07/28/22 16:55:06 - 0:03:05 - Epoch: [14][0]	Time 0.650 (0.650)	Data 0.424 (0.424)	Loss 1.9678 (1.9678)	Loss1 1.5438 (1.5438)	Loss2 2.3918 (2.3918)	Lr: 0.0999
+INFO - 07/28/22 16:55:11 - 0:03:11 - Epoch: [14][50]	Time 0.109 (0.116)	Data 0.000 (0.009)	Loss 1.7668 (1.8366)	Loss1 1.2728 (1.4163)	Loss2 2.2609 (2.2568)	Lr: 0.0999
+INFO - 07/28/22 16:55:16 - 0:03:16 - Epoch: [14][0]	Time 0.487 (0.487)	Data 0.465 (0.465)	Acc@1 51.562(51.562)	Acc@5 91.406(91.406)
+INFO - 07/28/22 16:55:17 - 0:03:17 - Epoch: [14]	Acc@1 51.97368240356445, Acc@5 94.00698852539062	Best Acc@1 51.97368240356445, Best Acc@5 94.00698852539062
+INFO - 07/28/22 16:55:17 - 0:03:17 - ============ Starting epoch 15 ... ============
+INFO - 07/28/22 16:55:17 - 0:03:17 - ============ Starting epoch 15 ... ============
+INFO - 07/28/22 16:55:17 - 0:03:17 - ============ Starting epoch 15 ... ============
+INFO - 07/28/22 16:55:17 - 0:03:17 - ============ Starting epoch 15 ... ============
+INFO - 07/28/22 16:55:17 - 0:03:17 - Clustering for epoch 15 done.
+INFO - 07/28/22 16:55:17 - 0:03:17 - Clustering for epoch 15 done.
+INFO - 07/28/22 16:55:17 - 0:03:17 - Clustering for epoch 15 done.
+INFO - 07/28/22 16:55:17 - 0:03:17 - Clustering for epoch 15 done.
+INFO - 07/28/22 16:55:18 - 0:03:18 - Epoch: [15][0]	Time 0.660 (0.660)	Data 0.451 (0.451)	Loss 1.8686 (1.8686)	Loss1 1.4151 (1.4151)	Loss2 2.3221 (2.3221)	Lr: 0.0999
+INFO - 07/28/22 16:55:23 - 0:03:23 - Epoch: [15][50]	Time 0.105 (0.116)	Data 0.000 (0.009)	Loss 1.4990 (1.7514)	Loss1 1.3567 (1.3822)	Loss2 1.6414 (2.1205)	Lr: 0.0999
+INFO - 07/28/22 16:55:29 - 0:03:28 - Epoch: [15][0]	Time 0.374 (0.374)	Data 0.357 (0.357)	Acc@1 51.562(51.562)	Acc@5 91.406(91.406)
+INFO - 07/28/22 16:55:29 - 0:03:29 - Epoch: [15]	Acc@1 53.28947448730469, Acc@5 93.89391326904297	Best Acc@1 53.28947448730469, Best Acc@5 94.00698852539062
+INFO - 07/28/22 16:55:29 - 0:03:29 - ============ Starting epoch 16 ... ============
+INFO - 07/28/22 16:55:29 - 0:03:29 - ============ Starting epoch 16 ... ============
+INFO - 07/28/22 16:55:29 - 0:03:29 - ============ Starting epoch 16 ... ============
+INFO - 07/28/22 16:55:29 - 0:03:29 - ============ Starting epoch 16 ... ============
+INFO - 07/28/22 16:55:30 - 0:03:29 - Clustering for epoch 16 done.
+INFO - 07/28/22 16:55:30 - 0:03:29 - Clustering for epoch 16 done.
+INFO - 07/28/22 16:55:30 - 0:03:29 - Clustering for epoch 16 done.
+INFO - 07/28/22 16:55:30 - 0:03:29 - Clustering for epoch 16 done.
+INFO - 07/28/22 16:55:30 - 0:03:30 - Epoch: [16][0]	Time 0.641 (0.641)	Data 0.401 (0.401)	Loss 1.6897 (1.6897)	Loss1 1.2666 (1.2666)	Loss2 2.1128 (2.1128)	Lr: 0.0999
+INFO - 07/28/22 16:55:36 - 0:03:35 - Epoch: [16][50]	Time 0.105 (0.117)	Data 0.000 (0.008)	Loss 1.7866 (1.7225)	Loss1 1.3913 (1.3296)	Loss2 2.1818 (2.1153)	Lr: 0.0999
+INFO - 07/28/22 16:55:41 - 0:03:41 - Epoch: [16][0]	Time 0.389 (0.389)	Data 0.376 (0.376)	Acc@1 55.469(55.469)	Acc@5 92.969(92.969)
+INFO - 07/28/22 16:55:41 - 0:03:41 - Epoch: [16]	Acc@1 56.10608673095703, Acc@5 94.95271301269531	Best Acc@1 56.10608673095703, Best Acc@5 94.95271301269531
+INFO - 07/28/22 16:55:41 - 0:03:41 - ============ Starting epoch 17 ... ============
+INFO - 07/28/22 16:55:41 - 0:03:41 - ============ Starting epoch 17 ... ============
+INFO - 07/28/22 16:55:42 - 0:03:41 - ============ Starting epoch 17 ... ============
+INFO - 07/28/22 16:55:42 - 0:03:41 - ============ Starting epoch 17 ... ============
+INFO - 07/28/22 16:55:42 - 0:03:42 - Clustering for epoch 17 done.
+INFO - 07/28/22 16:55:42 - 0:03:42 - Clustering for epoch 17 done.
+INFO - 07/28/22 16:55:42 - 0:03:42 - Clustering for epoch 17 done.
+INFO - 07/28/22 16:55:42 - 0:03:42 - Clustering for epoch 17 done.
+INFO - 07/28/22 16:55:43 - 0:03:42 - Epoch: [17][0]	Time 0.636 (0.636)	Data 0.447 (0.447)	Loss 1.7591 (1.7591)	Loss1 1.3576 (1.3576)	Loss2 2.1606 (2.1606)	Lr: 0.0999
+INFO - 07/28/22 16:55:48 - 0:03:48 - Epoch: [17][50]	Time 0.104 (0.116)	Data 0.000 (0.009)	Loss 1.6299 (1.6910)	Loss1 1.2653 (1.2717)	Loss2 1.9945 (2.1102)	Lr: 0.0999
+INFO - 07/28/22 16:55:53 - 0:03:53 - Epoch: [17][0]	Time 0.416 (0.416)	Data 0.398 (0.398)	Acc@1 56.250(56.250)	Acc@5 94.531(94.531)
+INFO - 07/28/22 16:55:54 - 0:03:54 - Epoch: [17]	Acc@1 58.41899490356445, Acc@5 95.80592346191406	Best Acc@1 58.41899490356445, Best Acc@5 95.80592346191406
+INFO - 07/28/22 16:55:54 - 0:03:54 - ============ Starting epoch 18 ... ============
+INFO - 07/28/22 16:55:54 - 0:03:54 - ============ Starting epoch 18 ... ============
+INFO - 07/28/22 16:55:54 - 0:03:54 - ============ Starting epoch 18 ... ============
+INFO - 07/28/22 16:55:54 - 0:03:54 - ============ Starting epoch 18 ... ============
+INFO - 07/28/22 16:55:54 - 0:03:54 - Clustering for epoch 18 done.
+INFO - 07/28/22 16:55:54 - 0:03:54 - Clustering for epoch 18 done.
+INFO - 07/28/22 16:55:54 - 0:03:54 - Clustering for epoch 18 done.
+INFO - 07/28/22 16:55:54 - 0:03:54 - Clustering for epoch 18 done.
+INFO - 07/28/22 16:55:55 - 0:03:55 - Epoch: [18][0]	Time 0.656 (0.656)	Data 0.408 (0.408)	Loss 1.8717 (1.8717)	Loss1 1.1478 (1.1478)	Loss2 2.5957 (2.5957)	Lr: 0.0999
+INFO - 07/28/22 16:56:00 - 0:04:00 - Epoch: [18][50]	Time 0.109 (0.117)	Data 0.000 (0.008)	Loss 1.5524 (1.6858)	Loss1 1.0911 (1.2468)	Loss2 2.0137 (2.1248)	Lr: 0.0999
+INFO - 07/28/22 16:56:06 - 0:04:05 - Epoch: [18][0]	Time 0.391 (0.391)	Data 0.378 (0.378)	Acc@1 53.906(53.906)	Acc@5 96.094(96.094)
+INFO - 07/28/22 16:56:06 - 0:04:06 - Epoch: [18]	Acc@1 56.84621810913086, Acc@5 95.76480102539062	Best Acc@1 58.41899490356445, Best Acc@5 95.80592346191406
+INFO - 07/28/22 16:56:06 - 0:04:06 - ============ Starting epoch 19 ... ============
+INFO - 07/28/22 16:56:06 - 0:04:06 - ============ Starting epoch 19 ... ============
+INFO - 07/28/22 16:56:06 - 0:04:06 - ============ Starting epoch 19 ... ============
+INFO - 07/28/22 16:56:06 - 0:04:06 - ============ Starting epoch 19 ... ============
+INFO - 07/28/22 16:56:07 - 0:04:07 - Clustering for epoch 19 done.
+INFO - 07/28/22 16:56:07 - 0:04:07 - Clustering for epoch 19 done.
+INFO - 07/28/22 16:56:07 - 0:04:07 - Clustering for epoch 19 done.
+INFO - 07/28/22 16:56:07 - 0:04:07 - Clustering for epoch 19 done.
+INFO - 07/28/22 16:56:07 - 0:04:07 - Epoch: [19][0]	Time 0.672 (0.672)	Data 0.472 (0.472)	Loss 1.6699 (1.6699)	Loss1 1.1646 (1.1646)	Loss2 2.1752 (2.1752)	Lr: 0.0999
+INFO - 07/28/22 16:56:13 - 0:04:12 - Epoch: [19][50]	Time 0.104 (0.117)	Data 0.001 (0.010)	Loss 1.5437 (1.6383)	Loss1 1.0390 (1.1854)	Loss2 2.0484 (2.0912)	Lr: 0.0999
+INFO - 07/28/22 16:56:18 - 0:04:18 - Epoch: [19][0]	Time 0.371 (0.371)	Data 0.359 (0.359)	Acc@1 59.375(59.375)	Acc@5 93.750(93.750)
+INFO - 07/28/22 16:56:19 - 0:04:18 - Epoch: [19]	Acc@1 59.80674362182617, Acc@5 95.3227767944336	Best Acc@1 59.80674362182617, Best Acc@5 95.80592346191406
+INFO - 07/28/22 16:56:19 - 0:04:18 - ============ Starting epoch 20 ... ============
+INFO - 07/28/22 16:56:19 - 0:04:18 - ============ Starting epoch 20 ... ============
+INFO - 07/28/22 16:56:19 - 0:04:18 - ============ Starting epoch 20 ... ============
+INFO - 07/28/22 16:56:19 - 0:04:19 - ============ Starting epoch 20 ... ============
+INFO - 07/28/22 16:56:19 - 0:04:19 - Clustering for epoch 20 done.
+INFO - 07/28/22 16:56:19 - 0:04:19 - Clustering for epoch 20 done.
+INFO - 07/28/22 16:56:19 - 0:04:19 - Clustering for epoch 20 done.
+INFO - 07/28/22 16:56:19 - 0:04:19 - Clustering for epoch 20 done.
+INFO - 07/28/22 16:56:20 - 0:04:19 - Epoch: [20][0]	Time 0.643 (0.643)	Data 0.425 (0.425)	Loss 1.6535 (1.6535)	Loss1 1.0639 (1.0639)	Loss2 2.2430 (2.2430)	Lr: 0.0999
+INFO - 07/28/22 16:56:25 - 0:04:25 - Epoch: [20][50]	Time 0.105 (0.118)	Data 0.000 (0.009)	Loss 1.5581 (1.6158)	Loss1 1.1516 (1.1644)	Loss2 1.9647 (2.0672)	Lr: 0.0999
+INFO - 07/28/22 16:56:30 - 0:04:30 - Epoch: [20][0]	Time 0.378 (0.378)	Data 0.360 (0.360)	Acc@1 59.375(59.375)	Acc@5 95.312(95.312)
+INFO - 07/28/22 16:56:31 - 0:04:31 - Epoch: [20]	Acc@1 61.975738525390625, Acc@5 96.40213775634766	Best Acc@1 61.975738525390625, Best Acc@5 96.40213775634766
+INFO - 07/28/22 16:56:31 - 0:04:31 - ============ Starting epoch 21 ... ============
+INFO - 07/28/22 16:56:31 - 0:04:31 - ============ Starting epoch 21 ... ============
+INFO - 07/28/22 16:56:31 - 0:04:31 - ============ Starting epoch 21 ... ============
+INFO - 07/28/22 16:56:31 - 0:04:31 - ============ Starting epoch 21 ... ============
+INFO - 07/28/22 16:56:31 - 0:04:31 - Clustering for epoch 21 done.
+INFO - 07/28/22 16:56:31 - 0:04:31 - Clustering for epoch 21 done.
+INFO - 07/28/22 16:56:31 - 0:04:31 - Clustering for epoch 21 done.
+INFO - 07/28/22 16:56:31 - 0:04:31 - Clustering for epoch 21 done.
+INFO - 07/28/22 16:56:32 - 0:04:32 - Epoch: [21][0]	Time 0.628 (0.628)	Data 0.447 (0.447)	Loss 1.4951 (1.4951)	Loss1 1.0279 (1.0279)	Loss2 1.9623 (1.9623)	Lr: 0.0999
+INFO - 07/28/22 16:56:37 - 0:04:37 - Epoch: [21][50]	Time 0.110 (0.116)	Data 0.000 (0.009)	Loss 1.4289 (1.5253)	Loss1 1.0615 (1.1012)	Loss2 1.7964 (1.9495)	Lr: 0.0999
+INFO - 07/28/22 16:56:43 - 0:04:43 - Epoch: [21][0]	Time 0.487 (0.487)	Data 0.467 (0.467)	Acc@1 61.719(61.719)	Acc@5 96.875(96.875)
+INFO - 07/28/22 16:56:43 - 0:04:43 - Epoch: [21]	Acc@1 63.32236862182617, Acc@5 96.73108673095703	Best Acc@1 63.32236862182617, Best Acc@5 96.73108673095703
+INFO - 07/28/22 16:56:43 - 0:04:43 - ============ Starting epoch 22 ... ============
+INFO - 07/28/22 16:56:43 - 0:04:43 - ============ Starting epoch 22 ... ============
+INFO - 07/28/22 16:56:43 - 0:04:43 - ============ Starting epoch 22 ... ============
+INFO - 07/28/22 16:56:44 - 0:04:43 - ============ Starting epoch 22 ... ============
+INFO - 07/28/22 16:56:44 - 0:04:44 - Clustering for epoch 22 done.
+INFO - 07/28/22 16:56:44 - 0:04:44 - Clustering for epoch 22 done.
+INFO - 07/28/22 16:56:44 - 0:04:44 - Clustering for epoch 22 done.
+INFO - 07/28/22 16:56:44 - 0:04:44 - Clustering for epoch 22 done.
+INFO - 07/28/22 16:56:44 - 0:04:44 - Epoch: [22][0]	Time 0.631 (0.631)	Data 0.390 (0.390)	Loss 1.5446 (1.5446)	Loss1 0.9662 (0.9662)	Loss2 2.1229 (2.1229)	Lr: 0.0999
+INFO - 07/28/22 16:56:50 - 0:04:49 - Epoch: [22][50]	Time 0.103 (0.117)	Data 0.000 (0.008)	Loss 1.5830 (1.5479)	Loss1 1.1686 (1.0730)	Loss2 1.9973 (2.0228)	Lr: 0.0999
+INFO - 07/28/22 16:56:55 - 0:04:55 - Epoch: [22][0]	Time 0.382 (0.382)	Data 0.367 (0.367)	Acc@1 60.938(60.938)	Acc@5 95.312(95.312)
+INFO - 07/28/22 16:56:56 - 0:04:55 - Epoch: [22]	Acc@1 65.2446517944336, Acc@5 96.85443878173828	Best Acc@1 65.2446517944336, Best Acc@5 96.85443878173828
+INFO - 07/28/22 16:56:56 - 0:04:55 - ============ Starting epoch 23 ... ============
+INFO - 07/28/22 16:56:56 - 0:04:55 - ============ Starting epoch 23 ... ============
+INFO - 07/28/22 16:56:56 - 0:04:55 - ============ Starting epoch 23 ... ============
+INFO - 07/28/22 16:56:56 - 0:04:56 - ============ Starting epoch 23 ... ============
+INFO - 07/28/22 16:56:56 - 0:04:56 - Clustering for epoch 23 done.
+INFO - 07/28/22 16:56:56 - 0:04:56 - Clustering for epoch 23 done.
+INFO - 07/28/22 16:56:56 - 0:04:56 - Clustering for epoch 23 done.
+INFO - 07/28/22 16:56:56 - 0:04:56 - Clustering for epoch 23 done.
+INFO - 07/28/22 16:56:57 - 0:04:57 - Epoch: [23][0]	Time 0.738 (0.738)	Data 0.525 (0.525)	Loss 1.5196 (1.5196)	Loss1 0.9968 (0.9968)	Loss2 2.0424 (2.0424)	Lr: 0.0999
+INFO - 07/28/22 16:57:02 - 0:05:02 - Epoch: [23][50]	Time 0.107 (0.119)	Data 0.000 (0.011)	Loss 1.5193 (1.5234)	Loss1 1.0498 (1.0458)	Loss2 1.9887 (2.0009)	Lr: 0.0999
+INFO - 07/28/22 16:57:08 - 0:05:07 - Epoch: [23][0]	Time 0.382 (0.382)	Data 0.362 (0.362)	Acc@1 60.938(60.938)	Acc@5 96.094(96.094)
+INFO - 07/28/22 16:57:08 - 0:05:08 - Epoch: [23]	Acc@1 63.9597053527832, Acc@5 95.67228698730469	Best Acc@1 65.2446517944336, Best Acc@5 96.85443878173828
+INFO - 07/28/22 16:57:08 - 0:05:08 - ============ Starting epoch 24 ... ============
+INFO - 07/28/22 16:57:08 - 0:05:08 - ============ Starting epoch 24 ... ============
+INFO - 07/28/22 16:57:08 - 0:05:08 - ============ Starting epoch 24 ... ============
+INFO - 07/28/22 16:57:08 - 0:05:08 - ============ Starting epoch 24 ... ============
+INFO - 07/28/22 16:57:09 - 0:05:08 - Clustering for epoch 24 done.
+INFO - 07/28/22 16:57:09 - 0:05:08 - Clustering for epoch 24 done.
+INFO - 07/28/22 16:57:09 - 0:05:08 - Clustering for epoch 24 done.
+INFO - 07/28/22 16:57:09 - 0:05:08 - Clustering for epoch 24 done.
+INFO - 07/28/22 16:57:09 - 0:05:09 - Epoch: [24][0]	Time 0.631 (0.631)	Data 0.415 (0.415)	Loss 1.7593 (1.7593)	Loss1 1.1171 (1.1171)	Loss2 2.4015 (2.4015)	Lr: 0.0999
+INFO - 07/28/22 16:57:15 - 0:05:14 - Epoch: [24][50]	Time 0.107 (0.117)	Data 0.000 (0.008)	Loss 1.4216 (1.4865)	Loss1 0.9935 (1.0233)	Loss2 1.8498 (1.9498)	Lr: 0.0999
+INFO - 07/28/22 16:57:20 - 0:05:20 - Epoch: [24][0]	Time 0.377 (0.377)	Data 0.365 (0.365)	Acc@1 62.500(62.500)	Acc@5 95.312(95.312)
+INFO - 07/28/22 16:57:21 - 0:05:20 - Epoch: [24]	Acc@1 65.57360076904297, Acc@5 97.04975128173828	Best Acc@1 65.57360076904297, Best Acc@5 97.04975128173828
+INFO - 07/28/22 16:57:21 - 0:05:20 - ============ Starting epoch 25 ... ============
+INFO - 07/28/22 16:57:21 - 0:05:20 - ============ Starting epoch 25 ... ============
+INFO - 07/28/22 16:57:21 - 0:05:20 - ============ Starting epoch 25 ... ============
+INFO - 07/28/22 16:57:21 - 0:05:21 - ============ Starting epoch 25 ... ============
+INFO - 07/28/22 16:57:21 - 0:05:21 - Clustering for epoch 25 done.
+INFO - 07/28/22 16:57:21 - 0:05:21 - Clustering for epoch 25 done.
+INFO - 07/28/22 16:57:21 - 0:05:21 - Clustering for epoch 25 done.
+INFO - 07/28/22 16:57:21 - 0:05:21 - Clustering for epoch 25 done.
+INFO - 07/28/22 16:57:22 - 0:05:21 - Epoch: [25][0]	Time 0.646 (0.646)	Data 0.423 (0.423)	Loss 1.5985 (1.5985)	Loss1 1.0381 (1.0381)	Loss2 2.1589 (2.1589)	Lr: 0.0999
+INFO - 07/28/22 16:57:27 - 0:05:27 - Epoch: [25][50]	Time 0.106 (0.118)	Data 0.000 (0.009)	Loss 1.5739 (1.4778)	Loss1 1.1563 (1.0007)	Loss2 1.9915 (1.9548)	Lr: 0.0999
+INFO - 07/28/22 16:57:32 - 0:05:32 - Epoch: [25][0]	Time 0.384 (0.384)	Data 0.362 (0.362)	Acc@1 59.375(59.375)	Acc@5 97.656(97.656)
+INFO - 07/28/22 16:57:33 - 0:05:33 - Epoch: [25]	Acc@1 67.04358673095703, Acc@5 97.17311096191406	Best Acc@1 67.04358673095703, Best Acc@5 97.17311096191406
+INFO - 07/28/22 16:57:33 - 0:05:33 - ============ Starting epoch 26 ... ============
+INFO - 07/28/22 16:57:33 - 0:05:33 - ============ Starting epoch 26 ... ============
+INFO - 07/28/22 16:57:33 - 0:05:33 - ============ Starting epoch 26 ... ============
+INFO - 07/28/22 16:57:33 - 0:05:33 - ============ Starting epoch 26 ... ============
+INFO - 07/28/22 16:57:34 - 0:05:33 - Clustering for epoch 26 done.
+INFO - 07/28/22 16:57:34 - 0:05:33 - Clustering for epoch 26 done.
+INFO - 07/28/22 16:57:34 - 0:05:33 - Clustering for epoch 26 done.
+INFO - 07/28/22 16:57:34 - 0:05:33 - Clustering for epoch 26 done.
+INFO - 07/28/22 16:57:34 - 0:05:34 - Epoch: [26][0]	Time 0.651 (0.651)	Data 0.431 (0.431)	Loss 1.6420 (1.6420)	Loss1 0.8903 (0.8903)	Loss2 2.3936 (2.3936)	Lr: 0.0999
+INFO - 07/28/22 16:57:40 - 0:05:39 - Epoch: [26][50]	Time 0.106 (0.118)	Data 0.000 (0.009)	Loss 1.3205 (1.4692)	Loss1 0.9976 (0.9652)	Loss2 1.6433 (1.9731)	Lr: 0.0999
+INFO - 07/28/22 16:57:45 - 0:05:45 - Epoch: [26][0]	Time 0.399 (0.399)	Data 0.386 (0.386)	Acc@1 57.812(57.812)	Acc@5 95.312(95.312)
+INFO - 07/28/22 16:57:46 - 0:05:45 - Epoch: [26]	Acc@1 65.68667602539062, Acc@5 97.04975128173828	Best Acc@1 67.04358673095703, Best Acc@5 97.17311096191406
+INFO - 07/28/22 16:57:46 - 0:05:45 - ============ Starting epoch 27 ... ============
+INFO - 07/28/22 16:57:46 - 0:05:45 - ============ Starting epoch 27 ... ============
+INFO - 07/28/22 16:57:46 - 0:05:45 - ============ Starting epoch 27 ... ============
+INFO - 07/28/22 16:57:46 - 0:05:46 - ============ Starting epoch 27 ... ============
+INFO - 07/28/22 16:57:46 - 0:05:46 - Clustering for epoch 27 done.
+INFO - 07/28/22 16:57:46 - 0:05:46 - Clustering for epoch 27 done.
+INFO - 07/28/22 16:57:46 - 0:05:46 - Clustering for epoch 27 done.
+INFO - 07/28/22 16:57:46 - 0:05:46 - Clustering for epoch 27 done.
+INFO - 07/28/22 16:57:47 - 0:05:47 - Epoch: [27][0]	Time 0.661 (0.661)	Data 0.462 (0.462)	Loss 1.6538 (1.6538)	Loss1 1.0245 (1.0245)	Loss2 2.2831 (2.2831)	Lr: 0.0999
+INFO - 07/28/22 16:57:52 - 0:05:52 - Epoch: [27][50]	Time 0.103 (0.118)	Data 0.000 (0.009)	Loss 1.4159 (1.4758)	Loss1 0.9164 (0.9634)	Loss2 1.9154 (1.9881)	Lr: 0.0999
+INFO - 07/28/22 16:57:58 - 0:05:57 - Epoch: [27][0]	Time 0.471 (0.471)	Data 0.455 (0.455)	Acc@1 64.844(64.844)	Acc@5 96.875(96.875)
+INFO - 07/28/22 16:57:58 - 0:05:58 - Epoch: [27]	Acc@1 68.25657653808594, Acc@5 97.24506378173828	Best Acc@1 68.25657653808594, Best Acc@5 97.24506378173828
+INFO - 07/28/22 16:57:58 - 0:05:58 - ============ Starting epoch 28 ... ============
+INFO - 07/28/22 16:57:58 - 0:05:58 - ============ Starting epoch 28 ... ============
+INFO - 07/28/22 16:57:58 - 0:05:58 - ============ Starting epoch 28 ... ============
+INFO - 07/28/22 16:57:58 - 0:05:58 - ============ Starting epoch 28 ... ============
+INFO - 07/28/22 16:57:59 - 0:05:58 - Clustering for epoch 28 done.
+INFO - 07/28/22 16:57:59 - 0:05:58 - Clustering for epoch 28 done.
+INFO - 07/28/22 16:57:59 - 0:05:58 - Clustering for epoch 28 done.
+INFO - 07/28/22 16:57:59 - 0:05:58 - Clustering for epoch 28 done.
+INFO - 07/28/22 16:57:59 - 0:05:59 - Epoch: [28][0]	Time 0.629 (0.629)	Data 0.429 (0.429)	Loss 1.3891 (1.3891)	Loss1 0.8166 (0.8166)	Loss2 1.9615 (1.9615)	Lr: 0.0999
+INFO - 07/28/22 16:58:05 - 0:06:04 - Epoch: [28][50]	Time 0.110 (0.116)	Data 0.000 (0.009)	Loss 1.3758 (1.4028)	Loss1 0.9332 (0.9079)	Loss2 1.8185 (1.8978)	Lr: 0.0999
+INFO - 07/28/22 16:58:10 - 0:06:10 - Epoch: [28][0]	Time 0.401 (0.401)	Data 0.384 (0.384)	Acc@1 70.312(70.312)	Acc@5 96.094(96.094)
+INFO - 07/28/22 16:58:10 - 0:06:10 - Epoch: [28]	Acc@1 69.89103698730469, Acc@5 97.83100128173828	Best Acc@1 69.89103698730469, Best Acc@5 97.83100128173828
+INFO - 07/28/22 16:58:10 - 0:06:10 - ============ Starting epoch 29 ... ============
+INFO - 07/28/22 16:58:10 - 0:06:10 - ============ Starting epoch 29 ... ============
+INFO - 07/28/22 16:58:10 - 0:06:10 - ============ Starting epoch 29 ... ============
+INFO - 07/28/22 16:58:11 - 0:06:10 - ============ Starting epoch 29 ... ============
+INFO - 07/28/22 16:58:11 - 0:06:11 - Clustering for epoch 29 done.
+INFO - 07/28/22 16:58:11 - 0:06:11 - Clustering for epoch 29 done.
+INFO - 07/28/22 16:58:11 - 0:06:11 - Clustering for epoch 29 done.
+INFO - 07/28/22 16:58:11 - 0:06:11 - Clustering for epoch 29 done.
+INFO - 07/28/22 16:58:12 - 0:06:11 - Epoch: [29][0]	Time 0.634 (0.634)	Data 0.410 (0.410)	Loss 1.7375 (1.7375)	Loss1 0.8587 (0.8587)	Loss2 2.6162 (2.6162)	Lr: 0.0999
+INFO - 07/28/22 16:58:17 - 0:06:17 - Epoch: [29][50]	Time 0.106 (0.118)	Data 0.000 (0.008)	Loss 1.1104 (1.4097)	Loss1 0.6851 (0.9031)	Loss2 1.5358 (1.9164)	Lr: 0.0999
+INFO - 07/28/22 16:58:22 - 0:06:22 - Epoch: [29][0]	Time 0.381 (0.381)	Data 0.359 (0.359)	Acc@1 63.281(63.281)	Acc@5 96.094(96.094)
+INFO - 07/28/22 16:58:23 - 0:06:23 - Epoch: [29]	Acc@1 63.157894134521484, Acc@5 96.14514923095703	Best Acc@1 69.89103698730469, Best Acc@5 97.83100128173828
+INFO - 07/28/22 16:58:23 - 0:06:23 - ============ Starting epoch 30 ... ============
+INFO - 07/28/22 16:58:23 - 0:06:23 - ============ Starting epoch 30 ... ============
+INFO - 07/28/22 16:58:23 - 0:06:23 - ============ Starting epoch 30 ... ============
+INFO - 07/28/22 16:58:23 - 0:06:23 - ============ Starting epoch 30 ... ============
+INFO - 07/28/22 16:58:23 - 0:06:23 - Clustering for epoch 30 done.
+INFO - 07/28/22 16:58:23 - 0:06:23 - Clustering for epoch 30 done.
+INFO - 07/28/22 16:58:23 - 0:06:23 - Clustering for epoch 30 done.
+INFO - 07/28/22 16:58:23 - 0:06:23 - Clustering for epoch 30 done.
+INFO - 07/28/22 16:58:24 - 0:06:24 - Epoch: [30][0]	Time 0.647 (0.647)	Data 0.414 (0.414)	Loss 1.5237 (1.5237)	Loss1 0.9719 (0.9719)	Loss2 2.0756 (2.0756)	Lr: 0.0100
+INFO - 07/28/22 16:58:29 - 0:06:29 - Epoch: [30][50]	Time 0.105 (0.117)	Data 0.000 (0.008)	Loss 1.3753 (1.3863)	Loss1 0.8705 (0.8416)	Loss2 1.8802 (1.9310)	Lr: 0.0100
+INFO - 07/28/22 16:58:35 - 0:06:34 - Epoch: [30][0]	Time 0.380 (0.380)	Data 0.364 (0.364)	Acc@1 71.875(71.875)	Acc@5 96.094(96.094)
+INFO - 07/28/22 16:58:35 - 0:06:35 - Epoch: [30]	Acc@1 74.57853698730469, Acc@5 98.0571517944336	Best Acc@1 74.57853698730469, Best Acc@5 98.0571517944336
+INFO - 07/28/22 16:58:35 - 0:06:35 - ============ Starting epoch 31 ... ============
+INFO - 07/28/22 16:58:35 - 0:06:35 - ============ Starting epoch 31 ... ============
+INFO - 07/28/22 16:58:35 - 0:06:35 - ============ Starting epoch 31 ... ============
+INFO - 07/28/22 16:58:36 - 0:06:35 - ============ Starting epoch 31 ... ============
+INFO - 07/28/22 16:58:36 - 0:06:36 - Clustering for epoch 31 done.
+INFO - 07/28/22 16:58:36 - 0:06:36 - Clustering for epoch 31 done.
+INFO - 07/28/22 16:58:36 - 0:06:36 - Clustering for epoch 31 done.
+INFO - 07/28/22 16:58:36 - 0:06:36 - Clustering for epoch 31 done.
+INFO - 07/28/22 16:58:36 - 0:06:36 - Epoch: [31][0]	Time 0.646 (0.646)	Data 0.420 (0.420)	Loss 1.4200 (1.4200)	Loss1 0.7008 (0.7008)	Loss2 2.1393 (2.1393)	Lr: 0.0100
+INFO - 07/28/22 16:58:42 - 0:06:42 - Epoch: [31][50]	Time 0.105 (0.117)	Data 0.000 (0.009)	Loss 1.2591 (1.2789)	Loss1 0.9093 (0.8217)	Loss2 1.6090 (1.7361)	Lr: 0.0100
+INFO - 07/28/22 16:58:47 - 0:06:47 - Epoch: [31][0]	Time 0.366 (0.366)	Data 0.347 (0.347)	Acc@1 73.438(73.438)	Acc@5 97.656(97.656)
+INFO - 07/28/22 16:58:48 - 0:06:47 - Epoch: [31]	Acc@1 74.29071044921875, Acc@5 98.09827423095703	Best Acc@1 74.57853698730469, Best Acc@5 98.09827423095703
+INFO - 07/28/22 16:58:48 - 0:06:47 - ============ Starting epoch 32 ... ============
+INFO - 07/28/22 16:58:48 - 0:06:47 - ============ Starting epoch 32 ... ============
+INFO - 07/28/22 16:58:48 - 0:06:47 - ============ Starting epoch 32 ... ============
+INFO - 07/28/22 16:58:48 - 0:06:48 - ============ Starting epoch 32 ... ============
+INFO - 07/28/22 16:58:48 - 0:06:48 - Clustering for epoch 32 done.
+INFO - 07/28/22 16:58:48 - 0:06:48 - Clustering for epoch 32 done.
+INFO - 07/28/22 16:58:48 - 0:06:48 - Clustering for epoch 32 done.
+INFO - 07/28/22 16:58:48 - 0:06:48 - Clustering for epoch 32 done.
+INFO - 07/28/22 16:58:49 - 0:06:49 - Epoch: [32][0]	Time 0.627 (0.627)	Data 0.420 (0.420)	Loss 1.4383 (1.4383)	Loss1 0.9516 (0.9516)	Loss2 1.9251 (1.9251)	Lr: 0.0100
+INFO - 07/28/22 16:58:54 - 0:06:54 - Epoch: [32][50]	Time 0.107 (0.117)	Data 0.000 (0.009)	Loss 1.1357 (1.2507)	Loss1 0.7860 (0.7913)	Loss2 1.4853 (1.7100)	Lr: 0.0100
+INFO - 07/28/22 16:59:00 - 0:06:59 - Epoch: [32][0]	Time 0.378 (0.378)	Data 0.368 (0.368)	Acc@1 76.562(76.562)	Acc@5 96.875(96.875)
+INFO - 07/28/22 16:59:00 - 0:07:00 - Epoch: [32]	Acc@1 75.81208801269531, Acc@5 98.32442474365234	Best Acc@1 75.81208801269531, Best Acc@5 98.32442474365234
+INFO - 07/28/22 16:59:00 - 0:07:00 - ============ Starting epoch 33 ... ============
+INFO - 07/28/22 16:59:00 - 0:07:00 - ============ Starting epoch 33 ... ============
+INFO - 07/28/22 16:59:00 - 0:07:00 - ============ Starting epoch 33 ... ============
+INFO - 07/28/22 16:59:00 - 0:07:00 - ============ Starting epoch 33 ... ============
+INFO - 07/28/22 16:59:01 - 0:07:00 - Clustering for epoch 33 done.
+INFO - 07/28/22 16:59:01 - 0:07:00 - Clustering for epoch 33 done.
+INFO - 07/28/22 16:59:01 - 0:07:00 - Clustering for epoch 33 done.
+INFO - 07/28/22 16:59:01 - 0:07:00 - Clustering for epoch 33 done.
+INFO - 07/28/22 16:59:01 - 0:07:01 - Epoch: [33][0]	Time 0.667 (0.667)	Data 0.422 (0.422)	Loss 1.6752 (1.6752)	Loss1 0.8754 (0.8754)	Loss2 2.4750 (2.4750)	Lr: 0.0100
+INFO - 07/28/22 16:59:07 - 0:07:06 - Epoch: [33][50]	Time 0.108 (0.118)	Data 0.000 (0.009)	Loss 1.2128 (1.2616)	Loss1 0.8136 (0.7797)	Loss2 1.6120 (1.7434)	Lr: 0.0100
+INFO - 07/28/22 16:59:12 - 0:07:12 - Epoch: [33][0]	Time 0.381 (0.381)	Data 0.363 (0.363)	Acc@1 75.781(75.781)	Acc@5 98.438(98.438)
+INFO - 07/28/22 16:59:13 - 0:07:12 - Epoch: [33]	Acc@1 75.67845153808594, Acc@5 98.29358673095703	Best Acc@1 75.81208801269531, Best Acc@5 98.32442474365234
+INFO - 07/28/22 16:59:13 - 0:07:12 - ============ Starting epoch 34 ... ============
+INFO - 07/28/22 16:59:13 - 0:07:12 - ============ Starting epoch 34 ... ============
+INFO - 07/28/22 16:59:13 - 0:07:12 - ============ Starting epoch 34 ... ============
+INFO - 07/28/22 16:59:13 - 0:07:13 - ============ Starting epoch 34 ... ============
+INFO - 07/28/22 16:59:13 - 0:07:13 - Clustering for epoch 34 done.
+INFO - 07/28/22 16:59:13 - 0:07:13 - Clustering for epoch 34 done.
+INFO - 07/28/22 16:59:13 - 0:07:13 - Clustering for epoch 34 done.
+INFO - 07/28/22 16:59:13 - 0:07:13 - Clustering for epoch 34 done.
+INFO - 07/28/22 16:59:14 - 0:07:14 - Epoch: [34][0]	Time 0.638 (0.638)	Data 0.393 (0.393)	Loss 1.0199 (1.0199)	Loss1 0.6168 (0.6168)	Loss2 1.4229 (1.4229)	Lr: 0.0100
+INFO - 07/28/22 16:59:19 - 0:07:19 - Epoch: [34][50]	Time 0.109 (0.117)	Data 0.000 (0.008)	Loss 1.0425 (1.2294)	Loss1 0.7520 (0.7727)	Loss2 1.3330 (1.6861)	Lr: 0.0100
+INFO - 07/28/22 16:59:25 - 0:07:24 - Epoch: [34][0]	Time 0.402 (0.402)	Data 0.387 (0.387)	Acc@1 76.562(76.562)	Acc@5 97.656(97.656)
+INFO - 07/28/22 16:59:25 - 0:07:25 - Epoch: [34]	Acc@1 75.46258544921875, Acc@5 98.35526275634766	Best Acc@1 75.81208801269531, Best Acc@5 98.35526275634766
+INFO - 07/28/22 16:59:25 - 0:07:25 - ============ Starting epoch 35 ... ============
+INFO - 07/28/22 16:59:25 - 0:07:25 - ============ Starting epoch 35 ... ============
+INFO - 07/28/22 16:59:25 - 0:07:25 - ============ Starting epoch 35 ... ============
+INFO - 07/28/22 16:59:25 - 0:07:25 - ============ Starting epoch 35 ... ============
+INFO - 07/28/22 16:59:26 - 0:07:25 - Clustering for epoch 35 done.
+INFO - 07/28/22 16:59:26 - 0:07:25 - Clustering for epoch 35 done.
+INFO - 07/28/22 16:59:26 - 0:07:25 - Clustering for epoch 35 done.
+INFO - 07/28/22 16:59:26 - 0:07:25 - Clustering for epoch 35 done.
+INFO - 07/28/22 16:59:26 - 0:07:26 - Epoch: [35][0]	Time 0.651 (0.651)	Data 0.403 (0.403)	Loss 1.1811 (1.1811)	Loss1 0.6949 (0.6949)	Loss2 1.6672 (1.6672)	Lr: 0.0100
+INFO - 07/28/22 16:59:32 - 0:07:31 - Epoch: [35][50]	Time 0.108 (0.116)	Data 0.000 (0.008)	Loss 1.3143 (1.2254)	Loss1 0.7536 (0.7806)	Loss2 1.8749 (1.6702)	Lr: 0.0100
+INFO - 07/28/22 16:59:37 - 0:07:37 - Epoch: [35][0]	Time 0.382 (0.382)	Data 0.363 (0.363)	Acc@1 78.906(78.906)	Acc@5 96.094(96.094)
+INFO - 07/28/22 16:59:37 - 0:07:37 - Epoch: [35]	Acc@1 75.75041198730469, Acc@5 98.06743621826172	Best Acc@1 75.81208801269531, Best Acc@5 98.35526275634766
+INFO - 07/28/22 16:59:37 - 0:07:37 - ============ Starting epoch 36 ... ============
+INFO - 07/28/22 16:59:37 - 0:07:37 - ============ Starting epoch 36 ... ============
+INFO - 07/28/22 16:59:37 - 0:07:37 - ============ Starting epoch 36 ... ============
+INFO - 07/28/22 16:59:38 - 0:07:37 - ============ Starting epoch 36 ... ============
+INFO - 07/28/22 16:59:38 - 0:07:38 - Clustering for epoch 36 done.
+INFO - 07/28/22 16:59:38 - 0:07:38 - Clustering for epoch 36 done.
+INFO - 07/28/22 16:59:38 - 0:07:38 - Clustering for epoch 36 done.
+INFO - 07/28/22 16:59:38 - 0:07:38 - Clustering for epoch 36 done.
+INFO - 07/28/22 16:59:39 - 0:07:38 - Epoch: [36][0]	Time 0.647 (0.647)	Data 0.396 (0.396)	Loss 1.1643 (1.1643)	Loss1 0.6894 (0.6894)	Loss2 1.6393 (1.6393)	Lr: 0.0100
+INFO - 07/28/22 16:59:44 - 0:07:44 - Epoch: [36][50]	Time 0.103 (0.118)	Data 0.000 (0.008)	Loss 1.4359 (1.2075)	Loss1 0.9514 (0.7735)	Loss2 1.9203 (1.6414)	Lr: 0.0100
+INFO - 07/28/22 16:59:49 - 0:07:49 - Epoch: [36][0]	Time 0.398 (0.398)	Data 0.382 (0.382)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 16:59:50 - 0:07:50 - Epoch: [36]	Acc@1 76.26438903808594, Acc@5 98.29358673095703	Best Acc@1 76.26438903808594, Best Acc@5 98.35526275634766
+INFO - 07/28/22 16:59:50 - 0:07:50 - ============ Starting epoch 37 ... ============
+INFO - 07/28/22 16:59:50 - 0:07:50 - ============ Starting epoch 37 ... ============
+INFO - 07/28/22 16:59:50 - 0:07:50 - ============ Starting epoch 37 ... ============
+INFO - 07/28/22 16:59:50 - 0:07:50 - ============ Starting epoch 37 ... ============
+INFO - 07/28/22 16:59:50 - 0:07:50 - Clustering for epoch 37 done.
+INFO - 07/28/22 16:59:50 - 0:07:50 - Clustering for epoch 37 done.
+INFO - 07/28/22 16:59:50 - 0:07:50 - Clustering for epoch 37 done.
+INFO - 07/28/22 16:59:50 - 0:07:50 - Clustering for epoch 37 done.
+INFO - 07/28/22 16:59:51 - 0:07:51 - Epoch: [37][0]	Time 0.657 (0.657)	Data 0.390 (0.390)	Loss 1.0857 (1.0857)	Loss1 0.7391 (0.7391)	Loss2 1.4323 (1.4323)	Lr: 0.0100
+INFO - 07/28/22 16:59:56 - 0:07:56 - Epoch: [37][50]	Time 0.112 (0.119)	Data 0.000 (0.008)	Loss 1.2726 (1.1988)	Loss1 0.7574 (0.7689)	Loss2 1.7878 (1.6288)	Lr: 0.0100
+INFO - 07/28/22 17:00:02 - 0:08:02 - Epoch: [37][0]	Time 0.402 (0.402)	Data 0.387 (0.387)	Acc@1 78.125(78.125)	Acc@5 97.656(97.656)
+INFO - 07/28/22 17:00:02 - 0:08:02 - Epoch: [37]	Acc@1 77.26151275634766, Acc@5 98.48889923095703	Best Acc@1 77.26151275634766, Best Acc@5 98.48889923095703
+INFO - 07/28/22 17:00:02 - 0:08:02 - ============ Starting epoch 38 ... ============
+INFO - 07/28/22 17:00:02 - 0:08:02 - ============ Starting epoch 38 ... ============
+INFO - 07/28/22 17:00:02 - 0:08:02 - ============ Starting epoch 38 ... ============
+INFO - 07/28/22 17:00:03 - 0:08:02 - ============ Starting epoch 38 ... ============
+INFO - 07/28/22 17:00:03 - 0:08:03 - Clustering for epoch 38 done.
+INFO - 07/28/22 17:00:03 - 0:08:03 - Clustering for epoch 38 done.
+INFO - 07/28/22 17:00:03 - 0:08:03 - Clustering for epoch 38 done.
+INFO - 07/28/22 17:00:03 - 0:08:03 - Clustering for epoch 38 done.
+INFO - 07/28/22 17:00:04 - 0:08:03 - Epoch: [38][0]	Time 0.707 (0.707)	Data 0.411 (0.411)	Loss 1.1322 (1.1322)	Loss1 0.7302 (0.7302)	Loss2 1.5343 (1.5343)	Lr: 0.0100
+INFO - 07/28/22 17:00:09 - 0:08:09 - Epoch: [38][50]	Time 0.109 (0.120)	Data 0.000 (0.008)	Loss 1.2506 (1.1904)	Loss1 0.7433 (0.7659)	Loss2 1.7579 (1.6150)	Lr: 0.0100
+INFO - 07/28/22 17:00:14 - 0:08:14 - Epoch: [38][0]	Time 0.362 (0.362)	Data 0.351 (0.351)	Acc@1 77.344(77.344)	Acc@5 99.219(99.219)
+INFO - 07/28/22 17:00:15 - 0:08:15 - Epoch: [38]	Acc@1 76.953125, Acc@5 98.35526275634766	Best Acc@1 77.26151275634766, Best Acc@5 98.48889923095703
+INFO - 07/28/22 17:00:15 - 0:08:15 - ============ Starting epoch 39 ... ============
+INFO - 07/28/22 17:00:15 - 0:08:15 - ============ Starting epoch 39 ... ============
+INFO - 07/28/22 17:00:15 - 0:08:15 - ============ Starting epoch 39 ... ============
+INFO - 07/28/22 17:00:15 - 0:08:15 - ============ Starting epoch 39 ... ============
+INFO - 07/28/22 17:00:16 - 0:08:15 - Clustering for epoch 39 done.
+INFO - 07/28/22 17:00:16 - 0:08:15 - Clustering for epoch 39 done.
+INFO - 07/28/22 17:00:16 - 0:08:15 - Clustering for epoch 39 done.
+INFO - 07/28/22 17:00:16 - 0:08:15 - Clustering for epoch 39 done.
+INFO - 07/28/22 17:00:16 - 0:08:16 - Epoch: [39][0]	Time 0.668 (0.668)	Data 0.406 (0.406)	Loss 1.1604 (1.1604)	Loss1 0.6102 (0.6102)	Loss2 1.7106 (1.7106)	Lr: 0.0100
+INFO - 07/28/22 17:00:22 - 0:08:21 - Epoch: [39][50]	Time 0.108 (0.118)	Data 0.000 (0.008)	Loss 1.2288 (1.2111)	Loss1 0.6530 (0.7504)	Loss2 1.8046 (1.6717)	Lr: 0.0100
+INFO - 07/28/22 17:00:27 - 0:08:27 - Epoch: [39][0]	Time 0.368 (0.368)	Data 0.356 (0.356)	Acc@1 76.562(76.562)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:00:27 - 0:08:27 - Epoch: [39]	Acc@1 76.70641326904297, Acc@5 98.56085205078125	Best Acc@1 77.26151275634766, Best Acc@5 98.56085205078125
+INFO - 07/28/22 17:00:27 - 0:08:27 - ============ Starting epoch 40 ... ============
+INFO - 07/28/22 17:00:27 - 0:08:27 - ============ Starting epoch 40 ... ============
+INFO - 07/28/22 17:00:27 - 0:08:27 - ============ Starting epoch 40 ... ============
+INFO - 07/28/22 17:00:28 - 0:08:27 - ============ Starting epoch 40 ... ============
+INFO - 07/28/22 17:00:28 - 0:08:28 - Clustering for epoch 40 done.
+INFO - 07/28/22 17:00:28 - 0:08:28 - Clustering for epoch 40 done.
+INFO - 07/28/22 17:00:28 - 0:08:28 - Clustering for epoch 40 done.
+INFO - 07/28/22 17:00:28 - 0:08:28 - Clustering for epoch 40 done.
+INFO - 07/28/22 17:00:29 - 0:08:28 - Epoch: [40][0]	Time 0.625 (0.625)	Data 0.415 (0.415)	Loss 1.1371 (1.1371)	Loss1 0.5429 (0.5429)	Loss2 1.7314 (1.7314)	Lr: 0.0100
+INFO - 07/28/22 17:00:34 - 0:08:34 - Epoch: [40][50]	Time 0.106 (0.117)	Data 0.000 (0.008)	Loss 1.2640 (1.1813)	Loss1 0.7090 (0.7531)	Loss2 1.8191 (1.6095)	Lr: 0.0100
+INFO - 07/28/22 17:00:39 - 0:08:39 - Epoch: [40][0]	Time 0.371 (0.371)	Data 0.351 (0.351)	Acc@1 77.344(77.344)	Acc@5 96.875(96.875)
+INFO - 07/28/22 17:00:40 - 0:08:40 - Epoch: [40]	Acc@1 76.66529846191406, Acc@5 98.37582397460938	Best Acc@1 77.26151275634766, Best Acc@5 98.56085205078125
+INFO - 07/28/22 17:00:40 - 0:08:40 - ============ Starting epoch 41 ... ============
+INFO - 07/28/22 17:00:40 - 0:08:40 - ============ Starting epoch 41 ... ============
+INFO - 07/28/22 17:00:40 - 0:08:40 - ============ Starting epoch 41 ... ============
+INFO - 07/28/22 17:00:40 - 0:08:40 - ============ Starting epoch 41 ... ============
+INFO - 07/28/22 17:00:40 - 0:08:40 - Clustering for epoch 41 done.
+INFO - 07/28/22 17:00:40 - 0:08:40 - Clustering for epoch 41 done.
+INFO - 07/28/22 17:00:40 - 0:08:40 - Clustering for epoch 41 done.
+INFO - 07/28/22 17:00:40 - 0:08:40 - Clustering for epoch 41 done.
+INFO - 07/28/22 17:00:41 - 0:08:41 - Epoch: [41][0]	Time 0.672 (0.672)	Data 0.552 (0.552)	Loss 1.3262 (1.3262)	Loss1 0.7455 (0.7455)	Loss2 1.9069 (1.9069)	Lr: 0.0100
+INFO - 07/28/22 17:00:46 - 0:08:46 - Epoch: [41][50]	Time 0.108 (0.118)	Data 0.001 (0.011)	Loss 1.0770 (1.1813)	Loss1 0.6021 (0.7481)	Loss2 1.5518 (1.6145)	Lr: 0.0100
+INFO - 07/28/22 17:00:52 - 0:08:52 - Epoch: [41][0]	Time 0.376 (0.376)	Data 0.361 (0.361)	Acc@1 78.125(78.125)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:00:52 - 0:08:52 - Epoch: [41]	Acc@1 77.00452423095703, Acc@5 98.4477767944336	Best Acc@1 77.26151275634766, Best Acc@5 98.56085205078125
+INFO - 07/28/22 17:00:52 - 0:08:52 - ============ Starting epoch 42 ... ============
+INFO - 07/28/22 17:00:52 - 0:08:52 - ============ Starting epoch 42 ... ============
+INFO - 07/28/22 17:00:52 - 0:08:52 - ============ Starting epoch 42 ... ============
+INFO - 07/28/22 17:00:53 - 0:08:52 - ============ Starting epoch 42 ... ============
+INFO - 07/28/22 17:00:53 - 0:08:53 - Clustering for epoch 42 done.
+INFO - 07/28/22 17:00:53 - 0:08:53 - Clustering for epoch 42 done.
+INFO - 07/28/22 17:00:53 - 0:08:53 - Clustering for epoch 42 done.
+INFO - 07/28/22 17:00:53 - 0:08:53 - Clustering for epoch 42 done.
+INFO - 07/28/22 17:00:53 - 0:08:53 - Epoch: [42][0]	Time 0.688 (0.688)	Data 0.450 (0.450)	Loss 1.0859 (1.0859)	Loss1 0.5541 (0.5541)	Loss2 1.6176 (1.6176)	Lr: 0.0100
+INFO - 07/28/22 17:00:59 - 0:08:59 - Epoch: [42][50]	Time 0.105 (0.118)	Data 0.000 (0.009)	Loss 1.2245 (1.1813)	Loss1 0.8196 (0.7339)	Loss2 1.6295 (1.6287)	Lr: 0.0100
+INFO - 07/28/22 17:01:04 - 0:09:04 - Epoch: [42][0]	Time 0.392 (0.392)	Data 0.378 (0.378)	Acc@1 75.781(75.781)	Acc@5 99.219(99.219)
+INFO - 07/28/22 17:01:05 - 0:09:04 - Epoch: [42]	Acc@1 76.48026275634766, Acc@5 98.51973724365234	Best Acc@1 77.26151275634766, Best Acc@5 98.56085205078125
+INFO - 07/28/22 17:01:05 - 0:09:04 - ============ Starting epoch 43 ... ============
+INFO - 07/28/22 17:01:05 - 0:09:04 - ============ Starting epoch 43 ... ============
+INFO - 07/28/22 17:01:05 - 0:09:04 - ============ Starting epoch 43 ... ============
+INFO - 07/28/22 17:01:05 - 0:09:05 - ============ Starting epoch 43 ... ============
+INFO - 07/28/22 17:01:05 - 0:09:05 - Clustering for epoch 43 done.
+INFO - 07/28/22 17:01:05 - 0:09:05 - Clustering for epoch 43 done.
+INFO - 07/28/22 17:01:05 - 0:09:05 - Clustering for epoch 43 done.
+INFO - 07/28/22 17:01:05 - 0:09:05 - Clustering for epoch 43 done.
+INFO - 07/28/22 17:01:06 - 0:09:06 - Epoch: [43][0]	Time 0.653 (0.653)	Data 0.417 (0.417)	Loss 1.0642 (1.0642)	Loss1 0.7143 (0.7143)	Loss2 1.4142 (1.4142)	Lr: 0.0100
+INFO - 07/28/22 17:01:11 - 0:09:11 - Epoch: [43][50]	Time 0.106 (0.117)	Data 0.000 (0.008)	Loss 1.2431 (1.1511)	Loss1 0.7086 (0.7276)	Loss2 1.7776 (1.5745)	Lr: 0.0100
+INFO - 07/28/22 17:01:17 - 0:09:16 - Epoch: [43][0]	Time 0.363 (0.363)	Data 0.351 (0.351)	Acc@1 77.344(77.344)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:01:17 - 0:09:17 - Epoch: [43]	Acc@1 77.23067474365234, Acc@5 98.6328125	Best Acc@1 77.26151275634766, Best Acc@5 98.6328125
+INFO - 07/28/22 17:01:17 - 0:09:17 - ============ Starting epoch 44 ... ============
+INFO - 07/28/22 17:01:17 - 0:09:17 - ============ Starting epoch 44 ... ============
+INFO - 07/28/22 17:01:17 - 0:09:17 - ============ Starting epoch 44 ... ============
+INFO - 07/28/22 17:01:17 - 0:09:17 - ============ Starting epoch 44 ... ============
+INFO - 07/28/22 17:01:18 - 0:09:17 - Clustering for epoch 44 done.
+INFO - 07/28/22 17:01:18 - 0:09:17 - Clustering for epoch 44 done.
+INFO - 07/28/22 17:01:18 - 0:09:17 - Clustering for epoch 44 done.
+INFO - 07/28/22 17:01:18 - 0:09:17 - Clustering for epoch 44 done.
+INFO - 07/28/22 17:01:18 - 0:09:18 - Epoch: [44][0]	Time 0.650 (0.650)	Data 0.403 (0.403)	Loss 1.0551 (1.0551)	Loss1 0.7707 (0.7707)	Loss2 1.3395 (1.3395)	Lr: 0.0100
+INFO - 07/28/22 17:01:24 - 0:09:23 - Epoch: [44][50]	Time 0.104 (0.117)	Data 0.000 (0.008)	Loss 1.2733 (1.1607)	Loss1 0.6857 (0.7299)	Loss2 1.8609 (1.5916)	Lr: 0.0100
+INFO - 07/28/22 17:01:29 - 0:09:29 - Epoch: [44][0]	Time 0.362 (0.362)	Data 0.348 (0.348)	Acc@1 75.781(75.781)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:01:29 - 0:09:29 - Epoch: [44]	Acc@1 77.87828826904297, Acc@5 98.4272232055664	Best Acc@1 77.87828826904297, Best Acc@5 98.6328125
+INFO - 07/28/22 17:01:29 - 0:09:29 - ============ Starting epoch 45 ... ============
+INFO - 07/28/22 17:01:29 - 0:09:29 - ============ Starting epoch 45 ... ============
+INFO - 07/28/22 17:01:29 - 0:09:29 - ============ Starting epoch 45 ... ============
+INFO - 07/28/22 17:01:30 - 0:09:29 - ============ Starting epoch 45 ... ============
+INFO - 07/28/22 17:01:30 - 0:09:30 - Clustering for epoch 45 done.
+INFO - 07/28/22 17:01:30 - 0:09:30 - Clustering for epoch 45 done.
+INFO - 07/28/22 17:01:30 - 0:09:30 - Clustering for epoch 45 done.
+INFO - 07/28/22 17:01:30 - 0:09:30 - Clustering for epoch 45 done.
+INFO - 07/28/22 17:01:31 - 0:09:30 - Epoch: [45][0]	Time 0.649 (0.649)	Data 0.388 (0.388)	Loss 1.3796 (1.3796)	Loss1 0.7320 (0.7320)	Loss2 2.0272 (2.0272)	Lr: 0.0100
+INFO - 07/28/22 17:01:36 - 0:09:36 - Epoch: [45][50]	Time 0.105 (0.118)	Data 0.001 (0.008)	Loss 1.0324 (1.1498)	Loss1 0.6115 (0.7224)	Loss2 1.4532 (1.5772)	Lr: 0.0100
+INFO - 07/28/22 17:01:41 - 0:09:41 - Epoch: [45][0]	Time 0.380 (0.380)	Data 0.370 (0.370)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:01:42 - 0:09:42 - Epoch: [45]	Acc@1 77.7754898071289, Acc@5 98.55057525634766	Best Acc@1 77.87828826904297, Best Acc@5 98.6328125
+INFO - 07/28/22 17:01:42 - 0:09:42 - ============ Starting epoch 46 ... ============
+INFO - 07/28/22 17:01:42 - 0:09:42 - ============ Starting epoch 46 ... ============
+INFO - 07/28/22 17:01:42 - 0:09:42 - ============ Starting epoch 46 ... ============
+INFO - 07/28/22 17:01:42 - 0:09:42 - ============ Starting epoch 46 ... ============
+INFO - 07/28/22 17:01:42 - 0:09:42 - Clustering for epoch 46 done.
+INFO - 07/28/22 17:01:42 - 0:09:42 - Clustering for epoch 46 done.
+INFO - 07/28/22 17:01:42 - 0:09:42 - Clustering for epoch 46 done.
+INFO - 07/28/22 17:01:42 - 0:09:42 - Clustering for epoch 46 done.
+INFO - 07/28/22 17:01:43 - 0:09:43 - Epoch: [46][0]	Time 0.614 (0.614)	Data 0.421 (0.421)	Loss 1.2123 (1.2123)	Loss1 0.6794 (0.6794)	Loss2 1.7451 (1.7451)	Lr: 0.0100
+INFO - 07/28/22 17:01:48 - 0:09:48 - Epoch: [46][50]	Time 0.108 (0.116)	Data 0.000 (0.009)	Loss 1.2118 (1.1451)	Loss1 0.7030 (0.7227)	Loss2 1.7206 (1.5676)	Lr: 0.0100
+INFO - 07/28/22 17:01:54 - 0:09:53 - Epoch: [46][0]	Time 0.394 (0.394)	Data 0.380 (0.380)	Acc@1 76.562(76.562)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:01:54 - 0:09:54 - Epoch: [46]	Acc@1 77.85772705078125, Acc@5 98.4786148071289	Best Acc@1 77.87828826904297, Best Acc@5 98.6328125
+INFO - 07/28/22 17:01:54 - 0:09:54 - ============ Starting epoch 47 ... ============
+INFO - 07/28/22 17:01:54 - 0:09:54 - ============ Starting epoch 47 ... ============
+INFO - 07/28/22 17:01:54 - 0:09:54 - ============ Starting epoch 47 ... ============
+INFO - 07/28/22 17:01:55 - 0:09:54 - ============ Starting epoch 47 ... ============
+INFO - 07/28/22 17:01:55 - 0:09:55 - Clustering for epoch 47 done.
+INFO - 07/28/22 17:01:55 - 0:09:55 - Clustering for epoch 47 done.
+INFO - 07/28/22 17:01:55 - 0:09:55 - Clustering for epoch 47 done.
+INFO - 07/28/22 17:01:55 - 0:09:55 - Clustering for epoch 47 done.
+INFO - 07/28/22 17:01:55 - 0:09:55 - Epoch: [47][0]	Time 0.621 (0.621)	Data 0.435 (0.435)	Loss 1.2364 (1.2364)	Loss1 0.6873 (0.6873)	Loss2 1.7854 (1.7854)	Lr: 0.0100
+INFO - 07/28/22 17:02:01 - 0:10:00 - Epoch: [47][50]	Time 0.106 (0.117)	Data 0.001 (0.009)	Loss 1.2899 (1.1127)	Loss1 0.8610 (0.6911)	Loss2 1.7189 (1.5343)	Lr: 0.0100
+INFO - 07/28/22 17:02:06 - 0:10:06 - Epoch: [47][0]	Time 0.388 (0.388)	Data 0.370 (0.370)	Acc@1 80.469(80.469)	Acc@5 99.219(99.219)
+INFO - 07/28/22 17:02:07 - 0:10:06 - Epoch: [47]	Acc@1 78.18667602539062, Acc@5 98.6739273071289	Best Acc@1 78.18667602539062, Best Acc@5 98.6739273071289
+INFO - 07/28/22 17:02:07 - 0:10:06 - ============ Starting epoch 48 ... ============
+INFO - 07/28/22 17:02:07 - 0:10:06 - ============ Starting epoch 48 ... ============
+INFO - 07/28/22 17:02:07 - 0:10:06 - ============ Starting epoch 48 ... ============
+INFO - 07/28/22 17:02:07 - 0:10:07 - ============ Starting epoch 48 ... ============
+INFO - 07/28/22 17:02:07 - 0:10:07 - Clustering for epoch 48 done.
+INFO - 07/28/22 17:02:07 - 0:10:07 - Clustering for epoch 48 done.
+INFO - 07/28/22 17:02:07 - 0:10:07 - Clustering for epoch 48 done.
+INFO - 07/28/22 17:02:07 - 0:10:07 - Clustering for epoch 48 done.
+INFO - 07/28/22 17:02:08 - 0:10:08 - Epoch: [48][0]	Time 0.653 (0.653)	Data 0.407 (0.407)	Loss 1.1879 (1.1879)	Loss1 0.7656 (0.7656)	Loss2 1.6103 (1.6103)	Lr: 0.0100
+INFO - 07/28/22 17:02:13 - 0:10:13 - Epoch: [48][50]	Time 0.107 (0.117)	Data 0.000 (0.008)	Loss 1.0614 (1.1309)	Loss1 0.6871 (0.6960)	Loss2 1.4358 (1.5659)	Lr: 0.0100
+INFO - 07/28/22 17:02:19 - 0:10:18 - Epoch: [48][0]	Time 0.382 (0.382)	Data 0.364 (0.364)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:02:19 - 0:10:19 - Epoch: [48]	Acc@1 78.00164794921875, Acc@5 98.65337371826172	Best Acc@1 78.18667602539062, Best Acc@5 98.6739273071289
+INFO - 07/28/22 17:02:19 - 0:10:19 - ============ Starting epoch 49 ... ============
+INFO - 07/28/22 17:02:19 - 0:10:19 - ============ Starting epoch 49 ... ============
+INFO - 07/28/22 17:02:19 - 0:10:19 - ============ Starting epoch 49 ... ============
+INFO - 07/28/22 17:02:19 - 0:10:19 - ============ Starting epoch 49 ... ============
+INFO - 07/28/22 17:02:20 - 0:10:19 - Clustering for epoch 49 done.
+INFO - 07/28/22 17:02:20 - 0:10:19 - Clustering for epoch 49 done.
+INFO - 07/28/22 17:02:20 - 0:10:19 - Clustering for epoch 49 done.
+INFO - 07/28/22 17:02:20 - 0:10:19 - Clustering for epoch 49 done.
+INFO - 07/28/22 17:02:20 - 0:10:20 - Epoch: [49][0]	Time 0.660 (0.660)	Data 0.413 (0.413)	Loss 1.3115 (1.3115)	Loss1 0.7935 (0.7935)	Loss2 1.8296 (1.8296)	Lr: 0.0100
+INFO - 07/28/22 17:02:26 - 0:10:25 - Epoch: [49][50]	Time 0.107 (0.118)	Data 0.000 (0.008)	Loss 1.2181 (1.1718)	Loss1 0.7566 (0.7192)	Loss2 1.6795 (1.6244)	Lr: 0.0100
+INFO - 07/28/22 17:02:31 - 0:10:31 - Epoch: [49][0]	Time 0.440 (0.440)	Data 0.424 (0.424)	Acc@1 79.688(79.688)	Acc@5 97.656(97.656)
+INFO - 07/28/22 17:02:31 - 0:10:31 - Epoch: [49]	Acc@1 77.81661224365234, Acc@5 98.5916976928711	Best Acc@1 78.18667602539062, Best Acc@5 98.6739273071289
+INFO - 07/28/22 17:02:31 - 0:10:31 - ============ Starting epoch 50 ... ============
+INFO - 07/28/22 17:02:31 - 0:10:31 - ============ Starting epoch 50 ... ============
+INFO - 07/28/22 17:02:31 - 0:10:31 - ============ Starting epoch 50 ... ============
+INFO - 07/28/22 17:02:32 - 0:10:31 - ============ Starting epoch 50 ... ============
+INFO - 07/28/22 17:02:32 - 0:10:32 - Clustering for epoch 50 done.
+INFO - 07/28/22 17:02:32 - 0:10:32 - Clustering for epoch 50 done.
+INFO - 07/28/22 17:02:32 - 0:10:32 - Clustering for epoch 50 done.
+INFO - 07/28/22 17:02:32 - 0:10:32 - Clustering for epoch 50 done.
+INFO - 07/28/22 17:02:33 - 0:10:32 - Epoch: [50][0]	Time 0.653 (0.653)	Data 0.425 (0.425)	Loss 1.2526 (1.2526)	Loss1 0.6870 (0.6870)	Loss2 1.8181 (1.8181)	Lr: 0.0100
+INFO - 07/28/22 17:02:38 - 0:10:38 - Epoch: [50][50]	Time 0.114 (0.118)	Data 0.000 (0.009)	Loss 1.2799 (1.1500)	Loss1 0.7981 (0.7079)	Loss2 1.7616 (1.5921)	Lr: 0.0100
+INFO - 07/28/22 17:02:43 - 0:10:43 - Epoch: [50][0]	Time 0.365 (0.365)	Data 0.351 (0.351)	Acc@1 78.125(78.125)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:02:44 - 0:10:44 - Epoch: [50]	Acc@1 78.01192474365234, Acc@5 98.5916976928711	Best Acc@1 78.18667602539062, Best Acc@5 98.6739273071289
+INFO - 07/28/22 17:02:44 - 0:10:44 - ============ Starting epoch 51 ... ============
+INFO - 07/28/22 17:02:44 - 0:10:44 - ============ Starting epoch 51 ... ============
+INFO - 07/28/22 17:02:44 - 0:10:44 - ============ Starting epoch 51 ... ============
+INFO - 07/28/22 17:02:45 - 0:10:44 - ============ Starting epoch 51 ... ============
+INFO - 07/28/22 17:02:45 - 0:10:45 - Clustering for epoch 51 done.
+INFO - 07/28/22 17:02:45 - 0:10:45 - Clustering for epoch 51 done.
+INFO - 07/28/22 17:02:45 - 0:10:45 - Clustering for epoch 51 done.
+INFO - 07/28/22 17:02:45 - 0:10:45 - Clustering for epoch 51 done.
+INFO - 07/28/22 17:02:45 - 0:10:45 - Epoch: [51][0]	Time 0.640 (0.640)	Data 0.421 (0.421)	Loss 1.1147 (1.1147)	Loss1 0.6275 (0.6275)	Loss2 1.6018 (1.6018)	Lr: 0.0100
+INFO - 07/28/22 17:02:51 - 0:10:51 - Epoch: [51][50]	Time 0.103 (0.117)	Data 0.000 (0.009)	Loss 1.2036 (1.1413)	Loss1 0.7220 (0.7035)	Loss2 1.6852 (1.5791)	Lr: 0.0100
+INFO - 07/28/22 17:02:56 - 0:10:56 - Epoch: [51][0]	Time 0.385 (0.385)	Data 0.376 (0.376)	Acc@1 78.125(78.125)	Acc@5 97.656(97.656)
+INFO - 07/28/22 17:02:57 - 0:10:57 - Epoch: [51]	Acc@1 77.32318878173828, Acc@5 98.76644897460938	Best Acc@1 78.18667602539062, Best Acc@5 98.76644897460938
+INFO - 07/28/22 17:02:57 - 0:10:57 - ============ Starting epoch 52 ... ============
+INFO - 07/28/22 17:02:57 - 0:10:57 - ============ Starting epoch 52 ... ============
+INFO - 07/28/22 17:02:57 - 0:10:57 - ============ Starting epoch 52 ... ============
+INFO - 07/28/22 17:02:57 - 0:10:57 - ============ Starting epoch 52 ... ============
+INFO - 07/28/22 17:02:57 - 0:10:57 - Clustering for epoch 52 done.
+INFO - 07/28/22 17:02:57 - 0:10:57 - Clustering for epoch 52 done.
+INFO - 07/28/22 17:02:57 - 0:10:57 - Clustering for epoch 52 done.
+INFO - 07/28/22 17:02:57 - 0:10:57 - Clustering for epoch 52 done.
+INFO - 07/28/22 17:02:58 - 0:10:58 - Epoch: [52][0]	Time 0.634 (0.634)	Data 0.402 (0.402)	Loss 1.2925 (1.2925)	Loss1 0.6732 (0.6732)	Loss2 1.9119 (1.9119)	Lr: 0.0100
+INFO - 07/28/22 17:03:03 - 0:11:03 - Epoch: [52][50]	Time 0.111 (0.117)	Data 0.000 (0.008)	Loss 1.3238 (1.1336)	Loss1 0.7397 (0.6986)	Loss2 1.9079 (1.5685)	Lr: 0.0100
+INFO - 07/28/22 17:03:09 - 0:11:08 - Epoch: [52][0]	Time 0.372 (0.372)	Data 0.354 (0.354)	Acc@1 78.125(78.125)	Acc@5 97.656(97.656)
+INFO - 07/28/22 17:03:09 - 0:11:09 - Epoch: [52]	Acc@1 78.61842346191406, Acc@5 98.65337371826172	Best Acc@1 78.61842346191406, Best Acc@5 98.76644897460938
+INFO - 07/28/22 17:03:09 - 0:11:09 - ============ Starting epoch 53 ... ============
+INFO - 07/28/22 17:03:09 - 0:11:09 - ============ Starting epoch 53 ... ============
+INFO - 07/28/22 17:03:09 - 0:11:09 - ============ Starting epoch 53 ... ============
+INFO - 07/28/22 17:03:09 - 0:11:09 - ============ Starting epoch 53 ... ============
+INFO - 07/28/22 17:03:10 - 0:11:09 - Clustering for epoch 53 done.
+INFO - 07/28/22 17:03:10 - 0:11:09 - Clustering for epoch 53 done.
+INFO - 07/28/22 17:03:10 - 0:11:09 - Clustering for epoch 53 done.
+INFO - 07/28/22 17:03:10 - 0:11:09 - Clustering for epoch 53 done.
+INFO - 07/28/22 17:03:10 - 0:11:10 - Epoch: [53][0]	Time 0.633 (0.633)	Data 0.428 (0.428)	Loss 1.2398 (1.2398)	Loss1 0.7159 (0.7159)	Loss2 1.7638 (1.7638)	Lr: 0.0100
+INFO - 07/28/22 17:03:16 - 0:11:15 - Epoch: [53][50]	Time 0.108 (0.117)	Data 0.000 (0.009)	Loss 1.1298 (1.1513)	Loss1 0.7438 (0.6983)	Loss2 1.5157 (1.6043)	Lr: 0.0100
+INFO - 07/28/22 17:03:21 - 0:11:21 - Epoch: [53][0]	Time 0.381 (0.381)	Data 0.366 (0.366)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:03:22 - 0:11:21 - Epoch: [53]	Acc@1 78.28947448730469, Acc@5 98.70477294921875	Best Acc@1 78.61842346191406, Best Acc@5 98.76644897460938
+INFO - 07/28/22 17:03:22 - 0:11:21 - ============ Starting epoch 54 ... ============
+INFO - 07/28/22 17:03:22 - 0:11:21 - ============ Starting epoch 54 ... ============
+INFO - 07/28/22 17:03:22 - 0:11:21 - ============ Starting epoch 54 ... ============
+INFO - 07/28/22 17:03:22 - 0:11:22 - ============ Starting epoch 54 ... ============
+INFO - 07/28/22 17:03:22 - 0:11:22 - Clustering for epoch 54 done.
+INFO - 07/28/22 17:03:22 - 0:11:22 - Clustering for epoch 54 done.
+INFO - 07/28/22 17:03:22 - 0:11:22 - Clustering for epoch 54 done.
+INFO - 07/28/22 17:03:22 - 0:11:22 - Clustering for epoch 54 done.
+INFO - 07/28/22 17:03:23 - 0:11:22 - Epoch: [54][0]	Time 0.645 (0.645)	Data 0.417 (0.417)	Loss 1.1026 (1.1026)	Loss1 0.5493 (0.5493)	Loss2 1.6559 (1.6559)	Lr: 0.0100
+INFO - 07/28/22 17:03:28 - 0:11:28 - Epoch: [54][50]	Time 0.112 (0.118)	Data 0.000 (0.009)	Loss 1.1908 (1.1194)	Loss1 0.7015 (0.6711)	Loss2 1.6801 (1.5676)	Lr: 0.0100
+INFO - 07/28/22 17:03:33 - 0:11:33 - Epoch: [54][0]	Time 0.369 (0.369)	Data 0.358 (0.358)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:03:34 - 0:11:34 - Epoch: [54]	Acc@1 79.39967346191406, Acc@5 98.74588775634766	Best Acc@1 79.39967346191406, Best Acc@5 98.76644897460938
+INFO - 07/28/22 17:03:34 - 0:11:34 - ============ Starting epoch 55 ... ============
+INFO - 07/28/22 17:03:34 - 0:11:34 - ============ Starting epoch 55 ... ============
+INFO - 07/28/22 17:03:34 - 0:11:34 - ============ Starting epoch 55 ... ============
+INFO - 07/28/22 17:03:34 - 0:11:34 - ============ Starting epoch 55 ... ============
+INFO - 07/28/22 17:03:35 - 0:11:34 - Clustering for epoch 55 done.
+INFO - 07/28/22 17:03:35 - 0:11:34 - Clustering for epoch 55 done.
+INFO - 07/28/22 17:03:35 - 0:11:34 - Clustering for epoch 55 done.
+INFO - 07/28/22 17:03:35 - 0:11:34 - Clustering for epoch 55 done.
+INFO - 07/28/22 17:03:35 - 0:11:35 - Epoch: [55][0]	Time 0.645 (0.645)	Data 0.420 (0.420)	Loss 1.1801 (1.1801)	Loss1 0.6566 (0.6566)	Loss2 1.7037 (1.7037)	Lr: 0.0100
+INFO - 07/28/22 17:03:40 - 0:11:40 - Epoch: [55][50]	Time 0.103 (0.117)	Data 0.000 (0.009)	Loss 1.1096 (1.1364)	Loss1 0.5612 (0.6884)	Loss2 1.6580 (1.5845)	Lr: 0.0100
+INFO - 07/28/22 17:03:46 - 0:11:46 - Epoch: [55][0]	Time 0.372 (0.372)	Data 0.361 (0.361)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:03:46 - 0:11:46 - Epoch: [55]	Acc@1 79.23519897460938, Acc@5 98.7870101928711	Best Acc@1 79.39967346191406, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:03:46 - 0:11:46 - ============ Starting epoch 56 ... ============
+INFO - 07/28/22 17:03:46 - 0:11:46 - ============ Starting epoch 56 ... ============
+INFO - 07/28/22 17:03:46 - 0:11:46 - ============ Starting epoch 56 ... ============
+INFO - 07/28/22 17:03:47 - 0:11:46 - ============ Starting epoch 56 ... ============
+INFO - 07/28/22 17:03:47 - 0:11:47 - Clustering for epoch 56 done.
+INFO - 07/28/22 17:03:47 - 0:11:47 - Clustering for epoch 56 done.
+INFO - 07/28/22 17:03:47 - 0:11:47 - Clustering for epoch 56 done.
+INFO - 07/28/22 17:03:47 - 0:11:47 - Clustering for epoch 56 done.
+INFO - 07/28/22 17:03:48 - 0:11:47 - Epoch: [56][0]	Time 0.666 (0.666)	Data 0.408 (0.408)	Loss 1.1914 (1.1914)	Loss1 0.7617 (0.7617)	Loss2 1.6211 (1.6211)	Lr: 0.0100
+INFO - 07/28/22 17:03:53 - 0:11:53 - Epoch: [56][50]	Time 0.107 (0.119)	Data 0.001 (0.008)	Loss 1.4221 (1.1144)	Loss1 0.6894 (0.6693)	Loss2 2.1548 (1.5595)	Lr: 0.0100
+INFO - 07/28/22 17:03:59 - 0:11:58 - Epoch: [56][0]	Time 0.385 (0.385)	Data 0.375 (0.375)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:03:59 - 0:11:59 - Epoch: [56]	Acc@1 79.36883544921875, Acc@5 98.65337371826172	Best Acc@1 79.39967346191406, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:03:59 - 0:11:59 - ============ Starting epoch 57 ... ============
+INFO - 07/28/22 17:03:59 - 0:11:59 - ============ Starting epoch 57 ... ============
+INFO - 07/28/22 17:03:59 - 0:11:59 - ============ Starting epoch 57 ... ============
+INFO - 07/28/22 17:03:59 - 0:11:59 - ============ Starting epoch 57 ... ============
+INFO - 07/28/22 17:04:00 - 0:11:59 - Clustering for epoch 57 done.
+INFO - 07/28/22 17:04:00 - 0:11:59 - Clustering for epoch 57 done.
+INFO - 07/28/22 17:04:00 - 0:11:59 - Clustering for epoch 57 done.
+INFO - 07/28/22 17:04:00 - 0:11:59 - Clustering for epoch 57 done.
+INFO - 07/28/22 17:04:00 - 0:12:00 - Epoch: [57][0]	Time 0.646 (0.646)	Data 0.431 (0.431)	Loss 1.1594 (1.1594)	Loss1 0.6262 (0.6262)	Loss2 1.6927 (1.6927)	Lr: 0.0100
+INFO - 07/28/22 17:04:06 - 0:12:05 - Epoch: [57][50]	Time 0.107 (0.118)	Data 0.000 (0.009)	Loss 1.0351 (1.1164)	Loss1 0.6845 (0.6642)	Loss2 1.3857 (1.5686)	Lr: 0.0100
+INFO - 07/28/22 17:04:11 - 0:12:11 - Epoch: [57][0]	Time 0.366 (0.366)	Data 0.354 (0.354)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:04:12 - 0:12:11 - Epoch: [57]	Acc@1 79.47162628173828, Acc@5 98.74588775634766	Best Acc@1 79.47162628173828, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:04:12 - 0:12:11 - ============ Starting epoch 58 ... ============
+INFO - 07/28/22 17:04:12 - 0:12:11 - ============ Starting epoch 58 ... ============
+INFO - 07/28/22 17:04:12 - 0:12:11 - ============ Starting epoch 58 ... ============
+INFO - 07/28/22 17:04:12 - 0:12:12 - ============ Starting epoch 58 ... ============
+INFO - 07/28/22 17:04:12 - 0:12:12 - Clustering for epoch 58 done.
+INFO - 07/28/22 17:04:12 - 0:12:12 - Clustering for epoch 58 done.
+INFO - 07/28/22 17:04:12 - 0:12:12 - Clustering for epoch 58 done.
+INFO - 07/28/22 17:04:12 - 0:12:12 - Clustering for epoch 58 done.
+INFO - 07/28/22 17:04:13 - 0:12:13 - Epoch: [58][0]	Time 0.665 (0.665)	Data 0.407 (0.407)	Loss 1.1786 (1.1786)	Loss1 0.6791 (0.6791)	Loss2 1.6780 (1.6780)	Lr: 0.0100
+INFO - 07/28/22 17:04:18 - 0:12:18 - Epoch: [58][50]	Time 0.113 (0.117)	Data 0.000 (0.008)	Loss 1.0037 (1.1027)	Loss1 0.5564 (0.6541)	Loss2 1.4510 (1.5513)	Lr: 0.0100
+INFO - 07/28/22 17:04:23 - 0:12:23 - Epoch: [58][0]	Time 0.380 (0.380)	Data 0.371 (0.371)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:04:24 - 0:12:24 - Epoch: [58]	Acc@1 79.65666198730469, Acc@5 98.74588775634766	Best Acc@1 79.65666198730469, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:04:24 - 0:12:24 - ============ Starting epoch 59 ... ============
+INFO - 07/28/22 17:04:24 - 0:12:24 - ============ Starting epoch 59 ... ============
+INFO - 07/28/22 17:04:24 - 0:12:24 - ============ Starting epoch 59 ... ============
+INFO - 07/28/22 17:04:24 - 0:12:24 - ============ Starting epoch 59 ... ============
+INFO - 07/28/22 17:04:25 - 0:12:24 - Clustering for epoch 59 done.
+INFO - 07/28/22 17:04:25 - 0:12:24 - Clustering for epoch 59 done.
+INFO - 07/28/22 17:04:25 - 0:12:24 - Clustering for epoch 59 done.
+INFO - 07/28/22 17:04:25 - 0:12:24 - Clustering for epoch 59 done.
+INFO - 07/28/22 17:04:25 - 0:12:25 - Epoch: [59][0]	Time 0.635 (0.635)	Data 0.413 (0.413)	Loss 1.1981 (1.1981)	Loss1 0.7039 (0.7039)	Loss2 1.6924 (1.6924)	Lr: 0.0100
+INFO - 07/28/22 17:04:30 - 0:12:30 - Epoch: [59][50]	Time 0.106 (0.117)	Data 0.001 (0.008)	Loss 1.2065 (1.0912)	Loss1 0.6355 (0.6549)	Loss2 1.7774 (1.5275)	Lr: 0.0100
+INFO - 07/28/22 17:04:36 - 0:12:36 - Epoch: [59][0]	Time 0.369 (0.369)	Data 0.351 (0.351)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:04:36 - 0:12:36 - Epoch: [59]	Acc@1 79.6772232055664, Acc@5 98.6430892944336	Best Acc@1 79.6772232055664, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:04:36 - 0:12:36 - ============ Starting epoch 60 ... ============
+INFO - 07/28/22 17:04:36 - 0:12:36 - ============ Starting epoch 60 ... ============
+INFO - 07/28/22 17:04:36 - 0:12:36 - ============ Starting epoch 60 ... ============
+INFO - 07/28/22 17:04:37 - 0:12:36 - ============ Starting epoch 60 ... ============
+INFO - 07/28/22 17:04:37 - 0:12:37 - Clustering for epoch 60 done.
+INFO - 07/28/22 17:04:37 - 0:12:37 - Clustering for epoch 60 done.
+INFO - 07/28/22 17:04:37 - 0:12:37 - Clustering for epoch 60 done.
+INFO - 07/28/22 17:04:37 - 0:12:37 - Clustering for epoch 60 done.
+INFO - 07/28/22 17:04:37 - 0:12:37 - Epoch: [60][0]	Time 0.651 (0.651)	Data 0.436 (0.436)	Loss 1.1477 (1.1477)	Loss1 0.6668 (0.6668)	Loss2 1.6285 (1.6285)	Lr: 0.0010
+INFO - 07/28/22 17:04:43 - 0:12:43 - Epoch: [60][50]	Time 0.102 (0.117)	Data 0.000 (0.009)	Loss 0.9546 (1.1156)	Loss1 0.6129 (0.6430)	Loss2 1.2962 (1.5882)	Lr: 0.0010
+INFO - 07/28/22 17:04:48 - 0:12:48 - Epoch: [60][0]	Time 0.374 (0.374)	Data 0.354 (0.354)	Acc@1 77.344(77.344)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:04:49 - 0:12:48 - Epoch: [60]	Acc@1 80.20147705078125, Acc@5 98.58141326904297	Best Acc@1 80.20147705078125, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:04:49 - 0:12:48 - ============ Starting epoch 61 ... ============
+INFO - 07/28/22 17:04:49 - 0:12:49 - ============ Starting epoch 61 ... ============
+INFO - 07/28/22 17:04:49 - 0:12:48 - ============ Starting epoch 61 ... ============
+INFO - 07/28/22 17:04:49 - 0:12:49 - ============ Starting epoch 61 ... ============
+INFO - 07/28/22 17:04:49 - 0:12:49 - Clustering for epoch 61 done.
+INFO - 07/28/22 17:04:49 - 0:12:49 - Clustering for epoch 61 done.
+INFO - 07/28/22 17:04:49 - 0:12:49 - Clustering for epoch 61 done.
+INFO - 07/28/22 17:04:49 - 0:12:49 - Clustering for epoch 61 done.
+INFO - 07/28/22 17:04:50 - 0:12:50 - Epoch: [61][0]	Time 0.612 (0.612)	Data 0.415 (0.415)	Loss 1.1253 (1.1253)	Loss1 0.5390 (0.5390)	Loss2 1.7116 (1.7116)	Lr: 0.0010
+INFO - 07/28/22 17:04:55 - 0:12:55 - Epoch: [61][50]	Time 0.107 (0.117)	Data 0.000 (0.008)	Loss 0.9546 (1.1090)	Loss1 0.4940 (0.6209)	Loss2 1.4152 (1.5971)	Lr: 0.0010
+INFO - 07/28/22 17:05:01 - 0:13:00 - Epoch: [61][0]	Time 0.359 (0.359)	Data 0.342 (0.342)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:05:01 - 0:13:01 - Epoch: [61]	Acc@1 80.38651275634766, Acc@5 98.71504974365234	Best Acc@1 80.38651275634766, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:05:01 - 0:13:01 - ============ Starting epoch 62 ... ============
+INFO - 07/28/22 17:05:01 - 0:13:01 - ============ Starting epoch 62 ... ============
+INFO - 07/28/22 17:05:01 - 0:13:01 - ============ Starting epoch 62 ... ============
+INFO - 07/28/22 17:05:01 - 0:13:01 - ============ Starting epoch 62 ... ============
+INFO - 07/28/22 17:05:02 - 0:13:01 - Clustering for epoch 62 done.
+INFO - 07/28/22 17:05:02 - 0:13:01 - Clustering for epoch 62 done.
+INFO - 07/28/22 17:05:02 - 0:13:01 - Clustering for epoch 62 done.
+INFO - 07/28/22 17:05:02 - 0:13:01 - Clustering for epoch 62 done.
+INFO - 07/28/22 17:05:02 - 0:13:02 - Epoch: [62][0]	Time 0.613 (0.613)	Data 0.420 (0.420)	Loss 1.0982 (1.0982)	Loss1 0.6320 (0.6320)	Loss2 1.5644 (1.5644)	Lr: 0.0010
+INFO - 07/28/22 17:05:08 - 0:13:07 - Epoch: [62][50]	Time 0.106 (0.117)	Data 0.000 (0.009)	Loss 1.1744 (1.0774)	Loss1 0.6968 (0.6213)	Loss2 1.6521 (1.5335)	Lr: 0.0010
+INFO - 07/28/22 17:05:13 - 0:13:13 - Epoch: [62][0]	Time 0.375 (0.375)	Data 0.357 (0.357)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:05:13 - 0:13:13 - Epoch: [62]	Acc@1 80.00616455078125, Acc@5 98.71504974365234	Best Acc@1 80.38651275634766, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:05:13 - 0:13:13 - ============ Starting epoch 63 ... ============
+INFO - 07/28/22 17:05:13 - 0:13:13 - ============ Starting epoch 63 ... ============
+INFO - 07/28/22 17:05:13 - 0:13:13 - ============ Starting epoch 63 ... ============
+INFO - 07/28/22 17:05:14 - 0:13:13 - ============ Starting epoch 63 ... ============
+INFO - 07/28/22 17:05:14 - 0:13:14 - Clustering for epoch 63 done.
+INFO - 07/28/22 17:05:14 - 0:13:14 - Clustering for epoch 63 done.
+INFO - 07/28/22 17:05:14 - 0:13:14 - Clustering for epoch 63 done.
+INFO - 07/28/22 17:05:14 - 0:13:14 - Clustering for epoch 63 done.
+INFO - 07/28/22 17:05:15 - 0:13:14 - Epoch: [63][0]	Time 0.629 (0.629)	Data 0.413 (0.413)	Loss 0.9706 (0.9706)	Loss1 0.6040 (0.6040)	Loss2 1.3372 (1.3372)	Lr: 0.0010
+INFO - 07/28/22 17:05:20 - 0:13:20 - Epoch: [63][50]	Time 0.103 (0.117)	Data 0.000 (0.008)	Loss 1.0597 (1.0675)	Loss1 0.6578 (0.6417)	Loss2 1.4616 (1.4933)	Lr: 0.0010
+INFO - 07/28/22 17:05:25 - 0:13:25 - Epoch: [63][0]	Time 0.368 (0.368)	Data 0.356 (0.356)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:05:26 - 0:13:26 - Epoch: [63]	Acc@1 80.2734375, Acc@5 98.72532653808594	Best Acc@1 80.38651275634766, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:05:26 - 0:13:26 - ============ Starting epoch 64 ... ============
+INFO - 07/28/22 17:05:26 - 0:13:26 - ============ Starting epoch 64 ... ============
+INFO - 07/28/22 17:05:26 - 0:13:26 - ============ Starting epoch 64 ... ============
+INFO - 07/28/22 17:05:26 - 0:13:26 - ============ Starting epoch 64 ... ============
+INFO - 07/28/22 17:05:26 - 0:13:26 - Clustering for epoch 64 done.
+INFO - 07/28/22 17:05:26 - 0:13:26 - Clustering for epoch 64 done.
+INFO - 07/28/22 17:05:26 - 0:13:26 - Clustering for epoch 64 done.
+INFO - 07/28/22 17:05:26 - 0:13:26 - Clustering for epoch 64 done.
+INFO - 07/28/22 17:05:27 - 0:13:27 - Epoch: [64][0]	Time 0.617 (0.617)	Data 0.407 (0.407)	Loss 1.1740 (1.1740)	Loss1 0.6326 (0.6326)	Loss2 1.7154 (1.7154)	Lr: 0.0010
+INFO - 07/28/22 17:05:32 - 0:13:32 - Epoch: [64][50]	Time 0.104 (0.116)	Data 0.000 (0.008)	Loss 0.9947 (1.0869)	Loss1 0.6279 (0.6389)	Loss2 1.3615 (1.5348)	Lr: 0.0010
+INFO - 07/28/22 17:05:38 - 0:13:38 - Epoch: [64][0]	Time 0.506 (0.506)	Data 0.493 (0.493)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:05:38 - 0:13:38 - Epoch: [64]	Acc@1 80.34539794921875, Acc@5 98.75616455078125	Best Acc@1 80.38651275634766, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:05:38 - 0:13:38 - ============ Starting epoch 65 ... ============
+INFO - 07/28/22 17:05:38 - 0:13:38 - ============ Starting epoch 65 ... ============
+INFO - 07/28/22 17:05:38 - 0:13:38 - ============ Starting epoch 65 ... ============
+INFO - 07/28/22 17:05:38 - 0:13:38 - ============ Starting epoch 65 ... ============
+INFO - 07/28/22 17:05:39 - 0:13:39 - Clustering for epoch 65 done.
+INFO - 07/28/22 17:05:39 - 0:13:38 - Clustering for epoch 65 done.
+INFO - 07/28/22 17:05:39 - 0:13:38 - Clustering for epoch 65 done.
+INFO - 07/28/22 17:05:39 - 0:13:39 - Clustering for epoch 65 done.
+INFO - 07/28/22 17:05:39 - 0:13:39 - Epoch: [65][0]	Time 0.641 (0.641)	Data 0.475 (0.475)	Loss 0.9742 (0.9742)	Loss1 0.5043 (0.5043)	Loss2 1.4441 (1.4441)	Lr: 0.0010
+INFO - 07/28/22 17:05:45 - 0:13:45 - Epoch: [65][50]	Time 0.110 (0.118)	Data 0.000 (0.010)	Loss 1.2381 (1.1174)	Loss1 0.6657 (0.6487)	Loss2 1.8105 (1.5861)	Lr: 0.0010
+INFO - 07/28/22 17:05:50 - 0:13:50 - Epoch: [65][0]	Time 0.398 (0.398)	Data 0.371 (0.371)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:05:51 - 0:13:50 - Epoch: [65]	Acc@1 80.29399871826172, Acc@5 98.77672576904297	Best Acc@1 80.38651275634766, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:05:51 - 0:13:50 - ============ Starting epoch 66 ... ============
+INFO - 07/28/22 17:05:51 - 0:13:50 - ============ Starting epoch 66 ... ============
+INFO - 07/28/22 17:05:51 - 0:13:50 - ============ Starting epoch 66 ... ============
+INFO - 07/28/22 17:05:51 - 0:13:51 - ============ Starting epoch 66 ... ============
+INFO - 07/28/22 17:05:51 - 0:13:51 - Clustering for epoch 66 done.
+INFO - 07/28/22 17:05:51 - 0:13:51 - Clustering for epoch 66 done.
+INFO - 07/28/22 17:05:51 - 0:13:51 - Clustering for epoch 66 done.
+INFO - 07/28/22 17:05:51 - 0:13:51 - Clustering for epoch 66 done.
+INFO - 07/28/22 17:05:52 - 0:13:52 - Epoch: [66][0]	Time 0.608 (0.608)	Data 0.404 (0.404)	Loss 1.3038 (1.3038)	Loss1 0.7761 (0.7761)	Loss2 1.8316 (1.8316)	Lr: 0.0010
+INFO - 07/28/22 17:05:57 - 0:13:57 - Epoch: [66][50]	Time 0.105 (0.117)	Data 0.000 (0.008)	Loss 1.1596 (1.1026)	Loss1 0.7537 (0.6485)	Loss2 1.5655 (1.5567)	Lr: 0.0010
+INFO - 07/28/22 17:06:02 - 0:14:02 - Epoch: [66][0]	Time 0.378 (0.378)	Data 0.368 (0.368)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:06:03 - 0:14:03 - Epoch: [66]	Acc@1 80.43791198730469, Acc@5 98.76644897460938	Best Acc@1 80.43791198730469, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:06:03 - 0:14:03 - ============ Starting epoch 67 ... ============
+INFO - 07/28/22 17:06:03 - 0:14:03 - ============ Starting epoch 67 ... ============
+INFO - 07/28/22 17:06:03 - 0:14:03 - ============ Starting epoch 67 ... ============
+INFO - 07/28/22 17:06:03 - 0:14:03 - ============ Starting epoch 67 ... ============
+INFO - 07/28/22 17:06:04 - 0:14:03 - Clustering for epoch 67 done.
+INFO - 07/28/22 17:06:04 - 0:14:03 - Clustering for epoch 67 done.
+INFO - 07/28/22 17:06:04 - 0:14:03 - Clustering for epoch 67 done.
+INFO - 07/28/22 17:06:04 - 0:14:03 - Clustering for epoch 67 done.
+INFO - 07/28/22 17:06:04 - 0:14:04 - Epoch: [67][0]	Time 0.638 (0.638)	Data 0.403 (0.403)	Loss 0.9245 (0.9245)	Loss1 0.6229 (0.6229)	Loss2 1.2260 (1.2260)	Lr: 0.0010
+INFO - 07/28/22 17:06:10 - 0:14:09 - Epoch: [67][50]	Time 0.112 (0.118)	Data 0.000 (0.008)	Loss 1.0720 (1.0677)	Loss1 0.6056 (0.6328)	Loss2 1.5384 (1.5025)	Lr: 0.0010
+INFO - 07/28/22 17:06:15 - 0:14:15 - Epoch: [67][0]	Time 0.395 (0.395)	Data 0.382 (0.382)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:06:15 - 0:14:15 - Epoch: [67]	Acc@1 80.41735076904297, Acc@5 98.77672576904297	Best Acc@1 80.43791198730469, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:06:16 - 0:14:15 - ============ Starting epoch 68 ... ============
+INFO - 07/28/22 17:06:16 - 0:14:15 - ============ Starting epoch 68 ... ============
+INFO - 07/28/22 17:06:16 - 0:14:15 - ============ Starting epoch 68 ... ============
+INFO - 07/28/22 17:06:16 - 0:14:16 - ============ Starting epoch 68 ... ============
+INFO - 07/28/22 17:06:16 - 0:14:16 - Clustering for epoch 68 done.
+INFO - 07/28/22 17:06:16 - 0:14:16 - Clustering for epoch 68 done.
+INFO - 07/28/22 17:06:16 - 0:14:16 - Clustering for epoch 68 done.
+INFO - 07/28/22 17:06:16 - 0:14:16 - Clustering for epoch 68 done.
+INFO - 07/28/22 17:06:17 - 0:14:16 - Epoch: [68][0]	Time 0.618 (0.618)	Data 0.392 (0.392)	Loss 0.9845 (0.9845)	Loss1 0.7129 (0.7129)	Loss2 1.2561 (1.2561)	Lr: 0.0010
+INFO - 07/28/22 17:06:22 - 0:14:22 - Epoch: [68][50]	Time 0.110 (0.117)	Data 0.000 (0.008)	Loss 1.0210 (1.0643)	Loss1 0.6081 (0.6291)	Loss2 1.4339 (1.4995)	Lr: 0.0010
+INFO - 07/28/22 17:06:27 - 0:14:27 - Epoch: [68][0]	Time 0.381 (0.381)	Data 0.364 (0.364)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:06:28 - 0:14:28 - Epoch: [68]	Acc@1 80.71546173095703, Acc@5 98.7870101928711	Best Acc@1 80.71546173095703, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:06:28 - 0:14:28 - ============ Starting epoch 69 ... ============
+INFO - 07/28/22 17:06:28 - 0:14:28 - ============ Starting epoch 69 ... ============
+INFO - 07/28/22 17:06:28 - 0:14:28 - ============ Starting epoch 69 ... ============
+INFO - 07/28/22 17:06:28 - 0:14:28 - ============ Starting epoch 69 ... ============
+INFO - 07/28/22 17:06:28 - 0:14:28 - Clustering for epoch 69 done.
+INFO - 07/28/22 17:06:28 - 0:14:28 - Clustering for epoch 69 done.
+INFO - 07/28/22 17:06:28 - 0:14:28 - Clustering for epoch 69 done.
+INFO - 07/28/22 17:06:28 - 0:14:28 - Clustering for epoch 69 done.
+INFO - 07/28/22 17:06:29 - 0:14:29 - Epoch: [69][0]	Time 0.647 (0.647)	Data 0.433 (0.433)	Loss 1.1587 (1.1587)	Loss1 0.5124 (0.5124)	Loss2 1.8050 (1.8050)	Lr: 0.0010
+INFO - 07/28/22 17:06:34 - 0:14:34 - Epoch: [69][50]	Time 0.105 (0.117)	Data 0.000 (0.009)	Loss 1.0242 (1.0764)	Loss1 0.6695 (0.6566)	Loss2 1.3789 (1.4963)	Lr: 0.0010
+INFO - 07/28/22 17:06:40 - 0:14:39 - Epoch: [69][0]	Time 0.381 (0.381)	Data 0.370 (0.370)	Acc@1 78.125(78.125)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:06:40 - 0:14:40 - Epoch: [69]	Acc@1 80.4584732055664, Acc@5 98.71504974365234	Best Acc@1 80.71546173095703, Best Acc@5 98.7870101928711
+INFO - 07/28/22 17:06:40 - 0:14:40 - ============ Starting epoch 70 ... ============
+INFO - 07/28/22 17:06:40 - 0:14:40 - ============ Starting epoch 70 ... ============
+INFO - 07/28/22 17:06:40 - 0:14:40 - ============ Starting epoch 70 ... ============
+INFO - 07/28/22 17:06:40 - 0:14:40 - ============ Starting epoch 70 ... ============
+INFO - 07/28/22 17:06:41 - 0:14:41 - Clustering for epoch 70 done.
+INFO - 07/28/22 17:06:41 - 0:14:41 - Clustering for epoch 70 done.
+INFO - 07/28/22 17:06:41 - 0:14:41 - Clustering for epoch 70 done.
+INFO - 07/28/22 17:06:41 - 0:14:41 - Clustering for epoch 70 done.
+INFO - 07/28/22 17:06:41 - 0:14:41 - Epoch: [70][0]	Time 0.647 (0.647)	Data 0.402 (0.402)	Loss 1.2419 (1.2419)	Loss1 0.7953 (0.7953)	Loss2 1.6884 (1.6884)	Lr: 0.0010
+INFO - 07/28/22 17:06:47 - 0:14:47 - Epoch: [70][50]	Time 0.109 (0.118)	Data 0.000 (0.008)	Loss 1.2186 (1.0902)	Loss1 0.7200 (0.6488)	Loss2 1.7171 (1.5315)	Lr: 0.0010
+INFO - 07/28/22 17:06:52 - 0:14:52 - Epoch: [70][0]	Time 0.379 (0.379)	Data 0.370 (0.370)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:06:53 - 0:14:52 - Epoch: [70]	Acc@1 80.64350128173828, Acc@5 98.8178482055664	Best Acc@1 80.71546173095703, Best Acc@5 98.8178482055664
+INFO - 07/28/22 17:06:53 - 0:14:52 - ============ Starting epoch 71 ... ============
+INFO - 07/28/22 17:06:53 - 0:14:52 - ============ Starting epoch 71 ... ============
+INFO - 07/28/22 17:06:53 - 0:14:52 - ============ Starting epoch 71 ... ============
+INFO - 07/28/22 17:06:53 - 0:14:53 - ============ Starting epoch 71 ... ============
+INFO - 07/28/22 17:06:53 - 0:14:53 - Clustering for epoch 71 done.
+INFO - 07/28/22 17:06:53 - 0:14:53 - Clustering for epoch 71 done.
+INFO - 07/28/22 17:06:53 - 0:14:53 - Clustering for epoch 71 done.
+INFO - 07/28/22 17:06:53 - 0:14:53 - Clustering for epoch 71 done.
+INFO - 07/28/22 17:06:54 - 0:14:54 - Epoch: [71][0]	Time 0.678 (0.678)	Data 0.456 (0.456)	Loss 1.0209 (1.0209)	Loss1 0.5406 (0.5406)	Loss2 1.5012 (1.5012)	Lr: 0.0010
+INFO - 07/28/22 17:06:59 - 0:14:59 - Epoch: [71][50]	Time 0.110 (0.118)	Data 0.000 (0.009)	Loss 1.1568 (1.0927)	Loss1 0.7090 (0.6421)	Loss2 1.6046 (1.5432)	Lr: 0.0010
+INFO - 07/28/22 17:07:05 - 0:15:04 - Epoch: [71][0]	Time 0.399 (0.399)	Data 0.382 (0.382)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:07:05 - 0:15:05 - Epoch: [71]	Acc@1 80.77713775634766, Acc@5 98.8384017944336	Best Acc@1 80.77713775634766, Best Acc@5 98.8384017944336
+INFO - 07/28/22 17:07:05 - 0:15:05 - ============ Starting epoch 72 ... ============
+INFO - 07/28/22 17:07:05 - 0:15:05 - ============ Starting epoch 72 ... ============
+INFO - 07/28/22 17:07:05 - 0:15:05 - ============ Starting epoch 72 ... ============
+INFO - 07/28/22 17:07:05 - 0:15:05 - ============ Starting epoch 72 ... ============
+INFO - 07/28/22 17:07:06 - 0:15:05 - Clustering for epoch 72 done.
+INFO - 07/28/22 17:07:06 - 0:15:05 - Clustering for epoch 72 done.
+INFO - 07/28/22 17:07:06 - 0:15:05 - Clustering for epoch 72 done.
+INFO - 07/28/22 17:07:06 - 0:15:05 - Clustering for epoch 72 done.
+INFO - 07/28/22 17:07:06 - 0:15:06 - Epoch: [72][0]	Time 0.631 (0.631)	Data 0.517 (0.517)	Loss 0.9532 (0.9532)	Loss1 0.4994 (0.4994)	Loss2 1.4070 (1.4070)	Lr: 0.0010
+INFO - 07/28/22 17:07:12 - 0:15:11 - Epoch: [72][50]	Time 0.105 (0.117)	Data 0.000 (0.011)	Loss 0.9981 (1.0824)	Loss1 0.5627 (0.6315)	Loss2 1.4334 (1.5334)	Lr: 0.0010
+INFO - 07/28/22 17:07:17 - 0:15:17 - Epoch: [72][0]	Time 0.380 (0.380)	Data 0.364 (0.364)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:07:17 - 0:15:17 - Epoch: [72]	Acc@1 80.91077423095703, Acc@5 98.7870101928711	Best Acc@1 80.91077423095703, Best Acc@5 98.8384017944336
+INFO - 07/28/22 17:07:17 - 0:15:17 - ============ Starting epoch 73 ... ============
+INFO - 07/28/22 17:07:17 - 0:15:17 - ============ Starting epoch 73 ... ============
+INFO - 07/28/22 17:07:17 - 0:15:17 - ============ Starting epoch 73 ... ============
+INFO - 07/28/22 17:07:18 - 0:15:17 - ============ Starting epoch 73 ... ============
+INFO - 07/28/22 17:07:18 - 0:15:18 - Clustering for epoch 73 done.
+INFO - 07/28/22 17:07:18 - 0:15:18 - Clustering for epoch 73 done.
+INFO - 07/28/22 17:07:18 - 0:15:18 - Clustering for epoch 73 done.
+INFO - 07/28/22 17:07:18 - 0:15:18 - Clustering for epoch 73 done.
+INFO - 07/28/22 17:07:19 - 0:15:18 - Epoch: [73][0]	Time 0.617 (0.617)	Data 0.453 (0.453)	Loss 1.0573 (1.0573)	Loss1 0.5563 (0.5563)	Loss2 1.5582 (1.5582)	Lr: 0.0010
+INFO - 07/28/22 17:07:24 - 0:15:24 - Epoch: [73][50]	Time 0.109 (0.116)	Data 0.000 (0.009)	Loss 1.0265 (1.0546)	Loss1 0.6251 (0.6336)	Loss2 1.4279 (1.4755)	Lr: 0.0010
+INFO - 07/28/22 17:07:29 - 0:15:29 - Epoch: [73][0]	Time 0.368 (0.368)	Data 0.348 (0.348)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:07:30 - 0:15:29 - Epoch: [73]	Acc@1 80.79769897460938, Acc@5 98.84868621826172	Best Acc@1 80.91077423095703, Best Acc@5 98.84868621826172
+INFO - 07/28/22 17:07:30 - 0:15:30 - ============ Starting epoch 74 ... ============
+INFO - 07/28/22 17:07:30 - 0:15:30 - ============ Starting epoch 74 ... ============
+INFO - 07/28/22 17:07:30 - 0:15:30 - ============ Starting epoch 74 ... ============
+INFO - 07/28/22 17:07:30 - 0:15:30 - ============ Starting epoch 74 ... ============
+INFO - 07/28/22 17:07:30 - 0:15:30 - Clustering for epoch 74 done.
+INFO - 07/28/22 17:07:30 - 0:15:30 - Clustering for epoch 74 done.
+INFO - 07/28/22 17:07:30 - 0:15:30 - Clustering for epoch 74 done.
+INFO - 07/28/22 17:07:30 - 0:15:30 - Clustering for epoch 74 done.
+INFO - 07/28/22 17:07:31 - 0:15:31 - Epoch: [74][0]	Time 0.655 (0.655)	Data 0.413 (0.413)	Loss 1.1014 (1.1014)	Loss1 0.6342 (0.6342)	Loss2 1.5686 (1.5686)	Lr: 0.0010
+INFO - 07/28/22 17:07:36 - 0:15:36 - Epoch: [74][50]	Time 0.106 (0.117)	Data 0.000 (0.008)	Loss 1.1392 (1.0873)	Loss1 0.6999 (0.6274)	Loss2 1.5785 (1.5472)	Lr: 0.0010
+INFO - 07/28/22 17:07:42 - 0:15:41 - Epoch: [74][0]	Time 0.385 (0.385)	Data 0.374 (0.374)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:07:42 - 0:15:42 - Epoch: [74]	Acc@1 80.41735076904297, Acc@5 98.79728698730469	Best Acc@1 80.91077423095703, Best Acc@5 98.84868621826172
+INFO - 07/28/22 17:07:42 - 0:15:42 - ============ Starting epoch 75 ... ============
+INFO - 07/28/22 17:07:42 - 0:15:42 - ============ Starting epoch 75 ... ============
+INFO - 07/28/22 17:07:42 - 0:15:42 - ============ Starting epoch 75 ... ============
+INFO - 07/28/22 17:07:42 - 0:15:42 - ============ Starting epoch 75 ... ============
+INFO - 07/28/22 17:07:43 - 0:15:42 - Clustering for epoch 75 done.
+INFO - 07/28/22 17:07:43 - 0:15:42 - Clustering for epoch 75 done.
+INFO - 07/28/22 17:07:43 - 0:15:42 - Clustering for epoch 75 done.
+INFO - 07/28/22 17:07:43 - 0:15:42 - Clustering for epoch 75 done.
+INFO - 07/28/22 17:07:43 - 0:15:43 - Epoch: [75][0]	Time 0.642 (0.642)	Data 0.406 (0.406)	Loss 0.8641 (0.8641)	Loss1 0.3929 (0.3929)	Loss2 1.3354 (1.3354)	Lr: 0.0010
+INFO - 07/28/22 17:07:49 - 0:15:48 - Epoch: [75][50]	Time 0.104 (0.116)	Data 0.000 (0.008)	Loss 1.0657 (1.0622)	Loss1 0.6333 (0.6247)	Loss2 1.4982 (1.4998)	Lr: 0.0010
+INFO - 07/28/22 17:07:54 - 0:15:54 - Epoch: [75][0]	Time 0.422 (0.422)	Data 0.406 (0.406)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:07:54 - 0:15:54 - Epoch: [75]	Acc@1 80.63322448730469, Acc@5 98.828125	Best Acc@1 80.91077423095703, Best Acc@5 98.84868621826172
+INFO - 07/28/22 17:07:54 - 0:15:54 - ============ Starting epoch 76 ... ============
+INFO - 07/28/22 17:07:54 - 0:15:54 - ============ Starting epoch 76 ... ============
+INFO - 07/28/22 17:07:54 - 0:15:54 - ============ Starting epoch 76 ... ============
+INFO - 07/28/22 17:07:55 - 0:15:55 - ============ Starting epoch 76 ... ============
+INFO - 07/28/22 17:07:56 - 0:15:56 - Clustering for epoch 76 done.
+INFO - 07/28/22 17:07:56 - 0:15:56 - Clustering for epoch 76 done.
+INFO - 07/28/22 17:07:56 - 0:15:56 - Clustering for epoch 76 done.
+INFO - 07/28/22 17:07:56 - 0:15:56 - Clustering for epoch 76 done.
+INFO - 07/28/22 17:07:57 - 0:15:56 - Epoch: [76][0]	Time 0.632 (0.632)	Data 0.399 (0.399)	Loss 1.0281 (1.0281)	Loss1 0.6110 (0.6110)	Loss2 1.4452 (1.4452)	Lr: 0.0010
+INFO - 07/28/22 17:08:02 - 0:16:02 - Epoch: [76][50]	Time 0.108 (0.117)	Data 0.000 (0.008)	Loss 1.1514 (1.0728)	Loss1 0.6492 (0.6307)	Loss2 1.6536 (1.5149)	Lr: 0.0010
+INFO - 07/28/22 17:08:07 - 0:16:07 - Epoch: [76][0]	Time 0.398 (0.398)	Data 0.381 (0.381)	Acc@1 82.812(82.812)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:08:08 - 0:16:08 - Epoch: [76]	Acc@1 80.98272705078125, Acc@5 98.79728698730469	Best Acc@1 80.98272705078125, Best Acc@5 98.84868621826172
+INFO - 07/28/22 17:08:08 - 0:16:08 - ============ Starting epoch 77 ... ============
+INFO - 07/28/22 17:08:08 - 0:16:08 - ============ Starting epoch 77 ... ============
+INFO - 07/28/22 17:08:08 - 0:16:08 - ============ Starting epoch 77 ... ============
+INFO - 07/28/22 17:08:08 - 0:16:08 - ============ Starting epoch 77 ... ============
+INFO - 07/28/22 17:08:08 - 0:16:08 - Clustering for epoch 77 done.
+INFO - 07/28/22 17:08:08 - 0:16:08 - Clustering for epoch 77 done.
+INFO - 07/28/22 17:08:08 - 0:16:08 - Clustering for epoch 77 done.
+INFO - 07/28/22 17:08:08 - 0:16:08 - Clustering for epoch 77 done.
+INFO - 07/28/22 17:08:09 - 0:16:09 - Epoch: [77][0]	Time 0.650 (0.650)	Data 0.425 (0.425)	Loss 1.1264 (1.1264)	Loss1 0.5896 (0.5896)	Loss2 1.6632 (1.6632)	Lr: 0.0010
+INFO - 07/28/22 17:08:14 - 0:16:14 - Epoch: [77][50]	Time 0.105 (0.117)	Data 0.000 (0.009)	Loss 1.1659 (1.0816)	Loss1 0.6156 (0.6332)	Loss2 1.7162 (1.5300)	Lr: 0.0010
+INFO - 07/28/22 17:08:20 - 0:16:20 - Epoch: [77][0]	Time 0.384 (0.384)	Data 0.366 (0.366)	Acc@1 82.031(82.031)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:08:20 - 0:16:20 - Epoch: [77]	Acc@1 80.4276351928711, Acc@5 98.8692398071289	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:08:20 - 0:16:20 - ============ Starting epoch 78 ... ============
+INFO - 07/28/22 17:08:20 - 0:16:20 - ============ Starting epoch 78 ... ============
+INFO - 07/28/22 17:08:20 - 0:16:20 - ============ Starting epoch 78 ... ============
+INFO - 07/28/22 17:08:21 - 0:16:20 - ============ Starting epoch 78 ... ============
+INFO - 07/28/22 17:08:21 - 0:16:21 - Clustering for epoch 78 done.
+INFO - 07/28/22 17:08:21 - 0:16:21 - Clustering for epoch 78 done.
+INFO - 07/28/22 17:08:21 - 0:16:21 - Clustering for epoch 78 done.
+INFO - 07/28/22 17:08:21 - 0:16:21 - Clustering for epoch 78 done.
+INFO - 07/28/22 17:08:21 - 0:16:21 - Epoch: [78][0]	Time 0.615 (0.615)	Data 0.436 (0.436)	Loss 1.1924 (1.1924)	Loss1 0.6272 (0.6272)	Loss2 1.7576 (1.7576)	Lr: 0.0010
+INFO - 07/28/22 17:08:27 - 0:16:27 - Epoch: [78][50]	Time 0.109 (0.116)	Data 0.000 (0.009)	Loss 1.0427 (1.0322)	Loss1 0.6554 (0.6266)	Loss2 1.4300 (1.4377)	Lr: 0.0010
+INFO - 07/28/22 17:08:32 - 0:16:32 - Epoch: [78][0]	Time 0.404 (0.404)	Data 0.386 (0.386)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:08:33 - 0:16:33 - Epoch: [78]	Acc@1 80.29399871826172, Acc@5 98.7870101928711	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:08:33 - 0:16:33 - ============ Starting epoch 79 ... ============
+INFO - 07/28/22 17:08:33 - 0:16:33 - ============ Starting epoch 79 ... ============
+INFO - 07/28/22 17:08:33 - 0:16:33 - ============ Starting epoch 79 ... ============
+INFO - 07/28/22 17:08:33 - 0:16:33 - ============ Starting epoch 79 ... ============
+INFO - 07/28/22 17:08:33 - 0:16:33 - Clustering for epoch 79 done.
+INFO - 07/28/22 17:08:33 - 0:16:33 - Clustering for epoch 79 done.
+INFO - 07/28/22 17:08:33 - 0:16:33 - Clustering for epoch 79 done.
+INFO - 07/28/22 17:08:33 - 0:16:33 - Clustering for epoch 79 done.
+INFO - 07/28/22 17:08:34 - 0:16:34 - Epoch: [79][0]	Time 0.661 (0.661)	Data 0.406 (0.406)	Loss 1.1312 (1.1312)	Loss1 0.5664 (0.5664)	Loss2 1.6960 (1.6960)	Lr: 0.0010
+INFO - 07/28/22 17:08:39 - 0:16:39 - Epoch: [79][50]	Time 0.106 (0.117)	Data 0.000 (0.008)	Loss 1.0183 (1.0544)	Loss1 0.6635 (0.6333)	Loss2 1.3731 (1.4755)	Lr: 0.0010
+INFO - 07/28/22 17:08:45 - 0:16:44 - Epoch: [79][0]	Time 0.389 (0.389)	Data 0.372 (0.372)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:08:45 - 0:16:45 - Epoch: [79]	Acc@1 80.43791198730469, Acc@5 98.79728698730469	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:08:45 - 0:16:45 - ============ Starting epoch 80 ... ============
+INFO - 07/28/22 17:08:45 - 0:16:45 - ============ Starting epoch 80 ... ============
+INFO - 07/28/22 17:08:45 - 0:16:45 - ============ Starting epoch 80 ... ============
+INFO - 07/28/22 17:08:45 - 0:16:45 - ============ Starting epoch 80 ... ============
+INFO - 07/28/22 17:08:46 - 0:16:46 - Clustering for epoch 80 done.
+INFO - 07/28/22 17:08:46 - 0:16:46 - Clustering for epoch 80 done.
+INFO - 07/28/22 17:08:46 - 0:16:46 - Clustering for epoch 80 done.
+INFO - 07/28/22 17:08:46 - 0:16:46 - Clustering for epoch 80 done.
+INFO - 07/28/22 17:08:46 - 0:16:46 - Epoch: [80][0]	Time 0.627 (0.627)	Data 0.428 (0.428)	Loss 1.1550 (1.1550)	Loss1 0.7046 (0.7046)	Loss2 1.6054 (1.6054)	Lr: 0.0010
+INFO - 07/28/22 17:08:52 - 0:16:51 - Epoch: [80][50]	Time 0.107 (0.117)	Data 0.000 (0.009)	Loss 1.0126 (1.0816)	Loss1 0.6307 (0.6264)	Loss2 1.3945 (1.5367)	Lr: 0.0010
+INFO - 07/28/22 17:08:57 - 0:16:57 - Epoch: [80][0]	Time 0.383 (0.383)	Data 0.365 (0.365)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:08:58 - 0:16:57 - Epoch: [80]	Acc@1 80.52014923095703, Acc@5 98.79728698730469	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:08:58 - 0:16:57 - ============ Starting epoch 81 ... ============
+INFO - 07/28/22 17:08:58 - 0:16:57 - ============ Starting epoch 81 ... ============
+INFO - 07/28/22 17:08:58 - 0:16:57 - ============ Starting epoch 81 ... ============
+INFO - 07/28/22 17:08:58 - 0:16:58 - ============ Starting epoch 81 ... ============
+INFO - 07/28/22 17:08:58 - 0:16:58 - Clustering for epoch 81 done.
+INFO - 07/28/22 17:08:58 - 0:16:58 - Clustering for epoch 81 done.
+INFO - 07/28/22 17:08:58 - 0:16:58 - Clustering for epoch 81 done.
+INFO - 07/28/22 17:08:58 - 0:16:58 - Clustering for epoch 81 done.
+INFO - 07/28/22 17:08:59 - 0:16:59 - Epoch: [81][0]	Time 0.599 (0.599)	Data 0.425 (0.425)	Loss 1.1825 (1.1825)	Loss1 0.6818 (0.6818)	Loss2 1.6831 (1.6831)	Lr: 0.0010
+INFO - 07/28/22 17:09:04 - 0:17:04 - Epoch: [81][50]	Time 0.106 (0.116)	Data 0.000 (0.009)	Loss 1.0788 (1.0490)	Loss1 0.6525 (0.6317)	Loss2 1.5052 (1.4663)	Lr: 0.0010
+INFO - 07/28/22 17:09:09 - 0:17:09 - Epoch: [81][0]	Time 0.385 (0.385)	Data 0.375 (0.375)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:09:10 - 0:17:10 - Epoch: [81]	Acc@1 80.859375, Acc@5 98.7870101928711	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:09:10 - 0:17:10 - ============ Starting epoch 82 ... ============
+INFO - 07/28/22 17:09:10 - 0:17:10 - ============ Starting epoch 82 ... ============
+INFO - 07/28/22 17:09:10 - 0:17:10 - ============ Starting epoch 82 ... ============
+INFO - 07/28/22 17:09:10 - 0:17:10 - ============ Starting epoch 82 ... ============
+INFO - 07/28/22 17:09:11 - 0:17:10 - Clustering for epoch 82 done.
+INFO - 07/28/22 17:09:11 - 0:17:10 - Clustering for epoch 82 done.
+INFO - 07/28/22 17:09:11 - 0:17:10 - Clustering for epoch 82 done.
+INFO - 07/28/22 17:09:11 - 0:17:10 - Clustering for epoch 82 done.
+INFO - 07/28/22 17:09:11 - 0:17:11 - Epoch: [82][0]	Time 0.674 (0.674)	Data 0.526 (0.526)	Loss 0.9234 (0.9234)	Loss1 0.4751 (0.4751)	Loss2 1.3717 (1.3717)	Lr: 0.0010
+INFO - 07/28/22 17:09:16 - 0:17:16 - Epoch: [82][50]	Time 0.103 (0.117)	Data 0.000 (0.011)	Loss 0.9253 (1.0466)	Loss1 0.6482 (0.6101)	Loss2 1.2025 (1.4831)	Lr: 0.0010
+INFO - 07/28/22 17:09:22 - 0:17:22 - Epoch: [82][0]	Time 0.365 (0.365)	Data 0.347 (0.347)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:09:22 - 0:17:22 - Epoch: [82]	Acc@1 80.87993621826172, Acc@5 98.80756378173828	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:09:22 - 0:17:22 - ============ Starting epoch 83 ... ============
+INFO - 07/28/22 17:09:22 - 0:17:22 - ============ Starting epoch 83 ... ============
+INFO - 07/28/22 17:09:22 - 0:17:22 - ============ Starting epoch 83 ... ============
+INFO - 07/28/22 17:09:23 - 0:17:22 - ============ Starting epoch 83 ... ============
+INFO - 07/28/22 17:09:23 - 0:17:23 - Clustering for epoch 83 done.
+INFO - 07/28/22 17:09:23 - 0:17:23 - Clustering for epoch 83 done.
+INFO - 07/28/22 17:09:23 - 0:17:23 - Clustering for epoch 83 done.
+INFO - 07/28/22 17:09:23 - 0:17:23 - Clustering for epoch 83 done.
+INFO - 07/28/22 17:09:24 - 0:17:23 - Epoch: [83][0]	Time 0.619 (0.619)	Data 0.419 (0.419)	Loss 0.9656 (0.9656)	Loss1 0.5214 (0.5214)	Loss2 1.4098 (1.4098)	Lr: 0.0010
+INFO - 07/28/22 17:09:29 - 0:17:29 - Epoch: [83][50]	Time 0.107 (0.118)	Data 0.000 (0.009)	Loss 1.0607 (1.0758)	Loss1 0.5931 (0.6304)	Loss2 1.5284 (1.5212)	Lr: 0.0010
+INFO - 07/28/22 17:09:34 - 0:17:34 - Epoch: [83][0]	Time 0.376 (0.376)	Data 0.359 (0.359)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:09:35 - 0:17:35 - Epoch: [83]	Acc@1 80.69490051269531, Acc@5 98.84868621826172	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:09:35 - 0:17:35 - ============ Starting epoch 84 ... ============
+INFO - 07/28/22 17:09:35 - 0:17:35 - ============ Starting epoch 84 ... ============
+INFO - 07/28/22 17:09:35 - 0:17:35 - ============ Starting epoch 84 ... ============
+INFO - 07/28/22 17:09:35 - 0:17:35 - ============ Starting epoch 84 ... ============
+INFO - 07/28/22 17:09:35 - 0:17:35 - Clustering for epoch 84 done.
+INFO - 07/28/22 17:09:35 - 0:17:35 - Clustering for epoch 84 done.
+INFO - 07/28/22 17:09:35 - 0:17:35 - Clustering for epoch 84 done.
+INFO - 07/28/22 17:09:35 - 0:17:35 - Clustering for epoch 84 done.
+INFO - 07/28/22 17:09:36 - 0:17:36 - Epoch: [84][0]	Time 0.634 (0.634)	Data 0.395 (0.395)	Loss 0.9402 (0.9402)	Loss1 0.5967 (0.5967)	Loss2 1.2837 (1.2837)	Lr: 0.0010
+INFO - 07/28/22 17:09:41 - 0:17:41 - Epoch: [84][50]	Time 0.105 (0.116)	Data 0.000 (0.008)	Loss 1.1462 (1.0673)	Loss1 0.6398 (0.6194)	Loss2 1.6525 (1.5153)	Lr: 0.0010
+INFO - 07/28/22 17:09:47 - 0:17:46 - Epoch: [84][0]	Time 0.377 (0.377)	Data 0.364 (0.364)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:09:47 - 0:17:47 - Epoch: [84]	Acc@1 80.63322448730469, Acc@5 98.8692398071289	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:09:47 - 0:17:47 - ============ Starting epoch 85 ... ============
+INFO - 07/28/22 17:09:47 - 0:17:47 - ============ Starting epoch 85 ... ============
+INFO - 07/28/22 17:09:47 - 0:17:47 - ============ Starting epoch 85 ... ============
+INFO - 07/28/22 17:09:47 - 0:17:47 - ============ Starting epoch 85 ... ============
+INFO - 07/28/22 17:09:48 - 0:17:47 - Clustering for epoch 85 done.
+INFO - 07/28/22 17:09:48 - 0:17:47 - Clustering for epoch 85 done.
+INFO - 07/28/22 17:09:48 - 0:17:47 - Clustering for epoch 85 done.
+INFO - 07/28/22 17:09:48 - 0:17:47 - Clustering for epoch 85 done.
+INFO - 07/28/22 17:09:48 - 0:17:48 - Epoch: [85][0]	Time 0.648 (0.648)	Data 0.421 (0.421)	Loss 1.0847 (1.0847)	Loss1 0.6010 (0.6010)	Loss2 1.5683 (1.5683)	Lr: 0.0010
+INFO - 07/28/22 17:09:54 - 0:17:53 - Epoch: [85][50]	Time 0.107 (0.117)	Data 0.000 (0.009)	Loss 1.1978 (1.0764)	Loss1 0.7250 (0.6374)	Loss2 1.6706 (1.5154)	Lr: 0.0010
+INFO - 07/28/22 17:09:59 - 0:17:59 - Epoch: [85][0]	Time 0.378 (0.378)	Data 0.364 (0.364)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:10:00 - 0:17:59 - Epoch: [85]	Acc@1 80.6743392944336, Acc@5 98.8178482055664	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:10:00 - 0:17:59 - ============ Starting epoch 86 ... ============
+INFO - 07/28/22 17:10:00 - 0:17:59 - ============ Starting epoch 86 ... ============
+INFO - 07/28/22 17:10:00 - 0:17:59 - ============ Starting epoch 86 ... ============
+INFO - 07/28/22 17:10:00 - 0:18:00 - ============ Starting epoch 86 ... ============
+INFO - 07/28/22 17:10:00 - 0:18:00 - Clustering for epoch 86 done.
+INFO - 07/28/22 17:10:00 - 0:18:00 - Clustering for epoch 86 done.
+INFO - 07/28/22 17:10:00 - 0:18:00 - Clustering for epoch 86 done.
+INFO - 07/28/22 17:10:00 - 0:18:00 - Clustering for epoch 86 done.
+INFO - 07/28/22 17:10:01 - 0:18:01 - Epoch: [86][0]	Time 0.667 (0.667)	Data 0.495 (0.495)	Loss 1.0631 (1.0631)	Loss1 0.5689 (0.5689)	Loss2 1.5574 (1.5574)	Lr: 0.0010
+INFO - 07/28/22 17:10:06 - 0:18:06 - Epoch: [86][50]	Time 0.107 (0.121)	Data 0.000 (0.010)	Loss 0.9987 (1.0876)	Loss1 0.6036 (0.6299)	Loss2 1.3938 (1.5452)	Lr: 0.0010
+INFO - 07/28/22 17:10:12 - 0:18:11 - Epoch: [86][0]	Time 0.381 (0.381)	Data 0.353 (0.353)	Acc@1 78.125(78.125)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:10:12 - 0:18:12 - Epoch: [86]	Acc@1 80.9004898071289, Acc@5 98.8692398071289	Best Acc@1 80.98272705078125, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:10:12 - 0:18:12 - ============ Starting epoch 87 ... ============
+INFO - 07/28/22 17:10:12 - 0:18:12 - ============ Starting epoch 87 ... ============
+INFO - 07/28/22 17:10:12 - 0:18:12 - ============ Starting epoch 87 ... ============
+INFO - 07/28/22 17:10:13 - 0:18:12 - ============ Starting epoch 87 ... ============
+INFO - 07/28/22 17:10:13 - 0:18:13 - Clustering for epoch 87 done.
+INFO - 07/28/22 17:10:13 - 0:18:13 - Clustering for epoch 87 done.
+INFO - 07/28/22 17:10:13 - 0:18:13 - Clustering for epoch 87 done.
+INFO - 07/28/22 17:10:13 - 0:18:13 - Clustering for epoch 87 done.
+INFO - 07/28/22 17:10:13 - 0:18:13 - Epoch: [87][0]	Time 0.656 (0.656)	Data 0.417 (0.417)	Loss 0.8689 (0.8689)	Loss1 0.4771 (0.4771)	Loss2 1.2607 (1.2607)	Lr: 0.0010
+INFO - 07/28/22 17:10:19 - 0:18:19 - Epoch: [87][50]	Time 0.109 (0.119)	Data 0.001 (0.009)	Loss 1.0590 (1.0442)	Loss1 0.7079 (0.6264)	Loss2 1.4101 (1.4619)	Lr: 0.0010
+INFO - 07/28/22 17:10:24 - 0:18:24 - Epoch: [87][0]	Time 0.495 (0.495)	Data 0.480 (0.480)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:10:25 - 0:18:25 - Epoch: [87]	Acc@1 81.02384948730469, Acc@5 98.8178482055664	Best Acc@1 81.02384948730469, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:10:25 - 0:18:25 - ============ Starting epoch 88 ... ============
+INFO - 07/28/22 17:10:25 - 0:18:25 - ============ Starting epoch 88 ... ============
+INFO - 07/28/22 17:10:25 - 0:18:25 - ============ Starting epoch 88 ... ============
+INFO - 07/28/22 17:10:25 - 0:18:25 - ============ Starting epoch 88 ... ============
+INFO - 07/28/22 17:10:25 - 0:18:25 - Clustering for epoch 88 done.
+INFO - 07/28/22 17:10:25 - 0:18:25 - Clustering for epoch 88 done.
+INFO - 07/28/22 17:10:25 - 0:18:25 - Clustering for epoch 88 done.
+INFO - 07/28/22 17:10:25 - 0:18:25 - Clustering for epoch 88 done.
+INFO - 07/28/22 17:10:26 - 0:18:26 - Epoch: [88][0]	Time 0.597 (0.597)	Data 0.402 (0.402)	Loss 1.0767 (1.0767)	Loss1 0.7005 (0.7005)	Loss2 1.4528 (1.4528)	Lr: 0.0010
+INFO - 07/28/22 17:10:31 - 0:18:31 - Epoch: [88][50]	Time 0.108 (0.116)	Data 0.000 (0.008)	Loss 0.9833 (1.0689)	Loss1 0.5633 (0.6023)	Loss2 1.4033 (1.5354)	Lr: 0.0010
+INFO - 07/28/22 17:10:37 - 0:18:36 - Epoch: [88][0]	Time 0.392 (0.392)	Data 0.375 (0.375)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:10:37 - 0:18:37 - Epoch: [88]	Acc@1 80.95188903808594, Acc@5 98.8692398071289	Best Acc@1 81.02384948730469, Best Acc@5 98.8692398071289
+INFO - 07/28/22 17:10:37 - 0:18:37 - ============ Starting epoch 89 ... ============
+INFO - 07/28/22 17:10:37 - 0:18:37 - ============ Starting epoch 89 ... ============
+INFO - 07/28/22 17:10:37 - 0:18:37 - ============ Starting epoch 89 ... ============
+INFO - 07/28/22 17:10:37 - 0:18:37 - ============ Starting epoch 89 ... ============
+INFO - 07/28/22 17:10:38 - 0:18:37 - Clustering for epoch 89 done.
+INFO - 07/28/22 17:10:38 - 0:18:37 - Clustering for epoch 89 done.
+INFO - 07/28/22 17:10:38 - 0:18:37 - Clustering for epoch 89 done.
+INFO - 07/28/22 17:10:38 - 0:18:37 - Clustering for epoch 89 done.
+INFO - 07/28/22 17:10:38 - 0:18:38 - Epoch: [89][0]	Time 0.655 (0.655)	Data 0.416 (0.416)	Loss 1.0282 (1.0282)	Loss1 0.6798 (0.6798)	Loss2 1.3765 (1.3765)	Lr: 0.0010
+INFO - 07/28/22 17:10:44 - 0:18:43 - Epoch: [89][50]	Time 0.109 (0.118)	Data 0.001 (0.008)	Loss 1.0758 (1.0522)	Loss1 0.7026 (0.6116)	Loss2 1.4490 (1.4927)	Lr: 0.0010
+INFO - 07/28/22 17:10:49 - 0:18:49 - Epoch: [89][0]	Time 0.383 (0.383)	Data 0.369 (0.369)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:10:50 - 0:18:49 - Epoch: [89]	Acc@1 81.16776275634766, Acc@5 98.87952423095703	Best Acc@1 81.16776275634766, Best Acc@5 98.87952423095703
+INFO - 07/28/22 17:10:50 - 0:18:49 - ============ Starting epoch 90 ... ============
+INFO - 07/28/22 17:10:50 - 0:18:49 - ============ Starting epoch 90 ... ============
+INFO - 07/28/22 17:10:50 - 0:18:49 - ============ Starting epoch 90 ... ============
+INFO - 07/28/22 17:10:50 - 0:18:50 - ============ Starting epoch 90 ... ============
+INFO - 07/28/22 17:10:50 - 0:18:50 - Clustering for epoch 90 done.
+INFO - 07/28/22 17:10:50 - 0:18:50 - Clustering for epoch 90 done.
+INFO - 07/28/22 17:10:50 - 0:18:50 - Clustering for epoch 90 done.
+INFO - 07/28/22 17:10:50 - 0:18:50 - Clustering for epoch 90 done.
+INFO - 07/28/22 17:10:51 - 0:18:51 - Epoch: [90][0]	Time 0.646 (0.646)	Data 0.388 (0.388)	Loss 1.0710 (1.0710)	Loss1 0.6620 (0.6620)	Loss2 1.4801 (1.4801)	Lr: 0.0001
+INFO - 07/28/22 17:10:56 - 0:18:56 - Epoch: [90][50]	Time 0.107 (0.118)	Data 0.000 (0.008)	Loss 0.9439 (1.0499)	Loss1 0.5598 (0.6104)	Loss2 1.3280 (1.4894)	Lr: 0.0001
+INFO - 07/28/22 17:11:02 - 0:19:01 - Epoch: [90][0]	Time 0.390 (0.390)	Data 0.372 (0.372)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:11:02 - 0:19:02 - Epoch: [90]	Acc@1 81.33223724365234, Acc@5 98.88980102539062	Best Acc@1 81.33223724365234, Best Acc@5 98.88980102539062
+INFO - 07/28/22 17:11:02 - 0:19:02 - ============ Starting epoch 91 ... ============
+INFO - 07/28/22 17:11:02 - 0:19:02 - ============ Starting epoch 91 ... ============
+INFO - 07/28/22 17:11:02 - 0:19:02 - ============ Starting epoch 91 ... ============
+INFO - 07/28/22 17:11:02 - 0:19:02 - ============ Starting epoch 91 ... ============
+INFO - 07/28/22 17:11:03 - 0:19:02 - Clustering for epoch 91 done.
+INFO - 07/28/22 17:11:03 - 0:19:02 - Clustering for epoch 91 done.
+INFO - 07/28/22 17:11:03 - 0:19:02 - Clustering for epoch 91 done.
+INFO - 07/28/22 17:11:03 - 0:19:02 - Clustering for epoch 91 done.
+INFO - 07/28/22 17:11:03 - 0:19:03 - Epoch: [91][0]	Time 0.657 (0.657)	Data 0.403 (0.403)	Loss 1.0891 (1.0891)	Loss1 0.6477 (0.6477)	Loss2 1.5306 (1.5306)	Lr: 0.0001
+INFO - 07/28/22 17:11:09 - 0:19:08 - Epoch: [91][50]	Time 0.111 (0.117)	Data 0.000 (0.008)	Loss 0.9875 (1.0839)	Loss1 0.6837 (0.6192)	Loss2 1.2914 (1.5487)	Lr: 0.0001
+INFO - 07/28/22 17:11:14 - 0:19:14 - Epoch: [91][0]	Time 0.491 (0.491)	Data 0.473 (0.473)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:11:15 - 0:19:14 - Epoch: [91]	Acc@1 81.2397232055664, Acc@5 98.8178482055664	Best Acc@1 81.33223724365234, Best Acc@5 98.88980102539062
+INFO - 07/28/22 17:11:15 - 0:19:14 - ============ Starting epoch 92 ... ============
+INFO - 07/28/22 17:11:15 - 0:19:14 - ============ Starting epoch 92 ... ============
+INFO - 07/28/22 17:11:15 - 0:19:14 - ============ Starting epoch 92 ... ============
+INFO - 07/28/22 17:11:15 - 0:19:15 - ============ Starting epoch 92 ... ============
+INFO - 07/28/22 17:11:15 - 0:19:15 - Clustering for epoch 92 done.
+INFO - 07/28/22 17:11:15 - 0:19:15 - Clustering for epoch 92 done.
+INFO - 07/28/22 17:11:15 - 0:19:15 - Clustering for epoch 92 done.
+INFO - 07/28/22 17:11:15 - 0:19:15 - Clustering for epoch 92 done.
+INFO - 07/28/22 17:11:16 - 0:19:15 - Epoch: [92][0]	Time 0.652 (0.652)	Data 0.403 (0.403)	Loss 1.1730 (1.1730)	Loss1 0.5623 (0.5623)	Loss2 1.7837 (1.7837)	Lr: 0.0001
+INFO - 07/28/22 17:11:21 - 0:19:21 - Epoch: [92][50]	Time 0.110 (0.117)	Data 0.000 (0.008)	Loss 1.0698 (1.0458)	Loss1 0.6476 (0.6038)	Loss2 1.4920 (1.4879)	Lr: 0.0001
+INFO - 07/28/22 17:11:26 - 0:19:26 - Epoch: [92][0]	Time 0.400 (0.400)	Data 0.384 (0.384)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:11:27 - 0:19:27 - Epoch: [92]	Acc@1 81.12664794921875, Acc@5 98.8692398071289	Best Acc@1 81.33223724365234, Best Acc@5 98.88980102539062
+INFO - 07/28/22 17:11:27 - 0:19:27 - ============ Starting epoch 93 ... ============
+INFO - 07/28/22 17:11:27 - 0:19:27 - ============ Starting epoch 93 ... ============
+INFO - 07/28/22 17:11:27 - 0:19:27 - ============ Starting epoch 93 ... ============
+INFO - 07/28/22 17:11:27 - 0:19:27 - ============ Starting epoch 93 ... ============
+INFO - 07/28/22 17:11:27 - 0:19:27 - Clustering for epoch 93 done.
+INFO - 07/28/22 17:11:27 - 0:19:27 - Clustering for epoch 93 done.
+INFO - 07/28/22 17:11:27 - 0:19:27 - Clustering for epoch 93 done.
+INFO - 07/28/22 17:11:27 - 0:19:27 - Clustering for epoch 93 done.
+INFO - 07/28/22 17:11:28 - 0:19:28 - Epoch: [93][0]	Time 0.642 (0.642)	Data 0.461 (0.461)	Loss 1.0204 (1.0204)	Loss1 0.5328 (0.5328)	Loss2 1.5080 (1.5080)	Lr: 0.0001
+INFO - 07/28/22 17:11:33 - 0:19:33 - Epoch: [93][50]	Time 0.111 (0.117)	Data 0.000 (0.009)	Loss 1.0665 (1.0523)	Loss1 0.6760 (0.6026)	Loss2 1.4571 (1.5021)	Lr: 0.0001
+INFO - 07/28/22 17:11:39 - 0:19:38 - Epoch: [93][0]	Time 0.369 (0.369)	Data 0.351 (0.351)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:11:39 - 0:19:39 - Epoch: [93]	Acc@1 81.10608673095703, Acc@5 98.87952423095703	Best Acc@1 81.33223724365234, Best Acc@5 98.88980102539062
+INFO - 07/28/22 17:11:39 - 0:19:39 - ============ Starting epoch 94 ... ============
+INFO - 07/28/22 17:11:39 - 0:19:39 - ============ Starting epoch 94 ... ============
+INFO - 07/28/22 17:11:39 - 0:19:39 - ============ Starting epoch 94 ... ============
+INFO - 07/28/22 17:11:39 - 0:19:39 - ============ Starting epoch 94 ... ============
+INFO - 07/28/22 17:11:40 - 0:19:40 - Clustering for epoch 94 done.
+INFO - 07/28/22 17:11:40 - 0:19:40 - Clustering for epoch 94 done.
+INFO - 07/28/22 17:11:40 - 0:19:40 - Clustering for epoch 94 done.
+INFO - 07/28/22 17:11:40 - 0:19:40 - Clustering for epoch 94 done.
+INFO - 07/28/22 17:11:40 - 0:19:40 - Epoch: [94][0]	Time 0.602 (0.602)	Data 0.401 (0.401)	Loss 1.1241 (1.1241)	Loss1 0.7005 (0.7005)	Loss2 1.5476 (1.5476)	Lr: 0.0001
+INFO - 07/28/22 17:11:46 - 0:19:45 - Epoch: [94][50]	Time 0.108 (0.116)	Data 0.000 (0.008)	Loss 1.0700 (1.0575)	Loss1 0.6774 (0.6138)	Loss2 1.4626 (1.5012)	Lr: 0.0001
+INFO - 07/28/22 17:11:51 - 0:19:51 - Epoch: [94][0]	Time 0.381 (0.381)	Data 0.361 (0.361)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:11:52 - 0:19:51 - Epoch: [94]	Acc@1 81.21916198730469, Acc@5 98.8692398071289	Best Acc@1 81.33223724365234, Best Acc@5 98.88980102539062
+INFO - 07/28/22 17:11:52 - 0:19:51 - ============ Starting epoch 95 ... ============
+INFO - 07/28/22 17:11:52 - 0:19:51 - ============ Starting epoch 95 ... ============
+INFO - 07/28/22 17:11:52 - 0:19:51 - ============ Starting epoch 95 ... ============
+INFO - 07/28/22 17:11:52 - 0:19:52 - ============ Starting epoch 95 ... ============
+INFO - 07/28/22 17:11:52 - 0:19:52 - Clustering for epoch 95 done.
+INFO - 07/28/22 17:11:52 - 0:19:52 - Clustering for epoch 95 done.
+INFO - 07/28/22 17:11:52 - 0:19:52 - Clustering for epoch 95 done.
+INFO - 07/28/22 17:11:52 - 0:19:52 - Clustering for epoch 95 done.
+INFO - 07/28/22 17:11:53 - 0:19:53 - Epoch: [95][0]	Time 0.655 (0.655)	Data 0.395 (0.395)	Loss 1.0840 (1.0840)	Loss1 0.6382 (0.6382)	Loss2 1.5297 (1.5297)	Lr: 0.0001
+INFO - 07/28/22 17:11:58 - 0:19:58 - Epoch: [95][50]	Time 0.105 (0.118)	Data 0.000 (0.008)	Loss 1.0442 (1.0480)	Loss1 0.6009 (0.6074)	Loss2 1.4875 (1.4885)	Lr: 0.0001
+INFO - 07/28/22 17:12:04 - 0:20:03 - Epoch: [95][0]	Time 0.393 (0.393)	Data 0.380 (0.380)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:12:04 - 0:20:04 - Epoch: [95]	Acc@1 81.19860076904297, Acc@5 98.91036224365234	Best Acc@1 81.33223724365234, Best Acc@5 98.91036224365234
+INFO - 07/28/22 17:12:04 - 0:20:04 - ============ Starting epoch 96 ... ============
+INFO - 07/28/22 17:12:04 - 0:20:04 - ============ Starting epoch 96 ... ============
+INFO - 07/28/22 17:12:04 - 0:20:04 - ============ Starting epoch 96 ... ============
+INFO - 07/28/22 17:12:04 - 0:20:04 - ============ Starting epoch 96 ... ============
+INFO - 07/28/22 17:12:05 - 0:20:04 - Clustering for epoch 96 done.
+INFO - 07/28/22 17:12:05 - 0:20:04 - Clustering for epoch 96 done.
+INFO - 07/28/22 17:12:05 - 0:20:04 - Clustering for epoch 96 done.
+INFO - 07/28/22 17:12:05 - 0:20:04 - Clustering for epoch 96 done.
+INFO - 07/28/22 17:12:05 - 0:20:05 - Epoch: [96][0]	Time 0.655 (0.655)	Data 0.421 (0.421)	Loss 1.0478 (1.0478)	Loss1 0.6177 (0.6177)	Loss2 1.4780 (1.4780)	Lr: 0.0001
+INFO - 07/28/22 17:12:11 - 0:20:10 - Epoch: [96][50]	Time 0.106 (0.118)	Data 0.000 (0.009)	Loss 1.1542 (1.0726)	Loss1 0.6205 (0.6234)	Loss2 1.6878 (1.5219)	Lr: 0.0001
+INFO - 07/28/22 17:12:16 - 0:20:16 - Epoch: [96][0]	Time 0.386 (0.386)	Data 0.372 (0.372)	Acc@1 78.906(78.906)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:12:16 - 0:20:16 - Epoch: [96]	Acc@1 81.2088851928711, Acc@5 98.90008544921875	Best Acc@1 81.33223724365234, Best Acc@5 98.91036224365234
+INFO - 07/28/22 17:12:17 - 0:20:16 - ============ Starting epoch 97 ... ============
+INFO - 07/28/22 17:12:17 - 0:20:16 - ============ Starting epoch 97 ... ============
+INFO - 07/28/22 17:12:17 - 0:20:16 - ============ Starting epoch 97 ... ============
+INFO - 07/28/22 17:12:17 - 0:20:17 - ============ Starting epoch 97 ... ============
+INFO - 07/28/22 17:12:17 - 0:20:17 - Clustering for epoch 97 done.
+INFO - 07/28/22 17:12:17 - 0:20:17 - Clustering for epoch 97 done.
+INFO - 07/28/22 17:12:17 - 0:20:17 - Clustering for epoch 97 done.
+INFO - 07/28/22 17:12:17 - 0:20:17 - Clustering for epoch 97 done.
+INFO - 07/28/22 17:12:18 - 0:20:17 - Epoch: [97][0]	Time 0.628 (0.628)	Data 0.441 (0.441)	Loss 1.0616 (1.0616)	Loss1 0.6033 (0.6033)	Loss2 1.5200 (1.5200)	Lr: 0.0001
+INFO - 07/28/22 17:12:23 - 0:20:23 - Epoch: [97][50]	Time 0.110 (0.117)	Data 0.000 (0.009)	Loss 1.0028 (1.0359)	Loss1 0.5660 (0.6083)	Loss2 1.4396 (1.4634)	Lr: 0.0001
+INFO - 07/28/22 17:12:28 - 0:20:28 - Epoch: [97][0]	Time 0.477 (0.477)	Data 0.465 (0.465)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:12:29 - 0:20:29 - Epoch: [97]	Acc@1 81.11636352539062, Acc@5 98.88980102539062	Best Acc@1 81.33223724365234, Best Acc@5 98.91036224365234
+INFO - 07/28/22 17:12:29 - 0:20:29 - ============ Starting epoch 98 ... ============
+INFO - 07/28/22 17:12:29 - 0:20:29 - ============ Starting epoch 98 ... ============
+INFO - 07/28/22 17:12:29 - 0:20:29 - ============ Starting epoch 98 ... ============
+INFO - 07/28/22 17:12:29 - 0:20:29 - ============ Starting epoch 98 ... ============
+INFO - 07/28/22 17:12:29 - 0:20:29 - Clustering for epoch 98 done.
+INFO - 07/28/22 17:12:29 - 0:20:29 - Clustering for epoch 98 done.
+INFO - 07/28/22 17:12:29 - 0:20:29 - Clustering for epoch 98 done.
+INFO - 07/28/22 17:12:29 - 0:20:29 - Clustering for epoch 98 done.
+INFO - 07/28/22 17:12:30 - 0:20:30 - Epoch: [98][0]	Time 0.649 (0.649)	Data 0.419 (0.419)	Loss 1.0409 (1.0409)	Loss1 0.5908 (0.5908)	Loss2 1.4909 (1.4909)	Lr: 0.0001
+INFO - 07/28/22 17:12:35 - 0:20:35 - Epoch: [98][50]	Time 0.106 (0.117)	Data 0.000 (0.009)	Loss 0.9587 (1.0514)	Loss1 0.5406 (0.6055)	Loss2 1.3769 (1.4973)	Lr: 0.0001
+INFO - 07/28/22 17:12:41 - 0:20:40 - Epoch: [98][0]	Time 0.379 (0.379)	Data 0.370 (0.370)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:12:41 - 0:20:41 - Epoch: [98]	Acc@1 81.2911148071289, Acc@5 98.91036224365234	Best Acc@1 81.33223724365234, Best Acc@5 98.91036224365234
+INFO - 07/28/22 17:12:41 - 0:20:41 - ============ Starting epoch 99 ... ============
+INFO - 07/28/22 17:12:41 - 0:20:41 - ============ Starting epoch 99 ... ============
+INFO - 07/28/22 17:12:41 - 0:20:41 - ============ Starting epoch 99 ... ============
+INFO - 07/28/22 17:12:41 - 0:20:41 - ============ Starting epoch 99 ... ============
+INFO - 07/28/22 17:12:42 - 0:20:42 - Clustering for epoch 99 done.
+INFO - 07/28/22 17:12:42 - 0:20:42 - Clustering for epoch 99 done.
+INFO - 07/28/22 17:12:42 - 0:20:42 - Clustering for epoch 99 done.
+INFO - 07/28/22 17:12:42 - 0:20:42 - Clustering for epoch 99 done.
+INFO - 07/28/22 17:12:42 - 0:20:42 - Epoch: [99][0]	Time 0.638 (0.638)	Data 0.427 (0.427)	Loss 1.0674 (1.0674)	Loss1 0.6690 (0.6690)	Loss2 1.4658 (1.4658)	Lr: 0.0001
+INFO - 07/28/22 17:12:48 - 0:20:47 - Epoch: [99][50]	Time 0.103 (0.117)	Data 0.000 (0.009)	Loss 1.0089 (1.0370)	Loss1 0.5332 (0.6112)	Loss2 1.4846 (1.4628)	Lr: 0.0001
+INFO - 07/28/22 17:12:53 - 0:20:53 - Epoch: [99][0]	Time 0.444 (0.444)	Data 0.424 (0.424)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:12:54 - 0:20:53 - Epoch: [99]	Acc@1 81.35279846191406, Acc@5 98.93092346191406	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:12:54 - 0:20:53 - ============ Starting epoch 100 ... ============
+INFO - 07/28/22 17:12:54 - 0:20:53 - ============ Starting epoch 100 ... ============
+INFO - 07/28/22 17:12:54 - 0:20:53 - ============ Starting epoch 100 ... ============
+INFO - 07/28/22 17:12:54 - 0:20:54 - ============ Starting epoch 100 ... ============
+INFO - 07/28/22 17:12:54 - 0:20:54 - Clustering for epoch 100 done.
+INFO - 07/28/22 17:12:54 - 0:20:54 - Clustering for epoch 100 done.
+INFO - 07/28/22 17:12:54 - 0:20:54 - Clustering for epoch 100 done.
+INFO - 07/28/22 17:12:54 - 0:20:54 - Clustering for epoch 100 done.
+INFO - 07/28/22 17:12:55 - 0:20:55 - Epoch: [100][0]	Time 0.627 (0.627)	Data 0.419 (0.419)	Loss 1.1063 (1.1063)	Loss1 0.6110 (0.6110)	Loss2 1.6015 (1.6015)	Lr: 0.0001
+INFO - 07/28/22 17:13:00 - 0:21:00 - Epoch: [100][50]	Time 0.107 (0.117)	Data 0.000 (0.009)	Loss 1.1057 (1.0534)	Loss1 0.5379 (0.5925)	Loss2 1.6735 (1.5144)	Lr: 0.0001
+INFO - 07/28/22 17:13:06 - 0:21:05 - Epoch: [100][0]	Time 0.384 (0.384)	Data 0.370 (0.370)	Acc@1 82.031(82.031)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:13:06 - 0:21:06 - Epoch: [100]	Acc@1 81.21916198730469, Acc@5 98.92063903808594	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:13:06 - 0:21:06 - ============ Starting epoch 101 ... ============
+INFO - 07/28/22 17:13:06 - 0:21:06 - ============ Starting epoch 101 ... ============
+INFO - 07/28/22 17:13:06 - 0:21:06 - ============ Starting epoch 101 ... ============
+INFO - 07/28/22 17:13:07 - 0:21:07 - ============ Starting epoch 101 ... ============
+INFO - 07/28/22 17:13:07 - 0:21:07 - Clustering for epoch 101 done.
+INFO - 07/28/22 17:13:07 - 0:21:07 - Clustering for epoch 101 done.
+INFO - 07/28/22 17:13:07 - 0:21:07 - Clustering for epoch 101 done.
+INFO - 07/28/22 17:13:07 - 0:21:07 - Clustering for epoch 101 done.
+INFO - 07/28/22 17:13:08 - 0:21:08 - Epoch: [101][0]	Time 0.685 (0.685)	Data 0.420 (0.420)	Loss 0.9268 (0.9268)	Loss1 0.6216 (0.6216)	Loss2 1.2321 (1.2321)	Lr: 0.0001
+INFO - 07/28/22 17:13:13 - 0:21:13 - Epoch: [101][50]	Time 0.104 (0.117)	Data 0.000 (0.009)	Loss 1.1342 (1.0597)	Loss1 0.6423 (0.6104)	Loss2 1.6262 (1.5089)	Lr: 0.0001
+INFO - 07/28/22 17:13:19 - 0:21:18 - Epoch: [101][0]	Time 0.396 (0.396)	Data 0.374 (0.374)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:13:19 - 0:21:19 - Epoch: [101]	Acc@1 81.21916198730469, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:13:19 - 0:21:19 - ============ Starting epoch 102 ... ============
+INFO - 07/28/22 17:13:19 - 0:21:19 - ============ Starting epoch 102 ... ============
+INFO - 07/28/22 17:13:19 - 0:21:19 - ============ Starting epoch 102 ... ============
+INFO - 07/28/22 17:13:19 - 0:21:19 - ============ Starting epoch 102 ... ============
+INFO - 07/28/22 17:13:20 - 0:21:19 - Clustering for epoch 102 done.
+INFO - 07/28/22 17:13:20 - 0:21:20 - Clustering for epoch 102 done.
+INFO - 07/28/22 17:13:20 - 0:21:20 - Clustering for epoch 102 done.
+INFO - 07/28/22 17:13:20 - 0:21:19 - Clustering for epoch 102 done.
+INFO - 07/28/22 17:13:20 - 0:21:20 - Epoch: [102][0]	Time 0.667 (0.667)	Data 0.413 (0.413)	Loss 0.9902 (0.9902)	Loss1 0.5035 (0.5035)	Loss2 1.4770 (1.4770)	Lr: 0.0001
+INFO - 07/28/22 17:13:26 - 0:21:25 - Epoch: [102][50]	Time 0.103 (0.117)	Data 0.001 (0.008)	Loss 1.1191 (1.0509)	Loss1 0.7315 (0.6044)	Loss2 1.5067 (1.4973)	Lr: 0.0001
+INFO - 07/28/22 17:13:31 - 0:21:31 - Epoch: [102][0]	Time 0.376 (0.376)	Data 0.360 (0.360)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:13:32 - 0:21:31 - Epoch: [102]	Acc@1 81.21916198730469, Acc@5 98.85896301269531	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:13:32 - 0:21:31 - ============ Starting epoch 103 ... ============
+INFO - 07/28/22 17:13:32 - 0:21:31 - ============ Starting epoch 103 ... ============
+INFO - 07/28/22 17:13:32 - 0:21:31 - ============ Starting epoch 103 ... ============
+INFO - 07/28/22 17:13:32 - 0:21:32 - ============ Starting epoch 103 ... ============
+INFO - 07/28/22 17:13:32 - 0:21:32 - Clustering for epoch 103 done.
+INFO - 07/28/22 17:13:32 - 0:21:32 - Clustering for epoch 103 done.
+INFO - 07/28/22 17:13:32 - 0:21:32 - Clustering for epoch 103 done.
+INFO - 07/28/22 17:13:32 - 0:21:32 - Clustering for epoch 103 done.
+INFO - 07/28/22 17:13:33 - 0:21:32 - Epoch: [103][0]	Time 0.638 (0.638)	Data 0.410 (0.410)	Loss 1.1030 (1.1030)	Loss1 0.5546 (0.5546)	Loss2 1.6514 (1.6514)	Lr: 0.0001
+INFO - 07/28/22 17:13:38 - 0:21:38 - Epoch: [103][50]	Time 0.106 (0.118)	Data 0.000 (0.008)	Loss 1.0827 (1.0631)	Loss1 0.6559 (0.6051)	Loss2 1.5095 (1.5211)	Lr: 0.0001
+INFO - 07/28/22 17:13:43 - 0:21:43 - Epoch: [103][0]	Time 0.479 (0.479)	Data 0.461 (0.461)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:13:44 - 0:21:44 - Epoch: [103]	Acc@1 81.28083801269531, Acc@5 98.8692398071289	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:13:44 - 0:21:44 - ============ Starting epoch 104 ... ============
+INFO - 07/28/22 17:13:44 - 0:21:44 - ============ Starting epoch 104 ... ============
+INFO - 07/28/22 17:13:44 - 0:21:44 - ============ Starting epoch 104 ... ============
+INFO - 07/28/22 17:13:44 - 0:21:44 - ============ Starting epoch 104 ... ============
+INFO - 07/28/22 17:13:44 - 0:21:44 - Clustering for epoch 104 done.
+INFO - 07/28/22 17:13:44 - 0:21:44 - Clustering for epoch 104 done.
+INFO - 07/28/22 17:13:44 - 0:21:44 - Clustering for epoch 104 done.
+INFO - 07/28/22 17:13:44 - 0:21:44 - Clustering for epoch 104 done.
+INFO - 07/28/22 17:13:45 - 0:21:45 - Epoch: [104][0]	Time 0.640 (0.640)	Data 0.388 (0.388)	Loss 1.1564 (1.1564)	Loss1 0.6518 (0.6518)	Loss2 1.6611 (1.6611)	Lr: 0.0001
+INFO - 07/28/22 17:13:50 - 0:21:50 - Epoch: [104][50]	Time 0.105 (0.116)	Data 0.000 (0.008)	Loss 1.1749 (1.0520)	Loss1 0.7836 (0.6075)	Loss2 1.5663 (1.4964)	Lr: 0.0001
+INFO - 07/28/22 17:13:56 - 0:21:56 - Epoch: [104][0]	Time 0.405 (0.405)	Data 0.385 (0.385)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:13:56 - 0:21:56 - Epoch: [104]	Acc@1 81.31167602539062, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:13:56 - 0:21:56 - ============ Starting epoch 105 ... ============
+INFO - 07/28/22 17:13:56 - 0:21:56 - ============ Starting epoch 105 ... ============
+INFO - 07/28/22 17:13:56 - 0:21:56 - ============ Starting epoch 105 ... ============
+INFO - 07/28/22 17:13:57 - 0:21:56 - ============ Starting epoch 105 ... ============
+INFO - 07/28/22 17:13:57 - 0:21:57 - Clustering for epoch 105 done.
+INFO - 07/28/22 17:13:57 - 0:21:57 - Clustering for epoch 105 done.
+INFO - 07/28/22 17:13:57 - 0:21:57 - Clustering for epoch 105 done.
+INFO - 07/28/22 17:13:57 - 0:21:57 - Clustering for epoch 105 done.
+INFO - 07/28/22 17:13:57 - 0:21:57 - Epoch: [105][0]	Time 0.616 (0.616)	Data 0.395 (0.395)	Loss 1.1170 (1.1170)	Loss1 0.6038 (0.6038)	Loss2 1.6302 (1.6302)	Lr: 0.0001
+INFO - 07/28/22 17:14:03 - 0:22:03 - Epoch: [105][50]	Time 0.107 (0.116)	Data 0.000 (0.008)	Loss 1.0456 (1.0554)	Loss1 0.6325 (0.5939)	Loss2 1.4587 (1.5169)	Lr: 0.0001
+INFO - 07/28/22 17:14:08 - 0:22:08 - Epoch: [105][0]	Time 0.381 (0.381)	Data 0.364 (0.364)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:14:09 - 0:22:08 - Epoch: [105]	Acc@1 81.17803955078125, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:14:09 - 0:22:08 - ============ Starting epoch 106 ... ============
+INFO - 07/28/22 17:14:09 - 0:22:08 - ============ Starting epoch 106 ... ============
+INFO - 07/28/22 17:14:09 - 0:22:08 - ============ Starting epoch 106 ... ============
+INFO - 07/28/22 17:14:09 - 0:22:09 - ============ Starting epoch 106 ... ============
+INFO - 07/28/22 17:14:09 - 0:22:09 - Clustering for epoch 106 done.
+INFO - 07/28/22 17:14:09 - 0:22:09 - Clustering for epoch 106 done.
+INFO - 07/28/22 17:14:09 - 0:22:09 - Clustering for epoch 106 done.
+INFO - 07/28/22 17:14:09 - 0:22:09 - Clustering for epoch 106 done.
+INFO - 07/28/22 17:14:10 - 0:22:10 - Epoch: [106][0]	Time 0.650 (0.650)	Data 0.414 (0.414)	Loss 0.9572 (0.9572)	Loss1 0.5301 (0.5301)	Loss2 1.3842 (1.3842)	Lr: 0.0001
+INFO - 07/28/22 17:14:15 - 0:22:15 - Epoch: [106][50]	Time 0.104 (0.117)	Data 0.000 (0.008)	Loss 1.2595 (1.0274)	Loss1 0.7460 (0.5997)	Loss2 1.7730 (1.4550)	Lr: 0.0001
+INFO - 07/28/22 17:14:20 - 0:22:20 - Epoch: [106][0]	Time 0.378 (0.378)	Data 0.363 (0.363)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:14:21 - 0:22:21 - Epoch: [106]	Acc@1 81.30139923095703, Acc@5 98.88980102539062	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:14:21 - 0:22:21 - ============ Starting epoch 107 ... ============
+INFO - 07/28/22 17:14:21 - 0:22:21 - ============ Starting epoch 107 ... ============
+INFO - 07/28/22 17:14:21 - 0:22:21 - ============ Starting epoch 107 ... ============
+INFO - 07/28/22 17:14:21 - 0:22:21 - ============ Starting epoch 107 ... ============
+INFO - 07/28/22 17:14:22 - 0:22:21 - Clustering for epoch 107 done.
+INFO - 07/28/22 17:14:22 - 0:22:21 - Clustering for epoch 107 done.
+INFO - 07/28/22 17:14:22 - 0:22:21 - Clustering for epoch 107 done.
+INFO - 07/28/22 17:14:22 - 0:22:21 - Clustering for epoch 107 done.
+INFO - 07/28/22 17:14:22 - 0:22:22 - Epoch: [107][0]	Time 0.620 (0.620)	Data 0.387 (0.387)	Loss 1.0856 (1.0856)	Loss1 0.6653 (0.6653)	Loss2 1.5060 (1.5060)	Lr: 0.0001
+INFO - 07/28/22 17:14:27 - 0:22:27 - Epoch: [107][50]	Time 0.105 (0.116)	Data 0.000 (0.008)	Loss 1.1250 (1.0380)	Loss1 0.5166 (0.5921)	Loss2 1.7333 (1.4839)	Lr: 0.0001
+INFO - 07/28/22 17:14:33 - 0:22:33 - Epoch: [107][0]	Time 0.369 (0.369)	Data 0.355 (0.355)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:14:33 - 0:22:33 - Epoch: [107]	Acc@1 81.19860076904297, Acc@5 98.828125	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:14:33 - 0:22:33 - ============ Starting epoch 108 ... ============
+INFO - 07/28/22 17:14:33 - 0:22:33 - ============ Starting epoch 108 ... ============
+INFO - 07/28/22 17:14:33 - 0:22:33 - ============ Starting epoch 108 ... ============
+INFO - 07/28/22 17:14:34 - 0:22:33 - ============ Starting epoch 108 ... ============
+INFO - 07/28/22 17:14:34 - 0:22:34 - Clustering for epoch 108 done.
+INFO - 07/28/22 17:14:34 - 0:22:34 - Clustering for epoch 108 done.
+INFO - 07/28/22 17:14:34 - 0:22:34 - Clustering for epoch 108 done.
+INFO - 07/28/22 17:14:34 - 0:22:34 - Clustering for epoch 108 done.
+INFO - 07/28/22 17:14:34 - 0:22:34 - Epoch: [108][0]	Time 0.640 (0.640)	Data 0.423 (0.423)	Loss 1.0092 (1.0092)	Loss1 0.5629 (0.5629)	Loss2 1.4554 (1.4554)	Lr: 0.0001
+INFO - 07/28/22 17:14:40 - 0:22:40 - Epoch: [108][50]	Time 0.110 (0.117)	Data 0.000 (0.009)	Loss 0.9715 (1.0683)	Loss1 0.5826 (0.6298)	Loss2 1.3604 (1.5068)	Lr: 0.0001
+INFO - 07/28/22 17:14:45 - 0:22:45 - Epoch: [108][0]	Time 0.376 (0.376)	Data 0.357 (0.357)	Acc@1 82.031(82.031)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:14:46 - 0:22:46 - Epoch: [108]	Acc@1 81.15748596191406, Acc@5 98.8384017944336	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:14:46 - 0:22:46 - ============ Starting epoch 109 ... ============
+INFO - 07/28/22 17:14:46 - 0:22:46 - ============ Starting epoch 109 ... ============
+INFO - 07/28/22 17:14:46 - 0:22:46 - ============ Starting epoch 109 ... ============
+INFO - 07/28/22 17:14:46 - 0:22:46 - ============ Starting epoch 109 ... ============
+INFO - 07/28/22 17:14:46 - 0:22:46 - Clustering for epoch 109 done.
+INFO - 07/28/22 17:14:46 - 0:22:46 - Clustering for epoch 109 done.
+INFO - 07/28/22 17:14:46 - 0:22:46 - Clustering for epoch 109 done.
+INFO - 07/28/22 17:14:46 - 0:22:46 - Clustering for epoch 109 done.
+INFO - 07/28/22 17:14:47 - 0:22:47 - Epoch: [109][0]	Time 0.623 (0.623)	Data 0.442 (0.442)	Loss 1.1469 (1.1469)	Loss1 0.6194 (0.6194)	Loss2 1.6744 (1.6744)	Lr: 0.0001
+INFO - 07/28/22 17:14:52 - 0:22:52 - Epoch: [109][50]	Time 0.114 (0.116)	Data 0.001 (0.009)	Loss 0.9819 (1.0574)	Loss1 0.5992 (0.6135)	Loss2 1.3646 (1.5012)	Lr: 0.0001
+INFO - 07/28/22 17:14:58 - 0:22:58 - Epoch: [109][0]	Time 0.458 (0.458)	Data 0.442 (0.442)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:14:58 - 0:22:58 - Epoch: [109]	Acc@1 80.93133544921875, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:14:58 - 0:22:58 - ============ Starting epoch 110 ... ============
+INFO - 07/28/22 17:14:58 - 0:22:58 - ============ Starting epoch 110 ... ============
+INFO - 07/28/22 17:14:58 - 0:22:58 - ============ Starting epoch 110 ... ============
+INFO - 07/28/22 17:14:58 - 0:22:58 - ============ Starting epoch 110 ... ============
+INFO - 07/28/22 17:14:59 - 0:22:58 - Clustering for epoch 110 done.
+INFO - 07/28/22 17:14:59 - 0:22:58 - Clustering for epoch 110 done.
+INFO - 07/28/22 17:14:59 - 0:22:58 - Clustering for epoch 110 done.
+INFO - 07/28/22 17:14:59 - 0:22:58 - Clustering for epoch 110 done.
+INFO - 07/28/22 17:14:59 - 0:22:59 - Epoch: [110][0]	Time 0.642 (0.642)	Data 0.459 (0.459)	Loss 1.1780 (1.1780)	Loss1 0.7134 (0.7134)	Loss2 1.6425 (1.6425)	Lr: 0.0001
+INFO - 07/28/22 17:15:05 - 0:23:04 - Epoch: [110][50]	Time 0.113 (0.118)	Data 0.000 (0.009)	Loss 1.0630 (1.0597)	Loss1 0.5498 (0.6261)	Loss2 1.5761 (1.4933)	Lr: 0.0001
+INFO - 07/28/22 17:15:10 - 0:23:10 - Epoch: [110][0]	Time 0.372 (0.372)	Data 0.351 (0.351)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:15:11 - 0:23:10 - Epoch: [110]	Acc@1 80.98272705078125, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:15:11 - 0:23:10 - ============ Starting epoch 111 ... ============
+INFO - 07/28/22 17:15:11 - 0:23:10 - ============ Starting epoch 111 ... ============
+INFO - 07/28/22 17:15:11 - 0:23:10 - ============ Starting epoch 111 ... ============
+INFO - 07/28/22 17:15:11 - 0:23:11 - ============ Starting epoch 111 ... ============
+INFO - 07/28/22 17:15:11 - 0:23:11 - Clustering for epoch 111 done.
+INFO - 07/28/22 17:15:11 - 0:23:11 - Clustering for epoch 111 done.
+INFO - 07/28/22 17:15:11 - 0:23:11 - Clustering for epoch 111 done.
+INFO - 07/28/22 17:15:11 - 0:23:11 - Clustering for epoch 111 done.
+INFO - 07/28/22 17:15:12 - 0:23:11 - Epoch: [111][0]	Time 0.624 (0.624)	Data 0.432 (0.432)	Loss 1.0554 (1.0554)	Loss1 0.6699 (0.6699)	Loss2 1.4409 (1.4409)	Lr: 0.0001
+INFO - 07/28/22 17:15:17 - 0:23:17 - Epoch: [111][50]	Time 0.104 (0.117)	Data 0.000 (0.009)	Loss 1.0021 (1.0647)	Loss1 0.6124 (0.6234)	Loss2 1.3919 (1.5061)	Lr: 0.0001
+INFO - 07/28/22 17:15:23 - 0:23:22 - Epoch: [111][0]	Time 0.405 (0.405)	Data 0.384 (0.384)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:15:23 - 0:23:23 - Epoch: [111]	Acc@1 81.0444107055664, Acc@5 98.828125	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:15:23 - 0:23:23 - ============ Starting epoch 112 ... ============
+INFO - 07/28/22 17:15:23 - 0:23:23 - ============ Starting epoch 112 ... ============
+INFO - 07/28/22 17:15:23 - 0:23:23 - ============ Starting epoch 112 ... ============
+INFO - 07/28/22 17:15:23 - 0:23:23 - ============ Starting epoch 112 ... ============
+INFO - 07/28/22 17:15:24 - 0:23:23 - Clustering for epoch 112 done.
+INFO - 07/28/22 17:15:24 - 0:23:23 - Clustering for epoch 112 done.
+INFO - 07/28/22 17:15:24 - 0:23:23 - Clustering for epoch 112 done.
+INFO - 07/28/22 17:15:24 - 0:23:23 - Clustering for epoch 112 done.
+INFO - 07/28/22 17:15:24 - 0:23:24 - Epoch: [112][0]	Time 0.615 (0.615)	Data 0.395 (0.395)	Loss 1.2281 (1.2281)	Loss1 0.7558 (0.7558)	Loss2 1.7005 (1.7005)	Lr: 0.0001
+INFO - 07/28/22 17:15:30 - 0:23:29 - Epoch: [112][50]	Time 0.106 (0.117)	Data 0.000 (0.008)	Loss 1.0472 (1.0687)	Loss1 0.5187 (0.6038)	Loss2 1.5757 (1.5337)	Lr: 0.0001
+INFO - 07/28/22 17:15:35 - 0:23:35 - Epoch: [112][0]	Time 0.371 (0.371)	Data 0.353 (0.353)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:15:35 - 0:23:35 - Epoch: [112]	Acc@1 81.18832397460938, Acc@5 98.8692398071289	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:15:35 - 0:23:35 - ============ Starting epoch 113 ... ============
+INFO - 07/28/22 17:15:35 - 0:23:35 - ============ Starting epoch 113 ... ============
+INFO - 07/28/22 17:15:35 - 0:23:35 - ============ Starting epoch 113 ... ============
+INFO - 07/28/22 17:15:36 - 0:23:35 - ============ Starting epoch 113 ... ============
+INFO - 07/28/22 17:15:36 - 0:23:36 - Clustering for epoch 113 done.
+INFO - 07/28/22 17:15:36 - 0:23:36 - Clustering for epoch 113 done.
+INFO - 07/28/22 17:15:36 - 0:23:36 - Clustering for epoch 113 done.
+INFO - 07/28/22 17:15:36 - 0:23:36 - Clustering for epoch 113 done.
+INFO - 07/28/22 17:15:37 - 0:23:36 - Epoch: [113][0]	Time 0.661 (0.661)	Data 0.448 (0.448)	Loss 1.1612 (1.1612)	Loss1 0.7475 (0.7475)	Loss2 1.5748 (1.5748)	Lr: 0.0001
+INFO - 07/28/22 17:15:42 - 0:23:42 - Epoch: [113][50]	Time 0.106 (0.118)	Data 0.000 (0.009)	Loss 1.1292 (1.0674)	Loss1 0.6459 (0.6095)	Loss2 1.6124 (1.5254)	Lr: 0.0001
+INFO - 07/28/22 17:15:47 - 0:23:47 - Epoch: [113][0]	Time 0.410 (0.410)	Data 0.394 (0.394)	Acc@1 79.688(79.688)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:15:48 - 0:23:48 - Epoch: [113]	Acc@1 81.03412628173828, Acc@5 98.88980102539062	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:15:48 - 0:23:48 - ============ Starting epoch 114 ... ============
+INFO - 07/28/22 17:15:48 - 0:23:48 - ============ Starting epoch 114 ... ============
+INFO - 07/28/22 17:15:48 - 0:23:48 - ============ Starting epoch 114 ... ============
+INFO - 07/28/22 17:15:48 - 0:23:48 - ============ Starting epoch 114 ... ============
+INFO - 07/28/22 17:15:48 - 0:23:48 - Clustering for epoch 114 done.
+INFO - 07/28/22 17:15:48 - 0:23:48 - Clustering for epoch 114 done.
+INFO - 07/28/22 17:15:48 - 0:23:48 - Clustering for epoch 114 done.
+INFO - 07/28/22 17:15:48 - 0:23:48 - Clustering for epoch 114 done.
+INFO - 07/28/22 17:15:49 - 0:23:49 - Epoch: [114][0]	Time 0.634 (0.634)	Data 0.423 (0.423)	Loss 1.1415 (1.1415)	Loss1 0.7014 (0.7014)	Loss2 1.5817 (1.5817)	Lr: 0.0001
+INFO - 07/28/22 17:15:54 - 0:23:54 - Epoch: [114][50]	Time 0.105 (0.117)	Data 0.000 (0.009)	Loss 1.0267 (1.0460)	Loss1 0.6660 (0.6139)	Loss2 1.3873 (1.4781)	Lr: 0.0001
+INFO - 07/28/22 17:16:00 - 0:24:00 - Epoch: [114][0]	Time 0.385 (0.385)	Data 0.364 (0.364)	Acc@1 80.469(80.469)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:16:00 - 0:24:00 - Epoch: [114]	Acc@1 81.0546875, Acc@5 98.84868621826172	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:16:00 - 0:24:00 - ============ Starting epoch 115 ... ============
+INFO - 07/28/22 17:16:00 - 0:24:00 - ============ Starting epoch 115 ... ============
+INFO - 07/28/22 17:16:00 - 0:24:00 - ============ Starting epoch 115 ... ============
+INFO - 07/28/22 17:16:01 - 0:24:00 - ============ Starting epoch 115 ... ============
+INFO - 07/28/22 17:16:01 - 0:24:01 - Clustering for epoch 115 done.
+INFO - 07/28/22 17:16:01 - 0:24:01 - Clustering for epoch 115 done.
+INFO - 07/28/22 17:16:01 - 0:24:01 - Clustering for epoch 115 done.
+INFO - 07/28/22 17:16:01 - 0:24:01 - Clustering for epoch 115 done.
+INFO - 07/28/22 17:16:01 - 0:24:01 - Epoch: [115][0]	Time 0.639 (0.639)	Data 0.405 (0.405)	Loss 1.1025 (1.1025)	Loss1 0.5572 (0.5572)	Loss2 1.6478 (1.6478)	Lr: 0.0001
+INFO - 07/28/22 17:16:07 - 0:24:07 - Epoch: [115][50]	Time 0.104 (0.117)	Data 0.000 (0.008)	Loss 0.9513 (1.0417)	Loss1 0.5178 (0.6084)	Loss2 1.3848 (1.4751)	Lr: 0.0001
+INFO - 07/28/22 17:16:12 - 0:24:12 - Epoch: [115][0]	Time 0.402 (0.402)	Data 0.386 (0.386)	Acc@1 82.031(82.031)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:16:13 - 0:24:12 - Epoch: [115]	Acc@1 80.95188903808594, Acc@5 98.91036224365234	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:16:13 - 0:24:12 - ============ Starting epoch 116 ... ============
+INFO - 07/28/22 17:16:13 - 0:24:12 - ============ Starting epoch 116 ... ============
+INFO - 07/28/22 17:16:13 - 0:24:12 - ============ Starting epoch 116 ... ============
+INFO - 07/28/22 17:16:13 - 0:24:13 - ============ Starting epoch 116 ... ============
+INFO - 07/28/22 17:16:13 - 0:24:13 - Clustering for epoch 116 done.
+INFO - 07/28/22 17:16:13 - 0:24:13 - Clustering for epoch 116 done.
+INFO - 07/28/22 17:16:13 - 0:24:13 - Clustering for epoch 116 done.
+INFO - 07/28/22 17:16:13 - 0:24:13 - Clustering for epoch 116 done.
+INFO - 07/28/22 17:16:14 - 0:24:14 - Epoch: [116][0]	Time 0.611 (0.611)	Data 0.416 (0.416)	Loss 1.0029 (1.0029)	Loss1 0.6250 (0.6250)	Loss2 1.3808 (1.3808)	Lr: 0.0001
+INFO - 07/28/22 17:16:19 - 0:24:19 - Epoch: [116][50]	Time 0.106 (0.117)	Data 0.000 (0.009)	Loss 1.0742 (1.0554)	Loss1 0.5880 (0.6135)	Loss2 1.5603 (1.4973)	Lr: 0.0001
+INFO - 07/28/22 17:16:25 - 0:24:24 - Epoch: [116][0]	Time 0.388 (0.388)	Data 0.371 (0.371)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:16:25 - 0:24:25 - Epoch: [116]	Acc@1 81.0444107055664, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:16:25 - 0:24:25 - ============ Starting epoch 117 ... ============
+INFO - 07/28/22 17:16:25 - 0:24:25 - ============ Starting epoch 117 ... ============
+INFO - 07/28/22 17:16:25 - 0:24:25 - ============ Starting epoch 117 ... ============
+INFO - 07/28/22 17:16:25 - 0:24:25 - ============ Starting epoch 117 ... ============
+INFO - 07/28/22 17:16:26 - 0:24:25 - Clustering for epoch 117 done.
+INFO - 07/28/22 17:16:26 - 0:24:25 - Clustering for epoch 117 done.
+INFO - 07/28/22 17:16:26 - 0:24:25 - Clustering for epoch 117 done.
+INFO - 07/28/22 17:16:26 - 0:24:25 - Clustering for epoch 117 done.
+INFO - 07/28/22 17:16:26 - 0:24:26 - Epoch: [117][0]	Time 0.652 (0.652)	Data 0.405 (0.405)	Loss 1.2206 (1.2206)	Loss1 0.6553 (0.6553)	Loss2 1.7859 (1.7859)	Lr: 0.0001
+INFO - 07/28/22 17:16:31 - 0:24:31 - Epoch: [117][50]	Time 0.104 (0.117)	Data 0.000 (0.008)	Loss 1.3022 (1.0594)	Loss1 0.7426 (0.6072)	Loss2 1.8618 (1.5117)	Lr: 0.0001
+INFO - 07/28/22 17:16:37 - 0:24:37 - Epoch: [117][0]	Time 0.498 (0.498)	Data 0.476 (0.476)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:16:37 - 0:24:37 - Epoch: [117]	Acc@1 81.0546875, Acc@5 98.8384017944336	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:16:37 - 0:24:37 - ============ Starting epoch 118 ... ============
+INFO - 07/28/22 17:16:37 - 0:24:37 - ============ Starting epoch 118 ... ============
+INFO - 07/28/22 17:16:37 - 0:24:37 - ============ Starting epoch 118 ... ============
+INFO - 07/28/22 17:16:38 - 0:24:37 - ============ Starting epoch 118 ... ============
+INFO - 07/28/22 17:16:38 - 0:24:38 - Clustering for epoch 118 done.
+INFO - 07/28/22 17:16:38 - 0:24:38 - Clustering for epoch 118 done.
+INFO - 07/28/22 17:16:38 - 0:24:38 - Clustering for epoch 118 done.
+INFO - 07/28/22 17:16:38 - 0:24:38 - Clustering for epoch 118 done.
+INFO - 07/28/22 17:16:39 - 0:24:38 - Epoch: [118][0]	Time 0.607 (0.607)	Data 0.417 (0.417)	Loss 1.0068 (1.0068)	Loss1 0.6348 (0.6348)	Loss2 1.3788 (1.3788)	Lr: 0.0001
+INFO - 07/28/22 17:16:44 - 0:24:44 - Epoch: [118][50]	Time 0.107 (0.116)	Data 0.000 (0.009)	Loss 1.0236 (1.0716)	Loss1 0.7161 (0.6273)	Loss2 1.3311 (1.5158)	Lr: 0.0001
+INFO - 07/28/22 17:16:49 - 0:24:49 - Epoch: [118][0]	Time 0.369 (0.369)	Data 0.352 (0.352)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:16:50 - 0:24:50 - Epoch: [118]	Acc@1 81.22943878173828, Acc@5 98.87952423095703	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406
+INFO - 07/28/22 17:16:50 - 0:24:50 - ============ Starting epoch 119 ... ============
+INFO - 07/28/22 17:16:50 - 0:24:50 - ============ Starting epoch 119 ... ============
+INFO - 07/28/22 17:16:50 - 0:24:50 - ============ Starting epoch 119 ... ============
+INFO - 07/28/22 17:16:50 - 0:24:50 - ============ Starting epoch 119 ... ============
+INFO - 07/28/22 17:16:50 - 0:24:50 - Clustering for epoch 119 done.
+INFO - 07/28/22 17:16:50 - 0:24:50 - Clustering for epoch 119 done.
+INFO - 07/28/22 17:16:50 - 0:24:50 - Clustering for epoch 119 done.
+INFO - 07/28/22 17:16:50 - 0:24:50 - Clustering for epoch 119 done.
+INFO - 07/28/22 17:16:51 - 0:24:51 - Epoch: [119][0]	Time 0.606 (0.606)	Data 0.418 (0.418)	Loss 1.0930 (1.0930)	Loss1 0.6384 (0.6384)	Loss2 1.5476 (1.5476)	Lr: 0.0001
+INFO - 07/28/22 17:16:56 - 0:24:56 - Epoch: [119][50]	Time 0.109 (0.117)	Data 0.000 (0.009)	Loss 1.0815 (1.0750)	Loss1 0.5612 (0.6129)	Loss2 1.6017 (1.5370)	Lr: 0.0001
+INFO - 07/28/22 17:17:02 - 0:25:01 - Epoch: [119][0]	Time 0.375 (0.375)	Data 0.353 (0.353)	Acc@1 81.250(81.250)	Acc@5 98.438(98.438)
+INFO - 07/28/22 17:17:02 - 0:25:02 - Epoch: [119]	Acc@1 81.16776275634766, Acc@5 98.8692398071289	Best Acc@1 81.35279846191406, Best Acc@5 98.93092346191406

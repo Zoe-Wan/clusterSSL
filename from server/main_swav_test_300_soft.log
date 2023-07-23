@@ -1,0 +1,968 @@
+phoenix-srun: Job 598818 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is normal
+
+INFO - 09/21/22 01:56:24 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/21/22 01:56:24 - 0:00:00 - K: 300
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 256
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_test_300_soft/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_test_300_soft/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 128
+                                     final_lr: 0
+                                     hidden_mlp: 2048
+                                     linear_fc: False
+                                     local_rank: 0
+                                     port: 23586
+                                     rank: 0
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: True
+                                     use_ema: False
+                                     use_scaler: False
+                                     warmup_epochs: 5
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 2
+INFO - 09/21/22 01:56:24 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_test_300_soft/
+                                     
+
+INFO - 09/21/22 01:56:24 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/21/22 01:56:24 - 0:00:00 - K: 300
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 256
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_test_300_soft/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_test_300_soft/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 128
+                                     final_lr: 0
+                                     hidden_mlp: 2048
+                                     linear_fc: False
+                                     local_rank: 1
+                                     port: 23586
+                                     rank: 1
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: True
+                                     use_ema: False
+                                     use_scaler: False
+                                     warmup_epochs: 5
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 2
+INFO - 09/21/22 01:56:24 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_test_300_soft/
+                                     
+
+INFO - 09/21/22 01:56:26 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 09/21/22 01:56:26 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 09/21/22 01:56:32 - 0:00:08 - Building model done.
+INFO - 09/21/22 01:56:32 - 0:00:08 - Phead(
+                                       (net): ResNet_CIFAR(
+                                         (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                         (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (relu): ReLU(inplace=True)
+                                         (layer1): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer2): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer3): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer4): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                       )
+                                       (projection_head): Sequential(
+                                         (0): Linear(in_features=512, out_features=2048, bias=False)
+                                         (1): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=2048, out_features=2048, bias=False)
+                                         (4): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (5): ReLU(inplace=True)
+                                         (6): Linear(in_features=2048, out_features=300, bias=False)
+                                         (7): SyncBatchNorm(300, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+                                       )
+                                       (pfc): Sequential(
+                                         (0): Linear(in_features=300, out_features=128, bias=False)
+                                         (1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=128, out_features=300, bias=True)
+                                       )
+                                     )
+INFO - 09/21/22 01:56:32 - 0:00:08 - Building model done.
+INFO - 09/21/22 01:56:32 - 0:00:08 - ============ Starting epoch 0 ... ============
+INFO - 09/21/22 01:56:32 - 0:00:08 - ============ Starting epoch 0 ... ============
+Files already downloaded and verified
+Files already downloaded and verified
+INFO - 09/21/22 01:56:34 - 0:00:10 - Epoch: [0][0]	Time 2.007 (2.007)	Data 0.743 (0.743)	Loss 5.7837 (5.7837)	Lr: 0.0000
+INFO - 09/21/22 01:56:34 - 0:00:10 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/21/22 01:56:34 - 0:00:10 - Reducer buckets have been rebuilt in this iteration.
+INFO - 09/21/22 01:56:42 - 0:00:18 - Epoch: [0][50]	Time 0.154 (0.190)	Data 0.000 (0.015)	Loss 5.5400 (5.6496)	Lr: 0.0206
+INFO - 09/21/22 01:56:49 - 0:00:25 - Epoch: [0][0]	Time 0.458 (0.458)	Data 0.402 (0.402)	Acc@1 8.203(8.203)	Acc@5 24.609(24.609)
+INFO - 09/21/22 01:56:50 - 0:00:26 - ============ Starting epoch 1 ... ============
+INFO - 09/21/22 01:56:50 - 0:00:26 - Epoch: [0]	Acc@1 8.953536033630371, Acc@5 26.26439094543457	Best Acc@1 8.953536033630371, Best Acc@5 26.26439094543457
+INFO - 09/21/22 01:56:50 - 0:00:26 - ============ Starting epoch 1 ... ============
+INFO - 09/21/22 01:56:51 - 0:00:27 - Epoch: [1][0]	Time 0.716 (0.716)	Data 0.550 (0.550)	Loss 5.2114 (5.2114)	Lr: 0.0400
+INFO - 09/21/22 01:56:59 - 0:00:35 - Epoch: [1][50]	Time 0.151 (0.169)	Data 0.000 (0.011)	Loss 4.8295 (4.9539)	Lr: 0.0606
+INFO - 09/21/22 01:57:07 - 0:00:42 - Epoch: [1][0]	Time 0.406 (0.406)	Data 0.394 (0.394)	Acc@1 6.641(6.641)	Acc@5 25.000(25.000)
+INFO - 09/21/22 01:57:07 - 0:00:43 - Epoch: [1]	Acc@1 9.858141899108887, Acc@5 28.895971298217773	Best Acc@1 9.858141899108887, Best Acc@5 28.895971298217773
+INFO - 09/21/22 01:57:07 - 0:00:43 - ============ Starting epoch 2 ... ============
+INFO - 09/21/22 01:57:07 - 0:00:43 - ============ Starting epoch 2 ... ============
+INFO - 09/21/22 01:57:08 - 0:00:44 - Epoch: [2][0]	Time 0.719 (0.719)	Data 0.563 (0.563)	Loss 4.5969 (4.5969)	Lr: 0.0800
+INFO - 09/21/22 01:57:16 - 0:00:52 - Epoch: [2][50]	Time 0.152 (0.169)	Data 0.000 (0.012)	Loss 4.5124 (4.5553)	Lr: 0.1006
+INFO - 09/21/22 01:57:24 - 0:01:00 - Epoch: [2][0]	Time 0.467 (0.467)	Data 0.457 (0.457)	Acc@1 13.281(13.281)	Acc@5 33.594(33.594)
+INFO - 09/21/22 01:57:24 - 0:01:00 - Epoch: [2]	Acc@1 15.604440689086914, Acc@5 37.037418365478516	Best Acc@1 15.604440689086914, Best Acc@5 37.037418365478516
+INFO - 09/21/22 01:57:24 - 0:01:00 - ============ Starting epoch 3 ... ============
+INFO - 09/21/22 01:57:25 - 0:01:01 - ============ Starting epoch 3 ... ============
+INFO - 09/21/22 01:57:25 - 0:01:01 - Epoch: [3][0]	Time 0.732 (0.732)	Data 0.573 (0.573)	Loss 4.1369 (4.1369)	Lr: 0.1200
+INFO - 09/21/22 01:57:33 - 0:01:09 - Epoch: [3][50]	Time 0.152 (0.170)	Data 0.000 (0.012)	Loss 4.0554 (4.2414)	Lr: 0.1406
+INFO - 09/21/22 01:57:41 - 0:01:17 - Epoch: [3][0]	Time 0.445 (0.445)	Data 0.435 (0.435)	Acc@1 13.281(13.281)	Acc@5 35.547(35.547)
+INFO - 09/21/22 01:57:41 - 0:01:17 - Epoch: [3]	Acc@1 17.7734375, Acc@5 38.82606887817383	Best Acc@1 17.7734375, Best Acc@5 38.82606887817383
+INFO - 09/21/22 01:57:41 - 0:01:17 - ============ Starting epoch 4 ... ============
+INFO - 09/21/22 01:57:42 - 0:01:18 - ============ Starting epoch 4 ... ============
+INFO - 09/21/22 01:57:43 - 0:01:19 - Epoch: [4][0]	Time 0.823 (0.823)	Data 0.661 (0.661)	Loss 4.0050 (4.0050)	Lr: 0.1600
+INFO - 09/21/22 01:57:50 - 0:01:26 - Epoch: [4][50]	Time 0.152 (0.166)	Data 0.000 (0.013)	Loss 3.7538 (3.9856)	Lr: 0.1806
+INFO - 09/21/22 01:57:58 - 0:01:34 - Epoch: [4][0]	Time 0.446 (0.446)	Data 0.435 (0.435)	Acc@1 27.734(27.734)	Acc@5 48.438(48.438)
+INFO - 09/21/22 01:57:59 - 0:01:35 - Epoch: [4]	Acc@1 26.305509567260742, Acc@5 50.719573974609375	Best Acc@1 26.305509567260742, Best Acc@5 50.719573974609375
+INFO - 09/21/22 01:57:59 - 0:01:35 - ============ Starting epoch 5 ... ============
+INFO - 09/21/22 01:57:59 - 0:01:35 - ============ Starting epoch 5 ... ============
+INFO - 09/21/22 01:58:00 - 0:01:36 - Epoch: [5][0]	Time 0.723 (0.723)	Data 0.557 (0.557)	Loss 3.8634 (3.8634)	Lr: 0.2000
+INFO - 09/21/22 01:58:07 - 0:01:43 - Epoch: [5][50]	Time 0.152 (0.167)	Data 0.001 (0.011)	Loss 3.8475 (3.7319)	Lr: 0.2000
+INFO - 09/21/22 01:58:15 - 0:01:51 - Epoch: [5][0]	Time 0.429 (0.429)	Data 0.416 (0.416)	Acc@1 26.172(26.172)	Acc@5 53.516(53.516)
+INFO - 09/21/22 01:58:16 - 0:01:52 - Epoch: [5]	Acc@1 30.232318878173828, Acc@5 54.91365051269531	Best Acc@1 30.232318878173828, Best Acc@5 54.91365051269531
+INFO - 09/21/22 01:58:16 - 0:01:52 - ============ Starting epoch 6 ... ============
+INFO - 09/21/22 01:58:16 - 0:01:52 - ============ Starting epoch 6 ... ============
+INFO - 09/21/22 01:58:17 - 0:01:53 - Epoch: [6][0]	Time 0.727 (0.727)	Data 0.554 (0.554)	Loss 3.3459 (3.3459)	Lr: 0.1999
+INFO - 09/21/22 01:58:25 - 0:02:01 - Epoch: [6][50]	Time 0.163 (0.169)	Data 0.001 (0.011)	Loss 3.4058 (3.5127)	Lr: 0.1999
+INFO - 09/21/22 01:58:33 - 0:02:09 - Epoch: [6][0]	Time 0.474 (0.474)	Data 0.450 (0.450)	Acc@1 29.688(29.688)	Acc@5 56.250(56.250)
+INFO - 09/21/22 01:58:33 - 0:02:09 - Epoch: [6]	Acc@1 31.219161987304688, Acc@5 54.8828125	Best Acc@1 31.219161987304688, Best Acc@5 54.91365051269531
+INFO - 09/21/22 01:58:33 - 0:02:09 - ============ Starting epoch 7 ... ============
+INFO - 09/21/22 01:58:34 - 0:02:10 - ============ Starting epoch 7 ... ============
+INFO - 09/21/22 01:58:34 - 0:02:10 - Epoch: [7][0]	Time 0.777 (0.777)	Data 0.600 (0.600)	Loss 3.5084 (3.5084)	Lr: 0.1998
+INFO - 09/21/22 01:58:43 - 0:02:19 - Epoch: [7][50]	Time 0.155 (0.181)	Data 0.000 (0.012)	Loss 3.3284 (3.3440)	Lr: 0.1997
+INFO - 09/21/22 01:58:51 - 0:02:27 - Epoch: [7][0]	Time 0.440 (0.440)	Data 0.427 (0.427)	Acc@1 26.172(26.172)	Acc@5 53.516(53.516)
+INFO - 09/21/22 01:58:51 - 0:02:27 - Epoch: [7]	Acc@1 32.555511474609375, Acc@5 55.581825256347656	Best Acc@1 32.555511474609375, Best Acc@5 55.581825256347656
+INFO - 09/21/22 01:58:51 - 0:02:27 - ============ Starting epoch 8 ... ============
+INFO - 09/21/22 01:58:52 - 0:02:28 - ============ Starting epoch 8 ... ============
+INFO - 09/21/22 01:58:52 - 0:02:28 - Epoch: [8][0]	Time 0.812 (0.812)	Data 0.655 (0.655)	Loss 3.2629 (3.2629)	Lr: 0.1995
+INFO - 09/21/22 01:59:01 - 0:02:37 - Epoch: [8][50]	Time 0.173 (0.185)	Data 0.000 (0.013)	Loss 3.1568 (3.1722)	Lr: 0.1993
+INFO - 09/21/22 01:59:09 - 0:02:45 - Epoch: [8][0]	Time 0.418 (0.418)	Data 0.406 (0.406)	Acc@1 31.641(31.641)	Acc@5 58.984(58.984)
+INFO - 09/21/22 01:59:10 - 0:02:46 - Epoch: [8]	Acc@1 34.508636474609375, Acc@5 57.21628189086914	Best Acc@1 34.508636474609375, Best Acc@5 57.21628189086914
+INFO - 09/21/22 01:59:10 - 0:02:46 - ============ Starting epoch 9 ... ============
+INFO - 09/21/22 01:59:10 - 0:02:46 - ============ Starting epoch 9 ... ============
+INFO - 09/21/22 01:59:11 - 0:02:47 - Epoch: [9][0]	Time 0.762 (0.762)	Data 0.574 (0.574)	Loss 3.1586 (3.1586)	Lr: 0.1991
+INFO - 09/21/22 01:59:20 - 0:02:56 - Epoch: [9][50]	Time 0.162 (0.182)	Data 0.001 (0.012)	Loss 3.0572 (3.0749)	Lr: 0.1989
+INFO - 09/21/22 01:59:28 - 0:03:04 - Epoch: [9][0]	Time 0.423 (0.423)	Data 0.406 (0.406)	Acc@1 31.250(31.250)	Acc@5 55.859(55.859)
+INFO - 09/21/22 01:59:28 - 0:03:04 - Epoch: [9]	Acc@1 37.06825637817383, Acc@5 61.54399490356445	Best Acc@1 37.06825637817383, Best Acc@5 61.54399490356445
+INFO - 09/21/22 01:59:28 - 0:03:04 - ============ Starting epoch 10 ... ============
+INFO - 09/21/22 01:59:28 - 0:03:04 - ============ Starting epoch 10 ... ============
+INFO - 09/21/22 01:59:29 - 0:03:05 - Epoch: [10][0]	Time 0.737 (0.737)	Data 0.577 (0.577)	Loss 3.2502 (3.2502)	Lr: 0.1986
+INFO - 09/21/22 01:59:37 - 0:03:13 - Epoch: [10][50]	Time 0.154 (0.169)	Data 0.000 (0.012)	Loss 2.9470 (2.9426)	Lr: 0.1983
+INFO - 09/21/22 01:59:45 - 0:03:21 - Epoch: [10][0]	Time 0.467 (0.467)	Data 0.454 (0.454)	Acc@1 39.062(39.062)	Acc@5 64.062(64.062)
+INFO - 09/21/22 01:59:46 - 0:03:22 - ============ Starting epoch 11 ... ============
+INFO - 09/21/22 01:59:46 - 0:03:22 - Epoch: [10]	Acc@1 42.7734375, Acc@5 66.94078826904297	Best Acc@1 42.7734375, Best Acc@5 66.94078826904297
+INFO - 09/21/22 01:59:46 - 0:03:22 - ============ Starting epoch 11 ... ============
+INFO - 09/21/22 01:59:47 - 0:03:23 - Epoch: [11][0]	Time 0.963 (0.963)	Data 0.777 (0.777)	Loss 2.9442 (2.9442)	Lr: 0.1980
+INFO - 09/21/22 01:59:56 - 0:03:32 - Epoch: [11][50]	Time 0.166 (0.189)	Data 0.001 (0.016)	Loss 2.7752 (2.8614)	Lr: 0.1977
+INFO - 09/21/22 02:00:05 - 0:03:41 - Epoch: [11][0]	Time 0.528 (0.528)	Data 0.427 (0.427)	Acc@1 41.016(41.016)	Acc@5 63.281(63.281)
+INFO - 09/21/22 02:00:06 - 0:03:42 - Epoch: [11]	Acc@1 44.058387756347656, Acc@5 67.7734375	Best Acc@1 44.058387756347656, Best Acc@5 67.7734375
+INFO - 09/21/22 02:00:06 - 0:03:42 - ============ Starting epoch 12 ... ============
+INFO - 09/21/22 02:00:06 - 0:03:42 - ============ Starting epoch 12 ... ============
+INFO - 09/21/22 02:00:07 - 0:03:43 - Epoch: [12][0]	Time 0.965 (0.965)	Data 0.622 (0.622)	Loss 2.9227 (2.9227)	Lr: 0.1973
+INFO - 09/21/22 02:00:15 - 0:03:51 - Epoch: [12][50]	Time 0.158 (0.175)	Data 0.000 (0.013)	Loss 2.8434 (2.7744)	Lr: 0.1969
+INFO - 09/21/22 02:00:23 - 0:03:59 - Epoch: [12][0]	Time 0.499 (0.499)	Data 0.484 (0.484)	Acc@1 40.234(40.234)	Acc@5 63.672(63.672)
+INFO - 09/21/22 02:00:23 - 0:03:59 - ============ Starting epoch 13 ... ============
+INFO - 09/21/22 02:00:23 - 0:03:59 - Epoch: [12]	Acc@1 44.34621810913086, Acc@5 67.31085205078125	Best Acc@1 44.34621810913086, Best Acc@5 67.7734375
+INFO - 09/21/22 02:00:24 - 0:04:00 - ============ Starting epoch 13 ... ============
+INFO - 09/21/22 02:00:24 - 0:04:00 - Epoch: [13][0]	Time 0.723 (0.723)	Data 0.561 (0.561)	Loss 2.5845 (2.5845)	Lr: 0.1965
+INFO - 09/21/22 02:00:32 - 0:04:08 - Epoch: [13][50]	Time 0.175 (0.168)	Data 0.000 (0.011)	Loss 2.7370 (2.7202)	Lr: 0.1961
+INFO - 09/21/22 02:00:40 - 0:04:16 - Epoch: [13][0]	Time 0.430 (0.430)	Data 0.417 (0.417)	Acc@1 41.797(41.797)	Acc@5 64.844(64.844)
+INFO - 09/21/22 02:00:41 - 0:04:17 - Epoch: [13]	Acc@1 46.7824821472168, Acc@5 69.84991455078125	Best Acc@1 46.7824821472168, Best Acc@5 69.84991455078125
+INFO - 09/21/22 02:00:41 - 0:04:17 - ============ Starting epoch 14 ... ============
+INFO - 09/21/22 02:00:41 - 0:04:17 - ============ Starting epoch 14 ... ============
+INFO - 09/21/22 02:00:42 - 0:04:18 - Epoch: [14][0]	Time 0.760 (0.760)	Data 0.575 (0.575)	Loss 2.5356 (2.5356)	Lr: 0.1956
+INFO - 09/21/22 02:00:50 - 0:04:26 - Epoch: [14][50]	Time 0.153 (0.172)	Data 0.000 (0.012)	Loss 2.6654 (2.6185)	Lr: 0.1951
+INFO - 09/21/22 02:00:57 - 0:04:33 - Epoch: [14][0]	Time 0.453 (0.453)	Data 0.437 (0.437)	Acc@1 44.141(44.141)	Acc@5 68.750(68.750)
+INFO - 09/21/22 02:00:58 - 0:04:34 - Epoch: [14]	Acc@1 47.12171173095703, Acc@5 70.08634948730469	Best Acc@1 47.12171173095703, Best Acc@5 70.08634948730469
+INFO - 09/21/22 02:00:58 - 0:04:34 - ============ Starting epoch 15 ... ============
+INFO - 09/21/22 02:00:58 - 0:04:34 - ============ Starting epoch 15 ... ============
+INFO - 09/21/22 02:00:59 - 0:04:35 - Epoch: [15][0]	Time 0.745 (0.745)	Data 0.582 (0.582)	Loss 2.6038 (2.6038)	Lr: 0.1946
+INFO - 09/21/22 02:01:07 - 0:04:43 - Epoch: [15][50]	Time 0.154 (0.166)	Data 0.000 (0.012)	Loss 2.5197 (2.5886)	Lr: 0.1940
+INFO - 09/21/22 02:01:14 - 0:04:50 - Epoch: [15][0]	Time 0.444 (0.444)	Data 0.433 (0.433)	Acc@1 46.484(46.484)	Acc@5 66.016(66.016)
+INFO - 09/21/22 02:01:15 - 0:04:51 - ============ Starting epoch 16 ... ============
+INFO - 09/21/22 02:01:15 - 0:04:51 - Epoch: [15]	Acc@1 48.355262756347656, Acc@5 71.26850128173828	Best Acc@1 48.355262756347656, Best Acc@5 71.26850128173828
+INFO - 09/21/22 02:01:15 - 0:04:51 - ============ Starting epoch 16 ... ============
+INFO - 09/21/22 02:01:16 - 0:04:52 - Epoch: [16][0]	Time 0.731 (0.731)	Data 0.559 (0.559)	Loss 2.5127 (2.5127)	Lr: 0.1935
+INFO - 09/21/22 02:01:24 - 0:05:00 - Epoch: [16][50]	Time 0.152 (0.169)	Data 0.000 (0.011)	Loss 2.5675 (2.4954)	Lr: 0.1928
+INFO - 09/21/22 02:01:32 - 0:05:08 - Epoch: [16][0]	Time 0.431 (0.431)	Data 0.419 (0.419)	Acc@1 50.000(50.000)	Acc@5 70.312(70.312)
+INFO - 09/21/22 02:01:32 - 0:05:08 - Epoch: [16]	Acc@1 50.54481887817383, Acc@5 73.8178482055664	Best Acc@1 50.54481887817383, Best Acc@5 73.8178482055664
+INFO - 09/21/22 02:01:32 - 0:05:08 - ============ Starting epoch 17 ... ============
+INFO - 09/21/22 02:01:33 - 0:05:09 - ============ Starting epoch 17 ... ============
+INFO - 09/21/22 02:01:33 - 0:05:09 - Epoch: [17][0]	Time 0.760 (0.760)	Data 0.591 (0.591)	Loss 2.4173 (2.4173)	Lr: 0.1922
+INFO - 09/21/22 02:01:41 - 0:05:17 - Epoch: [17][50]	Time 0.155 (0.173)	Data 0.000 (0.012)	Loss 2.5733 (2.4827)	Lr: 0.1916
+INFO - 09/21/22 02:01:49 - 0:05:25 - Epoch: [17][0]	Time 0.443 (0.443)	Data 0.434 (0.434)	Acc@1 44.141(44.141)	Acc@5 68.359(68.359)
+INFO - 09/21/22 02:01:50 - 0:05:26 - Epoch: [17]	Acc@1 47.388980865478516, Acc@5 70.78536224365234	Best Acc@1 50.54481887817383, Best Acc@5 73.8178482055664
+INFO - 09/21/22 02:01:50 - 0:05:26 - ============ Starting epoch 18 ... ============
+INFO - 09/21/22 02:01:50 - 0:05:26 - ============ Starting epoch 18 ... ============
+INFO - 09/21/22 02:01:51 - 0:05:27 - Epoch: [18][0]	Time 0.743 (0.743)	Data 0.580 (0.580)	Loss 2.5257 (2.5257)	Lr: 0.1909
+INFO - 09/21/22 02:01:59 - 0:05:34 - Epoch: [18][50]	Time 0.158 (0.167)	Data 0.000 (0.012)	Loss 2.3422 (2.4195)	Lr: 0.1902
+INFO - 09/21/22 02:02:06 - 0:05:42 - Epoch: [18][0]	Time 0.432 (0.432)	Data 0.419 (0.419)	Acc@1 44.531(44.531)	Acc@5 69.531(69.531)
+INFO - 09/21/22 02:02:07 - 0:05:43 - Epoch: [18]	Acc@1 50.6887321472168, Acc@5 73.55057525634766	Best Acc@1 50.6887321472168, Best Acc@5 73.8178482055664
+INFO - 09/21/22 02:02:07 - 0:05:43 - ============ Starting epoch 19 ... ============
+INFO - 09/21/22 02:02:07 - 0:05:43 - ============ Starting epoch 19 ... ============
+INFO - 09/21/22 02:02:08 - 0:05:44 - Epoch: [19][0]	Time 0.785 (0.785)	Data 0.615 (0.615)	Loss 2.1785 (2.1785)	Lr: 0.1895
+INFO - 09/21/22 02:02:16 - 0:05:52 - Epoch: [19][50]	Time 0.167 (0.172)	Data 0.000 (0.013)	Loss 2.3786 (2.4014)	Lr: 0.1887
+INFO - 09/21/22 02:02:24 - 0:06:00 - Epoch: [19][0]	Time 0.475 (0.475)	Data 0.462 (0.462)	Acc@1 48.828(48.828)	Acc@5 67.578(67.578)
+INFO - 09/21/22 02:02:25 - 0:06:01 - Epoch: [19]	Acc@1 50.21586990356445, Acc@5 71.8852767944336	Best Acc@1 50.6887321472168, Best Acc@5 73.8178482055664
+INFO - 09/21/22 02:02:25 - 0:06:01 - ============ Starting epoch 20 ... ============
+INFO - 09/21/22 02:02:25 - 0:06:01 - ============ Starting epoch 20 ... ============
+INFO - 09/21/22 02:02:26 - 0:06:02 - Epoch: [20][0]	Time 0.740 (0.740)	Data 0.582 (0.582)	Loss 2.3692 (2.3692)	Lr: 0.1879
+INFO - 09/21/22 02:02:33 - 0:06:09 - Epoch: [20][50]	Time 0.165 (0.169)	Data 0.000 (0.012)	Loss 2.2922 (2.3316)	Lr: 0.1871
+INFO - 09/21/22 02:02:41 - 0:06:17 - Epoch: [20][0]	Time 0.432 (0.432)	Data 0.416 (0.416)	Acc@1 45.703(45.703)	Acc@5 72.266(72.266)
+INFO - 09/21/22 02:02:42 - 0:06:18 - Epoch: [20]	Acc@1 50.699012756347656, Acc@5 72.18338775634766	Best Acc@1 50.699012756347656, Best Acc@5 73.8178482055664
+INFO - 09/21/22 02:02:42 - 0:06:18 - ============ Starting epoch 21 ... ============
+INFO - 09/21/22 02:02:42 - 0:06:18 - ============ Starting epoch 21 ... ============
+INFO - 09/21/22 02:02:43 - 0:06:19 - Epoch: [21][0]	Time 0.745 (0.745)	Data 0.581 (0.581)	Loss 2.3081 (2.3081)	Lr: 0.1863
+INFO - 09/21/22 02:02:51 - 0:06:27 - Epoch: [21][50]	Time 0.155 (0.171)	Data 0.000 (0.012)	Loss 2.3151 (2.2772)	Lr: 0.1855
+INFO - 09/21/22 02:02:59 - 0:06:34 - Epoch: [21][0]	Time 0.437 (0.437)	Data 0.427 (0.427)	Acc@1 46.875(46.875)	Acc@5 71.875(71.875)
+INFO - 09/21/22 02:02:59 - 0:06:35 - ============ Starting epoch 22 ... ============
+INFO - 09/21/22 02:02:59 - 0:06:35 - Epoch: [21]	Acc@1 55.787418365478516, Acc@5 76.73725128173828	Best Acc@1 55.787418365478516, Best Acc@5 76.73725128173828
+INFO - 09/21/22 02:02:59 - 0:06:35 - ============ Starting epoch 22 ... ============
+INFO - 09/21/22 02:03:00 - 0:06:36 - Epoch: [22][0]	Time 0.726 (0.726)	Data 0.557 (0.557)	Loss 2.1543 (2.1543)	Lr: 0.1846
+INFO - 09/21/22 02:03:08 - 0:06:44 - Epoch: [22][50]	Time 0.158 (0.169)	Data 0.000 (0.011)	Loss 2.2683 (2.2160)	Lr: 0.1837
+INFO - 09/21/22 02:03:16 - 0:06:52 - Epoch: [22][0]	Time 0.424 (0.424)	Data 0.412 (0.412)	Acc@1 46.094(46.094)	Acc@5 70.312(70.312)
+INFO - 09/21/22 02:03:16 - 0:06:52 - Epoch: [22]	Acc@1 51.254112243652344, Acc@5 73.2833023071289	Best Acc@1 55.787418365478516, Best Acc@5 76.73725128173828
+INFO - 09/21/22 02:03:16 - 0:06:52 - ============ Starting epoch 23 ... ============
+INFO - 09/21/22 02:03:17 - 0:06:53 - ============ Starting epoch 23 ... ============
+INFO - 09/21/22 02:03:17 - 0:06:53 - Epoch: [23][0]	Time 0.808 (0.808)	Data 0.641 (0.641)	Loss 2.1622 (2.1622)	Lr: 0.1828
+INFO - 09/21/22 02:03:26 - 0:07:01 - Epoch: [23][50]	Time 0.170 (0.175)	Data 0.000 (0.013)	Loss 2.1854 (2.1926)	Lr: 0.1818
+INFO - 09/21/22 02:03:33 - 0:07:09 - Epoch: [23][0]	Time 0.429 (0.429)	Data 0.416 (0.416)	Acc@1 48.438(48.438)	Acc@5 71.094(71.094)
+INFO - 09/21/22 02:03:34 - 0:07:10 - Epoch: [23]	Acc@1 55.345394134521484, Acc@5 75.85321044921875	Best Acc@1 55.787418365478516, Best Acc@5 76.73725128173828
+INFO - 09/21/22 02:03:34 - 0:07:10 - ============ Starting epoch 24 ... ============
+INFO - 09/21/22 02:03:34 - 0:07:10 - ============ Starting epoch 24 ... ============
+INFO - 09/21/22 02:03:35 - 0:07:11 - Epoch: [24][0]	Time 0.742 (0.742)	Data 0.575 (0.575)	Loss 2.1116 (2.1116)	Lr: 0.1809
+INFO - 09/21/22 02:03:43 - 0:07:19 - Epoch: [24][50]	Time 0.172 (0.171)	Data 0.000 (0.012)	Loss 2.1585 (2.1770)	Lr: 0.1799
+INFO - 09/21/22 02:03:51 - 0:07:27 - Epoch: [24][0]	Time 0.445 (0.445)	Data 0.430 (0.430)	Acc@1 50.391(50.391)	Acc@5 70.312(70.312)
+INFO - 09/21/22 02:03:51 - 0:07:27 - ============ Starting epoch 25 ... ============
+INFO - 09/21/22 02:03:51 - 0:07:27 - Epoch: [24]	Acc@1 53.6081428527832, Acc@5 74.96916198730469	Best Acc@1 55.787418365478516, Best Acc@5 76.73725128173828
+INFO - 09/21/22 02:03:52 - 0:07:28 - ============ Starting epoch 25 ... ============
+INFO - 09/21/22 02:03:52 - 0:07:28 - Epoch: [25][0]	Time 0.731 (0.731)	Data 0.573 (0.573)	Loss 1.9588 (1.9588)	Lr: 0.1789
+INFO - 09/21/22 02:04:01 - 0:07:37 - Epoch: [25][50]	Time 0.156 (0.173)	Data 0.000 (0.012)	Loss 2.1080 (2.1188)	Lr: 0.1779
+INFO - 09/21/22 02:04:09 - 0:07:44 - Epoch: [25][0]	Time 0.628 (0.628)	Data 0.615 (0.615)	Acc@1 50.391(50.391)	Acc@5 71.484(71.484)
+INFO - 09/21/22 02:04:09 - 0:07:45 - Epoch: [25]	Acc@1 55.736019134521484, Acc@5 77.5801773071289	Best Acc@1 55.787418365478516, Best Acc@5 77.5801773071289
+INFO - 09/21/22 02:04:09 - 0:07:45 - ============ Starting epoch 26 ... ============
+INFO - 09/21/22 02:04:09 - 0:07:45 - ============ Starting epoch 26 ... ============
+INFO - 09/21/22 02:04:10 - 0:07:46 - Epoch: [26][0]	Time 0.781 (0.781)	Data 0.612 (0.612)	Loss 2.0580 (2.0580)	Lr: 0.1768
+INFO - 09/21/22 02:04:18 - 0:07:54 - Epoch: [26][50]	Time 0.169 (0.170)	Data 0.000 (0.012)	Loss 2.1429 (2.1090)	Lr: 0.1757
+INFO - 09/21/22 02:04:26 - 0:08:02 - Epoch: [26][0]	Time 0.452 (0.452)	Data 0.441 (0.441)	Acc@1 50.781(50.781)	Acc@5 71.875(71.875)
+INFO - 09/21/22 02:04:27 - 0:08:03 - ============ Starting epoch 27 ... ============
+INFO - 09/21/22 02:04:27 - 0:08:03 - Epoch: [26]	Acc@1 54.420230865478516, Acc@5 74.92803955078125	Best Acc@1 55.787418365478516, Best Acc@5 77.5801773071289
+INFO - 09/21/22 02:04:27 - 0:08:03 - ============ Starting epoch 27 ... ============
+INFO - 09/21/22 02:04:28 - 0:08:04 - Epoch: [27][0]	Time 0.760 (0.760)	Data 0.594 (0.594)	Loss 2.0127 (2.0127)	Lr: 0.1747
+INFO - 09/21/22 02:04:36 - 0:08:12 - Epoch: [27][50]	Time 0.157 (0.171)	Data 0.000 (0.012)	Loss 2.0177 (2.0827)	Lr: 0.1735
+INFO - 09/21/22 02:04:44 - 0:08:20 - Epoch: [27][0]	Time 0.430 (0.430)	Data 0.420 (0.420)	Acc@1 51.172(51.172)	Acc@5 68.359(68.359)
+INFO - 09/21/22 02:04:44 - 0:08:20 - Epoch: [27]	Acc@1 55.10896301269531, Acc@5 75.63733673095703	Best Acc@1 55.787418365478516, Best Acc@5 77.5801773071289
+INFO - 09/21/22 02:04:44 - 0:08:20 - ============ Starting epoch 28 ... ============
+INFO - 09/21/22 02:04:44 - 0:08:20 - ============ Starting epoch 28 ... ============
+INFO - 09/21/22 02:04:45 - 0:08:21 - Epoch: [28][0]	Time 0.763 (0.763)	Data 0.594 (0.594)	Loss 2.0653 (2.0653)	Lr: 0.1724
+INFO - 09/21/22 02:04:53 - 0:08:29 - Epoch: [28][50]	Time 0.161 (0.171)	Data 0.000 (0.012)	Loss 1.9696 (2.0558)	Lr: 0.1713
+INFO - 09/21/22 02:05:01 - 0:08:37 - Epoch: [28][0]	Time 0.415 (0.415)	Data 0.400 (0.400)	Acc@1 55.078(55.078)	Acc@5 75.391(75.391)
+INFO - 09/21/22 02:05:02 - 0:08:38 - Epoch: [28]	Acc@1 57.894737243652344, Acc@5 78.1661148071289	Best Acc@1 57.894737243652344, Best Acc@5 78.1661148071289
+INFO - 09/21/22 02:05:02 - 0:08:38 - ============ Starting epoch 29 ... ============
+INFO - 09/21/22 02:05:02 - 0:08:38 - ============ Starting epoch 29 ... ============
+INFO - 09/21/22 02:05:03 - 0:08:39 - Epoch: [29][0]	Time 0.940 (0.940)	Data 0.725 (0.725)	Loss 1.9546 (1.9546)	Lr: 0.1701
+INFO - 09/21/22 02:05:11 - 0:08:47 - Epoch: [29][50]	Time 0.162 (0.185)	Data 0.001 (0.015)	Loss 1.9838 (2.0169)	Lr: 0.1689
+INFO - 09/21/22 02:05:20 - 0:08:56 - Epoch: [29][0]	Time 0.592 (0.592)	Data 0.577 (0.577)	Acc@1 50.781(50.781)	Acc@5 73.828(73.828)
+INFO - 09/21/22 02:05:20 - 0:08:56 - ============ Starting epoch 30 ... ============
+INFO - 09/21/22 02:05:20 - 0:08:56 - Epoch: [29]	Acc@1 58.6965446472168, Acc@5 78.79317474365234	Best Acc@1 58.6965446472168, Best Acc@5 78.79317474365234
+INFO - 09/21/22 02:05:21 - 0:08:57 - ============ Starting epoch 30 ... ============
+INFO - 09/21/22 02:05:22 - 0:08:58 - Epoch: [30][0]	Time 0.938 (0.938)	Data 0.765 (0.765)	Loss 1.8834 (1.8834)	Lr: 0.1677
+INFO - 09/21/22 02:05:29 - 0:09:05 - Epoch: [30][50]	Time 0.158 (0.173)	Data 0.000 (0.015)	Loss 2.0405 (1.9739)	Lr: 0.1665
+INFO - 09/21/22 02:05:37 - 0:09:13 - Epoch: [30][0]	Time 0.441 (0.441)	Data 0.430 (0.430)	Acc@1 52.734(52.734)	Acc@5 69.531(69.531)
+INFO - 09/21/22 02:05:38 - 0:09:14 - Epoch: [30]	Acc@1 57.85361862182617, Acc@5 77.67269897460938	Best Acc@1 58.6965446472168, Best Acc@5 78.79317474365234
+INFO - 09/21/22 02:05:38 - 0:09:14 - ============ Starting epoch 31 ... ============
+INFO - 09/21/22 02:05:38 - 0:09:14 - ============ Starting epoch 31 ... ============
+INFO - 09/21/22 02:05:39 - 0:09:15 - Epoch: [31][0]	Time 0.746 (0.746)	Data 0.570 (0.570)	Loss 1.8934 (1.8934)	Lr: 0.1653
+INFO - 09/21/22 02:05:47 - 0:09:23 - Epoch: [31][50]	Time 0.156 (0.170)	Data 0.000 (0.012)	Loss 2.0805 (1.9356)	Lr: 0.1640
+INFO - 09/21/22 02:05:55 - 0:09:31 - Epoch: [31][0]	Time 0.444 (0.444)	Data 0.425 (0.425)	Acc@1 55.078(55.078)	Acc@5 72.266(72.266)
+INFO - 09/21/22 02:05:55 - 0:09:31 - Epoch: [31]	Acc@1 58.62458801269531, Acc@5 77.37458801269531	Best Acc@1 58.6965446472168, Best Acc@5 78.79317474365234
+INFO - 09/21/22 02:05:55 - 0:09:31 - ============ Starting epoch 32 ... ============
+INFO - 09/21/22 02:05:56 - 0:09:32 - ============ Starting epoch 32 ... ============
+INFO - 09/21/22 02:05:56 - 0:09:32 - Epoch: [32][0]	Time 0.753 (0.753)	Data 0.577 (0.577)	Loss 1.8703 (1.8703)	Lr: 0.1627
+INFO - 09/21/22 02:06:04 - 0:09:40 - Epoch: [32][50]	Time 0.179 (0.168)	Data 0.000 (0.012)	Loss 2.0435 (1.9053)	Lr: 0.1614
+INFO - 09/21/22 02:06:12 - 0:09:48 - Epoch: [32][0]	Time 0.448 (0.448)	Data 0.435 (0.435)	Acc@1 53.906(53.906)	Acc@5 72.656(72.656)
+INFO - 09/21/22 02:06:13 - 0:09:49 - Epoch: [32]	Acc@1 59.01521301269531, Acc@5 77.6932601928711	Best Acc@1 59.01521301269531, Best Acc@5 78.79317474365234
+INFO - 09/21/22 02:06:13 - 0:09:49 - ============ Starting epoch 33 ... ============
+INFO - 09/21/22 02:06:13 - 0:09:49 - ============ Starting epoch 33 ... ============
+INFO - 09/21/22 02:06:14 - 0:09:50 - Epoch: [33][0]	Time 0.858 (0.858)	Data 0.636 (0.636)	Loss 1.7265 (1.7265)	Lr: 0.1601
+INFO - 09/21/22 02:06:22 - 0:09:57 - Epoch: [33][50]	Time 0.156 (0.169)	Data 0.000 (0.013)	Loss 1.8458 (1.8767)	Lr: 0.1587
+INFO - 09/21/22 02:06:29 - 0:10:05 - Epoch: [33][0]	Time 0.447 (0.447)	Data 0.435 (0.435)	Acc@1 53.906(53.906)	Acc@5 73.828(73.828)
+INFO - 09/21/22 02:06:30 - 0:10:06 - Epoch: [33]	Acc@1 60.2487678527832, Acc@5 79.1118392944336	Best Acc@1 60.2487678527832, Best Acc@5 79.1118392944336
+INFO - 09/21/22 02:06:30 - 0:10:06 - ============ Starting epoch 34 ... ============
+INFO - 09/21/22 02:06:30 - 0:10:06 - ============ Starting epoch 34 ... ============
+INFO - 09/21/22 02:06:31 - 0:10:07 - Epoch: [34][0]	Time 0.732 (0.732)	Data 0.559 (0.559)	Loss 1.9229 (1.9229)	Lr: 0.1574
+INFO - 09/21/22 02:06:39 - 0:10:15 - Epoch: [34][50]	Time 0.155 (0.171)	Data 0.000 (0.011)	Loss 1.7180 (1.8451)	Lr: 0.1560
+INFO - 09/21/22 02:06:47 - 0:10:23 - Epoch: [34][0]	Time 0.414 (0.414)	Data 0.399 (0.399)	Acc@1 56.250(56.250)	Acc@5 70.703(70.703)
+INFO - 09/21/22 02:06:47 - 0:10:23 - Epoch: [34]	Acc@1 59.53947448730469, Acc@5 78.21751403808594	Best Acc@1 60.2487678527832, Best Acc@5 79.1118392944336
+INFO - 09/21/22 02:06:47 - 0:10:23 - ============ Starting epoch 35 ... ============
+INFO - 09/21/22 02:06:48 - 0:10:23 - ============ Starting epoch 35 ... ============
+INFO - 09/21/22 02:06:48 - 0:10:24 - Epoch: [35][0]	Time 0.742 (0.742)	Data 0.578 (0.578)	Loss 1.9146 (1.9146)	Lr: 0.1547
+INFO - 09/21/22 02:06:56 - 0:10:32 - Epoch: [35][50]	Time 0.155 (0.171)	Data 0.000 (0.012)	Loss 1.9698 (1.8476)	Lr: 0.1533
+INFO - 09/21/22 02:07:04 - 0:10:40 - Epoch: [35][0]	Time 0.431 (0.431)	Data 0.417 (0.417)	Acc@1 55.859(55.859)	Acc@5 75.781(75.781)
+INFO - 09/21/22 02:07:05 - 0:10:40 - Epoch: [35]	Acc@1 60.670230865478516, Acc@5 79.08100128173828	Best Acc@1 60.670230865478516, Best Acc@5 79.1118392944336
+INFO - 09/21/22 02:07:05 - 0:10:40 - ============ Starting epoch 36 ... ============
+INFO - 09/21/22 02:07:05 - 0:10:41 - ============ Starting epoch 36 ... ============
+INFO - 09/21/22 02:07:06 - 0:10:42 - Epoch: [36][0]	Time 0.730 (0.730)	Data 0.569 (0.569)	Loss 1.8674 (1.8674)	Lr: 0.1519
+INFO - 09/21/22 02:07:14 - 0:10:50 - Epoch: [36][50]	Time 0.152 (0.171)	Data 0.000 (0.012)	Loss 1.8314 (1.8302)	Lr: 0.1504
+INFO - 09/21/22 02:07:21 - 0:10:57 - Epoch: [36][0]	Time 0.448 (0.448)	Data 0.432 (0.432)	Acc@1 54.297(54.297)	Acc@5 74.609(74.609)
+INFO - 09/21/22 02:07:22 - 0:10:58 - Epoch: [36]	Acc@1 60.58799362182617, Acc@5 78.76233673095703	Best Acc@1 60.670230865478516, Best Acc@5 79.1118392944336
+INFO - 09/21/22 02:07:22 - 0:10:58 - ============ Starting epoch 37 ... ============
+INFO - 09/21/22 02:07:22 - 0:10:58 - ============ Starting epoch 37 ... ============
+INFO - 09/21/22 02:07:23 - 0:10:59 - Epoch: [37][0]	Time 0.752 (0.752)	Data 0.579 (0.579)	Loss 1.6920 (1.6920)	Lr: 0.1490
+INFO - 09/21/22 02:07:31 - 0:11:07 - Epoch: [37][50]	Time 0.162 (0.167)	Data 0.000 (0.012)	Loss 1.6885 (1.7859)	Lr: 0.1475
+INFO - 09/21/22 02:07:38 - 0:11:14 - Epoch: [37][0]	Time 0.432 (0.432)	Data 0.420 (0.420)	Acc@1 54.688(54.688)	Acc@5 71.875(71.875)
+INFO - 09/21/22 02:07:39 - 0:11:15 - Epoch: [37]	Acc@1 60.094573974609375, Acc@5 78.48478698730469	Best Acc@1 60.670230865478516, Best Acc@5 79.1118392944336
+INFO - 09/21/22 02:07:39 - 0:11:15 - ============ Starting epoch 38 ... ============
+INFO - 09/21/22 02:07:39 - 0:11:15 - ============ Starting epoch 38 ... ============
+INFO - 09/21/22 02:07:40 - 0:11:16 - Epoch: [38][0]	Time 0.785 (0.785)	Data 0.626 (0.626)	Loss 1.7161 (1.7161)	Lr: 0.1461
+INFO - 09/21/22 02:07:48 - 0:11:24 - Epoch: [38][50]	Time 0.153 (0.169)	Data 0.000 (0.013)	Loss 1.7620 (1.7520)	Lr: 0.1446
+INFO - 09/21/22 02:07:56 - 0:11:32 - Epoch: [38][0]	Time 0.470 (0.470)	Data 0.460 (0.460)	Acc@1 59.375(59.375)	Acc@5 77.344(77.344)
+INFO - 09/21/22 02:07:56 - 0:11:32 - Epoch: [38]	Acc@1 61.204769134521484, Acc@5 79.43051147460938	Best Acc@1 61.204769134521484, Best Acc@5 79.43051147460938
+INFO - 09/21/22 02:07:56 - 0:11:32 - ============ Starting epoch 39 ... ============
+INFO - 09/21/22 02:07:57 - 0:11:32 - ============ Starting epoch 39 ... ============
+INFO - 09/21/22 02:07:57 - 0:11:33 - Epoch: [39][0]	Time 0.728 (0.728)	Data 0.562 (0.562)	Loss 1.6082 (1.6082)	Lr: 0.1432
+INFO - 09/21/22 02:08:05 - 0:11:41 - Epoch: [39][50]	Time 0.154 (0.168)	Data 0.000 (0.011)	Loss 1.8254 (1.7221)	Lr: 0.1416
+INFO - 09/21/22 02:08:13 - 0:11:49 - Epoch: [39][0]	Time 0.423 (0.423)	Data 0.409 (0.409)	Acc@1 58.984(58.984)	Acc@5 74.219(74.219)
+INFO - 09/21/22 02:08:13 - 0:11:49 - Epoch: [39]	Acc@1 62.2121696472168, Acc@5 79.78001403808594	Best Acc@1 62.2121696472168, Best Acc@5 79.78001403808594
+INFO - 09/21/22 02:08:13 - 0:11:49 - ============ Starting epoch 40 ... ============
+INFO - 09/21/22 02:08:14 - 0:11:50 - ============ Starting epoch 40 ... ============
+INFO - 09/21/22 02:08:14 - 0:11:50 - Epoch: [40][0]	Time 0.774 (0.774)	Data 0.595 (0.595)	Loss 1.6336 (1.6336)	Lr: 0.1402
+INFO - 09/21/22 02:08:22 - 0:11:58 - Epoch: [40][50]	Time 0.154 (0.170)	Data 0.000 (0.012)	Loss 1.6669 (1.7060)	Lr: 0.1386
+INFO - 09/21/22 02:08:30 - 0:12:06 - Epoch: [40][0]	Time 0.423 (0.423)	Data 0.410 (0.410)	Acc@1 61.719(61.719)	Acc@5 75.781(75.781)
+INFO - 09/21/22 02:08:31 - 0:12:07 - Epoch: [40]	Acc@1 63.03453826904297, Acc@5 80.76686096191406	Best Acc@1 63.03453826904297, Best Acc@5 80.76686096191406
+INFO - 09/21/22 02:08:31 - 0:12:07 - ============ Starting epoch 41 ... ============
+INFO - 09/21/22 02:08:31 - 0:12:07 - ============ Starting epoch 41 ... ============
+INFO - 09/21/22 02:08:32 - 0:12:08 - Epoch: [41][0]	Time 0.745 (0.745)	Data 0.575 (0.575)	Loss 1.7174 (1.7174)	Lr: 0.1371
+INFO - 09/21/22 02:08:40 - 0:12:16 - Epoch: [41][50]	Time 0.157 (0.174)	Data 0.000 (0.012)	Loss 1.5691 (1.6689)	Lr: 0.1355
+INFO - 09/21/22 02:08:48 - 0:12:24 - Epoch: [41][0]	Time 0.436 (0.436)	Data 0.426 (0.426)	Acc@1 59.766(59.766)	Acc@5 76.172(76.172)
+INFO - 09/21/22 02:08:48 - 0:12:24 - Epoch: [41]	Acc@1 63.22985076904297, Acc@5 80.99301147460938	Best Acc@1 63.22985076904297, Best Acc@5 80.99301147460938
+INFO - 09/21/22 02:08:48 - 0:12:24 - ============ Starting epoch 42 ... ============
+INFO - 09/21/22 02:08:48 - 0:12:24 - ============ Starting epoch 42 ... ============
+INFO - 09/21/22 02:08:49 - 0:12:25 - Epoch: [42][0]	Time 0.726 (0.726)	Data 0.568 (0.568)	Loss 1.5552 (1.5552)	Lr: 0.1340
+INFO - 09/21/22 02:08:57 - 0:12:33 - Epoch: [42][50]	Time 0.154 (0.165)	Data 0.000 (0.012)	Loss 1.6541 (1.6700)	Lr: 0.1324
+INFO - 09/21/22 02:09:05 - 0:12:41 - Epoch: [42][0]	Time 0.421 (0.421)	Data 0.406 (0.406)	Acc@1 60.938(60.938)	Acc@5 76.172(76.172)
+INFO - 09/21/22 02:09:05 - 0:12:41 - Epoch: [42]	Acc@1 62.2121696472168, Acc@5 79.4921875	Best Acc@1 63.22985076904297, Best Acc@5 80.99301147460938
+INFO - 09/21/22 02:09:05 - 0:12:41 - ============ Starting epoch 43 ... ============
+INFO - 09/21/22 02:09:05 - 0:12:41 - ============ Starting epoch 43 ... ============
+INFO - 09/21/22 02:09:06 - 0:12:42 - Epoch: [43][0]	Time 0.845 (0.845)	Data 0.678 (0.678)	Loss 1.6259 (1.6259)	Lr: 0.1309
+INFO - 09/21/22 02:09:14 - 0:12:50 - Epoch: [43][50]	Time 0.154 (0.170)	Data 0.000 (0.014)	Loss 1.6837 (1.6220)	Lr: 0.1293
+INFO - 09/21/22 02:09:22 - 0:12:58 - Epoch: [43][0]	Time 0.434 (0.434)	Data 0.424 (0.424)	Acc@1 56.250(56.250)	Acc@5 74.609(74.609)
+INFO - 09/21/22 02:09:22 - 0:12:58 - Epoch: [43]	Acc@1 62.417762756347656, Acc@5 80.00616455078125	Best Acc@1 63.22985076904297, Best Acc@5 80.99301147460938
+INFO - 09/21/22 02:09:22 - 0:12:58 - ============ Starting epoch 44 ... ============
+INFO - 09/21/22 02:09:23 - 0:12:59 - ============ Starting epoch 44 ... ============
+INFO - 09/21/22 02:09:23 - 0:12:59 - Epoch: [44][0]	Time 0.761 (0.761)	Data 0.569 (0.569)	Loss 1.4550 (1.4550)	Lr: 0.1277
+INFO - 09/21/22 02:09:31 - 0:13:07 - Epoch: [44][50]	Time 0.156 (0.169)	Data 0.000 (0.012)	Loss 1.6145 (1.6016)	Lr: 0.1261
+INFO - 09/21/22 02:09:39 - 0:13:15 - Epoch: [44][0]	Time 0.480 (0.480)	Data 0.468 (0.468)	Acc@1 59.766(59.766)	Acc@5 76.953(76.953)
+INFO - 09/21/22 02:09:40 - 0:13:16 - Epoch: [44]	Acc@1 61.53371810913086, Acc@5 79.23519897460938	Best Acc@1 63.22985076904297, Best Acc@5 80.99301147460938
+INFO - 09/21/22 02:09:40 - 0:13:16 - ============ Starting epoch 45 ... ============
+INFO - 09/21/22 02:09:40 - 0:13:16 - ============ Starting epoch 45 ... ============
+INFO - 09/21/22 02:09:41 - 0:13:17 - Epoch: [45][0]	Time 0.738 (0.738)	Data 0.571 (0.571)	Loss 1.6429 (1.6429)	Lr: 0.1245
+INFO - 09/21/22 02:09:49 - 0:13:25 - Epoch: [45][50]	Time 0.154 (0.172)	Data 0.000 (0.012)	Loss 1.6904 (1.5718)	Lr: 0.1229
+INFO - 09/21/22 02:09:57 - 0:13:32 - Epoch: [45][0]	Time 0.454 (0.454)	Data 0.445 (0.445)	Acc@1 54.688(54.688)	Acc@5 75.391(75.391)
+INFO - 09/21/22 02:09:57 - 0:13:33 - Epoch: [45]	Acc@1 60.670230865478516, Acc@5 78.6698226928711	Best Acc@1 63.22985076904297, Best Acc@5 80.99301147460938
+INFO - 09/21/22 02:09:57 - 0:13:33 - ============ Starting epoch 46 ... ============
+INFO - 09/21/22 02:09:57 - 0:13:33 - ============ Starting epoch 46 ... ============
+INFO - 09/21/22 02:09:58 - 0:13:34 - Epoch: [46][0]	Time 0.728 (0.728)	Data 0.551 (0.551)	Loss 1.6767 (1.6767)	Lr: 0.1213
+INFO - 09/21/22 02:10:06 - 0:13:42 - Epoch: [46][50]	Time 0.165 (0.174)	Data 0.000 (0.011)	Loss 1.4574 (1.5716)	Lr: 0.1197
+INFO - 09/21/22 02:10:14 - 0:13:50 - Epoch: [46][0]	Time 0.420 (0.420)	Data 0.410 (0.410)	Acc@1 67.578(67.578)	Acc@5 78.516(78.516)
+INFO - 09/21/22 02:10:15 - 0:13:51 - Epoch: [46]	Acc@1 64.6895523071289, Acc@5 81.08552551269531	Best Acc@1 64.6895523071289, Best Acc@5 81.08552551269531
+INFO - 09/21/22 02:10:15 - 0:13:51 - ============ Starting epoch 47 ... ============
+INFO - 09/21/22 02:10:15 - 0:13:51 - ============ Starting epoch 47 ... ============
+INFO - 09/21/22 02:10:16 - 0:13:52 - Epoch: [47][0]	Time 0.786 (0.786)	Data 0.626 (0.626)	Loss 1.4635 (1.4635)	Lr: 0.1181
+INFO - 09/21/22 02:10:23 - 0:13:59 - Epoch: [47][50]	Time 0.154 (0.169)	Data 0.000 (0.013)	Loss 1.5272 (1.5421)	Lr: 0.1164
+INFO - 09/21/22 02:10:31 - 0:14:07 - Epoch: [47][0]	Time 0.423 (0.423)	Data 0.411 (0.411)	Acc@1 62.109(62.109)	Acc@5 76.172(76.172)
+INFO - 09/21/22 02:10:32 - 0:14:08 - Epoch: [47]	Acc@1 64.37088775634766, Acc@5 81.14720153808594	Best Acc@1 64.6895523071289, Best Acc@5 81.14720153808594
+INFO - 09/21/22 02:10:32 - 0:14:08 - ============ Starting epoch 48 ... ============
+INFO - 09/21/22 02:10:32 - 0:14:08 - ============ Starting epoch 48 ... ============
+INFO - 09/21/22 02:10:33 - 0:14:09 - Epoch: [48][0]	Time 0.734 (0.734)	Data 0.558 (0.558)	Loss 1.4506 (1.4506)	Lr: 0.1148
+INFO - 09/21/22 02:10:41 - 0:14:17 - Epoch: [48][50]	Time 0.157 (0.168)	Data 0.000 (0.011)	Loss 1.5739 (1.5160)	Lr: 0.1131
+INFO - 09/21/22 02:10:48 - 0:14:24 - Epoch: [48][0]	Time 0.451 (0.451)	Data 0.437 (0.437)	Acc@1 61.328(61.328)	Acc@5 77.734(77.734)
+INFO - 09/21/22 02:10:49 - 0:14:25 - Epoch: [48]	Acc@1 62.633636474609375, Acc@5 79.56414794921875	Best Acc@1 64.6895523071289, Best Acc@5 81.14720153808594
+INFO - 09/21/22 02:10:49 - 0:14:25 - ============ Starting epoch 49 ... ============
+INFO - 09/21/22 02:10:49 - 0:14:25 - ============ Starting epoch 49 ... ============
+INFO - 09/21/22 02:10:50 - 0:14:26 - Epoch: [49][0]	Time 0.744 (0.744)	Data 0.569 (0.569)	Loss 1.3951 (1.3951)	Lr: 0.1115
+INFO - 09/21/22 02:10:58 - 0:14:34 - Epoch: [49][50]	Time 0.153 (0.168)	Data 0.000 (0.012)	Loss 1.5499 (1.4825)	Lr: 0.1099
+INFO - 09/21/22 02:11:06 - 0:14:42 - Epoch: [49][0]	Time 0.426 (0.426)	Data 0.412 (0.412)	Acc@1 62.109(62.109)	Acc@5 79.688(79.688)
+INFO - 09/21/22 02:11:06 - 0:14:42 - Epoch: [49]	Acc@1 63.928863525390625, Acc@5 81.15748596191406	Best Acc@1 64.6895523071289, Best Acc@5 81.15748596191406
+INFO - 09/21/22 02:11:06 - 0:14:42 - ============ Starting epoch 50 ... ============
+INFO - 09/21/22 02:11:07 - 0:14:43 - ============ Starting epoch 50 ... ============
+INFO - 09/21/22 02:11:07 - 0:14:43 - Epoch: [50][0]	Time 0.846 (0.846)	Data 0.656 (0.656)	Loss 1.3683 (1.3683)	Lr: 0.1083
+INFO - 09/21/22 02:11:16 - 0:14:52 - Epoch: [50][50]	Time 0.158 (0.180)	Data 0.000 (0.013)	Loss 1.4715 (1.4758)	Lr: 0.1066
+INFO - 09/21/22 02:11:24 - 0:15:00 - Epoch: [50][0]	Time 0.502 (0.502)	Data 0.490 (0.490)	Acc@1 60.156(60.156)	Acc@5 77.344(77.344)
+INFO - 09/21/22 02:11:24 - 0:15:00 - Epoch: [50]	Acc@1 63.65131759643555, Acc@5 80.29399871826172	Best Acc@1 64.6895523071289, Best Acc@5 81.15748596191406
+INFO - 09/21/22 02:11:24 - 0:15:00 - ============ Starting epoch 51 ... ============
+INFO - 09/21/22 02:11:25 - 0:15:01 - ============ Starting epoch 51 ... ============
+INFO - 09/21/22 02:11:25 - 0:15:01 - Epoch: [51][0]	Time 0.754 (0.754)	Data 0.581 (0.581)	Loss 1.4280 (1.4280)	Lr: 0.1050
+INFO - 09/21/22 02:11:33 - 0:15:09 - Epoch: [51][50]	Time 0.173 (0.169)	Data 0.000 (0.012)	Loss 1.5473 (1.4469)	Lr: 0.1033
+INFO - 09/21/22 02:11:41 - 0:15:17 - Epoch: [51][0]	Time 0.432 (0.432)	Data 0.419 (0.419)	Acc@1 59.766(59.766)	Acc@5 76.562(76.562)
+INFO - 09/21/22 02:11:42 - 0:15:18 - Epoch: [51]	Acc@1 64.17557525634766, Acc@5 80.95188903808594	Best Acc@1 64.6895523071289, Best Acc@5 81.15748596191406
+INFO - 09/21/22 02:11:42 - 0:15:18 - ============ Starting epoch 52 ... ============
+INFO - 09/21/22 02:11:42 - 0:15:18 - ============ Starting epoch 52 ... ============
+INFO - 09/21/22 02:11:43 - 0:15:19 - Epoch: [52][0]	Time 0.763 (0.763)	Data 0.601 (0.601)	Loss 1.3188 (1.3188)	Lr: 0.1017
+INFO - 09/21/22 02:11:51 - 0:15:27 - Epoch: [52][50]	Time 0.154 (0.167)	Data 0.000 (0.012)	Loss 1.4105 (1.4300)	Lr: 0.0999
+INFO - 09/21/22 02:11:58 - 0:15:34 - Epoch: [52][0]	Time 0.456 (0.456)	Data 0.437 (0.437)	Acc@1 61.719(61.719)	Acc@5 76.562(76.562)
+INFO - 09/21/22 02:11:59 - 0:15:35 - Epoch: [52]	Acc@1 65.16241455078125, Acc@5 81.47615051269531	Best Acc@1 65.16241455078125, Best Acc@5 81.47615051269531
+INFO - 09/21/22 02:11:59 - 0:15:35 - ============ Starting epoch 53 ... ============
+INFO - 09/21/22 02:11:59 - 0:15:35 - ============ Starting epoch 53 ... ============
+INFO - 09/21/22 02:12:00 - 0:15:36 - Epoch: [53][0]	Time 0.755 (0.755)	Data 0.595 (0.595)	Loss 1.5949 (1.5949)	Lr: 0.0983
+INFO - 09/21/22 02:12:08 - 0:15:44 - Epoch: [53][50]	Time 0.156 (0.169)	Data 0.000 (0.012)	Loss 1.3257 (1.4162)	Lr: 0.0966
+INFO - 09/21/22 02:12:16 - 0:15:52 - Epoch: [53][0]	Time 0.427 (0.427)	Data 0.415 (0.415)	Acc@1 63.672(63.672)	Acc@5 78.125(78.125)
+INFO - 09/21/22 02:12:16 - 0:15:52 - Epoch: [53]	Acc@1 65.98478698730469, Acc@5 81.88733673095703	Best Acc@1 65.98478698730469, Best Acc@5 81.88733673095703
+INFO - 09/21/22 02:12:16 - 0:15:52 - ============ Starting epoch 54 ... ============
+INFO - 09/21/22 02:12:17 - 0:15:52 - ============ Starting epoch 54 ... ============
+INFO - 09/21/22 02:12:17 - 0:15:53 - Epoch: [54][0]	Time 0.745 (0.745)	Data 0.588 (0.588)	Loss 1.2697 (1.2697)	Lr: 0.0950
+INFO - 09/21/22 02:12:25 - 0:16:01 - Epoch: [54][50]	Time 0.159 (0.176)	Data 0.000 (0.012)	Loss 1.4689 (1.3874)	Lr: 0.0933
+INFO - 09/21/22 02:12:33 - 0:16:09 - Epoch: [54][0]	Time 0.452 (0.452)	Data 0.437 (0.437)	Acc@1 59.375(59.375)	Acc@5 76.172(76.172)
+INFO - 09/21/22 02:12:34 - 0:16:10 - Epoch: [54]	Acc@1 65.25493621826172, Acc@5 81.14720153808594	Best Acc@1 65.98478698730469, Best Acc@5 81.88733673095703
+INFO - 09/21/22 02:12:34 - 0:16:10 - ============ Starting epoch 55 ... ============
+INFO - 09/21/22 02:12:34 - 0:16:10 - ============ Starting epoch 55 ... ============
+INFO - 09/21/22 02:12:35 - 0:16:11 - Epoch: [55][0]	Time 0.790 (0.790)	Data 0.588 (0.588)	Loss 1.2328 (1.2328)	Lr: 0.0917
+INFO - 09/21/22 02:12:44 - 0:16:20 - Epoch: [55][50]	Time 0.157 (0.187)	Data 0.000 (0.012)	Loss 1.3566 (1.3778)	Lr: 0.0900
+INFO - 09/21/22 02:12:52 - 0:16:28 - Epoch: [55][0]	Time 0.623 (0.623)	Data 0.609 (0.609)	Acc@1 59.375(59.375)	Acc@5 76.953(76.953)
+INFO - 09/21/22 02:12:53 - 0:16:29 - Epoch: [55]	Acc@1 66.29317474365234, Acc@5 82.3807601928711	Best Acc@1 66.29317474365234, Best Acc@5 82.3807601928711
+INFO - 09/21/22 02:12:53 - 0:16:29 - ============ Starting epoch 56 ... ============
+INFO - 09/21/22 02:12:53 - 0:16:29 - ============ Starting epoch 56 ... ============
+INFO - 09/21/22 02:12:54 - 0:16:30 - Epoch: [56][0]	Time 0.945 (0.945)	Data 0.760 (0.760)	Loss 1.4292 (1.4292)	Lr: 0.0885
+INFO - 09/21/22 02:13:02 - 0:16:38 - Epoch: [56][50]	Time 0.170 (0.180)	Data 0.000 (0.015)	Loss 1.4298 (1.3611)	Lr: 0.0868
+INFO - 09/21/22 02:13:10 - 0:16:46 - Epoch: [56][0]	Time 0.421 (0.421)	Data 0.406 (0.406)	Acc@1 62.891(62.891)	Acc@5 78.906(78.906)
+INFO - 09/21/22 02:13:11 - 0:16:47 - Epoch: [56]	Acc@1 65.76891326904297, Acc@5 81.62006378173828	Best Acc@1 66.29317474365234, Best Acc@5 82.3807601928711
+INFO - 09/21/22 02:13:11 - 0:16:47 - ============ Starting epoch 57 ... ============
+INFO - 09/21/22 02:13:11 - 0:16:47 - ============ Starting epoch 57 ... ============
+INFO - 09/21/22 02:13:12 - 0:16:48 - Epoch: [57][0]	Time 0.738 (0.738)	Data 0.574 (0.574)	Loss 1.3629 (1.3629)	Lr: 0.0852
+INFO - 09/21/22 02:13:20 - 0:16:56 - Epoch: [57][50]	Time 0.177 (0.170)	Data 0.000 (0.012)	Loss 1.2267 (1.3228)	Lr: 0.0835
+INFO - 09/21/22 02:13:28 - 0:17:04 - Epoch: [57][0]	Time 0.439 (0.439)	Data 0.425 (0.425)	Acc@1 62.891(62.891)	Acc@5 79.297(79.297)
+INFO - 09/21/22 02:13:28 - 0:17:04 - Epoch: [57]	Acc@1 65.67639923095703, Acc@5 81.4864273071289	Best Acc@1 66.29317474365234, Best Acc@5 82.3807601928711
+INFO - 09/21/22 02:13:28 - 0:17:04 - ============ Starting epoch 58 ... ============
+INFO - 09/21/22 02:13:29 - 0:17:04 - ============ Starting epoch 58 ... ============
+INFO - 09/21/22 02:13:29 - 0:17:05 - Epoch: [58][0]	Time 0.769 (0.769)	Data 0.605 (0.605)	Loss 1.2517 (1.2517)	Lr: 0.0819
+INFO - 09/21/22 02:13:37 - 0:17:13 - Epoch: [58][50]	Time 0.155 (0.167)	Data 0.000 (0.012)	Loss 1.3102 (1.3204)	Lr: 0.0802
+INFO - 09/21/22 02:13:45 - 0:17:21 - Epoch: [58][0]	Time 0.424 (0.424)	Data 0.411 (0.411)	Acc@1 63.281(63.281)	Acc@5 78.906(78.906)
+INFO - 09/21/22 02:13:45 - 0:17:21 - Epoch: [58]	Acc@1 64.93626403808594, Acc@5 80.89021301269531	Best Acc@1 66.29317474365234, Best Acc@5 82.3807601928711
+INFO - 09/21/22 02:13:45 - 0:17:21 - ============ Starting epoch 59 ... ============
+INFO - 09/21/22 02:13:46 - 0:17:22 - ============ Starting epoch 59 ... ============
+INFO - 09/21/22 02:13:46 - 0:17:22 - Epoch: [59][0]	Time 0.753 (0.753)	Data 0.579 (0.579)	Loss 1.4164 (1.4164)	Lr: 0.0787
+INFO - 09/21/22 02:13:54 - 0:17:30 - Epoch: [59][50]	Time 0.153 (0.166)	Data 0.000 (0.012)	Loss 1.3683 (1.2910)	Lr: 0.0770
+INFO - 09/21/22 02:14:02 - 0:17:38 - Epoch: [59][0]	Time 0.450 (0.450)	Data 0.438 (0.438)	Acc@1 61.328(61.328)	Acc@5 76.172(76.172)
+INFO - 09/21/22 02:14:02 - 0:17:38 - Epoch: [59]	Acc@1 65.234375, Acc@5 81.0546875	Best Acc@1 66.29317474365234, Best Acc@5 82.3807601928711
+INFO - 09/21/22 02:14:02 - 0:17:38 - ============ Starting epoch 60 ... ============
+INFO - 09/21/22 02:14:03 - 0:17:39 - ============ Starting epoch 60 ... ============
+INFO - 09/21/22 02:14:03 - 0:17:39 - Epoch: [60][0]	Time 0.750 (0.750)	Data 0.572 (0.572)	Loss 1.2744 (1.2744)	Lr: 0.0755
+INFO - 09/21/22 02:14:11 - 0:17:47 - Epoch: [60][50]	Time 0.169 (0.171)	Data 0.001 (0.012)	Loss 1.3092 (1.2795)	Lr: 0.0738
+INFO - 09/21/22 02:14:20 - 0:17:55 - Epoch: [60][0]	Time 0.441 (0.441)	Data 0.430 (0.430)	Acc@1 65.625(65.625)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:14:20 - 0:17:56 - Epoch: [60]	Acc@1 67.0024642944336, Acc@5 82.52467346191406	Best Acc@1 67.0024642944336, Best Acc@5 82.52467346191406
+INFO - 09/21/22 02:14:20 - 0:17:56 - ============ Starting epoch 61 ... ============
+INFO - 09/21/22 02:14:20 - 0:17:56 - ============ Starting epoch 61 ... ============
+INFO - 09/21/22 02:14:21 - 0:17:57 - Epoch: [61][0]	Time 0.765 (0.765)	Data 0.604 (0.604)	Loss 1.3221 (1.3221)	Lr: 0.0723
+INFO - 09/21/22 02:14:29 - 0:18:05 - Epoch: [61][50]	Time 0.156 (0.170)	Data 0.000 (0.012)	Loss 1.2448 (1.2605)	Lr: 0.0706
+INFO - 09/21/22 02:14:37 - 0:18:13 - Epoch: [61][0]	Time 0.418 (0.418)	Data 0.405 (0.405)	Acc@1 63.281(63.281)	Acc@5 78.906(78.906)
+INFO - 09/21/22 02:14:37 - 0:18:13 - ============ Starting epoch 62 ... ============
+INFO - 09/21/22 02:14:37 - 0:18:13 - Epoch: [61]	Acc@1 66.3959732055664, Acc@5 82.14432525634766	Best Acc@1 67.0024642944336, Best Acc@5 82.52467346191406
+INFO - 09/21/22 02:14:38 - 0:18:14 - ============ Starting epoch 62 ... ============
+INFO - 09/21/22 02:14:38 - 0:18:14 - Epoch: [62][0]	Time 0.741 (0.741)	Data 0.570 (0.570)	Loss 1.1815 (1.1815)	Lr: 0.0691
+INFO - 09/21/22 02:14:46 - 0:18:22 - Epoch: [62][50]	Time 0.152 (0.167)	Data 0.000 (0.012)	Loss 1.2313 (1.2665)	Lr: 0.0675
+INFO - 09/21/22 02:14:54 - 0:18:30 - Epoch: [62][0]	Time 0.431 (0.431)	Data 0.419 (0.419)	Acc@1 60.547(60.547)	Acc@5 78.516(78.516)
+INFO - 09/21/22 02:14:55 - 0:18:31 - Epoch: [62]	Acc@1 67.05386352539062, Acc@5 82.74053955078125	Best Acc@1 67.05386352539062, Best Acc@5 82.74053955078125
+INFO - 09/21/22 02:14:55 - 0:18:31 - ============ Starting epoch 63 ... ============
+INFO - 09/21/22 02:14:55 - 0:18:31 - ============ Starting epoch 63 ... ============
+INFO - 09/21/22 02:14:56 - 0:18:32 - Epoch: [63][0]	Time 0.767 (0.767)	Data 0.600 (0.600)	Loss 1.2845 (1.2845)	Lr: 0.0660
+INFO - 09/21/22 02:15:04 - 0:18:40 - Epoch: [63][50]	Time 0.153 (0.169)	Data 0.000 (0.012)	Loss 1.1290 (1.2178)	Lr: 0.0644
+INFO - 09/21/22 02:15:11 - 0:18:47 - Epoch: [63][0]	Time 0.445 (0.445)	Data 0.435 (0.435)	Acc@1 60.547(60.547)	Acc@5 76.172(76.172)
+INFO - 09/21/22 02:15:12 - 0:18:48 - Epoch: [63]	Acc@1 66.46792602539062, Acc@5 82.03125	Best Acc@1 67.05386352539062, Best Acc@5 82.74053955078125
+INFO - 09/21/22 02:15:12 - 0:18:48 - ============ Starting epoch 64 ... ============
+INFO - 09/21/22 02:15:12 - 0:18:48 - ============ Starting epoch 64 ... ============
+INFO - 09/21/22 02:15:13 - 0:18:49 - Epoch: [64][0]	Time 0.721 (0.721)	Data 0.554 (0.554)	Loss 1.1375 (1.1375)	Lr: 0.0629
+INFO - 09/21/22 02:15:20 - 0:18:56 - Epoch: [64][50]	Time 0.154 (0.165)	Data 0.000 (0.011)	Loss 1.3306 (1.2039)	Lr: 0.0613
+INFO - 09/21/22 02:15:28 - 0:19:04 - Epoch: [64][0]	Time 0.424 (0.424)	Data 0.412 (0.412)	Acc@1 59.766(59.766)	Acc@5 77.734(77.734)
+INFO - 09/21/22 02:15:29 - 0:19:05 - Epoch: [64]	Acc@1 67.09498596191406, Acc@5 82.4321517944336	Best Acc@1 67.09498596191406, Best Acc@5 82.74053955078125
+INFO - 09/21/22 02:15:29 - 0:19:05 - ============ Starting epoch 65 ... ============
+INFO - 09/21/22 02:15:29 - 0:19:05 - ============ Starting epoch 65 ... ============
+INFO - 09/21/22 02:15:30 - 0:19:06 - Epoch: [65][0]	Time 0.741 (0.741)	Data 0.569 (0.569)	Loss 1.0863 (1.0863)	Lr: 0.0598
+INFO - 09/21/22 02:15:38 - 0:19:14 - Epoch: [65][50]	Time 0.158 (0.171)	Data 0.000 (0.012)	Loss 1.1941 (1.1869)	Lr: 0.0583
+INFO - 09/21/22 02:15:46 - 0:19:22 - Epoch: [65][0]	Time 0.421 (0.421)	Data 0.408 (0.408)	Acc@1 64.453(64.453)	Acc@5 81.641(81.641)
+INFO - 09/21/22 02:15:46 - 0:19:22 - Epoch: [65]	Acc@1 66.96134948730469, Acc@5 82.08264923095703	Best Acc@1 67.09498596191406, Best Acc@5 82.74053955078125
+INFO - 09/21/22 02:15:46 - 0:19:22 - ============ Starting epoch 66 ... ============
+INFO - 09/21/22 02:15:46 - 0:19:22 - ============ Starting epoch 66 ... ============
+INFO - 09/21/22 02:15:47 - 0:19:23 - Epoch: [66][0]	Time 0.753 (0.753)	Data 0.595 (0.595)	Loss 1.1752 (1.1752)	Lr: 0.0568
+INFO - 09/21/22 02:15:55 - 0:19:31 - Epoch: [66][50]	Time 0.159 (0.170)	Data 0.000 (0.012)	Loss 1.1823 (1.1838)	Lr: 0.0553
+INFO - 09/21/22 02:16:03 - 0:19:39 - Epoch: [66][0]	Time 0.431 (0.431)	Data 0.419 (0.419)	Acc@1 64.844(64.844)	Acc@5 81.250(81.250)
+INFO - 09/21/22 02:16:03 - 0:19:39 - Epoch: [66]	Acc@1 68.1743392944336, Acc@5 83.42927551269531	Best Acc@1 68.1743392944336, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:16:03 - 0:19:39 - ============ Starting epoch 67 ... ============
+INFO - 09/21/22 02:16:04 - 0:19:40 - ============ Starting epoch 67 ... ============
+INFO - 09/21/22 02:16:04 - 0:19:40 - Epoch: [67][0]	Time 0.743 (0.743)	Data 0.586 (0.586)	Loss 1.1501 (1.1501)	Lr: 0.0539
+INFO - 09/21/22 02:16:13 - 0:19:49 - Epoch: [67][50]	Time 0.152 (0.175)	Data 0.000 (0.012)	Loss 1.2817 (1.1761)	Lr: 0.0524
+INFO - 09/21/22 02:16:20 - 0:19:56 - Epoch: [67][0]	Time 0.427 (0.427)	Data 0.415 (0.415)	Acc@1 64.453(64.453)	Acc@5 78.906(78.906)
+INFO - 09/21/22 02:16:21 - 0:19:57 - Epoch: [67]	Acc@1 68.04071044921875, Acc@5 82.84333801269531	Best Acc@1 68.1743392944336, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:16:21 - 0:19:57 - ============ Starting epoch 68 ... ============
+INFO - 09/21/22 02:16:21 - 0:19:57 - ============ Starting epoch 68 ... ============
+INFO - 09/21/22 02:16:22 - 0:19:58 - Epoch: [68][0]	Time 0.801 (0.801)	Data 0.619 (0.619)	Loss 1.0542 (1.0542)	Lr: 0.0510
+INFO - 09/21/22 02:16:30 - 0:20:06 - Epoch: [68][50]	Time 0.161 (0.172)	Data 0.000 (0.013)	Loss 1.1408 (1.1403)	Lr: 0.0495
+INFO - 09/21/22 02:16:38 - 0:20:14 - Epoch: [68][0]	Time 0.471 (0.471)	Data 0.458 (0.458)	Acc@1 63.281(63.281)	Acc@5 79.297(79.297)
+INFO - 09/21/22 02:16:39 - 0:20:15 - ============ Starting epoch 69 ... ============
+INFO - 09/21/22 02:16:39 - 0:20:15 - Epoch: [68]	Acc@1 67.59868621826172, Acc@5 82.48355102539062	Best Acc@1 68.1743392944336, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:16:39 - 0:20:15 - ============ Starting epoch 69 ... ============
+INFO - 09/21/22 02:16:40 - 0:20:16 - Epoch: [69][0]	Time 0.919 (0.919)	Data 0.727 (0.727)	Loss 1.0878 (1.0878)	Lr: 0.0481
+INFO - 09/21/22 02:16:48 - 0:20:24 - Epoch: [69][50]	Time 0.170 (0.183)	Data 0.000 (0.015)	Loss 1.0287 (1.1469)	Lr: 0.0467
+INFO - 09/21/22 02:16:57 - 0:20:33 - Epoch: [69][0]	Time 0.582 (0.582)	Data 0.565 (0.565)	Acc@1 64.844(64.844)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:16:58 - 0:20:34 - ============ Starting epoch 70 ... ============
+INFO - 09/21/22 02:16:58 - 0:20:34 - Epoch: [69]	Acc@1 68.10238647460938, Acc@5 83.0489273071289	Best Acc@1 68.1743392944336, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:16:58 - 0:20:34 - ============ Starting epoch 70 ... ============
+INFO - 09/21/22 02:16:59 - 0:20:35 - Epoch: [70][0]	Time 1.086 (1.086)	Data 0.881 (0.881)	Loss 1.0980 (1.0980)	Lr: 0.0453
+INFO - 09/21/22 02:17:08 - 0:20:44 - Epoch: [70][50]	Time 0.182 (0.192)	Data 0.000 (0.018)	Loss 1.1006 (1.1466)	Lr: 0.0439
+INFO - 09/21/22 02:17:17 - 0:20:52 - Epoch: [70][0]	Time 0.581 (0.581)	Data 0.567 (0.567)	Acc@1 66.406(66.406)	Acc@5 76.953(76.953)
+INFO - 09/21/22 02:17:17 - 0:20:53 - ============ Starting epoch 71 ... ============
+INFO - 09/21/22 02:17:17 - 0:20:53 - Epoch: [70]	Acc@1 68.39021301269531, Acc@5 83.15172576904297	Best Acc@1 68.39021301269531, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:17:17 - 0:20:53 - ============ Starting epoch 71 ... ============
+INFO - 09/21/22 02:17:18 - 0:20:54 - Epoch: [71][0]	Time 0.972 (0.972)	Data 0.795 (0.795)	Loss 1.0982 (1.0982)	Lr: 0.0426
+INFO - 09/21/22 02:17:27 - 0:21:03 - Epoch: [71][50]	Time 0.189 (0.195)	Data 0.001 (0.017)	Loss 1.0494 (1.1208)	Lr: 0.0412
+INFO - 09/21/22 02:17:36 - 0:21:12 - Epoch: [71][0]	Time 0.612 (0.612)	Data 0.599 (0.599)	Acc@1 64.844(64.844)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:17:37 - 0:21:13 - Epoch: [71]	Acc@1 68.21546173095703, Acc@5 83.0180892944336	Best Acc@1 68.39021301269531, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:17:37 - 0:21:13 - ============ Starting epoch 72 ... ============
+INFO - 09/21/22 02:17:37 - 0:21:13 - ============ Starting epoch 72 ... ============
+INFO - 09/21/22 02:17:38 - 0:21:14 - Epoch: [72][0]	Time 0.935 (0.935)	Data 0.746 (0.746)	Loss 1.1395 (1.1395)	Lr: 0.0399
+INFO - 09/21/22 02:17:47 - 0:21:23 - Epoch: [72][50]	Time 0.166 (0.190)	Data 0.001 (0.015)	Loss 1.0710 (1.1148)	Lr: 0.0385
+INFO - 09/21/22 02:17:55 - 0:21:31 - Epoch: [72][0]	Time 0.599 (0.599)	Data 0.587 (0.587)	Acc@1 66.406(66.406)	Acc@5 78.906(78.906)
+INFO - 09/21/22 02:17:56 - 0:21:32 - Epoch: [72]	Acc@1 69.05838775634766, Acc@5 83.37787628173828	Best Acc@1 69.05838775634766, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:17:56 - 0:21:32 - ============ Starting epoch 73 ... ============
+INFO - 09/21/22 02:17:56 - 0:21:32 - ============ Starting epoch 73 ... ============
+INFO - 09/21/22 02:17:57 - 0:21:33 - Epoch: [73][0]	Time 0.983 (0.983)	Data 0.774 (0.774)	Loss 1.1572 (1.1572)	Lr: 0.0373
+INFO - 09/21/22 02:18:06 - 0:21:42 - Epoch: [73][50]	Time 0.152 (0.183)	Data 0.000 (0.016)	Loss 1.0867 (1.1031)	Lr: 0.0360
+INFO - 09/21/22 02:18:13 - 0:21:49 - Epoch: [73][0]	Time 0.448 (0.448)	Data 0.436 (0.436)	Acc@1 65.234(65.234)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:18:14 - 0:21:50 - Epoch: [73]	Acc@1 68.26686096191406, Acc@5 83.27508544921875	Best Acc@1 69.05838775634766, Best Acc@5 83.42927551269531
+INFO - 09/21/22 02:18:14 - 0:21:50 - ============ Starting epoch 74 ... ============
+INFO - 09/21/22 02:18:14 - 0:21:50 - ============ Starting epoch 74 ... ============
+INFO - 09/21/22 02:18:15 - 0:21:51 - Epoch: [74][0]	Time 0.722 (0.722)	Data 0.558 (0.558)	Loss 1.0342 (1.0342)	Lr: 0.0347
+INFO - 09/21/22 02:18:23 - 0:21:59 - Epoch: [74][50]	Time 0.155 (0.166)	Data 0.000 (0.011)	Loss 1.1640 (1.0689)	Lr: 0.0335
+INFO - 09/21/22 02:18:30 - 0:22:06 - Epoch: [74][0]	Time 0.458 (0.458)	Data 0.438 (0.438)	Acc@1 66.797(66.797)	Acc@5 81.250(81.250)
+INFO - 09/21/22 02:18:31 - 0:22:07 - ============ Starting epoch 75 ... ============
+INFO - 09/21/22 02:18:31 - 0:22:07 - Epoch: [74]	Acc@1 69.30509948730469, Acc@5 83.57318878173828	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:18:31 - 0:22:07 - ============ Starting epoch 75 ... ============
+INFO - 09/21/22 02:18:32 - 0:22:08 - Epoch: [75][0]	Time 0.764 (0.764)	Data 0.590 (0.590)	Loss 1.0433 (1.0433)	Lr: 0.0323
+INFO - 09/21/22 02:18:40 - 0:22:16 - Epoch: [75][50]	Time 0.155 (0.169)	Data 0.000 (0.012)	Loss 1.0475 (1.0812)	Lr: 0.0310
+INFO - 09/21/22 02:18:48 - 0:22:23 - Epoch: [75][0]	Time 0.433 (0.433)	Data 0.421 (0.421)	Acc@1 64.844(64.844)	Acc@5 78.906(78.906)
+INFO - 09/21/22 02:18:48 - 0:22:24 - Epoch: [75]	Acc@1 68.80139923095703, Acc@5 83.0180892944336	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:18:48 - 0:22:24 - ============ Starting epoch 76 ... ============
+INFO - 09/21/22 02:18:49 - 0:22:24 - ============ Starting epoch 76 ... ============
+INFO - 09/21/22 02:18:49 - 0:22:25 - Epoch: [76][0]	Time 0.742 (0.742)	Data 0.587 (0.587)	Loss 1.0173 (1.0173)	Lr: 0.0299
+INFO - 09/21/22 02:18:57 - 0:22:33 - Epoch: [76][50]	Time 0.156 (0.166)	Data 0.000 (0.012)	Loss 1.0973 (1.0739)	Lr: 0.0287
+INFO - 09/21/22 02:19:05 - 0:22:41 - Epoch: [76][0]	Time 0.437 (0.437)	Data 0.424 (0.424)	Acc@1 68.359(68.359)	Acc@5 78.125(78.125)
+INFO - 09/21/22 02:19:05 - 0:22:41 - Epoch: [76]	Acc@1 68.47245025634766, Acc@5 83.06948852539062	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:19:05 - 0:22:41 - ============ Starting epoch 77 ... ============
+INFO - 09/21/22 02:19:06 - 0:22:42 - ============ Starting epoch 77 ... ============
+INFO - 09/21/22 02:19:06 - 0:22:42 - Epoch: [77][0]	Time 0.788 (0.788)	Data 0.625 (0.625)	Loss 1.0982 (1.0982)	Lr: 0.0276
+INFO - 09/21/22 02:19:15 - 0:22:51 - Epoch: [77][50]	Time 0.170 (0.177)	Data 0.001 (0.013)	Loss 1.0255 (1.0449)	Lr: 0.0264
+INFO - 09/21/22 02:19:23 - 0:22:59 - Epoch: [77][0]	Time 0.451 (0.451)	Data 0.440 (0.440)	Acc@1 65.234(65.234)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:19:23 - 0:22:59 - Epoch: [77]	Acc@1 68.7911148071289, Acc@5 83.37787628173828	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:19:23 - 0:22:59 - ============ Starting epoch 78 ... ============
+INFO - 09/21/22 02:19:23 - 0:22:59 - ============ Starting epoch 78 ... ============
+INFO - 09/21/22 02:19:24 - 0:23:00 - Epoch: [78][0]	Time 0.756 (0.756)	Data 0.584 (0.584)	Loss 1.0130 (1.0130)	Lr: 0.0253
+INFO - 09/21/22 02:19:32 - 0:23:08 - Epoch: [78][50]	Time 0.156 (0.169)	Data 0.000 (0.012)	Loss 1.1025 (1.0479)	Lr: 0.0242
+INFO - 09/21/22 02:19:40 - 0:23:16 - Epoch: [78][0]	Time 0.430 (0.430)	Data 0.417 (0.417)	Acc@1 63.672(63.672)	Acc@5 78.516(78.516)
+INFO - 09/21/22 02:19:40 - 0:23:16 - Epoch: [78]	Acc@1 68.9555892944336, Acc@5 83.34703826904297	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:19:40 - 0:23:16 - ============ Starting epoch 79 ... ============
+INFO - 09/21/22 02:19:41 - 0:23:16 - ============ Starting epoch 79 ... ============
+INFO - 09/21/22 02:19:41 - 0:23:17 - Epoch: [79][0]	Time 0.757 (0.757)	Data 0.592 (0.592)	Loss 1.0269 (1.0269)	Lr: 0.0232
+INFO - 09/21/22 02:19:50 - 0:23:26 - Epoch: [79][50]	Time 0.155 (0.177)	Data 0.000 (0.012)	Loss 1.0478 (1.0423)	Lr: 0.0221
+INFO - 09/21/22 02:19:57 - 0:23:33 - Epoch: [79][0]	Time 0.432 (0.432)	Data 0.417 (0.417)	Acc@1 65.625(65.625)	Acc@5 81.250(81.250)
+INFO - 09/21/22 02:19:58 - 0:23:34 - ============ Starting epoch 80 ... ============
+INFO - 09/21/22 02:19:58 - 0:23:34 - Epoch: [79]	Acc@1 69.17146301269531, Acc@5 83.4087142944336	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:19:58 - 0:23:34 - ============ Starting epoch 80 ... ============
+INFO - 09/21/22 02:19:59 - 0:23:35 - Epoch: [80][0]	Time 0.723 (0.723)	Data 0.558 (0.558)	Loss 1.0274 (1.0274)	Lr: 0.0211
+INFO - 09/21/22 02:20:07 - 0:23:43 - Epoch: [80][50]	Time 0.155 (0.166)	Data 0.000 (0.011)	Loss 1.0653 (1.0257)	Lr: 0.0201
+INFO - 09/21/22 02:20:15 - 0:23:51 - Epoch: [80][0]	Time 0.414 (0.414)	Data 0.399 (0.399)	Acc@1 66.016(66.016)	Acc@5 78.125(78.125)
+INFO - 09/21/22 02:20:15 - 0:23:51 - Epoch: [80]	Acc@1 68.84251403808594, Acc@5 82.95641326904297	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:20:15 - 0:23:51 - ============ Starting epoch 81 ... ============
+INFO - 09/21/22 02:20:15 - 0:23:51 - ============ Starting epoch 81 ... ============
+INFO - 09/21/22 02:20:16 - 0:23:52 - Epoch: [81][0]	Time 0.770 (0.770)	Data 0.597 (0.597)	Loss 1.0353 (1.0353)	Lr: 0.0191
+INFO - 09/21/22 02:20:24 - 0:24:00 - Epoch: [81][50]	Time 0.158 (0.170)	Data 0.000 (0.012)	Loss 1.0825 (1.0305)	Lr: 0.0181
+INFO - 09/21/22 02:20:32 - 0:24:08 - Epoch: [81][0]	Time 0.434 (0.434)	Data 0.417 (0.417)	Acc@1 66.406(66.406)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:20:32 - 0:24:08 - Epoch: [81]	Acc@1 69.17146301269531, Acc@5 83.48067474365234	Best Acc@1 69.30509948730469, Best Acc@5 83.57318878173828
+INFO - 09/21/22 02:20:32 - 0:24:08 - ============ Starting epoch 82 ... ============
+INFO - 09/21/22 02:20:33 - 0:24:09 - ============ Starting epoch 82 ... ============
+INFO - 09/21/22 02:20:34 - 0:24:09 - Epoch: [82][0]	Time 0.753 (0.753)	Data 0.583 (0.583)	Loss 1.1346 (1.1346)	Lr: 0.0172
+INFO - 09/21/22 02:20:41 - 0:24:17 - Epoch: [82][50]	Time 0.169 (0.171)	Data 0.000 (0.012)	Loss 0.9632 (1.0192)	Lr: 0.0163
+INFO - 09/21/22 02:20:49 - 0:24:25 - Epoch: [82][0]	Time 0.434 (0.434)	Data 0.424 (0.424)	Acc@1 67.188(67.188)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:20:50 - 0:24:26 - Epoch: [82]	Acc@1 69.140625, Acc@5 83.88157653808594	Best Acc@1 69.30509948730469, Best Acc@5 83.88157653808594
+INFO - 09/21/22 02:20:50 - 0:24:26 - ============ Starting epoch 83 ... ============
+INFO - 09/21/22 02:20:50 - 0:24:26 - ============ Starting epoch 83 ... ============
+INFO - 09/21/22 02:20:51 - 0:24:27 - Epoch: [83][0]	Time 0.771 (0.771)	Data 0.600 (0.600)	Loss 1.0249 (1.0249)	Lr: 0.0154
+INFO - 09/21/22 02:20:59 - 0:24:35 - Epoch: [83][50]	Time 0.154 (0.167)	Data 0.000 (0.012)	Loss 1.0399 (1.0062)	Lr: 0.0145
+INFO - 09/21/22 02:21:06 - 0:24:42 - Epoch: [83][0]	Time 0.443 (0.443)	Data 0.429 (0.429)	Acc@1 63.672(63.672)	Acc@5 81.250(81.250)
+INFO - 09/21/22 02:21:07 - 0:24:43 - Epoch: [83]	Acc@1 69.00698852539062, Acc@5 83.5526351928711	Best Acc@1 69.30509948730469, Best Acc@5 83.88157653808594
+INFO - 09/21/22 02:21:07 - 0:24:43 - ============ Starting epoch 84 ... ============
+INFO - 09/21/22 02:21:07 - 0:24:43 - ============ Starting epoch 84 ... ============
+INFO - 09/21/22 02:21:08 - 0:24:44 - Epoch: [84][0]	Time 0.744 (0.744)	Data 0.585 (0.585)	Loss 1.0136 (1.0136)	Lr: 0.0137
+INFO - 09/21/22 02:21:16 - 0:24:52 - Epoch: [84][50]	Time 0.154 (0.169)	Data 0.000 (0.012)	Loss 1.0275 (0.9921)	Lr: 0.0128
+INFO - 09/21/22 02:21:24 - 0:25:00 - Epoch: [84][0]	Time 0.470 (0.470)	Data 0.460 (0.460)	Acc@1 63.672(63.672)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:21:24 - 0:25:00 - Epoch: [84]	Acc@1 69.20230102539062, Acc@5 83.5526351928711	Best Acc@1 69.30509948730469, Best Acc@5 83.88157653808594
+INFO - 09/21/22 02:21:24 - 0:25:00 - ============ Starting epoch 85 ... ============
+INFO - 09/21/22 02:21:25 - 0:25:01 - ============ Starting epoch 85 ... ============
+INFO - 09/21/22 02:21:26 - 0:25:02 - Epoch: [85][0]	Time 0.888 (0.888)	Data 0.712 (0.712)	Loss 0.9907 (0.9907)	Lr: 0.0121
+INFO - 09/21/22 02:21:34 - 0:25:10 - Epoch: [85][50]	Time 0.159 (0.177)	Data 0.000 (0.014)	Loss 0.9686 (0.9907)	Lr: 0.0113
+INFO - 09/21/22 02:21:42 - 0:25:18 - Epoch: [85][0]	Time 0.438 (0.438)	Data 0.423 (0.423)	Acc@1 66.016(66.016)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:21:42 - 0:25:18 - Epoch: [85]	Acc@1 68.91447448730469, Acc@5 83.31620025634766	Best Acc@1 69.30509948730469, Best Acc@5 83.88157653808594
+INFO - 09/21/22 02:21:42 - 0:25:18 - ============ Starting epoch 86 ... ============
+INFO - 09/21/22 02:21:42 - 0:25:18 - ============ Starting epoch 86 ... ============
+INFO - 09/21/22 02:21:43 - 0:25:19 - Epoch: [86][0]	Time 0.765 (0.765)	Data 0.600 (0.600)	Loss 0.9538 (0.9538)	Lr: 0.0105
+INFO - 09/21/22 02:21:51 - 0:25:27 - Epoch: [86][50]	Time 0.159 (0.169)	Data 0.000 (0.012)	Loss 0.9853 (0.9939)	Lr: 0.0098
+INFO - 09/21/22 02:21:59 - 0:25:35 - Epoch: [86][0]	Time 0.431 (0.431)	Data 0.416 (0.416)	Acc@1 66.016(66.016)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:21:59 - 0:25:35 - Epoch: [86]	Acc@1 69.42845153808594, Acc@5 83.5834732055664	Best Acc@1 69.42845153808594, Best Acc@5 83.88157653808594
+INFO - 09/21/22 02:21:59 - 0:25:35 - ============ Starting epoch 87 ... ============
+INFO - 09/21/22 02:22:00 - 0:25:36 - ============ Starting epoch 87 ... ============
+INFO - 09/21/22 02:22:00 - 0:25:36 - Epoch: [87][0]	Time 0.727 (0.727)	Data 0.557 (0.557)	Loss 1.0518 (1.0518)	Lr: 0.0091
+INFO - 09/21/22 02:22:08 - 0:25:44 - Epoch: [87][50]	Time 0.155 (0.170)	Data 0.000 (0.011)	Loss 0.9596 (0.9877)	Lr: 0.0084
+INFO - 09/21/22 02:22:16 - 0:25:52 - Epoch: [87][0]	Time 0.439 (0.439)	Data 0.428 (0.428)	Acc@1 66.406(66.406)	Acc@5 79.297(79.297)
+INFO - 09/21/22 02:22:17 - 0:25:53 - ============ Starting epoch 88 ... ============
+INFO - 09/21/22 02:22:17 - 0:25:53 - Epoch: [87]	Acc@1 69.66488647460938, Acc@5 83.89186096191406	Best Acc@1 69.66488647460938, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:22:17 - 0:25:53 - ============ Starting epoch 88 ... ============
+INFO - 09/21/22 02:22:18 - 0:25:54 - Epoch: [88][0]	Time 0.784 (0.784)	Data 0.613 (0.613)	Loss 1.0375 (1.0375)	Lr: 0.0078
+INFO - 09/21/22 02:22:26 - 0:26:02 - Epoch: [88][50]	Time 0.163 (0.173)	Data 0.000 (0.013)	Loss 1.0268 (0.9802)	Lr: 0.0071
+INFO - 09/21/22 02:22:34 - 0:26:10 - Epoch: [88][0]	Time 0.433 (0.433)	Data 0.420 (0.420)	Acc@1 65.625(65.625)	Acc@5 80.859(80.859)
+INFO - 09/21/22 02:22:34 - 0:26:10 - ============ Starting epoch 89 ... ============
+INFO - 09/21/22 02:22:34 - 0:26:10 - Epoch: [88]	Acc@1 69.55181121826172, Acc@5 83.8301773071289	Best Acc@1 69.66488647460938, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:22:35 - 0:26:11 - ============ Starting epoch 89 ... ============
+INFO - 09/21/22 02:22:35 - 0:26:11 - Epoch: [89][0]	Time 0.754 (0.754)	Data 0.571 (0.571)	Loss 0.9260 (0.9260)	Lr: 0.0065
+INFO - 09/21/22 02:22:44 - 0:26:20 - Epoch: [89][50]	Time 0.159 (0.176)	Data 0.001 (0.012)	Loss 0.9338 (0.9779)	Lr: 0.0060
+INFO - 09/21/22 02:22:52 - 0:26:28 - Epoch: [89][0]	Time 0.402 (0.402)	Data 0.390 (0.390)	Acc@1 65.625(65.625)	Acc@5 79.688(79.688)
+INFO - 09/21/22 02:22:52 - 0:26:28 - Epoch: [89]	Acc@1 69.39761352539062, Acc@5 83.61431121826172	Best Acc@1 69.66488647460938, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:22:52 - 0:26:28 - ============ Starting epoch 90 ... ============
+INFO - 09/21/22 02:22:53 - 0:26:29 - ============ Starting epoch 90 ... ============
+INFO - 09/21/22 02:22:53 - 0:26:29 - Epoch: [90][0]	Time 0.750 (0.750)	Data 0.565 (0.565)	Loss 0.9043 (0.9043)	Lr: 0.0054
+INFO - 09/21/22 02:23:01 - 0:26:37 - Epoch: [90][50]	Time 0.155 (0.169)	Data 0.000 (0.012)	Loss 0.9970 (0.9752)	Lr: 0.0049
+INFO - 09/21/22 02:23:09 - 0:26:45 - Epoch: [90][0]	Time 0.452 (0.452)	Data 0.436 (0.436)	Acc@1 65.234(65.234)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:23:10 - 0:26:46 - ============ Starting epoch 91 ... ============
+INFO - 09/21/22 02:23:10 - 0:26:46 - Epoch: [90]	Acc@1 69.6854476928711, Acc@5 83.73766326904297	Best Acc@1 69.6854476928711, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:23:10 - 0:26:46 - ============ Starting epoch 91 ... ============
+INFO - 09/21/22 02:23:11 - 0:26:47 - Epoch: [91][0]	Time 0.743 (0.743)	Data 0.568 (0.568)	Loss 0.9254 (0.9254)	Lr: 0.0044
+INFO - 09/21/22 02:23:19 - 0:26:54 - Epoch: [91][50]	Time 0.157 (0.169)	Data 0.001 (0.012)	Loss 0.9398 (0.9709)	Lr: 0.0039
+INFO - 09/21/22 02:23:26 - 0:27:02 - Epoch: [91][0]	Time 0.445 (0.445)	Data 0.433 (0.433)	Acc@1 65.234(65.234)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:23:27 - 0:27:03 - Epoch: [91]	Acc@1 69.5723648071289, Acc@5 83.7479476928711	Best Acc@1 69.6854476928711, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:23:27 - 0:27:03 - ============ Starting epoch 92 ... ============
+INFO - 09/21/22 02:23:27 - 0:27:03 - ============ Starting epoch 92 ... ============
+INFO - 09/21/22 02:23:28 - 0:27:04 - Epoch: [92][0]	Time 0.744 (0.744)	Data 0.574 (0.574)	Loss 0.9278 (0.9278)	Lr: 0.0035
+INFO - 09/21/22 02:23:36 - 0:27:12 - Epoch: [92][50]	Time 0.152 (0.167)	Data 0.000 (0.012)	Loss 0.9689 (0.9683)	Lr: 0.0030
+INFO - 09/21/22 02:23:43 - 0:27:19 - Epoch: [92][0]	Time 0.443 (0.443)	Data 0.429 (0.429)	Acc@1 65.625(65.625)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:23:44 - 0:27:20 - ============ Starting epoch 93 ... ============
+INFO - 09/21/22 02:23:44 - 0:27:20 - Epoch: [92]	Acc@1 69.62376403808594, Acc@5 83.54235076904297	Best Acc@1 69.6854476928711, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:23:44 - 0:27:20 - ============ Starting epoch 93 ... ============
+INFO - 09/21/22 02:23:45 - 0:27:21 - Epoch: [93][0]	Time 0.714 (0.714)	Data 0.552 (0.552)	Loss 0.9926 (0.9926)	Lr: 0.0027
+INFO - 09/21/22 02:23:53 - 0:27:29 - Epoch: [93][50]	Time 0.154 (0.165)	Data 0.000 (0.011)	Loss 0.9215 (0.9785)	Lr: 0.0023
+INFO - 09/21/22 02:24:01 - 0:27:37 - Epoch: [93][0]	Time 0.453 (0.453)	Data 0.440 (0.440)	Acc@1 65.234(65.234)	Acc@5 79.297(79.297)
+INFO - 09/21/22 02:24:01 - 0:27:37 - Epoch: [93]	Acc@1 69.79852294921875, Acc@5 83.72738647460938	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:24:01 - 0:27:37 - ============ Starting epoch 94 ... ============
+INFO - 09/21/22 02:24:02 - 0:27:37 - ============ Starting epoch 94 ... ============
+INFO - 09/21/22 02:24:02 - 0:27:38 - Epoch: [94][0]	Time 0.799 (0.799)	Data 0.603 (0.603)	Loss 0.9168 (0.9168)	Lr: 0.0020
+INFO - 09/21/22 02:24:11 - 0:27:47 - Epoch: [94][50]	Time 0.164 (0.179)	Data 0.001 (0.012)	Loss 0.9474 (0.9720)	Lr: 0.0016
+INFO - 09/21/22 02:24:18 - 0:27:54 - Epoch: [94][0]	Time 0.433 (0.433)	Data 0.414 (0.414)	Acc@1 66.016(66.016)	Acc@5 80.859(80.859)
+INFO - 09/21/22 02:24:19 - 0:27:55 - Epoch: [94]	Acc@1 69.65460205078125, Acc@5 83.7479476928711	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:24:19 - 0:27:55 - ============ Starting epoch 95 ... ============
+INFO - 09/21/22 02:24:19 - 0:27:55 - ============ Starting epoch 95 ... ============
+INFO - 09/21/22 02:24:20 - 0:27:56 - Epoch: [95][0]	Time 0.794 (0.794)	Data 0.617 (0.617)	Loss 0.9527 (0.9527)	Lr: 0.0014
+INFO - 09/21/22 02:24:28 - 0:28:04 - Epoch: [95][50]	Time 0.150 (0.170)	Data 0.000 (0.013)	Loss 0.9161 (0.9606)	Lr: 0.0011
+INFO - 09/21/22 02:24:36 - 0:28:12 - Epoch: [95][0]	Time 0.600 (0.600)	Data 0.589 (0.589)	Acc@1 66.016(66.016)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:24:37 - 0:28:13 - Epoch: [95]	Acc@1 69.75740051269531, Acc@5 83.7890625	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:24:37 - 0:28:13 - ============ Starting epoch 96 ... ============
+INFO - 09/21/22 02:24:37 - 0:28:13 - ============ Starting epoch 96 ... ============
+INFO - 09/21/22 02:24:38 - 0:28:14 - Epoch: [96][0]	Time 1.008 (1.008)	Data 0.847 (0.847)	Loss 0.9475 (0.9475)	Lr: 0.0009
+INFO - 09/21/22 02:24:47 - 0:28:23 - Epoch: [96][50]	Time 0.163 (0.186)	Data 0.000 (0.017)	Loss 0.9246 (0.9777)	Lr: 0.0007
+INFO - 09/21/22 02:24:55 - 0:28:31 - Epoch: [96][0]	Time 0.408 (0.408)	Data 0.396 (0.396)	Acc@1 65.625(65.625)	Acc@5 80.469(80.469)
+INFO - 09/21/22 02:24:55 - 0:28:31 - Epoch: [96]	Acc@1 69.59292602539062, Acc@5 83.80962371826172	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:24:55 - 0:28:31 - ============ Starting epoch 97 ... ============
+INFO - 09/21/22 02:24:56 - 0:28:32 - ============ Starting epoch 97 ... ============
+INFO - 09/21/22 02:24:56 - 0:28:32 - Epoch: [97][0]	Time 0.762 (0.762)	Data 0.604 (0.604)	Loss 0.9116 (0.9116)	Lr: 0.0005
+INFO - 09/21/22 02:25:04 - 0:28:40 - Epoch: [97][50]	Time 0.158 (0.169)	Data 0.000 (0.012)	Loss 1.0092 (0.9764)	Lr: 0.0003
+INFO - 09/21/22 02:25:12 - 0:28:48 - Epoch: [97][0]	Time 0.481 (0.481)	Data 0.468 (0.468)	Acc@1 64.844(64.844)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:25:13 - 0:28:49 - Epoch: [97]	Acc@1 69.64432525634766, Acc@5 83.7890625	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:25:13 - 0:28:49 - ============ Starting epoch 98 ... ============
+INFO - 09/21/22 02:25:13 - 0:28:49 - ============ Starting epoch 98 ... ============
+INFO - 09/21/22 02:25:14 - 0:28:50 - Epoch: [98][0]	Time 0.848 (0.848)	Data 0.671 (0.671)	Loss 0.9140 (0.9140)	Lr: 0.0002
+INFO - 09/21/22 02:25:22 - 0:28:58 - Epoch: [98][50]	Time 0.154 (0.176)	Data 0.000 (0.014)	Loss 0.9282 (0.9667)	Lr: 0.0001
+INFO - 09/21/22 02:25:30 - 0:29:06 - Epoch: [98][0]	Time 0.432 (0.432)	Data 0.422 (0.422)	Acc@1 66.797(66.797)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:25:30 - 0:29:06 - Epoch: [98]	Acc@1 69.66488647460938, Acc@5 83.76850128173828	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+INFO - 09/21/22 02:25:30 - 0:29:06 - ============ Starting epoch 99 ... ============
+INFO - 09/21/22 02:25:31 - 0:29:07 - ============ Starting epoch 99 ... ============
+INFO - 09/21/22 02:25:31 - 0:29:07 - Epoch: [99][0]	Time 0.744 (0.744)	Data 0.569 (0.569)	Loss 0.9554 (0.9554)	Lr: 0.0001
+INFO - 09/21/22 02:25:39 - 0:29:15 - Epoch: [99][50]	Time 0.152 (0.170)	Data 0.000 (0.012)	Loss 0.9581 (0.9663)	Lr: 0.0000
+INFO - 09/21/22 02:25:47 - 0:29:23 - Epoch: [99][0]	Time 0.429 (0.429)	Data 0.416 (0.416)	Acc@1 65.625(65.625)	Acc@5 80.078(80.078)
+INFO - 09/21/22 02:25:48 - 0:29:24 - Epoch: [99]	Acc@1 69.7265625, Acc@5 83.7787857055664	Best Acc@1 69.79852294921875, Best Acc@5 83.89186096191406
+phoenix-srun: Job 598837 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is normal
+
+INFO - 09/21/22 02:39:33 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/21/22 02:39:33 - 0:00:00 - K: 300
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 256
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_test_300_soft/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_test_300_soft/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 128
+                                     final_lr: 0
+                                     hidden_mlp: 2048
+                                     linear_fc: False
+                                     local_rank: 0
+                                     port: 23580
+                                     rank: 0
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: True
+                                     use_ema: False
+                                     use_scaler: False
+                                     warmup_epochs: 5
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 2
+INFO - 09/21/22 02:39:33 - 0:00:00 - ============ Initialized logger ============
+INFO - 09/21/22 02:39:33 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_test_300_soft/
+                                     
+
+INFO - 09/21/22 02:39:33 - 0:00:00 - K: 300
+                                     alpha: 0.5
+                                     base_lr: 0.2
+                                     batch_size: 256
+                                     checkpoint_freq: 25
+                                     ckpt: checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar
+                                     dump_checkpoints: checkpoints/exp_main_swav_test_300_soft/checkpoints
+                                     dump_path: checkpoints/exp_main_swav_test_300_soft/
+                                     epochs: 100
+                                     epsilon: 0.05
+                                     evaluate: False
+                                     feat_dim: 128
+                                     final_lr: 0
+                                     hidden_mlp: 2048
+                                     linear_fc: False
+                                     local_rank: 1
+                                     port: 23580
+                                     rank: 1
+                                     seed: 31
+                                     simloss: False
+                                     sinkhorn_iterations: 3
+                                     start_warmup: 0
+                                     syncbn_process_group_size: 8
+                                     temperature: 1.0
+                                     use_cifar: True
+                                     use_ema: False
+                                     use_scaler: False
+                                     warmup_epochs: 5
+                                     wd: 0.0001
+                                     workers: 6
+                                     world_size: 2
+INFO - 09/21/22 02:39:33 - 0:00:00 - The experiment will be stored in checkpoints/exp_main_swav_test_300_soft/
+                                     
+
+INFO - 09/21/22 02:39:35 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 09/21/22 02:39:35 - 0:00:02 - Building data done with 50000 images loaded.
+INFO - 09/21/22 02:39:41 - 0:00:07 - Phead(
+                                       (net): ResNet_CIFAR(
+                                         (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                         (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (relu): ReLU(inplace=True)
+                                         (layer1): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer2): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer3): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                         (layer4): Sequential(
+                                           (0): BasicBlock(
+                                             (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                             (downsample): Sequential(
+                                               (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+                                               (1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             )
+                                           )
+                                           (1): BasicBlock(
+                                             (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn1): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+                                             (bn2): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                             (relu): ReLU(inplace=True)
+                                           )
+                                         )
+                                       )
+                                       (projection_head): Sequential(
+                                         (0): Linear(in_features=512, out_features=2048, bias=False)
+                                         (1): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=2048, out_features=2048, bias=False)
+                                         (4): SyncBatchNorm(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (5): ReLU(inplace=True)
+                                         (6): Linear(in_features=2048, out_features=300, bias=False)
+                                         (7): SyncBatchNorm(300, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+                                       )
+                                       (pfc): Sequential(
+                                         (0): Linear(in_features=300, out_features=128, bias=False)
+                                         (1): SyncBatchNorm(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+                                         (2): ReLU(inplace=True)
+                                         (3): Linear(in_features=128, out_features=300, bias=True)
+                                       )
+                                     )
+INFO - 09/21/22 02:39:41 - 0:00:07 - Building model done.
+INFO - 09/21/22 02:39:41 - 0:00:07 - Building model done.
+INFO - 09/21/22 02:39:41 - 0:00:07 - Found checkpoint at checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar
+INFO - 09/21/22 02:39:41 - 0:00:07 - Found checkpoint at checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar
+INFO - 09/21/22 02:39:41 - 0:00:08 - => loaded state_dict from checkpoint 'checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar'
+INFO - 09/21/22 02:39:41 - 0:00:08 - => loaded state_dict from checkpoint 'checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar'
+INFO - 09/21/22 02:39:41 - 0:00:08 - => loaded optimizer from checkpoint 'checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar'
+INFO - 09/21/22 02:39:41 - 0:00:08 - => loaded optimizer from checkpoint 'checkpoints/exp_main_swav_test_300_soft/checkpoint.pth.tar'
+Files already downloaded and verified
+<All keys matched successfully>
+Files already downloaded and verified
+<All keys matched successfully>
